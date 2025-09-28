@@ -27,7 +27,6 @@
     [data-theme="dark"] .counter { color: #adb5bd; }
     .progress { height: 8px; }
 
-    /* Botones centrados únicamente */
     .btn-group-bottom { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
 
     @media (max-width: 576px) {
@@ -39,17 +38,13 @@
       .form-check-label { padding: 10px 14px; }
     }
 
-    /* Mejor espaciado de la navbar en móviles */
     @media (max-width: 991.98px) {
       .navbar-nav .nav-item {
         width: 100%;
         margin-right: 0 !important;
         margin-bottom: .5rem;
       }
-      .navbar-nav .btn,
-      .navbar-nav .form-select {
-        width: 100%;
-      }
+      .navbar-nav .btn, .navbar-nav .form-select { width: 100%; }
     }
   </style>
 </head>
@@ -111,7 +106,8 @@
     <!-- Cuadro de preguntas -->
     <div id="contenido" class="question-box">
       <div>
-        <p>Cargá un archivo o carpeta con JSON para comenzar.</p>
+        <p class="mb-1">Cargá un archivo o carpeta con JSON para comenzar.</p>
+        <p class="text-muted small" id="autoMsg"></p>
       </div>
     </div>
 
@@ -134,13 +130,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
         <div class="modal-body">
-          <p class="text-muted small">Marcá los archivos JSON en la raíz que querés descargar.</p>
-
+          <p class="text-muted small">Marcá los archivos JSON en <code>Downloades/</code> que querés descargar.</p>
           <div class="form-check mb-2">
             <input class="form-check-input" type="checkbox" id="chkTodos">
             <label class="form-check-label" for="chkTodos">Seleccionar todos</label>
           </div>
-
           <div id="listaDescargas">
             <div class="text-center text-muted py-3" id="estadoDescargas">Buscando archivos...</div>
           </div>
@@ -185,8 +179,9 @@
     const selectArchivo=document.getElementById('selectArchivo');
     const btnExportar=document.getElementById('btnExportar');
     const seccionRevision=document.getElementById('seccionRevision');
+    const autoMsg=document.getElementById('autoMsg');
 
-    // Descargas (modal)
+    // Modal descargas
     const modalDescargas = document.getElementById('modalDescargas');
     const listaDescargas = document.getElementById('listaDescargas');
     const estadoDescargas = document.getElementById('estadoDescargas');
@@ -195,6 +190,75 @@
 
     document.getElementById('anioAcerca').textContent=new Date().getFullYear();
 
+    /* =======================
+       UTIL / REPO DETECCIÓN (GitHub Pages)
+       ======================= */
+    const DOWNLOADS_FOLDER = 'Downloades'; // <- carpeta solicitada
+
+    function getRepoInfoFromLocation(){
+      const host = location.hostname;
+      const parts = location.pathname.split('/').filter(Boolean);
+      if (!host.endsWith('github.io')) return null;
+      const owner = host.split('.')[0];
+      const repo = parts.length > 0 ? parts[0] : `${owner}.github.io`;
+      return { owner, repo };
+    }
+
+    async function listJsonInFolder(folder){
+      const info = getRepoInfoFromLocation();
+      if (!info) return { ok:false, reason:'Fuera de GitHub Pages', files:[] };
+
+      const api = `https://api.github.com/repos/${info.owner}/${info.repo}/contents/${encodeURIComponent(folder)}`;
+      try{
+        const res = await fetch(api, {headers:{'Accept':'application/vnd.github+json'}});
+        if(!res.ok){
+          const text = await res.text();
+          return { ok:false, reason:`HTTP ${res.status}: ${text}`, files:[] };
+        }
+        const data = await res.json();
+        const files = (Array.isArray(data)?data:[])
+          .filter(it => it.type==='file' && /\.json$/i.test(it.name))
+          .map(it => ({ name: it.name, url: it.download_url || it.html_url, path: it.path }));
+        return { ok:true, files };
+      }catch(err){
+        return { ok:false, reason:String(err), files:[] };
+      }
+    }
+
+    /* =======================
+       AUTO-CARGA INICIAL (Downloades/)
+       ======================= */
+    async function preloadFromRepoFolder(){
+      const result = await listJsonInFolder(DOWNLOADS_FOLDER);
+      if (!result.ok){
+        autoMsg.innerHTML = 'Auto-búsqueda deshabilitada fuera de GitHub Pages o sin acceso a la API. Usá "Cargar JSON" o "Cargar carpeta".';
+        return;
+      }
+      if (!result.files.length){
+        autoMsg.textContent = 'No se encontraron JSON en Downloades/.';
+        return;
+      }
+
+      // Traer contenido y cargarlo al combo
+      try{
+        archivosJSON.clear();
+        for (const f of result.files){
+          const resp = await fetch(f.url, { cache: 'no-store' });
+          if (!resp.ok) continue;
+          const text = await resp.text();
+          // guardamos con nombre relativo "Downloades/archivo.json" para distinguirlos
+          archivosJSON.set(f.path, text);
+        }
+        refrescarSelector();
+        autoMsg.textContent = `Detectados ${archivosJSON.size} JSON en Downloades/. Elegí uno en "Archivo".`;
+      }catch(e){
+        autoMsg.textContent = 'No se pudo precargar los JSON.';
+      }
+    }
+
+    /* =======================
+       LÓGICA DEL QUIZ
+       ======================= */
     btnEvaluar.addEventListener('click', evaluarRespuesta);
     btnSiguiente.addEventListener('click', ()=>{indicePregunta++;mostrarPregunta();});
     btnExportar.addEventListener('click', exportarCSV);
@@ -285,6 +349,7 @@
       const ok = data.every(p => p && typeof p==='object' && p.pregunta && (p.rta_1||p.rta_2||p.rta_3));
       if(!ok) throw new Error('Cada ítem debe tener "pregunta" y al menos una "rta_1/2/3".');
     }
+
     function procesarPreguntas(data){
       const seen=new Set();
       preguntasCompletas=data.filter(p=>{
@@ -457,48 +522,13 @@
     }
 
     /* =======================
-       LÓGICA DEL MODAL DE DESCARGAS (AUTO-DETECCIÓN)
+       MODAL DESCARGAS (Downloades/)
        ======================= */
-
-    // Intenta derivar {owner, repo} si estamos en GitHub Pages
-    function getRepoInfoFromLocation(){
-      const host = location.hostname;
-      const parts = location.pathname.split('/').filter(Boolean);
-      if (!host.endsWith('github.io')) return null;
-      const owner = host.split('.')[0];
-      // /repo/... o raíz del special repo {owner}.github.io
-      const repo = parts.length > 0 ? parts[0] : `${owner}.github.io`;
-      return { owner, repo };
-    }
-
-    async function listarJsonViaGitHubAPI(){
-      const info = getRepoInfoFromLocation();
-      if (!info) return { ok:false, reason:'Fuera de GitHub Pages', files:[] };
-
-      const api = `https://api.github.com/repos/${info.owner}/${info.repo}/contents/`;
-      try{
-        const res = await fetch(api, {headers:{'Accept':'application/vnd.github+json'}});
-        if(!res.ok){
-          const text=await res.text();
-          return { ok:false, reason:`HTTP ${res.status}: ${text}`, files:[] };
-        }
-        const data = await res.json();
-        // Filtrar sólo archivos .json en raíz
-        const files = (Array.isArray(data)?data:[])
-          .filter(it => it.type === 'file' && /\.json$/i.test(it.name))
-          .map(it => ({ name: it.name, url: it.download_url || it.html_url }));
-        return { ok:true, files };
-      }catch(err){
-        return { ok:false, reason:String(err), files:[] };
-      }
-    }
-
-    // Renderizar listado de json en el modal
     function renderListaDescargas(archivos){
       listaDescargas.innerHTML = '';
       if (!archivos.length){
         estadoDescargas.classList.remove('d-none');
-        estadoDescargas.textContent = 'No se encontraron JSON en la raíz del repositorio.';
+        estadoDescargas.textContent = 'No se encontraron JSON en Downloades/.';
         btnDescargarSeleccion.disabled = true;
         return;
       }
@@ -518,8 +548,7 @@
       listaDescargas.appendChild(frag);
 
       const syncBtn = () => {
-        const any = !!listaDescargas.querySelector('.dl-item:checked');
-        btnDescargarSeleccion.disabled = !any;
+        btnDescargarSeleccion.disabled = !listaDescargas.querySelector('.dl-item:checked');
       };
       listaDescargas.addEventListener('change', (e) => {
         if (e.target.classList.contains('dl-item')) syncBtn();
@@ -527,15 +556,14 @@
       syncBtn();
     }
 
-    // Al abrir el modal: buscar archivos vía GitHub API
     modalDescargas.addEventListener('show.bs.modal', async () => {
       estadoDescargas.classList.remove('d-none');
-      estadoDescargas.textContent = 'Buscando archivos...';
+      estadoDescargas.textContent = 'Buscando archivos en Downloades/...';
       listaDescargas.innerHTML = '';
       btnDescargarSeleccion.disabled = true;
       chkTodos.checked = false;
 
-      const result = await listarJsonViaGitHubAPI();
+      const result = await listJsonInFolder(DOWNLOADS_FOLDER);
       if (result.ok){
         renderListaDescargas(result.files);
       } else {
@@ -543,27 +571,21 @@
         estadoDescargas.innerHTML = `
           <div class="alert alert-warning">
             No se pudo autodetectar desde GitHub Pages (${result.reason || 'Motivo desconocido'}).<br>
-            Si estás probando localmente o en otro hosting, no es posible listar la carpeta raíz sin un índice.<br>
-            Opcional: agregá un <code>materias.json</code> con el listado para habilitar esta función.
-          </div>
-        `;
+            Asegurate de tener la carpeta <code>Downloades/</code> y tus .json ahí, y que el sitio esté publicado en <strong>github.io</strong>.
+          </div>`;
       }
     });
 
-    // Seleccionar todos
     chkTodos.addEventListener('change', () => {
       const items = listaDescargas.querySelectorAll('.dl-item');
       items.forEach(i => i.checked = chkTodos.checked);
       btnDescargarSeleccion.disabled = !chkTodos.checked;
     });
 
-    // Descargar seleccionados (usa download_url de GitHub API)
     btnDescargarSeleccion.addEventListener('click', () => {
       const sel = [...listaDescargas.querySelectorAll('.dl-item:checked')]
         .map(i => ({ name: i.dataset.file, url: i.dataset.url }));
-
-      if (sel.length === 0) return;
-
+      if (!sel.length) return;
       sel.forEach(({name, url}) => {
         const a = document.createElement('a');
         a.href = url;
@@ -574,6 +596,10 @@
       });
     });
 
+    /* =======================
+       ARRANQUE: intentar precargar JSON de Downloades/
+       ======================= */
+    window.addEventListener('DOMContentLoaded', preloadFromRepoFolder);
   </script>
 </body>
 </html>
