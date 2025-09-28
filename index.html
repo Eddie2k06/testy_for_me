@@ -1,3 +1,12 @@
+¡hecho! Agregué en la navbar un botón “Descargar Quiz” que abre un modal con la lista de JSON en la raíz. Podés marcar con checks cuáles querés y tocar “Descargar seleccionados” (centrado abajo).
+Para detectar los archivos, el script intenta cargar una lista de 7 nombres (editables) y muestra solo los que encuentre realmente en la raíz.
+
+> ✍️ Cambiá los nombres en ROOT_JSON_CANDIDATES por los tuyos reales (los 7 JSON en la raíz del sitio).
+
+
+
+Aquí va el index.html completo (solo sumé lo del modal y el botón; no toqué nada más de tu app):
+
 <!DOCTYPE html>
 <html lang="es" data-theme="light">
 <head>
@@ -90,6 +99,9 @@
         </ul>
 
         <div class="d-flex align-items-center gap-3">
+          <!-- NUEVO: botón Descargar Quiz -->
+          <button class="btn btn-sm btn-outline-primary" id="btnDescargar" data-bs-toggle="modal" data-bs-target="#modalDescargas">Descargar Quiz</button>
+
           <button class="btn btn-sm btn-outline-secondary" id="btnExportar" disabled>Exportar CSV</button>
           <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalAcerca">Acerca de</button>
         </div>
@@ -122,6 +134,35 @@
     <div id="seccionRevision" class="mt-3 d-none"></div>
   </div>
 
+  <!-- Modal Descargas (NUEVO) -->
+  <div class="modal fade" id="modalDescargas" tabindex="-1" aria-labelledby="modalDescargasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="modalDescargasLabel" class="modal-title">Descargar archivos de Quiz</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-muted small">Marcá los archivos JSON en la raíz que querés descargar.</p>
+
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" id="chkTodos">
+            <label class="form-check-label" for="chkTodos">Seleccionar todos</label>
+          </div>
+
+          <div id="listaDescargas">
+            <div class="text-center text-muted py-3" id="estadoDescargas">Buscando archivos...</div>
+          </div>
+        </div>
+        <div class="modal-footer d-block">
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-primary" id="btnDescargarSeleccion" disabled>Descargar seleccionados</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Modal Acerca de -->
   <div class="modal fade" id="modalAcerca" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -146,6 +187,17 @@
     let limiteSeleccionado='all', inicioPreguntaMs=0;
     const archivosJSON=new Map();
 
+    // EDITÁ ACÁ: Nombres reales de los 7 JSON en la raíz del sitio
+    const ROOT_JSON_CANDIDATES = [
+      "quiz_01.json",
+      "quiz_02.json",
+      "quiz_03.json",
+      "quiz_04.json",
+      "quiz_05.json",
+      "quiz_06.json",
+      "quiz_07.json"
+    ];
+
     const contenido=document.getElementById('contenido'), contador=document.getElementById('contador');
     const barraProgreso=document.getElementById('barraProgreso');
     const btnEvaluar=document.getElementById('btnEvaluar'), btnSiguiente=document.getElementById('btnSiguiente');
@@ -153,6 +205,13 @@
     const selectArchivo=document.getElementById('selectArchivo');
     const btnExportar=document.getElementById('btnExportar');
     const seccionRevision=document.getElementById('seccionRevision');
+
+    // Descargas (modal)
+    const modalDescargas = document.getElementById('modalDescargas');
+    const listaDescargas = document.getElementById('listaDescargas');
+    const estadoDescargas = document.getElementById('estadoDescargas');
+    const chkTodos = document.getElementById('chkTodos');
+    const btnDescargarSeleccion = document.getElementById('btnDescargarSeleccion');
 
     document.getElementById('anioAcerca').textContent=new Date().getFullYear();
 
@@ -184,6 +243,7 @@
       if(preguntasCompletas.length) iniciarQuiz();
     }));
 
+    // --- Aleatoriedad ---
     function shuffleInPlace(arr){
       for(let i=arr.length-1;i>0;i--){
         const j=Math.floor(Math.random()*(i+1));
@@ -381,7 +441,6 @@
       });
     }
 
-    // <-- Corregida y completa
     function renderRevision(){
       if(!resultados.length) return '';
       return resultados.map((r) => {
@@ -417,6 +476,88 @@
       document.body.appendChild(a); a.click(); a.remove();
       URL.revokeObjectURL(url);
     }
+
+    /* =======================
+       LÓGICA DEL MODAL DE DESCARGAS
+       ======================= */
+    modalDescargas.addEventListener('show.bs.modal', async () => {
+      estadoDescargas.classList.remove('d-none');
+      estadoDescargas.textContent = 'Buscando archivos...';
+      listaDescargas.innerHTML = '';
+      btnDescargarSeleccion.disabled = true;
+      chkTodos.checked = false;
+
+      const disponibles = [];
+      // Intentamos HEAD/GET para verificar disponibilidad
+      for (const fname of ROOT_JSON_CANDIDATES) {
+        try {
+          const res = await fetch(fname, { method: 'HEAD' });
+          if (res.ok) disponibles.push(fname);
+          else {
+            // algunos servidores no permiten HEAD; probamos GET rápida sin cache
+            const resGet = await fetch(fname, { cache: 'no-store' });
+            if (resGet.ok) disponibles.push(fname);
+          }
+        } catch (_) {}
+      }
+
+      if (disponibles.length === 0) {
+        estadoDescargas.classList.remove('d-none');
+        estadoDescargas.textContent = 'No se encontraron JSON en la raíz.';
+        return;
+      }
+
+      estadoDescargas.classList.add('d-none');
+
+      // Render listado con checks
+      const frag = document.createDocumentFragment();
+      disponibles.forEach((f, idx) => {
+        const id = `dl_${idx}`;
+        const wrapper = document.createElement('div');
+        wrapper.className = 'form-check mb-2';
+        wrapper.innerHTML = `
+          <input class="form-check-input dl-item" type="checkbox" id="${id}" data-file="${f}">
+          <label class="form-check-label" for="${id}">${f}</label>
+        `;
+        frag.appendChild(wrapper);
+      });
+      listaDescargas.appendChild(frag);
+
+      // enable/disable botón según selección
+      const syncBtn = () => {
+        const any = !!listaDescargas.querySelector('.dl-item:checked');
+        btnDescargarSeleccion.disabled = !any;
+      };
+      listaDescargas.addEventListener('change', (e) => {
+        if (e.target.classList.contains('dl-item')) syncBtn();
+      });
+      syncBtn();
+    });
+
+    // Seleccionar todos
+    chkTodos.addEventListener('change', () => {
+      const items = listaDescargas.querySelectorAll('.dl-item');
+      items.forEach(i => i.checked = chkTodos.checked);
+      btnDescargarSeleccion.disabled = !chkTodos.checked;
+    });
+
+    // Descargar seleccionados
+    btnDescargarSeleccion.addEventListener('click', () => {
+      const sel = [...listaDescargas.querySelectorAll('.dl-item:checked')].map(i => i.dataset.file);
+      if (sel.length === 0) return;
+      // Disparar descargas individuales
+      sel.forEach(file => {
+        const a = document.createElement('a');
+        a.href = file;
+        a.download = file.split('/').pop();
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+    });
   </script>
 </body>
 </html>
+
+Si ya tenés los nombres reales de esos 7 JSON, decímelos y te lo dejo cargado en el array ROOT_JSON_CANDIDATES para que funcione directo.
+
