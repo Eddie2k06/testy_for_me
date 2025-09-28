@@ -1,0 +1,703 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cómo se define el liderazgo en el ámbito policial?",
+    "rta_1": { "texto": "Es el proceso de influir en la conducta humana para lograr los fines prescriptos por la organización", "rta": "yes" },
+    "rta_2": { "texto": "Es la capacidad de ordenar sin considerar la conducta humana", "rta": "no" },
+    "rta_3": { "texto": "Es únicamente el respeto que inspira el cargo", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Cuáles son las actividades básicas del mando?",
+    "rta_1": { "texto": "Planificación, organización, ejecución y control", "rta": "yes" },
+    "rta_2": { "texto": "Disciplina, sanción, control y supervisión", "rta": "no" },
+    "rta_3": { "texto": "Motivación, evaluación, sanción y castigo", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Qué estilo de mando implica imponer órdenes sin participación del subordinado?",
+    "rta_1": { "texto": "Autoritario", "rta": "yes" },
+    "rta_2": { "texto": "Democrático", "rta": "no" },
+    "rta_3": { "texto": "Persuasivo", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Cuál de los siguientes es un estilo de mando reconocido?",
+    "rta_1": { "texto": "Democrático o consultivo", "rta": "yes" },
+    "rta_2": { "texto": "Delegativo punitivo", "rta": "no" },
+    "rta_3": { "texto": "Impositivo reactivo", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Qué implica el principio de responsabilidad en la conducción?",
+    "rta_1": { "texto": "Responder por los actos propios y los de los subordinados bajo su mando", "rta": "yes" },
+    "rta_2": { "texto": "Delegar siempre la culpa en otros", "rta": "no" },
+    "rta_3": { "texto": "Evitar la rendición de cuentas", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué significa el don de mando?",
+    "rta_1": { "texto": "Aptitud de expresar autoridad, que no es sinónimo de autoritarismo", "rta": "yes" },
+    "rta_2": { "texto": "Capacidad de imponer temor al subordinado", "rta": "no" },
+    "rta_3": { "texto": "Uso exclusivo de la coerción", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Cuáles son las etapas de formación de equipos?",
+    "rta_1": { "texto": "Formación, confrontación, normalización y rendimiento", "rta": "yes" },
+    "rta_2": { "texto": "Planificación, ejecución, control y sanción", "rta": "no" },
+    "rta_3": { "texto": "Inicio, desarrollo, cierre y castigo", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué actitudes debe infundir un líder en sus subordinados?",
+    "rta_1": { "texto": "Obediencia, confianza, respeto y cooperación leal", "rta": "yes" },
+    "rta_2": { "texto": "Temor, sumisión, obediencia y pasividad", "rta": "no" },
+    "rta_3": { "texto": "Competencia desleal, obediencia y miedo", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué pilares forman al líder?",
+    "rta_1": { "texto": "Competencia, capacidades y valores", "rta": "yes" },
+    "rta_2": { "texto": "Rigor, control y poder", "rta": "no" },
+    "rta_3": { "texto": "Ambición, jerarquía y disciplina", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Qué son las barreras de la comunicación?",
+    "rta_1": { "texto": "Barreras personales, físicas y semánticas", "rta": "yes" },
+    "rta_2": { "texto": "Barreras legales, administrativas y de mando", "rta": "no" },
+    "rta_3": { "texto": "Barreras sociales, económicas y laborales", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué estilo de mando busca persuadir al subordinado mediante razones y argumentos?",
+    "rta_1": { "texto": "Persuasivo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Pasivo", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Qué implica el principio de gradualidad en la conducción?",
+    "rta_1": { "texto": "Aplicar medidas proporcionales y crecientes según la situación", "rta": "yes" },
+    "rta_2": { "texto": "Siempre usar la máxima sanción", "rta": "no" },
+    "rta_3": { "texto": "Delegar todas las decisiones en el subordinado", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Cuál es la finalidad de la comunicación en el liderazgo?",
+    "rta_1": { "texto": "Facilitar la toma de decisiones y coordinar acciones", "rta": "yes" },
+    "rta_2": { "texto": "Evitar que los subordinados opinen", "rta": "no" },
+    "rta_3": { "texto": "Imponer silencio como signo de respeto", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué característica distingue al mando democrático?",
+    "rta_1": { "texto": "Consulta y participación de los subordinados en la decisión", "rta": "yes" },
+    "rta_2": { "texto": "La orden nunca se discute", "rta": "no" },
+    "rta_3": { "texto": "El mando se impone sin explicaciones", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "El mando es definido como:",
+    "rta_1": { "texto": "La acción que ejerce el jefe sobre su personal para dirigirlo e influir en él", "rta": "yes" },
+    "rta_2": { "texto": "La capacidad de imponer temor", "rta": "no" },
+    "rta_3": { "texto": "El control exclusivo del uso de la fuerza", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué estilo de mando es más efectivo en situaciones críticas que requieren decisiones inmediatas?",
+    "rta_1": { "texto": "Autoritario", "rta": "yes" },
+    "rta_2": { "texto": "Democrático", "rta": "no" },
+    "rta_3": { "texto": "Delegativo", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué importancia tiene la empatía en el liderazgo?",
+    "rta_1": { "texto": "Permite comprender emociones y mejorar la comunicación", "rta": "yes" },
+    "rta_2": { "texto": "Es secundaria frente a la disciplina", "rta": "no" },
+    "rta_3": { "texto": "No tiene relevancia práctica", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Cuál es la primera etapa en la formación de equipos?",
+    "rta_1": { "texto": "Formación", "rta": "yes" },
+    "rta_2": { "texto": "Normalización", "rta": "no" },
+    "rta_3": { "texto": "Rendimiento", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Qué estilo de mando combina autoridad con consulta y persuasión?",
+    "rta_1": { "texto": "Democrático", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Permisivo", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "Un líder efectivo debe ser:",
+    "rta_1": { "texto": "Un guía capaz de inspirar compromiso y dedicación", "rta": "yes" },
+    "rta_2": { "texto": "Un jefe que impone disciplina sin consulta", "rta": "no" },
+    "rta_3": { "texto": "Un administrador que evita involucrarse", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Qué es lo que diferencia al liderazgo del simple ejercicio de la autoridad?",
+    "rta_1": { "texto": "La capacidad de inspirar compromiso más allá de la obediencia", "rta": "yes" },
+    "rta_2": { "texto": "La imposición de sanciones disciplinarias", "rta": "no" },
+    "rta_3": { "texto": "El uso del rango jerárquico como única herramienta", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué estilo de mando es el más recomendable para fomentar la motivación en tareas de largo plazo?",
+    "rta_1": { "texto": "Democrático", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Pasivo", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Cuál es el objetivo principal de la planificación dentro del mando?",
+    "rta_1": { "texto": "Definir metas y acciones para orientar el trabajo del equipo", "rta": "yes" },
+    "rta_2": { "texto": "Reducir la autonomía de los subordinados", "rta": "no" },
+    "rta_3": { "texto": "Aumentar la cantidad de sanciones aplicadas", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué factor se considera esencial en la toma de decisiones de un líder?",
+    "rta_1": { "texto": "La comunicación clara y efectiva", "rta": "yes" },
+    "rta_2": { "texto": "La imposición de disciplina", "rta": "no" },
+    "rta_3": { "texto": "El uso de poder coercitivo", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Cuál es una barrera semántica en la comunicación?",
+    "rta_1": { "texto": "El malentendido por diferentes interpretaciones del mismo término", "rta": "yes" },
+    "rta_2": { "texto": "El ruido físico en el ambiente", "rta": "no" },
+    "rta_3": { "texto": "El desinterés del receptor", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué estilo de mando promueve mayor participación en la toma de decisiones?",
+    "rta_1": { "texto": "Democrático o consultivo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Pasivo coercitivo", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Cuál es la función principal de la organización dentro del mando?",
+    "rta_1": { "texto": "Asignar recursos y responsabilidades para alcanzar los objetivos", "rta": "yes" },
+    "rta_2": { "texto": "Aumentar la burocracia en la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Restringir la comunicación entre subordinados", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué significa que la autoridad es ascendente?",
+    "rta_1": { "texto": "Que se legitima a través del reconocimiento del subordinado", "rta": "yes" },
+    "rta_2": { "texto": "Que siempre proviene de un superior jerárquico", "rta": "no" },
+    "rta_3": { "texto": "Que depende de la imposición de normas externas", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué importancia tiene la normalización en los equipos?",
+    "rta_1": { "texto": "Permite consolidar reglas internas y coordinar esfuerzos", "rta": "yes" },
+    "rta_2": { "texto": "Genera conflictos y choques de liderazgo", "rta": "no" },
+    "rta_3": { "texto": "Reduce la productividad del equipo", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué actitud refleja mejor la cooperación leal?",
+    "rta_1": { "texto": "Trabajar junto al equipo respetando jerarquías y objetivos comunes", "rta": "yes" },
+    "rta_2": { "texto": "Cumplir órdenes por obligación sin compromiso", "rta": "no" },
+    "rta_3": { "texto": "Actuar de manera independiente sin informar", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Qué estilo de mando puede resultar ineficaz si se utiliza de manera exclusiva?",
+    "rta_1": { "texto": "Autoritario", "rta": "yes" },
+    "rta_2": { "texto": "Consultivo", "rta": "no" },
+    "rta_3": { "texto": "Democrático", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué significa el principio de unidad de mando?",
+    "rta_1": { "texto": "Cada subordinado debe recibir órdenes de un solo superior", "rta": "yes" },
+    "rta_2": { "texto": "Los subordinados pueden recibir órdenes de varios jefes", "rta": "no" },
+    "rta_3": { "texto": "El mando debe compartirse entre superiores", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Cuál es la función de la evaluación dentro de la conducción?",
+    "rta_1": { "texto": "Medir los resultados alcanzados en relación con los objetivos", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar sanciones disciplinarias", "rta": "no" },
+    "rta_3": { "texto": "Limitar la autonomía de los subordinados", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué elemento es esencial en el proceso de conducción para evitar conflictos?",
+    "rta_1": { "texto": "La empatía", "rta": "yes" },
+    "rta_2": { "texto": "El castigo ejemplar", "rta": "no" },
+    "rta_3": { "texto": "La imposición de silencio", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Cuál es el estilo de mando más eficaz en un proceso de aprendizaje grupal?",
+    "rta_1": { "texto": "Persuasivo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Coercitivo", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué diferencia principal existe entre mando y conducción?",
+    "rta_1": { "texto": "El mando es ordenar y la conducción es guiar hacia objetivos comunes", "rta": "yes" },
+    "rta_2": { "texto": "Ambos son sinónimos exactos", "rta": "no" },
+    "rta_3": { "texto": "El mando depende de la jerarquía y la conducción de la improvisación", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Qué etapa sigue a la confrontación en la formación de equipos?",
+    "rta_1": { "texto": "Normalización", "rta": "yes" },
+    "rta_2": { "texto": "Disolución", "rta": "no" },
+    "rta_3": { "texto": "Inicio", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Cuál de los siguientes es un elemento de las actividades básicas del líder?",
+    "rta_1": { "texto": "Planeamiento, coordinación, control y evaluación", "rta": "yes" },
+    "rta_2": { "texto": "Supervisión, sanción y castigo", "rta": "no" },
+    "rta_3": { "texto": "Planificación, aislamiento y represión", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué estilo de mando tiende a delegar más responsabilidades?",
+    "rta_1": { "texto": "Consultivo/democrático", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario rígido", "rta": "no" },
+    "rta_3": { "texto": "Coercitivo sancionador", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué implica el principio de objetividad en la toma de decisiones?",
+    "rta_1": { "texto": "Decidir basándose en hechos y datos comprobables", "rta": "yes" },
+    "rta_2": { "texto": "Decidir según la simpatía personal", "rta": "no" },
+    "rta_3": { "texto": "Decidir en base al rango jerárquico solamente", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué habilidad debe priorizar un líder para resolver conflictos en su equipo?",
+    "rta_1": { "texto": "Capacidad de negociación", "rta": "yes" },
+    "rta_2": { "texto": "Uso de sanciones", "rta": "no" },
+    "rta_3": { "texto": "Imposición jerárquica", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué estilo de liderazgo fomenta mayor creatividad en el grupo?",
+    "rta_1": { "texto": "Participativo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario rígido", "rta": "no" },
+    "rta_3": { "texto": "Burocrático", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué significa ejercer la autoridad moral?",
+    "rta_1": { "texto": "Ser respetado por el ejemplo y la conducta", "rta": "yes" },
+    "rta_2": { "texto": "Imponer obediencia por la fuerza", "rta": "no" },
+    "rta_3": { "texto": "Usar castigos como principal herramienta", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué actitud distingue al mando consultivo?",
+    "rta_1": { "texto": "Escucha opiniones antes de decidir", "rta": "yes" },
+    "rta_2": { "texto": "Impone decisiones sin diálogo", "rta": "no" },
+    "rta_3": { "texto": "Se desentiende de la responsabilidad", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué etapa de un grupo suele estar marcada por tensiones internas?",
+    "rta_1": { "texto": "Confrontación", "rta": "yes" },
+    "rta_2": { "texto": "Normalización", "rta": "no" },
+    "rta_3": { "texto": "Madurez", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Cuál es la primera actividad en el proceso de conducción?",
+    "rta_1": { "texto": "Planeamiento", "rta": "yes" },
+    "rta_2": { "texto": "Evaluación", "rta": "no" },
+    "rta_3": { "texto": "Control", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué característica distingue al líder transformacional?",
+    "rta_1": { "texto": "Inspira y motiva cambios positivos", "rta": "yes" },
+    "rta_2": { "texto": "Depende solo de su rango", "rta": "no" },
+    "rta_3": { "texto": "Evita involucrarse con el grupo", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué principio organizativo busca evitar órdenes contradictorias?",
+    "rta_1": { "texto": "Unidad de mando", "rta": "yes" },
+    "rta_2": { "texto": "Delegación absoluta", "rta": "no" },
+    "rta_3": { "texto": "Pluralidad de liderazgo", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué papel cumple la coordinación dentro de la conducción?",
+    "rta_1": { "texto": "Armonizar las acciones de diferentes áreas", "rta": "yes" },
+    "rta_2": { "texto": "Incrementar la jerarquía de los líderes", "rta": "no" },
+    "rta_3": { "texto": "Restringir la comunicación horizontal", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué actitud refleja mejor un liderazgo positivo?",
+    "rta_1": { "texto": "Orientar y motivar al personal hacia objetivos comunes", "rta": "yes" },
+    "rta_2": { "texto": "Mantener distancia absoluta con el equipo", "rta": "no" },
+    "rta_3": { "texto": "Ejercer presión constante para imponer obediencia", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué estilo de mando es más útil en situaciones de crisis?",
+    "rta_1": { "texto": "Directivo/Autoritario", "rta": "yes" },
+    "rta_2": { "texto": "Consultivo", "rta": "no" },
+    "rta_3": { "texto": "Laissez-faire", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué implica la conducción estratégica?",
+    "rta_1": { "texto": "Definir objetivos de largo plazo y los recursos necesarios", "rta": "yes" },
+    "rta_2": { "texto": "Limitarse a las tareas operativas inmediatas", "rta": "no" },
+    "rta_3": { "texto": "Imponer órdenes sin planificación", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué estilo de mando se caracteriza por dar instrucciones claras y supervisión directa?",
+    "rta_1": { "texto": "Directivo", "rta": "yes" },
+    "rta_2": { "texto": "Participativo", "rta": "no" },
+    "rta_3": { "texto": "Delegativo", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué factor es esencial para que exista liderazgo efectivo?",
+    "rta_1": { "texto": "La confianza mutua entre líder y seguidores", "rta": "yes" },
+    "rta_2": { "texto": "El temor constante al castigo", "rta": "no" },
+    "rta_3": { "texto": "La aplicación sistemática de sanciones", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué elemento distingue al mando coercitivo?",
+    "rta_1": { "texto": "Se apoya en sanciones y disciplina estricta", "rta": "yes" },
+    "rta_2": { "texto": "Promueve la participación grupal", "rta": "no" },
+    "rta_3": { "texto": "Facilita la delegación de responsabilidades", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué estilo de liderazgo facilita el aprendizaje autónomo?",
+    "rta_1": { "texto": "Delegativo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Burocrático", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Cuál es el riesgo del mando excesivamente autoritario?",
+    "rta_1": { "texto": "Desmotivación y pérdida de iniciativa en el personal", "rta": "yes" },
+    "rta_2": { "texto": "Mayor compromiso y creatividad", "rta": "no" },
+    "rta_3": { "texto": "Incremento de comunicación abierta", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué factor distingue a un líder carismático?",
+    "rta_1": { "texto": "Influye en los demás por su personalidad y ejemplo", "rta": "yes" },
+    "rta_2": { "texto": "Depende exclusivamente del rango jerárquico", "rta": "no" },
+    "rta_3": { "texto": "Evita involucrarse en las decisiones del grupo", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué significa delegar eficazmente?",
+    "rta_1": { "texto": "Asignar tareas con responsabilidad y autoridad al subordinado", "rta": "yes" },
+    "rta_2": { "texto": "Dejar al subordinado sin supervisión alguna", "rta": "no" },
+    "rta_3": { "texto": "Imponer tareas sin explicar objetivos", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué función cumple la retroalimentación en la conducción?",
+    "rta_1": { "texto": "Corregir y mejorar el desempeño del equipo", "rta": "yes" },
+    "rta_2": { "texto": "Incrementar la burocracia administrativa", "rta": "no" },
+    "rta_3": { "texto": "Reducir la iniciativa individual", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "¿Cuál es la etapa final en el ciclo de conducción?",
+    "rta_1": { "texto": "Evaluación", "rta": "yes" },
+    "rta_2": { "texto": "Planeamiento", "rta": "no" },
+    "rta_3": { "texto": "Coordinación", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué implica la motivación intrínseca?",
+    "rta_1": { "texto": "Impulso interno basado en valores y satisfacción personal", "rta": "yes" },
+    "rta_2": { "texto": "Obligación por sanciones", "rta": "no" },
+    "rta_3": { "texto": "Compensación económica exclusivamente", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Qué recurso fortalece el liderazgo en tiempos de crisis?",
+    "rta_1": { "texto": "Comunicación clara y constante", "rta": "yes" },
+    "rta_2": { "texto": "Sanciones inmediatas", "rta": "no" },
+    "rta_3": { "texto": "Aislamiento del equipo", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Qué estilo de mando promueve mayor responsabilidad personal?",
+    "rta_1": { "texto": "Delegativo", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario rígido", "rta": "no" },
+    "rta_3": { "texto": "Centralizado", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Qué actitud caracteriza al líder eficaz?",
+    "rta_1": { "texto": "Guiar con ejemplo, motivación y claridad de objetivos", "rta": "yes" },
+    "rta_2": { "texto": "Mantener distancia y secretismo", "rta": "no" },
+    "rta_3": { "texto": "Ejercer presión excesiva", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué representa la autoridad formal?",
+    "rta_1": { "texto": "El poder otorgado por la institución o normativa", "rta": "yes" },
+    "rta_2": { "texto": "La influencia ganada por el carisma", "rta": "no" },
+    "rta_3": { "texto": "La cooperación leal de los subordinados", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué factor refuerza la legitimidad del mando?",
+    "rta_1": { "texto": "El reconocimiento de los subordinados", "rta": "yes" },
+    "rta_2": { "texto": "El miedo a las sanciones", "rta": "no" },
+    "rta_3": { "texto": "La imposición coercitiva", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué estilo de mando limita la creatividad y el compromiso?",
+    "rta_1": { "texto": "Autoritario rígido", "rta": "yes" },
+    "rta_2": { "texto": "Participativo", "rta": "no" },
+    "rta_3": { "texto": "Delegativo", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué función cumple la capacitación en el mando?",
+    "rta_1": { "texto": "Fortalecer las competencias del personal para mejorar la conducción", "rta": "yes" },
+    "rta_2": { "texto": "Incrementar la dependencia del jefe", "rta": "no" },
+    "rta_3": { "texto": "Reducir la autonomía del equipo", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué diferencia clave existe entre líder y jefe?",
+    "rta_1": { "texto": "El líder inspira, el jefe ordena", "rta": "yes" },
+    "rta_2": { "texto": "El líder sanciona, el jefe motiva", "rta": "no" },
+    "rta_3": { "texto": "No hay diferencias conceptuales", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué estilo de liderazgo busca inspirar compromiso a largo plazo?",
+    "rta_1": { "texto": "Transformacional", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario coercitivo", "rta": "no" },
+    "rta_3": { "texto": "Burocrático", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué recurso debe priorizar un mando en situaciones de incertidumbre?",
+    "rta_1": { "texto": "Claridad en la comunicación", "rta": "yes" },
+    "rta_2": { "texto": "Aislamiento del equipo", "rta": "no" },
+    "rta_3": { "texto": "Aplicación inmediata de sanciones", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué actitud refleja un mando democrático?",
+    "rta_1": { "texto": "Escucha y valora las opiniones de los subordinados", "rta": "yes" },
+    "rta_2": { "texto": "Impone decisiones sin consultar", "rta": "no" },
+    "rta_3": { "texto": "Evita responsabilidades compartidas", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué significa la motivación extrínseca?",
+    "rta_1": { "texto": "Depende de recompensas o sanciones externas", "rta": "yes" },
+    "rta_2": { "texto": "Nace del compromiso personal", "rta": "no" },
+    "rta_3": { "texto": "Se basa únicamente en valores internos", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué representa la cooperación leal?",
+    "rta_1": { "texto": "El compromiso activo de trabajar en armonía con el grupo", "rta": "yes" },
+    "rta_2": { "texto": "La obediencia mecánica", "rta": "no" },
+    "rta_3": { "texto": "La subordinación por temor", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué debe priorizar un jefe en la etapa de integración de un equipo?",
+    "rta_1": { "texto": "Crear confianza y establecer reglas básicas", "rta": "yes" },
+    "rta_2": { "texto": "Imponer sanciones preventivas", "rta": "no" },
+    "rta_3": { "texto": "Evitar la comunicación abierta", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué factor diferencia la autoridad formal de la informal?",
+    "rta_1": { "texto": "La primera proviene de la institución, la segunda del reconocimiento del grupo", "rta": "yes" },
+    "rta_2": { "texto": "La formal siempre es más efectiva", "rta": "no" },
+    "rta_3": { "texto": "La informal no influye en el liderazgo", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué implica la descentralización en el mando?",
+    "rta_1": { "texto": "Delegar responsabilidades en distintos niveles jerárquicos", "rta": "yes" },
+    "rta_2": { "texto": "Concentrar todas las decisiones en el jefe", "rta": "no" },
+    "rta_3": { "texto": "Evitar que los subordinados participen", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué estilo de mando resulta más eficiente en tareas rutinarias?",
+    "rta_1": { "texto": "Directivo", "rta": "yes" },
+    "rta_2": { "texto": "Delegativo", "rta": "no" },
+    "rta_3": { "texto": "Participativo", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué actitud refleja un mando coercitivo?",
+    "rta_1": { "texto": "Se apoya en la disciplina estricta y sanciones", "rta": "yes" },
+    "rta_2": { "texto": "Promueve autonomía y diálogo", "rta": "no" },
+    "rta_3": { "texto": "Escucha opiniones antes de decidir", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué elemento es esencial para que el mando sea aceptado por los subordinados?",
+    "rta_1": { "texto": "La legitimidad y confianza", "rta": "yes" },
+    "rta_2": { "texto": "El temor a sanciones", "rta": "no" },
+    "rta_3": { "texto": "La imposición jerárquica", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué estilo de liderazgo puede generar mayor compromiso y motivación en el largo plazo?",
+    "rta_1": { "texto": "Transformacional", "rta": "yes" },
+    "rta_2": { "texto": "Autoritario", "rta": "no" },
+    "rta_3": { "texto": "Laissez-faire", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué factor limita la efectividad de un mando autoritario en exceso?",
+    "rta_1": { "texto": "Reduce la iniciativa y creatividad del personal", "rta": "yes" },
+    "rta_2": { "texto": "Incrementa la confianza mutua", "rta": "no" },
+    "rta_3": { "texto": "Facilita el aprendizaje autónomo", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué herramienta debe priorizar un jefe para la conducción eficiente?",
+    "rta_1": { "texto": "La comunicación clara y oportuna", "rta": "yes" },
+    "rta_2": { "texto": "El aislamiento del equipo", "rta": "no" },
+    "rta_3": { "texto": "La acumulación de sanciones", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué característica distingue al mando participativo?",
+    "rta_1": { "texto": "Valora la opinión del grupo en las decisiones", "rta": "yes" },
+    "rta_2": { "texto": "Evita la consulta al equipo", "rta": "no" },
+    "rta_3": { "texto": "Se apoya en sanciones disciplinarias", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué representa el principio de unidad de mando?",
+    "rta_1": { "texto": "Cada subordinado recibe órdenes de un solo superior", "rta": "yes" },
+    "rta_2": { "texto": "Todos los superiores pueden dar órdenes", "rta": "no" },
+    "rta_3": { "texto": "El grupo decide colectivamente sin jefe", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué función cumple la motivación en el mando?",
+    "rta_1": { "texto": "Impulsar al personal hacia el cumplimiento de objetivos", "rta": "yes" },
+    "rta_2": { "texto": "Reemplazar la planificación", "rta": "no" },
+    "rta_3": { "texto": "Incrementar el control burocrático", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué actitud refleja un mando democrático?",
+    "rta_1": { "texto": "Promueve la participación activa del personal", "rta": "yes" },
+    "rta_2": { "texto": "Evita escuchar opiniones", "rta": "no" },
+    "rta_3": { "texto": "Impone decisiones sin diálogo", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué recurso fortalece la cooperación leal?",
+    "rta_1": { "texto": "La confianza y el reconocimiento mutuo", "rta": "yes" },
+    "rta_2": { "texto": "El castigo permanente", "rta": "no" },
+    "rta_3": { "texto": "El aislamiento del personal", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué estilo de liderazgo se centra en mantener procedimientos rígidos?",
+    "rta_1": { "texto": "Burocrático", "rta": "yes" },
+    "rta_2": { "texto": "Transformacional", "rta": "no" },
+    "rta_3": { "texto": "Participativo", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Qué etapa de un grupo se caracteriza por mayor cohesión y colaboración?",
+    "rta_1": { "texto": "Normalización", "rta": "yes" },
+    "rta_2": { "texto": "Confrontación", "rta": "no" },
+    "rta_3": { "texto": "Formación inicial", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué significa la motivación extrínseca?",
+    "rta_1": { "texto": "Se basa en recompensas y sanciones externas", "rta": "yes" },
+    "rta_2": { "texto": "Depende solo de valores internos", "rta": "no" },
+    "rta_3": { "texto": "Surge de la pasión por el servicio", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Qué factor hace eficaz a la retroalimentación?",
+    "rta_1": { "texto": "Ser clara, concreta y oportuna", "rta": "yes" },
+    "rta_2": { "texto": "Ser imprecisa y tardía", "rta": "no" },
+    "rta_3": { "texto": "Evitar sugerencias de mejora", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué diferencia existe entre mando estratégico y operativo?",
+    "rta_1": { "texto": "El estratégico fija objetivos generales, el operativo ejecuta", "rta": "yes" },
+    "rta_2": { "texto": "El operativo diseña políticas públicas", "rta": "no" },
+    "rta_3": { "texto": "No hay distinción práctica", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué recurso debe priorizar un mando para mantener cohesión en la crisis?",
+    "rta_1": { "texto": "Comunicación abierta y liderazgo visible", "rta": "yes" },
+    "rta_2": { "texto": "Distancia y aislamiento", "rta": "no" },
+    "rta_3": { "texto": "Delegación total sin control", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué representa la autoridad informal?",
+    "rta_1": { "texto": "Influencia reconocida por el grupo a una persona", "rta": "yes" },
+    "rta_2": { "texto": "La otorgada por reglamento", "rta": "no" },
+    "rta_3": { "texto": "El poder de sancionar", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿Qué actitud refleja el mando delegativo?",
+    "rta_1": { "texto": "Otorga responsabilidades y confía en el equipo", "rta": "yes" },
+    "rta_2": { "texto": "Impone control absoluto", "rta": "no" },
+    "rta_3": { "texto": "Evita toda supervisión", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué etapa de un grupo suele requerir mayor intervención del líder?",
+    "rta_1": { "texto": "Formación inicial", "rta": "yes" },
+    "rta_2": { "texto": "Madurez", "rta": "no" },
+    "rta_3": { "texto": "Normalización", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué recurso es clave para un liderazgo eficaz en organizaciones policiales?",
+    "rta_1": { "texto": "Autoridad legítima combinada con respeto ganado", "rta": "yes" },
+    "rta_2": { "texto": "Castigo inmediato ante errores", "rta": "no" },
+    "rta_3": { "texto": "Centralización extrema", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué debe evitar un líder para mantener la motivación de su equipo?",
+    "rta_1": { "texto": "Falta de comunicación y reconocimiento", "rta": "yes" },
+    "rta_2": { "texto": "Dar claridad de objetivos", "rta": "no" },
+    "rta_3": { "texto": "Brindar capacitación", "rta": "no" }
+  }
+]
+

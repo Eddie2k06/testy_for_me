@@ -1,0 +1,702 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es el objetivo principal de las Guías de Actuación Policial?",
+    "rta_1": { "texto": "Uniformar criterios de intervención policial", "rta": "yes" },
+    "rta_2": { "texto": "Reducir la carga administrativa", "rta": "no" },
+    "rta_3": { "texto": "Evitar los sumarios administrativos", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "Las Guías de Actuación Policial se basan en:",
+    "rta_1": { "texto": "Protocolo de uso de la fuerza", "rta": "yes" },
+    "rta_2": { "texto": "Normas de tránsito", "rta": "no" },
+    "rta_3": { "texto": "Manual de administración", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Qué principio regula el empleo progresivo de la fuerza?",
+    "rta_1": { "texto": "Principio de gradualidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de legalidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "Ante un hecho de flagrancia, la actuación policial debe ser:",
+    "rta_1": { "texto": "Inmediata y proporcional", "rta": "yes" },
+    "rta_2": { "texto": "Demorada hasta orden judicial", "rta": "no" },
+    "rta_3": { "texto": "Delegada en un testigo", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "La finalidad del sistema SADE en la actuación policial es:",
+    "rta_1": { "texto": "Digitalizar expedientes y actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Reemplazar al Ministerio Público", "rta": "no" },
+    "rta_3": { "texto": "Controlar la asistencia del personal", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué implica el principio de oportunidad?",
+    "rta_1": { "texto": "Actuar de forma inmediata cuando la situación lo requiera", "rta": "yes" },
+    "rta_2": { "texto": "Esperar directivas superiores antes de intervenir", "rta": "no" },
+    "rta_3": { "texto": "Delegar en la justicia contravencional", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué documento se labra para registrar una intervención que no constituye delito, contravención o falta?",
+    "rta_1": { "texto": "Formulario de intervención", "rta": "yes" },
+    "rta_2": { "texto": "Acta de allanamiento", "rta": "no" },
+    "rta_3": { "texto": "Acta contravencional", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "En caso de delitos transferidos, la intervención corresponde a:",
+    "rta_1": { "texto": "Justicia Nacional", "rta": "yes" },
+    "rta_2": { "texto": "Ministerio de Educación", "rta": "no" },
+    "rta_3": { "texto": "Oficina de administración policial", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué característica distingue al sistema SISEP?",
+    "rta_1": { "texto": "Permite el despliegue en tiempo real", "rta": "yes" },
+    "rta_2": { "texto": "Gestiona licencias del personal", "rta": "no" },
+    "rta_3": { "texto": "Centraliza expedientes judiciales", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "Según la guía, el testigo de hecho puede ser:",
+    "rta_1": { "texto": "Cualquier persona que presencie el hecho", "rta": "yes" },
+    "rta_2": { "texto": "Solo policías activos", "rta": "no" },
+    "rta_3": { "texto": "Solamente mayores de 25 años", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué principio rige el uso racional de la fuerza?",
+    "rta_1": { "texto": "Legalidad, necesidad y proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Oportunidad y eficiencia", "rta": "no" },
+    "rta_3": { "texto": "Rapidez y secreto", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "Cuando se produce una detención, ¿cuántos juegos de fichas deben confeccionarse para remitir a la Unidad 28?",
+    "rta_1": { "texto": "Tres juegos", "rta": "yes" },
+    "rta_2": { "texto": "Un solo juego", "rta": "no" },
+    "rta_3": { "texto": "Dos juegos", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué documento se confecciona en caso de contravenciones?",
+    "rta_1": { "texto": "Acta contravencional", "rta": "yes" },
+    "rta_2": { "texto": "Acta de exposición", "rta": "no" },
+    "rta_3": { "texto": "Formulario de intervención", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "La notificación al denunciante en flagrancia incluye:",
+    "rta_1": { "texto": "Fecha, hora y lugar de la audiencia", "rta": "yes" },
+    "rta_2": { "texto": "El nombre del defensor oficial", "rta": "no" },
+    "rta_3": { "texto": "El número de patrulla asignada", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "El acta circunstanciada se utiliza:",
+    "rta_1": { "texto": "Cuando no se cuenta con formulario de intervención", "rta": "yes" },
+    "rta_2": { "texto": "Para detenciones judiciales", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente en contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Cuál es la finalidad de la fiscalización de libros por parte del Jefe de Servicios?",
+    "rta_1": { "texto": "Controlar transparencia y legalidad de actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Verificar horarios de móviles", "rta": "no" },
+    "rta_3": { "texto": "Supervisar gastos administrativos", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué artículo de la Ley 5688 establece el deber de intervenir incluso estando de franco?",
+    "rta_1": { "texto": "Artículo 88", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 94", "rta": "no" },
+    "rta_3": { "texto": "Artículo 120", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "El principio de responsabilidad implica:",
+    "rta_1": { "texto": "Responder por los actos y decisiones tomadas", "rta": "yes" },
+    "rta_2": { "texto": "Delegar siempre la orden", "rta": "no" },
+    "rta_3": { "texto": "Evitar actuaciones por cuenta propia", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "En materia de faltas, ¿qué organismo resulta competente?",
+    "rta_1": { "texto": "Dirección General de Administración de Infracciones (DGAI)", "rta": "yes" },
+    "rta_2": { "texto": "Fiscalía Penal, Contravencional y de Faltas", "rta": "no" },
+    "rta_3": { "texto": "Comisarías comunales", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "Cuando un denunciante informa un delito y se retira sin más, corresponde:",
+    "rta_1": { "texto": "Asentar en libro de guardia y realizar consulta fiscal", "rta": "yes" },
+    "rta_2": { "texto": "No registrar nada", "rta": "no" },
+    "rta_3": { "texto": "Retenerlo hasta que declare", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Cuál es la finalidad de un acta de constatación de faltas?",
+    "rta_1": { "texto": "Documentar infracciones al régimen de faltas", "rta": "yes" },
+    "rta_2": { "texto": "Formalizar un allanamiento", "rta": "no" },
+    "rta_3": { "texto": "Registrar altas y bajas del personal", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué debe contener el acta contravencional?",
+    "rta_1": { "texto": "Descripción de la conducta, lugar, fecha y testigos", "rta": "yes" },
+    "rta_2": { "texto": "Lista de bienes secuestrados exclusivamente", "rta": "no" },
+    "rta_3": { "texto": "Firma del jefe de administración", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "El acta de entrega de dependencia debe confeccionarse:",
+    "rta_1": { "texto": "Por cuadruplicado", "rta": "yes" },
+    "rta_2": { "texto": "Por duplicado", "rta": "no" },
+    "rta_3": { "texto": "En copia única", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿En qué casos procede un habeas corpus?",
+    "rta_1": { "texto": "Cuando una persona sufre restricción o amenaza de su libertad", "rta": "yes" },
+    "rta_2": { "texto": "Para reclamar un beneficio laboral", "rta": "no" },
+    "rta_3": { "texto": "Para tramitar licencias", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "Un testigo ciego o con discapacidad física, ¿puede ser testigo de hecho?",
+    "rta_1": { "texto": "Sí, si percibe con otros sentidos la situación", "rta": "yes" },
+    "rta_2": { "texto": "No, porque carece de visión", "rta": "no" },
+    "rta_3": { "texto": "Solo con autorización judicial", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "El principio de oportunidad habilita a:",
+    "rta_1": { "texto": "Intervenir aun fuera de servicio ante un hecho flagrante", "rta": "yes" },
+    "rta_2": { "texto": "Omitir la denuncia si no hay víctimas", "rta": "no" },
+    "rta_3": { "texto": "Delegar en un vecino", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "En caso de lesiones del art. 89 del Código Penal, ¿de qué tipo son?",
+    "rta_1": { "texto": "Acción pública", "rta": "yes" },
+    "rta_2": { "texto": "Instancia privada", "rta": "no" },
+    "rta_3": { "texto": "Contravencionales", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Cuál es la característica del sistema AVL o Soflex?",
+    "rta_1": { "texto": "Permite seguimiento satelital de móviles", "rta": "yes" },
+    "rta_2": { "texto": "Gestiona turnos judiciales", "rta": "no" },
+    "rta_3": { "texto": "Registra fichas de detenidos", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué autoridad es competente en materia contravencional en CABA?",
+    "rta_1": { "texto": "Fiscalía Penal, Contravencional y de Faltas en turno", "rta": "yes" },
+    "rta_2": { "texto": "Tribunal de Faltas de Nación", "rta": "no" },
+    "rta_3": { "texto": "Juzgados Federales", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "Según el principio de gradualidad, la fuerza debe aplicarse:",
+    "rta_1": { "texto": "De menor a mayor intensidad según necesidad", "rta": "yes" },
+    "rta_2": { "texto": "Siempre en su máxima expresión", "rta": "no" },
+    "rta_3": { "texto": "Nunca en forma escalonada", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "En una intervención con detenido, ¿qué debe garantizar siempre el personal policial?",
+    "rta_1": { "texto": "Respeto a los derechos y garantías constitucionales", "rta": "yes" },
+    "rta_2": { "texto": "Que no hable hasta llegar al juzgado", "rta": "no" },
+    "rta_3": { "texto": "Que firme obligatoriamente su declaración", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Cuál es la primera medida al tomar conocimiento de un hecho flagrante?",
+    "rta_1": { "texto": "Comunicación inmediata a la Fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Esperar al jefe de guardia", "rta": "no" },
+    "rta_3": { "texto": "Notificar al damnificado primero", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "En caso de violencia de género, ¿qué protocolo debe aplicarse?",
+    "rta_1": { "texto": "Protocolo con perspectiva de género", "rta": "yes" },
+    "rta_2": { "texto": "Protocolo de faltas contravencionales", "rta": "no" },
+    "rta_3": { "texto": "Procedimiento de tránsito", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué documento respalda la actuación en contravenciones?",
+    "rta_1": { "texto": "Acta contravencional", "rta": "yes" },
+    "rta_2": { "texto": "Formulario de intervención", "rta": "no" },
+    "rta_3": { "texto": "Parte de móvil", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "El sistema GAP se utiliza para:",
+    "rta_1": { "texto": "Registrar digitalmente actuaciones policiales", "rta": "yes" },
+    "rta_2": { "texto": "Gestionar licencias del personal", "rta": "no" },
+    "rta_3": { "texto": "Controlar vehículos policiales", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué principio obliga al policía a actuar aun estando de franco?",
+    "rta_1": { "texto": "Principio de oportunidad (Art. 88 Ley 5688)", "rta": "yes" },
+    "rta_2": { "texto": "Principio de gradualidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Qué diferencia al acta circunstanciada del formulario de intervención?",
+    "rta_1": { "texto": "El acta circunstanciada se redacta libremente en hoja", "rta": "yes" },
+    "rta_2": { "texto": "El acta circunstanciada solo se usa en delitos", "rta": "no" },
+    "rta_3": { "texto": "El formulario no tiene validez legal", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué organismo resulta competente en contravenciones en CABA?",
+    "rta_1": { "texto": "Fiscalía Penal, Contravencional y de Faltas", "rta": "yes" },
+    "rta_2": { "texto": "Juzgados Nacionales", "rta": "no" },
+    "rta_3": { "texto": "DGAI", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué significa el principio de legalidad en la actuación policial?",
+    "rta_1": { "texto": "Que toda acción debe fundarse en normas jurídicas", "rta": "yes" },
+    "rta_2": { "texto": "Que solo se actúa por orden superior", "rta": "no" },
+    "rta_3": { "texto": "Que se puede improvisar según el caso", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "El uso racional de la fuerza se ajusta a:",
+    "rta_1": { "texto": "Legalidad, necesidad, proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez y jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Secretismo y obediencia", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "El denunciante de un paradero de menores debe:",
+    "rta_1": { "texto": "Mantenerse a disposición para aportar datos adicionales", "rta": "yes" },
+    "rta_2": { "texto": "Desentenderse luego de denunciar", "rta": "no" },
+    "rta_3": { "texto": "Firmar un acta de compromiso", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "En caso de un juicio oral, ¿puede reemplazarse la declaración de un testigo?",
+    "rta_1": { "texto": "No, salvo excepciones legales como lectura de declaración previa", "rta": "yes" },
+    "rta_2": { "texto": "Sí, siempre por acta policial", "rta": "no" },
+    "rta_3": { "texto": "Nunca bajo ninguna circunstancia", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué caracteriza al habeas corpus preventivo?",
+    "rta_1": { "texto": "Se interpone ante amenaza cierta a la libertad", "rta": "yes" },
+    "rta_2": { "texto": "Se interpone luego de condena firme", "rta": "no" },
+    "rta_3": { "texto": "Se aplica solo a menores de edad", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué principio obliga a rendir cuentas de los actos realizados?",
+    "rta_1": { "texto": "Principio de responsabilidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de gradualidad", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "En faltas de tránsito, ¿qué medida cautelar corresponde?",
+    "rta_1": { "texto": "Remisión del vehículo", "rta": "yes" },
+    "rta_2": { "texto": "Secuestro penal del vehículo", "rta": "no" },
+    "rta_3": { "texto": "Retención indefinida", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "El sistema AVL permite:",
+    "rta_1": { "texto": "Monitorear recorridos de móviles en tiempo real", "rta": "yes" },
+    "rta_2": { "texto": "Registrar declaraciones testimoniales", "rta": "no" },
+    "rta_3": { "texto": "Emitir órdenes judiciales", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "En contravenciones flagrantes, el policía puede:",
+    "rta_1": { "texto": "Aplicar medidas precautorias como aprehensión", "rta": "yes" },
+    "rta_2": { "texto": "Esperar autorización del jefe de guardia", "rta": "no" },
+    "rta_3": { "texto": "Dejar constancia sin intervenir", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué principio asegura que el policía no exceda en el uso de la fuerza?",
+    "rta_1": { "texto": "Principio de proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de oportunidad", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "En un acta contravencional, ¿qué dato es obligatorio?",
+    "rta_1": { "texto": "Lugar, fecha, hora y firma del interviniente", "rta": "yes" },
+    "rta_2": { "texto": "La foto del imputado", "rta": "no" },
+    "rta_3": { "texto": "El apellido del testigo únicamente", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "El principio de oportunidad se vincula con:",
+    "rta_1": { "texto": "La obligación de actuar en tiempo y forma", "rta": "yes" },
+    "rta_2": { "texto": "El descanso policial", "rta": "no" },
+    "rta_3": { "texto": "La cantidad de móviles disponibles", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "Cuando un policía documenta en el Libro de Guardia, lo hace para:",
+    "rta_1": { "texto": "Dejar constancia formal de las novedades", "rta": "yes" },
+    "rta_2": { "texto": "Solicitar recargos de servicio", "rta": "no" },
+    "rta_3": { "texto": "Solicitar vacaciones", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "El artículo 93 de la Ley 5688 se refiere a:",
+    "rta_1": { "texto": "La consulta judicial obligatoria", "rta": "yes" },
+    "rta_2": { "texto": "El procedimiento de paradero", "rta": "no" },
+    "rta_3": { "texto": "El uso de armas no letales", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Cuál es la finalidad de la consulta judicial?",
+    "rta_1": { "texto": "Dar legalidad a la intervención policial", "rta": "yes" },
+    "rta_2": { "texto": "Justificar la demora en los procedimientos", "rta": "no" },
+    "rta_3": { "texto": "Autorizar cambios administrativos", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "El principio de gradualidad exige:",
+    "rta_1": { "texto": "Escalar el uso de la fuerza según resistencia", "rta": "yes" },
+    "rta_2": { "texto": "Utilizar armas letales primero", "rta": "no" },
+    "rta_3": { "texto": "No intervenir en faltas", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué artículo del CPP CABA regula la declaración testimonial?",
+    "rta_1": { "texto": "Artículo 126", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 88", "rta": "no" },
+    "rta_3": { "texto": "Artículo 200", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "En delitos dolosos, la actuación policial debe:",
+    "rta_1": { "texto": "Actuar como auxiliar inmediato de la justicia", "rta": "yes" },
+    "rta_2": { "texto": "Esperar siempre al juez", "rta": "no" },
+    "rta_3": { "texto": "Intervenir solo si hay flagrancia", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "El acta de entrega de dependencia es firmada por:",
+    "rta_1": { "texto": "Jefe entrante y saliente", "rta": "yes" },
+    "rta_2": { "texto": "Solo el jefe superior", "rta": "no" },
+    "rta_3": { "texto": "Un testigo y un denunciante", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "Cuando un testigo es invidente, su testimonio:",
+    "rta_1": { "texto": "Es válido si refiere hechos percibidos por otros sentidos", "rta": "yes" },
+    "rta_2": { "texto": "Es inválido automáticamente", "rta": "no" },
+    "rta_3": { "texto": "Debe ser confirmado por dos testigos", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "El artículo 89 del Código Penal establece las lesiones:",
+    "rta_1": { "texto": "De acción pública", "rta": "yes" },
+    "rta_2": { "texto": "De instancia privada", "rta": "no" },
+    "rta_3": { "texto": "Leves sin denuncia", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "El uso de armas letales está regulado por:",
+    "rta_1": { "texto": "Protocolo de uso racional de la fuerza", "rta": "yes" },
+    "rta_2": { "texto": "Reglamento administrativo interno", "rta": "no" },
+    "rta_3": { "texto": "Orden del jefe de servicios", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "En un procedimiento por flagrancia, ¿qué debe realizar primero el personal policial?",
+    "rta_1": { "texto": "Asegurar la escena y preservar pruebas", "rta": "yes" },
+    "rta_2": { "texto": "Llamar a los familiares del imputado", "rta": "no" },
+    "rta_3": { "texto": "Levantar las pruebas sin testigos", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "Si un ciudadano denuncia un robo y luego se retira, ¿qué corresponde hacer?",
+    "rta_1": { "texto": "Asentar la novedad en el libro de guardia y realizar consulta fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a que regrese para formalizar la denuncia", "rta": "no" },
+    "rta_3": { "texto": "Desestimar la denuncia", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Qué documento se confecciona al recibir un detenido en la dependencia?",
+    "rta_1": { "texto": "Acta de recepción de detenido", "rta": "yes" },
+    "rta_2": { "texto": "Ficha de identificación dactilar", "rta": "no" },
+    "rta_3": { "texto": "Informe de servicio", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "En la recepción de un móvil, el acta de entrega se hace en:",
+    "rta_1": { "texto": "Duplicado", "rta": "no" },
+    "rta_2": { "texto": "Triplicado", "rta": "no" },
+    "rta_3": { "texto": "Cuadruplicado", "rta": "yes" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "Si un testigo es ciego, ¿puede declarar?",
+    "rta_1": { "texto": "Sí, respecto a hechos percibidos por otros sentidos", "rta": "yes" },
+    "rta_2": { "texto": "No, porque no percibió nada", "rta": "no" },
+    "rta_3": { "texto": "Solo si otro testigo avala", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "En una denuncia por violencia de género, el acta debe realizarse:",
+    "rta_1": { "texto": "Aplicando el protocolo de género", "rta": "yes" },
+    "rta_2": { "texto": "En cualquier formulario disponible", "rta": "no" },
+    "rta_3": { "texto": "Solo con presencia del jefe de dependencia", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué tipo de delito son las lesiones del Art. 89 CP?",
+    "rta_1": { "texto": "De acción pública", "rta": "yes" },
+    "rta_2": { "texto": "De instancia privada", "rta": "no" },
+    "rta_3": { "texto": "Contravencional", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué sistema permite registrar actuaciones digitales?",
+    "rta_1": { "texto": "GAP", "rta": "yes" },
+    "rta_2": { "texto": "AVL", "rta": "no" },
+    "rta_3": { "texto": "SADE", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "Si un detenido alega maltrato, el personal debe:",
+    "rta_1": { "texto": "Informar de inmediato a la Fiscalía y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Ignorar el reclamo", "rta": "no" },
+    "rta_3": { "texto": "Esperar orden del jefe de guardia", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué principio regula el uso de armas de fuego?",
+    "rta_1": { "texto": "Legalidad, necesidad y proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez y secreto", "rta": "no" },
+    "rta_3": { "texto": "Orden jerárquica exclusivamente", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "En contravenciones, ¿qué medida precautoria puede adoptar la policía?",
+    "rta_1": { "texto": "Aprehensión del infractor", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar sanción inmediata", "rta": "no" },
+    "rta_3": { "texto": "Remitir el caso a juzgados nacionales", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "El sistema AVL permite:",
+    "rta_1": { "texto": "Monitorear móviles en tiempo real", "rta": "yes" },
+    "rta_2": { "texto": "Cargar fichas de detenidos", "rta": "no" },
+    "rta_3": { "texto": "Emitir oficios judiciales", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué documento formaliza el inicio de una actuación contravencional?",
+    "rta_1": { "texto": "Acta contravencional", "rta": "yes" },
+    "rta_2": { "texto": "Parte interno", "rta": "no" },
+    "rta_3": { "texto": "Libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué significa flagrancia?",
+    "rta_1": { "texto": "Comisión de un delito en el mismo momento en que ocurre", "rta": "yes" },
+    "rta_2": { "texto": "Un delito denunciado con posterioridad", "rta": "no" },
+    "rta_3": { "texto": "Una falta administrativa", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "En un procedimiento de allanamiento, la policía:",
+    "rta_1": { "texto": "Debe contar con orden judicial", "rta": "yes" },
+    "rta_2": { "texto": "Puede ingresar sin orden en cualquier caso", "rta": "no" },
+    "rta_3": { "texto": "Debe pedir autorización al denunciante", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "El acta de procedimiento debe contener:",
+    "rta_1": { "texto": "Lugar, hora, motivo y personal interviniente", "rta": "yes" },
+    "rta_2": { "texto": "Opiniones de los testigos", "rta": "no" },
+    "rta_3": { "texto": "Antecedentes personales del imputado", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué autoridad debe ser notificada siempre en casos de menores?",
+    "rta_1": { "texto": "Consejo de Derechos de Niños, Niñas y Adolescentes", "rta": "yes" },
+    "rta_2": { "texto": "Defensoría del Pueblo", "rta": "no" },
+    "rta_3": { "texto": "Juzgado Nacional de Faltas", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "Si un detenido presenta lesiones, ¿qué corresponde hacer?",
+    "rta_1": { "texto": "Realizar certificado médico e informar a la Fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Esperar al traslado al juzgado", "rta": "no" },
+    "rta_3": { "texto": "Omitir el registro", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué autoridad judicial recibe las contravenciones en CABA?",
+    "rta_1": { "texto": "Fiscalías PCyF", "rta": "yes" },
+    "rta_2": { "texto": "Tribunales Orales Nacionales", "rta": "no" },
+    "rta_3": { "texto": "Corte Suprema", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué diferencia hay entre acta de intervención y acta circunstanciada?",
+    "rta_1": { "texto": "La circunstanciada no tiene formato preestablecido", "rta": "yes" },
+    "rta_2": { "texto": "La intervención es solo para contravenciones", "rta": "no" },
+    "rta_3": { "texto": "La circunstanciada carece de validez legal", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué principio impide omitir actuaciones por conveniencia?",
+    "rta_1": { "texto": "Principio de obligatoriedad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de gradualidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué debe hacer el jefe de servicio al recibir turno?",
+    "rta_1": { "texto": "Controlar móviles, personal y armamento", "rta": "yes" },
+    "rta_2": { "texto": "Firmar actas de contravención", "rta": "no" },
+    "rta_3": { "texto": "Notificar a la Fiscalía", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "El principio de proporcionalidad se aplica en:",
+    "rta_1": { "texto": "Uso de la fuerza", "rta": "yes" },
+    "rta_2": { "texto": "Uso de licencias", "rta": "no" },
+    "rta_3": { "texto": "Uso de recursos financieros", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué documento se genera ante la recepción de un móvil policial?",
+    "rta_1": { "texto": "Acta de entrega y recepción", "rta": "yes" },
+    "rta_2": { "texto": "Informe de novedades", "rta": "no" },
+    "rta_3": { "texto": "Parte contravencional", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué artículo del CPP CABA regula la consulta judicial?",
+    "rta_1": { "texto": "Artículo 93", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 126", "rta": "no" },
+    "rta_3": { "texto": "Artículo 200", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué sistema controla asistencia y servicios del personal policial?",
+    "rta_1": { "texto": "SISEP", "rta": "yes" },
+    "rta_2": { "texto": "AVL", "rta": "no" },
+    "rta_3": { "texto": "SADE", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "Si se denuncia un delito y el personal policial no actúa, ¿qué principio se incumple?",
+    "rta_1": { "texto": "Principio de obligatoriedad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de gradualidad", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué documento se utiliza para registrar entrega de la dependencia?",
+    "rta_1": { "texto": "Acta de entrega de dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Parte diario", "rta": "no" },
+    "rta_3": { "texto": "Informe especial", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué principio rige en la preservación de la escena del hecho?",
+    "rta_1": { "texto": "Principio de intangibilidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de oportunidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué documento se confecciona al inicio de turno por el jefe de servicios?",
+    "rta_1": { "texto": "Acta de novedades", "rta": "yes" },
+    "rta_2": { "texto": "Parte médico", "rta": "no" },
+    "rta_3": { "texto": "Declaración testimonial", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "Cuando el personal arriba a un accidente sin lesionados, ¿qué corresponde labrar?",
+    "rta_1": { "texto": "Formulario de intervención o acta circunstanciada", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Acta de secuestro", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué autoridad judicial es competente ante un delito en flagrancia en CABA?",
+    "rta_1": { "texto": "Ministerio Público Fiscal de la CABA", "rta": "yes" },
+    "rta_2": { "texto": "Juzgado Nacional de Faltas", "rta": "no" },
+    "rta_3": { "texto": "Tribunal Oral Federal", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "Si un detenido solicita asistencia médica, el personal debe:",
+    "rta_1": { "texto": "Requerir SAME y dejar constancia en actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a la visita judicial", "rta": "no" },
+    "rta_3": { "texto": "Informar verbalmente al superior sin registrar", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué libro asienta las novedades de guardia?",
+    "rta_1": { "texto": "Libro de guardia", "rta": "yes" },
+    "rta_2": { "texto": "Libro de móviles", "rta": "no" },
+    "rta_3": { "texto": "Libro de contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "En caso de contravenciones, ¿qué documento inicia el procedimiento?",
+    "rta_1": { "texto": "Acta contravencional", "rta": "yes" },
+    "rta_2": { "texto": "Informe de servicio", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué principio guía la preservación de pruebas en un hecho delictivo?",
+    "rta_1": { "texto": "Intangibilidad", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez", "rta": "no" },
+    "rta_3": { "texto": "Jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "Si un ciudadano informa un hecho sin identificarse, ¿qué debe hacer la policía?",
+    "rta_1": { "texto": "Asentar la novedad en libro de guardia y comunicar a fiscalía si corresponde", "rta": "yes" },
+    "rta_2": { "texto": "No registrar el hecho", "rta": "no" },
+    "rta_3": { "texto": "Esperar confirmación escrita", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué diferencia al acta circunstanciada de la contravencional?",
+    "rta_1": { "texto": "La circunstanciada solo deja constancia sin sanción", "rta": "yes" },
+    "rta_2": { "texto": "La contravencional no tiene validez judicial", "rta": "no" },
+    "rta_3": { "texto": "La circunstanciada aplica solo en delitos", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué artículo de la Ley 5688 obliga a intervenir para prevenir delitos y faltas?",
+    "rta_1": { "texto": "Artículo 88", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 120", "rta": "no" },
+    "rta_3": { "texto": "Artículo 54", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "En caso de denuncias por desaparición de menores, el denunciante:",
+    "rta_1": { "texto": "Debe mantener contacto y responsabilidades posteriores con la autoridad", "rta": "yes" },
+    "rta_2": { "texto": "Queda liberado de toda obligación", "rta": "no" },
+    "rta_3": { "texto": "Solo firma y se retira", "rta": "no" }
+  }
+]

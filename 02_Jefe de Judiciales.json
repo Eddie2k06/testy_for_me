@@ -1,0 +1,772 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es la función principal del Jefe de Judiciales en una comisaría?",
+    "rta_1": { "texto": "Coordinar las investigaciones judiciales y sumariales", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar las guardias externas", "rta": "no" },
+    "rta_3": { "texto": "Llevar el control de licencias del personal", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Qué documentación debe controlar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Sumarios, actuaciones y prevenciones judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Órdenes internas de servicio", "rta": "no" },
+    "rta_3": { "texto": "Movimientos de flota vehicular", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Quién debe disponer la continuación de un sumario iniciado por el Jefe de Servicios?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "El Operador SOFLEX", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Qué tipo de diligencias debe supervisar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Declaraciones testimoniales, inspecciones oculares y agregados periciales", "rta": "yes" },
+    "rta_2": { "texto": "Recorridos de móviles", "rta": "no" },
+    "rta_3": { "texto": "Órdenes internas administrativas", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Ante quién debe informar el Jefe de Judiciales las actuaciones relevantes?",
+    "rta_1": { "texto": "Al Jefe de la Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Al Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué oficina complementa y colabora directamente con Judiciales?",
+    "rta_1": { "texto": "La Oficina de Servicios", "rta": "no" },
+    "rta_2": { "texto": "La Oficina de Administración", "rta": "no" },
+    "rta_3": { "texto": "La Oficina de Guardia", "rta": "yes" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué instrumento debe utilizar el Jefe de Judiciales para el registro de actuaciones?",
+    "rta_1": { "texto": "Libro de Sumarios y GAP Web", "rta": "yes" },
+    "rta_2": { "texto": "Libro de Novedades de Calle", "rta": "no" },
+    "rta_3": { "texto": "Libro de Licencias", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Judiciales con las pruebas secuestradas?",
+    "rta_1": { "texto": "Garantizar su resguardo y cadena de custodia", "rta": "yes" },
+    "rta_2": { "texto": "Entregarlas al Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "Archivar directamente en administración", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué debe hacer el Jefe de Judiciales si un acta tiene errores formales?",
+    "rta_1": { "texto": "Ordenar su corrección inmediata antes de ser elevada", "rta": "yes" },
+    "rta_2": { "texto": "Desechar el acta y no registrarla", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Cuál es el rol del Jefe de Judiciales en relación con la Fiscalía?",
+    "rta_1": { "texto": "Canalizar y ejecutar las diligencias dispuestas", "rta": "yes" },
+    "rta_2": { "texto": "Coordinar el patrullaje preventivo", "rta": "no" },
+    "rta_3": { "texto": "Elevar órdenes internas", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué dependencia controla la legalidad de los sumarios?",
+    "rta_1": { "texto": "Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Operador SOFLEX", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Qué actuación corresponde ante una denuncia por flagrancia?",
+    "rta_1": { "texto": "Iniciar sumario y dar inmediata intervención a la autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Asentar en libro de guardia solamente", "rta": "no" },
+    "rta_3": { "texto": "Derivar al Jefe de Calle", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué es fundamental al recibir testimoniales?",
+    "rta_1": { "texto": "Respetar formalidades legales y registrarlas correctamente", "rta": "yes" },
+    "rta_2": { "texto": "Transmitir verbalmente a la guardia", "rta": "no" },
+    "rta_3": { "texto": "Incorporarlas al libro de novedades", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué debe hacer el Jefe de Judiciales con las vistas fotográficas?",
+    "rta_1": { "texto": "Incorporarlas al sumario como prueba", "rta": "yes" },
+    "rta_2": { "texto": "Guardarlas en administración", "rta": "no" },
+    "rta_3": { "texto": "Derivarlas a logística", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Quién dispone sobre la elevación de actuaciones a la judicatura?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Administración", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales respecto a las declaraciones de testigos?",
+    "rta_1": { "texto": "Que se tomen conforme a las normas procesales", "rta": "yes" },
+    "rta_2": { "texto": "Que se registren en SOFLEX", "rta": "no" },
+    "rta_3": { "texto": "Que sean firmadas por el Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué procedimiento debe aplicar Judiciales ante secuestros de bienes?",
+    "rta_1": { "texto": "Registrar, inventariar y custodiar hasta orden judicial", "rta": "yes" },
+    "rta_2": { "texto": "Informar verbalmente al Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "Enviar a logística", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué debe controlar el Jefe de Judiciales sobre prevenciones sumariales?",
+    "rta_1": { "texto": "Su legalidad, completitud y correcta tramitación", "rta": "yes" },
+    "rta_2": { "texto": "Su incorporación en órdenes internas", "rta": "no" },
+    "rta_3": { "texto": "Su derivación a administración", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Cuál es la relación entre Judiciales y el Ministerio Público Fiscal?",
+    "rta_1": { "texto": "De colaboración directa en investigación", "rta": "yes" },
+    "rta_2": { "texto": "De supervisión administrativa", "rta": "no" },
+    "rta_3": { "texto": "De control de patrullajes", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué documento integra todas las actuaciones de Judiciales?",
+    "rta_1": { "texto": "Sumario Policial", "rta": "yes" },
+    "rta_2": { "texto": "Orden de Servicio", "rta": "no" },
+    "rta_3": { "texto": "Libro de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Qué debe hacer el Jefe de Judiciales con los expedientes en trámite?",
+    "rta_1": { "texto": "Fiscalizar su avance y corrección procesal", "rta": "yes" },
+    "rta_2": { "texto": "Trasladarlos a calle", "rta": "no" },
+    "rta_3": { "texto": "Archivarlos en administración", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué actuación procede ante un hecho de flagrancia?",
+    "rta_1": { "texto": "Iniciar sumario, dar cuenta a fiscalía y registrar", "rta": "yes" },
+    "rta_2": { "texto": "Sólo consignar en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Esperar orden de logística", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué documentos deben revisarse antes de ser elevados a la justicia?",
+    "rta_1": { "texto": "Actas, testimoniales y pruebas periciales", "rta": "yes" },
+    "rta_2": { "texto": "Órdenes de calle", "rta": "no" },
+    "rta_3": { "texto": "Partes de patrullaje", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué control ejerce Judiciales sobre sumarios iniciados por guardia?",
+    "rta_1": { "texto": "Revisar y convalidar legalidad antes de elevar", "rta": "yes" },
+    "rta_2": { "texto": "Derivar automáticamente a administración", "rta": "no" },
+    "rta_3": { "texto": "Registrar en logística", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué es esencial en el trabajo del Jefe de Judiciales?",
+    "rta_1": { "texto": "Resguardar la legalidad de las actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Coordinar móviles externos", "rta": "no" },
+    "rta_3": { "texto": "Tramitar licencias", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales al recibir una denuncia?",
+    "rta_1": { "texto": "Que sea registrada e incorporada al sumario", "rta": "yes" },
+    "rta_2": { "texto": "Que se consigne solo en libro de novedades", "rta": "no" },
+    "rta_3": { "texto": "Que se derive a administración", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Qué instrumento digital apoya la tarea de Judiciales?",
+    "rta_1": { "texto": "Sistema GAP Web", "rta": "yes" },
+    "rta_2": { "texto": "Sistema SOFLEX", "rta": "no" },
+    "rta_3": { "texto": "Sistema POC", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué debe hacer Judiciales con las pruebas fotográficas?",
+    "rta_1": { "texto": "Incorporarlas como anexos al sumario", "rta": "yes" },
+    "rta_2": { "texto": "Guardar en administración", "rta": "no" },
+    "rta_3": { "texto": "Enviar a logística", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué actuación procede con las declaraciones del personal policial?",
+    "rta_1": { "texto": "Incorporarlas a las actuaciones sumariales", "rta": "yes" },
+    "rta_2": { "texto": "Archivarlas en guardia", "rta": "no" },
+    "rta_3": { "texto": "Asentar en libro de servicios", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Cuál es el objetivo final del trabajo de Judiciales?",
+    "rta_1": { "texto": "Garantizar la legalidad y eficacia de la investigación policial", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar patrullajes", "rta": "no" },
+    "rta_3": { "texto": "Controlar licencias del personal", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Quién es el responsable de supervisar la correcta redacción de los sumarios?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Administración", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales sobre las diligencias de prueba?",
+    "rta_1": { "texto": "Que se realicen de forma legal y documentada", "rta": "yes" },
+    "rta_2": { "texto": "Que se archiven en logística", "rta": "no" },
+    "rta_3": { "texto": "Que se notifiquen a la oficina de calle", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Qué oficina se encarga de iniciar los sumarios cuando Judiciales está ausente?",
+    "rta_1": { "texto": "La Oficina de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "La Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "La Oficina de Administración", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué actuación debe tomar Judiciales ante un expediente incompleto?",
+    "rta_1": { "texto": "Ordenar su corrección inmediata", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en sumarios cerrados", "rta": "no" },
+    "rta_3": { "texto": "Derivar a guardia para corrección", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Qué función cumple Judiciales en relación a las denuncias recibidas?",
+    "rta_1": { "texto": "Darles curso procesal e incorporarlas a actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Asentarlas en libro de guardia solamente", "rta": "no" },
+    "rta_3": { "texto": "Remitirlas a administración", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué debe hacer Judiciales ante una orden de allanamiento?",
+    "rta_1": { "texto": "Coordinar la ejecución y documentar el procedimiento", "rta": "yes" },
+    "rta_2": { "texto": "Derivar el operativo a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar la orden en administración", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Quién controla la legalidad antes de remitir actuaciones al Poder Judicial?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Calle", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué valor tiene el control del Jefe de Judiciales sobre las pruebas?",
+    "rta_1": { "texto": "Asegura la cadena de custodia y validez procesal", "rta": "yes" },
+    "rta_2": { "texto": "Permite archivar sin formalidades", "rta": "no" },
+    "rta_3": { "texto": "Facilita su entrega a logística", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué documento inicializa un procedimiento judicial?",
+    "rta_1": { "texto": "El acta de prevención sumarial", "rta": "yes" },
+    "rta_2": { "texto": "La orden de patrullaje", "rta": "no" },
+    "rta_3": { "texto": "El parte de móvil", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué dependencia eleva los sumarios al magistrado interventor?",
+    "rta_1": { "texto": "Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Guardia", "rta": "no" },
+    "rta_3": { "texto": "Servicios Externos", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué papel tiene Judiciales ante un delito flagrante?",
+    "rta_1": { "texto": "Intervenir, iniciar sumario y dar cuenta a fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Consignar en libro de novedades", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué documento utiliza Judiciales para registrar actuaciones digitales?",
+    "rta_1": { "texto": "Sistema GAP Web", "rta": "yes" },
+    "rta_2": { "texto": "Libro de Calle", "rta": "no" },
+    "rta_3": { "texto": "Orden de servicio", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué tipo de actuaciones controla Judiciales en relación con testigos?",
+    "rta_1": { "texto": "Declaraciones testimoniales", "rta": "yes" },
+    "rta_2": { "texto": "Guardias preventivas", "rta": "no" },
+    "rta_3": { "texto": "Órdenes administrativas", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué debe hacer Judiciales con una orden urgente recibida fuera de horario?",
+    "rta_1": { "texto": "Cumplirla y dejar constancia en actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Esperar turno administrativo", "rta": "no" },
+    "rta_3": { "texto": "Derivar a logística", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Quién dispone las comisiones sumariales?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Logística", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales sobre exposiciones simples?",
+    "rta_1": { "texto": "Revisar, archivar y controlar su correcta registración", "rta": "yes" },
+    "rta_2": { "texto": "Trasladarlas a Servicios Externos", "rta": "no" },
+    "rta_3": { "texto": "Enviar a administración", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué debe asegurar Judiciales en relación a imputados detenidos?",
+    "rta_1": { "texto": "La legalidad del procedimiento y custodia", "rta": "yes" },
+    "rta_2": { "texto": "Que sean trasladados por logística", "rta": "no" },
+    "rta_3": { "texto": "Que se asiente solo en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué dependencia revisa sumarios antes de su elevación a Fiscalía?",
+    "rta_1": { "texto": "Oficina de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Administración", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué procedimiento se aplica al recibir informes periciales?",
+    "rta_1": { "texto": "Incorporarlos como anexos en el sumario", "rta": "yes" },
+    "rta_2": { "texto": "Guardarlos en logística", "rta": "no" },
+    "rta_3": { "texto": "Derivarlos a administración", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué debe controlar Judiciales en relación a las diligencias sumariales?",
+    "rta_1": { "texto": "Que estén debidamente cumplimentadas", "rta": "yes" },
+    "rta_2": { "texto": "Que sean derivadas a SOFLEX", "rta": "no" },
+    "rta_3": { "texto": "Que se registren en administración", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué documento respalda las inspecciones oculares?",
+    "rta_1": { "texto": "Acta sumarial", "rta": "yes" },
+    "rta_2": { "texto": "Orden interna", "rta": "no" },
+    "rta_3": { "texto": "Parte de guardia", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales en el control de testimoniales de personal policial?",
+    "rta_1": { "texto": "Verificar que cumplan con requisitos formales", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a guardia para registro", "rta": "no" },
+    "rta_3": { "texto": "Enviar a logística", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué debe garantizar Judiciales al labrar un acta?",
+    "rta_1": { "texto": "Claridad, legalidad y completitud de datos", "rta": "yes" },
+    "rta_2": { "texto": "Que se archive en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Que se consigne en órdenes de servicio", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué intervención le corresponde a Judiciales ante medidas precautorias?",
+    "rta_1": { "texto": "Documentarlas e incorporarlas al sumario", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a administración", "rta": "no" },
+    "rta_3": { "texto": "Notificar a logística", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales con la elevación de actuaciones?",
+    "rta_1": { "texto": "Garantizar que sean enviadas en plazo y forma", "rta": "yes" },
+    "rta_2": { "texto": "Solo remitir al archivo", "rta": "no" },
+    "rta_3": { "texto": "Esperar autorización logística", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué procedimiento sigue Judiciales ante una denuncia anónima?",
+    "rta_1": { "texto": "Registrar y elevar según normativa procesal", "rta": "yes" },
+    "rta_2": { "texto": "Descartarla automáticamente", "rta": "no" },
+    "rta_3": { "texto": "Remitir a administración", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué función tiene Judiciales en relación con la Fiscalía de CABA?",
+    "rta_1": { "texto": "Colaborar en la instrucción de actuaciones sumariales", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar guardias preventivas", "rta": "no" },
+    "rta_3": { "texto": "Coordinar logística de móviles", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué documento garantiza el resguardo de pruebas en cadena de custodia?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Libro de servicios", "rta": "no" },
+    "rta_3": { "texto": "Parte de novedades", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué procedimiento debe seguir Judiciales con oficios judiciales?",
+    "rta_1": { "texto": "Cumplirlos y documentarlos en actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a guardia para archivo", "rta": "no" },
+    "rta_3": { "texto": "Enviar a logística", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Cuál es la meta central de Judiciales dentro de la comisaría?",
+    "rta_1": { "texto": "Asegurar que toda actuación judicial sea legal y válida", "rta": "yes" },
+    "rta_2": { "texto": "Organizar patrullajes preventivos", "rta": "no" },
+    "rta_3": { "texto": "Gestionar licencias de personal", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "¿Cuál es la principal misión del Jefe de Judiciales?",
+    "rta_1": { "texto": "Garantizar la correcta instrucción de sumarios", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar móviles en calle", "rta": "no" },
+    "rta_3": { "texto": "Gestionar licencias del personal", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué actuación realiza Judiciales sobre peritajes?",
+    "rta_1": { "texto": "Incorporarlos a los expedientes", "rta": "yes" },
+    "rta_2": { "texto": "Remitirlos a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar en guardia", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Qué documento elabora Judiciales al recibir declaraciones de testigos?",
+    "rta_1": { "texto": "Acta testimonial", "rta": "yes" },
+    "rta_2": { "texto": "Parte de novedades", "rta": "no" },
+    "rta_3": { "texto": "Informe administrativo", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Qué debe controlar Judiciales en los oficios judiciales?",
+    "rta_1": { "texto": "Que se cumplan en tiempo y forma", "rta": "yes" },
+    "rta_2": { "texto": "Que se guarden en archivo", "rta": "no" },
+    "rta_3": { "texto": "Que se deriven a logística", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Quién controla los sumarios antes de su elevación a la Fiscalía?",
+    "rta_1": { "texto": "El Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué oficina actúa como nexo con los magistrados interventores?",
+    "rta_1": { "texto": "Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Servicios Externos", "rta": "no" },
+    "rta_3": { "texto": "Administración", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué documentación debe anexarse a un sumario?",
+    "rta_1": { "texto": "Pruebas, testimonios y peritajes", "rta": "yes" },
+    "rta_2": { "texto": "Planillas de licencias", "rta": "no" },
+    "rta_3": { "texto": "Registros de móviles", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué debe hacer Judiciales al recibir una denuncia de flagrancia?",
+    "rta_1": { "texto": "Iniciar sumario y dar cuenta a fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Asentar solo en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Remitir a logística", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué controla Judiciales en declaraciones policiales?",
+    "rta_1": { "texto": "La forma, legalidad y coherencia de los dichos", "rta": "yes" },
+    "rta_2": { "texto": "Que se archiven en administración", "rta": "no" },
+    "rta_3": { "texto": "Que se guarden en logística", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué debe garantizar Judiciales respecto a la prueba material?",
+    "rta_1": { "texto": "La cadena de custodia", "rta": "yes" },
+    "rta_2": { "texto": "El transporte por servicios externos", "rta": "no" },
+    "rta_3": { "texto": "El almacenamiento en administración", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué procedimiento sigue Judiciales con informes médicos?",
+    "rta_1": { "texto": "Incorporarlos como anexos", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Derivar a logística", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué actuación tiene Judiciales sobre imputados?",
+    "rta_1": { "texto": "Documentar su situación procesal", "rta": "yes" },
+    "rta_2": { "texto": "Trasladarlos a móviles", "rta": "no" },
+    "rta_3": { "texto": "Consignarlos en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales con las órdenes telefónicas?",
+    "rta_1": { "texto": "Asentarlas y darles curso", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlas a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar sin trámite", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué debe hacer Judiciales con un expediente archivado?",
+    "rta_1": { "texto": "Controlar su cierre formal", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a logística", "rta": "no" },
+    "rta_3": { "texto": "Remitir a servicios externos", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué dependencia instruye actuaciones en ausencia de Judiciales?",
+    "rta_1": { "texto": "Oficina de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Administración", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué debe hacer Judiciales con vistas fotográficas?",
+    "rta_1": { "texto": "Incorporarlas a los sumarios", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Remitir a logística", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué procedimiento corresponde al recibir declaraciones de menores?",
+    "rta_1": { "texto": "Labrar acta con garantías procesales", "rta": "yes" },
+    "rta_2": { "texto": "Consignar solo en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Enviar a administración", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué dependencia es responsable de la elevación de sumarios?",
+    "rta_1": { "texto": "Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Logística", "rta": "no" },
+    "rta_3": { "texto": "Guardia", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué debe hacer Judiciales ante un sumario incompleto?",
+    "rta_1": { "texto": "Ordenar su corrección inmediata", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlo a guardia", "rta": "no" },
+    "rta_3": { "texto": "Archivar sin trámite", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué documento inicializa la actuación judicial?",
+    "rta_1": { "texto": "Acta de prevención sumarial", "rta": "yes" },
+    "rta_2": { "texto": "Libro de servicios", "rta": "no" },
+    "rta_3": { "texto": "Parte de móvil", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué procedimiento sigue Judiciales con secuestros?",
+    "rta_1": { "texto": "Documentarlos en acta y asegurar cadena de custodia", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlos a logística", "rta": "no" },
+    "rta_3": { "texto": "Asentarlos en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué documento utiliza Judiciales para registrar actuaciones?",
+    "rta_1": { "texto": "Sumario policial", "rta": "yes" },
+    "rta_2": { "texto": "Planilla administrativa", "rta": "no" },
+    "rta_3": { "texto": "Parte de calle", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué función cumple Judiciales en relación a las denuncias?",
+    "rta_1": { "texto": "Darles curso legal y procesal", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Remitir a logística", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué debe hacer Judiciales al recibir una orden de allanamiento?",
+    "rta_1": { "texto": "Coordinar ejecución y documentar", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar en administración", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales con imputados hospitalizados?",
+    "rta_1": { "texto": "Controlar y documentar su situación procesal", "rta": "yes" },
+    "rta_2": { "texto": "Derivar al Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Enviar a logística", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué procedimiento corresponde al recibir un oficio pericial?",
+    "rta_1": { "texto": "Agregar al expediente", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Enviar a servicios externos", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué dependencia controla testimonios policiales?",
+    "rta_1": { "texto": "Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Servicios", "rta": "no" },
+    "rta_3": { "texto": "Administración", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué debe garantizar Judiciales en el cierre de actuaciones?",
+    "rta_1": { "texto": "Legalidad y completitud", "rta": "yes" },
+    "rta_2": { "texto": "Que se envíen a logística", "rta": "no" },
+    "rta_3": { "texto": "Que se archiven en guardia", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué documento asegura la validez de secuestros?",
+    "rta_1": { "texto": "Acta sumarial", "rta": "yes" },
+    "rta_2": { "texto": "Parte de móvil", "rta": "no" },
+    "rta_3": { "texto": "Libro de servicios", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué debe hacer Judiciales si falta información en un sumario?",
+    "rta_1": { "texto": "Solicitar subsanación inmediata", "rta": "yes" },
+    "rta_2": { "texto": "Archivar sin trámite", "rta": "no" },
+    "rta_3": { "texto": "Remitir a logística", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Cuál es la obligación del Jefe de Judiciales respecto a la legalidad de los actos?",
+    "rta_1": { "texto": "Supervisar que se ajusten al marco normativo", "rta": "yes" },
+    "rta_2": { "texto": "Delegar el control en el Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Confiar en el criterio de los subalternos", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué tipo de acta corresponde cuando se entrega un expediente a fiscalía?",
+    "rta_1": { "texto": "Acta de remisión", "rta": "yes" },
+    "rta_2": { "texto": "Acta testimonial", "rta": "no" },
+    "rta_3": { "texto": "Acta de hallazgo", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Qué debe garantizar Judiciales en relación a los oficios judiciales?",
+    "rta_1": { "texto": "Su diligenciamiento en tiempo y forma", "rta": "yes" },
+    "rta_2": { "texto": "Que se archiven automáticamente", "rta": "no" },
+    "rta_3": { "texto": "Que los reciba el área de logística", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué documento se labra ante el secuestro de elementos en un allanamiento?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Informe administrativo", "rta": "no" },
+    "rta_3": { "texto": "Planilla de guardia", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué corresponde hacer con un imputado detenido en flagrancia?",
+    "rta_1": { "texto": "Asentar en acta y comunicar a fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a administración", "rta": "no" },
+    "rta_3": { "texto": "Dejar constancia solo en guardia", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué dependencia es responsable de custodiar la prueba hasta su remisión?",
+    "rta_1": { "texto": "Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Logística", "rta": "no" },
+    "rta_3": { "texto": "Servicios", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿Qué procedimiento corresponde cuando se recibe un oficio de detención?",
+    "rta_1": { "texto": "Registrar y dar cumplimiento inmediato", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en administración", "rta": "no" },
+    "rta_3": { "texto": "Elevar a logística", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales en las indagatorias?",
+    "rta_1": { "texto": "Asentar y formalizar el acta correspondiente", "rta": "yes" },
+    "rta_2": { "texto": "Coordinar móviles de traslado", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué documento inicia la actuación ante una denuncia recibida?",
+    "rta_1": { "texto": "Acta de denuncia", "rta": "yes" },
+    "rta_2": { "texto": "Parte de servicio", "rta": "no" },
+    "rta_3": { "texto": "Libro de móviles", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué debe verificar Judiciales antes de elevar un sumario?",
+    "rta_1": { "texto": "Que contenga todas las pruebas y testimonios", "rta": "yes" },
+    "rta_2": { "texto": "Que esté firmado por logística", "rta": "no" },
+    "rta_3": { "texto": "Que esté registrado en servicios", "rta": "no" }
+  },
+  {
+    "idq": 101,
+    "pregunta": "¿Qué procedimiento corresponde con un testigo presencial?",
+    "rta_1": { "texto": "Tomar declaración testimonial", "rta": "yes" },
+    "rta_2": { "texto": "Registrar en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 102,
+    "pregunta": "¿Qué debe hacer Judiciales con oficios provenientes del juzgado?",
+    "rta_1": { "texto": "Asentar y dar curso inmediato", "rta": "yes" },
+    "rta_2": { "texto": "Remitir a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar en guardia", "rta": "no" }
+  },
+  {
+    "idq": 103,
+    "pregunta": "¿Qué documento asegura la formalidad de una declaración indagatoria?",
+    "rta_1": { "texto": "Acta de indagatoria", "rta": "yes" },
+    "rta_2": { "texto": "Parte de novedades", "rta": "no" },
+    "rta_3": { "texto": "Planilla de administración", "rta": "no" }
+  },
+  {
+    "idq": 104,
+    "pregunta": "¿Qué debe garantizar Judiciales en los procedimientos de allanamiento?",
+    "rta_1": { "texto": "Que se documenten los resultados en acta", "rta": "yes" },
+    "rta_2": { "texto": "Que se registren en libro de móviles", "rta": "no" },
+    "rta_3": { "texto": "Que se guarden en logística", "rta": "no" }
+  },
+  {
+    "idq": 105,
+    "pregunta": "¿Qué procedimiento corresponde cuando se presenta un denunciante y se retira?",
+    "rta_1": { "texto": "Asentar en acta inicial y dar cuenta", "rta": "yes" },
+    "rta_2": { "texto": "No registrar el hecho", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 106,
+    "pregunta": "¿Qué función cumple Judiciales con las declaraciones de víctimas?",
+    "rta_1": { "texto": "Asentar con garantías legales en acta", "rta": "yes" },
+    "rta_2": { "texto": "Registrar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Derivar a servicios", "rta": "no" }
+  },
+  {
+    "idq": 107,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales en los delitos de instancia privada?",
+    "rta_1": { "texto": "Documentar y dar curso según la ley", "rta": "yes" },
+    "rta_2": { "texto": "Archivar en guardia", "rta": "no" },
+    "rta_3": { "texto": "Derivar a administración", "rta": "no" }
+  },
+  {
+    "idq": 108,
+    "pregunta": "¿Qué debe garantizar Judiciales respecto a las notificaciones?",
+    "rta_1": { "texto": "Que sean firmadas y asentadas", "rta": "yes" },
+    "rta_2": { "texto": "Que se envíen a logística", "rta": "no" },
+    "rta_3": { "texto": "Que se archiven en servicios", "rta": "no" }
+  },
+  {
+    "idq": 109,
+    "pregunta": "¿Qué documento formaliza la remisión de actuaciones al juzgado?",
+    "rta_1": { "texto": "Oficio de elevación", "rta": "yes" },
+    "rta_2": { "texto": "Parte diario", "rta": "no" },
+    "rta_3": { "texto": "Informe administrativo", "rta": "no" }
+  },
+  {
+    "idq": 110,
+    "pregunta": "¿Qué responsabilidad tiene Judiciales al recibir un parte médico de detenido?",
+    "rta_1": { "texto": "Agregar al sumario como anexo", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a guardia", "rta": "no" },
+    "rta_3": { "texto": "Archivar en logística", "rta": "no" }
+  }
+]

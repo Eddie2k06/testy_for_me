@@ -1,0 +1,702 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es la función principal del Jefe de Administración?",
+    "rta_1": { "texto": "Coordinar las tareas administrativas de la dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar los patrullajes externos", "rta": "no" },
+    "rta_3": { "texto": "Dirigir investigaciones judiciales", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Con qué áreas debe coordinar el Jefe de Administración?",
+    "rta_1": { "texto": "Judiciales, Guardia, Servicio y Logística", "rta": "yes" },
+    "rta_2": { "texto": "Solo con Logística", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente con la Guardia", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "El Jefe de Administración actúa como nexo entre:",
+    "rta_1": { "texto": "La superioridad y el personal", "rta": "yes" },
+    "rta_2": { "texto": "El SAME y la Fiscalía", "rta": "no" },
+    "rta_3": { "texto": "Los testigos y el Juez", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Qué debe fiscalizar el Jefe de Administración?",
+    "rta_1": { "texto": "Los libros y registros administrativos", "rta": "yes" },
+    "rta_2": { "texto": "Las armas secuestradas", "rta": "no" },
+    "rta_3": { "texto": "La custodia de detenidos", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Quién es el responsable administrativo inmediato superior al Jefe de Administración?",
+    "rta_1": { "texto": "El 2º Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué documentos gestiona el Jefe de Administración respecto al personal?",
+    "rta_1": { "texto": "Licencias, sumarios administrativos y presentismo", "rta": "yes" },
+    "rta_2": { "texto": "Partidas judiciales", "rta": "no" },
+    "rta_3": { "texto": "Órdenes de allanamiento", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué tipo de solicitudes tramita la Oficina de Administración?",
+    "rta_1": { "texto": "Becas, retiros, uniformes y entrenamientos", "rta": "yes" },
+    "rta_2": { "texto": "Prórrogas judiciales", "rta": "no" },
+    "rta_3": { "texto": "Altas médicas", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué representa la confección de órdenes internas?",
+    "rta_1": { "texto": "Formalización de órdenes de servicio emanadas por la Jefatura", "rta": "yes" },
+    "rta_2": { "texto": "Informes al Ministerio Público Fiscal", "rta": "no" },
+    "rta_3": { "texto": "Resoluciones judiciales", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué planillas elabora la Oficina de Administración?",
+    "rta_1": { "texto": "Suplementos de recargos de servicio y vía pública", "rta": "yes" },
+    "rta_2": { "texto": "Inventario de armas secuestradas", "rta": "no" },
+    "rta_3": { "texto": "Constancias de denuncias", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Qué tipo de comunicaciones cursa el Jefe de Administración?",
+    "rta_1": { "texto": "Órdenes de servicio y solicitudes de informes", "rta": "yes" },
+    "rta_2": { "texto": "Notas al Juzgado de Garantías", "rta": "no" },
+    "rta_3": { "texto": "Actas contravencionales", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué característica debe tener el Jefe de Administración en su rol?",
+    "rta_1": { "texto": "Capacidad de organización y liderazgo administrativo", "rta": "yes" },
+    "rta_2": { "texto": "Experiencia táctica en patrullajes", "rta": "no" },
+    "rta_3": { "texto": "Especialización en contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Con qué finalidad se contestan los requerimientos de superioridad?",
+    "rta_1": { "texto": "Dar curso formal a órdenes y solicitudes de informes", "rta": "yes" },
+    "rta_2": { "texto": "Asegurar pruebas en sumarios judiciales", "rta": "no" },
+    "rta_3": { "texto": "Resolver contravenciones menores", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué debe garantizar el Jefe de Administración respecto al personal?",
+    "rta_1": { "texto": "La adecuada gestión de trámites administrativos", "rta": "yes" },
+    "rta_2": { "texto": "Su instrucción en sumarios", "rta": "no" },
+    "rta_3": { "texto": "La correcta redacción de actas contravencionales", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué importancia tienen las órdenes internas?",
+    "rta_1": { "texto": "Informar servicios, horarios y novedades al personal", "rta": "yes" },
+    "rta_2": { "texto": "Registrar contravenciones", "rta": "no" },
+    "rta_3": { "texto": "Asentar denuncias de delitos", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Administración frente a la superioridad?",
+    "rta_1": { "texto": "Ser contralor y nexo en comunicaciones administrativas", "rta": "yes" },
+    "rta_2": { "texto": "Asistir en allanamientos", "rta": "no" },
+    "rta_3": { "texto": "Dirigir móviles de patrulla", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué tipo de beneficios puede gestionar la Oficina de Administración?",
+    "rta_1": { "texto": "Becas y cursos de ascenso", "rta": "yes" },
+    "rta_2": { "texto": "Liberación de detenidos", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de sanciones disciplinarias", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Quién confecciona las órdenes internas en una dependencia?",
+    "rta_1": { "texto": "La Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "La Oficina de Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué debe hacer la Oficina de Administración con las novedades de interés?",
+    "rta_1": { "texto": "Incluirlas en las órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlas al Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "Comunicarlas a Fiscalía", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Cómo se asegura la transparencia en la gestión administrativa?",
+    "rta_1": { "texto": "Formalizando cada trámite con constancia escrita", "rta": "yes" },
+    "rta_2": { "texto": "Resolviendo verbalmente", "rta": "no" },
+    "rta_3": { "texto": "Delegando solo en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué aspecto del personal controla la Oficina de Administración?",
+    "rta_1": { "texto": "Presentismo y recargos de servicio", "rta": "yes" },
+    "rta_2": { "texto": "Condiciones de salud", "rta": "no" },
+    "rta_3": { "texto": "Conducta en procedimientos judiciales", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Qué documento sirve de respaldo a las órdenes de servicio?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué debe tramitar la Oficina de Administración en casos de retiro voluntario?",
+    "rta_1": { "texto": "La solicitud formal y su elevación a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "La baja inmediata", "rta": "no" },
+    "rta_3": { "texto": "La suspensión del trámite", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué papel cumple la Oficina de Administración con los cursos de ascenso?",
+    "rta_1": { "texto": "Inscripción y gestión administrativa", "rta": "yes" },
+    "rta_2": { "texto": "Dictado de contenidos", "rta": "no" },
+    "rta_3": { "texto": "Evaluación de desempeño", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué responsabilidad tiene respecto a uniformes?",
+    "rta_1": { "texto": "Tramitar solicitudes de cambio", "rta": "yes" },
+    "rta_2": { "texto": "Verificar su limpieza diaria", "rta": "no" },
+    "rta_3": { "texto": "Distribuirlos en operativos", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué documento se confecciona para cambios de horarios o servicios?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Libro de sumarios", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué área tramita reclamos administrativos del personal?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Cómo se garantiza que las órdenes internas sean de lectura obligatoria?",
+    "rta_1": { "texto": "Mediante su difusión formal por la Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Con avisos orales en la guardia", "rta": "no" },
+    "rta_3": { "texto": "Por disposición de logística", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué debe hacer el Jefe de Administración con solicitudes de beneficios?",
+    "rta_1": { "texto": "Tramitarlas y dar curso con conocimiento del Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlas a la Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Rechazarlas si no son urgentes", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué tipo de control administrativo realiza la Oficina de Administración?",
+    "rta_1": { "texto": "Contralor de planillas y comunicaciones con la superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Custodia de pruebas judiciales", "rta": "no" },
+    "rta_3": { "texto": "Supervisión de móviles", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué principio rige la labor del Jefe de Administración?",
+    "rta_1": { "texto": "Orden y formalización administrativa", "rta": "yes" },
+    "rta_2": { "texto": "Inmediatez operativa", "rta": "no" },
+    "rta_3": { "texto": "Disciplina táctica", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Cuál es la misión principal del Jefe de Administración dentro de la dependencia?",
+    "rta_1": { "texto": "Gestionar los aspectos administrativos del personal y de la dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar la seguridad externa de la comisaría", "rta": "no" },
+    "rta_3": { "texto": "Coordinar los patrullajes móviles", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué debe hacer la Oficina de Administración respecto a sumarios administrativos?",
+    "rta_1": { "texto": "Tramitarlos y llevar control de su estado", "rta": "yes" },
+    "rta_2": { "texto": "Delegarlos en el Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Notificar directamente a los testigos", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Qué relación tiene el Jefe de Administración con la superioridad?",
+    "rta_1": { "texto": "Ser canal de comunicación administrativa", "rta": "yes" },
+    "rta_2": { "texto": "Dar informes operativos sobre patrullajes", "rta": "no" },
+    "rta_3": { "texto": "Intervenir en sumarios contravencionales", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué documento utiliza la Oficina de Administración para informar novedades?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Qué debe garantizar el Jefe de Administración respecto al personal?",
+    "rta_1": { "texto": "Que todos los trámites administrativos se realicen en tiempo y forma", "rta": "yes" },
+    "rta_2": { "texto": "Que participen en operativos especiales", "rta": "no" },
+    "rta_3": { "texto": "Que asistan a todas las audiencias judiciales", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué función tienen las órdenes internas dentro de la dependencia?",
+    "rta_1": { "texto": "Comunicar servicios, horarios y novedades al personal", "rta": "yes" },
+    "rta_2": { "texto": "Registrar denuncias", "rta": "no" },
+    "rta_3": { "texto": "Asentar faltas disciplinarias", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Quién supervisa la labor del Jefe de Administración?",
+    "rta_1": { "texto": "El 2º Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Calle", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué tipo de planillas se confeccionan en la Oficina de Administración?",
+    "rta_1": { "texto": "Planillas de presentismo y recargos de servicio", "rta": "yes" },
+    "rta_2": { "texto": "Planillas de móviles policiales", "rta": "no" },
+    "rta_3": { "texto": "Planillas de secuestros judiciales", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué objetivo tienen los trámites administrativos gestionados por esta oficina?",
+    "rta_1": { "texto": "Respaldar formalmente la situación del personal", "rta": "yes" },
+    "rta_2": { "texto": "Optimizar el patrullaje en zonas críticas", "rta": "no" },
+    "rta_3": { "texto": "Documentar procedimientos judiciales", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué trámite debe gestionar la Oficina de Administración cuando un efectivo solicita retiro voluntario?",
+    "rta_1": { "texto": "La solicitud formal y su elevación a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "La baja inmediata", "rta": "no" },
+    "rta_3": { "texto": "Un acta de servicio", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Cuál es la finalidad de tramitar becas o capacitaciones?",
+    "rta_1": { "texto": "Favorecer el desarrollo profesional del personal", "rta": "yes" },
+    "rta_2": { "texto": "Cubrir necesidades operativas de corto plazo", "rta": "no" },
+    "rta_3": { "texto": "Reducir los costos de la dependencia", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué rol cumple la Oficina de Administración en el régimen disciplinario?",
+    "rta_1": { "texto": "Tramitar sumarios administrativos", "rta": "yes" },
+    "rta_2": { "texto": "Dictar sanciones", "rta": "no" },
+    "rta_3": { "texto": "Realizar audiencias", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Cómo debe manejar la Oficina de Administración las comunicaciones oficiales?",
+    "rta_1": { "texto": "Cursarlas con conocimiento del Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Remitirlas directamente al Ministerio Público Fiscal", "rta": "no" },
+    "rta_3": { "texto": "Tramitarlas solo con Logística", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué instrumento garantiza la formalización de órdenes de servicio?",
+    "rta_1": { "texto": "Las órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "El parte móvil", "rta": "no" },
+    "rta_3": { "texto": "El libro de sumarios", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué papel cumple la Oficina de Administración en relación con los cambios de uniforme?",
+    "rta_1": { "texto": "Gestionar y autorizar las solicitudes", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar la entrega de chalecos", "rta": "no" },
+    "rta_3": { "texto": "Controlar el uso diario", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué tipo de reclamos tramita la Oficina de Administración?",
+    "rta_1": { "texto": "Reclamos administrativos del personal", "rta": "yes" },
+    "rta_2": { "texto": "Reclamos vecinales", "rta": "no" },
+    "rta_3": { "texto": "Reclamos judiciales", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué documento interno permite comunicar movimientos de personal?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Parte de novedades", "rta": "no" },
+    "rta_3": { "texto": "Informe de guardia", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué objetivo tiene la Oficina de Administración al tramitar cursos de ascenso?",
+    "rta_1": { "texto": "Asegurar la formación y proyección del personal", "rta": "yes" },
+    "rta_2": { "texto": "Evaluar desempeño operativo", "rta": "no" },
+    "rta_3": { "texto": "Reducir tareas administrativas", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Cuál es el rol del Jefe de Administración respecto a órdenes de servicios superiores?",
+    "rta_1": { "texto": "Dar curso administrativo y controlar su cumplimiento", "rta": "yes" },
+    "rta_2": { "texto": "Ejecutarlas en la vía pública", "rta": "no" },
+    "rta_3": { "texto": "Trasladarlas al área judicial", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué controla la Oficina de Administración en relación con presentismo?",
+    "rta_1": { "texto": "La asistencia y justificación de ausencias", "rta": "yes" },
+    "rta_2": { "texto": "La puntualidad en patrullajes", "rta": "no" },
+    "rta_3": { "texto": "La permanencia en guardia", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué tipo de comunicación representa una orden interna?",
+    "rta_1": { "texto": "Comunicación oficial de carácter obligatorio", "rta": "yes" },
+    "rta_2": { "texto": "Nota personal del Jefe", "rta": "no" },
+    "rta_3": { "texto": "Circular vecinal", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué trámite se relaciona con el suplemento por recargo de servicio?",
+    "rta_1": { "texto": "Planillas de presentismo y recargos", "rta": "yes" },
+    "rta_2": { "texto": "Órdenes internas", "rta": "no" },
+    "rta_3": { "texto": "Libro de sumarios", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué debe hacer el Jefe de Administración cuando recibe un requerimiento de superioridad?",
+    "rta_1": { "texto": "Contestar y dar curso con conocimiento del Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Resolverlo sin informar a nadie", "rta": "no" },
+    "rta_3": { "texto": "Delegarlo en la Guardia", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué responsabilidad tiene la Oficina de Administración en materia de becas?",
+    "rta_1": { "texto": "Gestionar y tramitar la inscripción", "rta": "yes" },
+    "rta_2": { "texto": "Dictar los cursos", "rta": "no" },
+    "rta_3": { "texto": "Evaluar el desempeño", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué principio rige las tareas del Jefe de Administración?",
+    "rta_1": { "texto": "Formalización y orden administrativo", "rta": "yes" },
+    "rta_2": { "texto": "Operatividad táctica", "rta": "no" },
+    "rta_3": { "texto": "Disciplina militar", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué debe hacer la Oficina de Administración respecto a solicitudes de retiro?",
+    "rta_1": { "texto": "Tramitar y elevar a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Rechazarlas directamente", "rta": "no" },
+    "rta_3": { "texto": "Asignarlas al Jefe de Calle", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Administración respecto a informes administrativos?",
+    "rta_1": { "texto": "Garantizar su correcta confección y envío", "rta": "yes" },
+    "rta_2": { "texto": "Transmitirlos verbalmente", "rta": "no" },
+    "rta_3": { "texto": "Delegarlos en Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué debe hacer el Jefe de Administración frente a cambios en horarios de servicio?",
+    "rta_1": { "texto": "Formalizarlos en órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Anotarlos en el libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Informarlos solo verbalmente", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué tipo de control administrativo corresponde a la Oficina de Administración?",
+    "rta_1": { "texto": "Contralor de planillas y comunicaciones", "rta": "yes" },
+    "rta_2": { "texto": "Control de patrullajes", "rta": "no" },
+    "rta_3": { "texto": "Supervisión de detenidos", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué función cumple la Oficina de Administración respecto a la lectura obligatoria del personal?",
+    "rta_1": { "texto": "Emitir órdenes internas de lectura obligatoria", "rta": "yes" },
+    "rta_2": { "texto": "Asentar las novedades en la guardia", "rta": "no" },
+    "rta_3": { "texto": "Comunicar verbalmente en formación", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "¿Cuál es la responsabilidad principal de la Oficina de Administración en relación al personal?",
+    "rta_1": { "texto": "Gestionar licencias, sumarios y presentismo", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar los móviles policiales", "rta": "no" },
+    "rta_3": { "texto": "Controlar el patrullaje preventivo", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué documento garantiza la formalización de movimientos internos del personal?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Quién debe conocer y autorizar las comunicaciones tramitadas por la Oficina de Administración?",
+    "rta_1": { "texto": "El Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Qué tipo de solicitudes tramita la Oficina de Administración para el personal?",
+    "rta_1": { "texto": "Becas, retiros y beneficios", "rta": "yes" },
+    "rta_2": { "texto": "Asistencia psicológica", "rta": "no" },
+    "rta_3": { "texto": "Turnos médicos", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Qué debe garantizar el Jefe de Administración en la tramitación de sumarios administrativos?",
+    "rta_1": { "texto": "Que sean elevados en tiempo y forma", "rta": "yes" },
+    "rta_2": { "texto": "Que se realicen en formato verbal", "rta": "no" },
+    "rta_3": { "texto": "Que se deriven a la Guardia", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué función cumplen las planillas de presentismo?",
+    "rta_1": { "texto": "Registrar asistencia y justificar ausencias", "rta": "yes" },
+    "rta_2": { "texto": "Asignar móviles de patrullaje", "rta": "no" },
+    "rta_3": { "texto": "Documentar contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué trámites puede iniciar la Oficina de Administración respecto al uniforme?",
+    "rta_1": { "texto": "Solicitudes de cambio o reposición", "rta": "yes" },
+    "rta_2": { "texto": "Control de uso diario", "rta": "no" },
+    "rta_3": { "texto": "Entrega de chalecos balísticos", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué documento debe utilizarse para comunicar novedades administrativas?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de novedades de guardia", "rta": "no" },
+    "rta_3": { "texto": "Acta de detención", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué relación tiene la Oficina de Administración con los planes de tiro?",
+    "rta_1": { "texto": "Tramitar inscripciones y autorizaciones", "rta": "yes" },
+    "rta_2": { "texto": "Coordinar directamente las prácticas", "rta": "no" },
+    "rta_3": { "texto": "Supervisar el polígono de tiro", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué tipo de informes debe confeccionar la Oficina de Administración?",
+    "rta_1": { "texto": "Informes administrativos de personal", "rta": "yes" },
+    "rta_2": { "texto": "Informes de patrullaje", "rta": "no" },
+    "rta_3": { "texto": "Informes judiciales", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué principio debe guiar la actuación del Jefe de Administración?",
+    "rta_1": { "texto": "Orden y formalidad administrativa", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez operativa en la calle", "rta": "no" },
+    "rta_3": { "texto": "Disciplina militar estricta", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué debe hacer el Jefe de Administración cuando recibe un requerimiento superior?",
+    "rta_1": { "texto": "Cursarlo con conocimiento del Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Resolverlo sin notificar", "rta": "no" },
+    "rta_3": { "texto": "Delegarlo en Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué recurso administrativo gestiona la Oficina respecto a retiros voluntarios?",
+    "rta_1": { "texto": "La solicitud formal de retiro", "rta": "yes" },
+    "rta_2": { "texto": "El pase inmediato a disponibilidad", "rta": "no" },
+    "rta_3": { "texto": "La baja disciplinaria", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué documento es obligatorio para notificar cambios de horario al personal?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de sumarios", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué responsabilidad tiene la Oficina de Administración respecto a beneficios del personal?",
+    "rta_1": { "texto": "Gestionar y tramitar los beneficios solicitados", "rta": "yes" },
+    "rta_2": { "texto": "Asignarlos directamente", "rta": "no" },
+    "rta_3": { "texto": "Supervisar su uso", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué función cumple la Oficina de Administración en materia de comunicación oficial?",
+    "rta_1": { "texto": "Canalizar los requerimientos administrativos", "rta": "yes" },
+    "rta_2": { "texto": "Atender al público denunciante", "rta": "no" },
+    "rta_3": { "texto": "Coordinar patrullajes externos", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué debe garantizar la Oficina de Administración respecto a presentismo?",
+    "rta_1": { "texto": "Que se registren todas las asistencias", "rta": "yes" },
+    "rta_2": { "texto": "Que todos asistan a operativos externos", "rta": "no" },
+    "rta_3": { "texto": "Que se documenten contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué trámite administrativo corresponde ante un sumario?",
+    "rta_1": { "texto": "Tramitarlo y elevarlo a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlo a Logística", "rta": "no" },
+    "rta_3": { "texto": "Resolverlo en guardia", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué finalidad tiene la confección de órdenes internas?",
+    "rta_1": { "texto": "Informar servicios y novedades obligatorias", "rta": "yes" },
+    "rta_2": { "texto": "Notificar allanamientos", "rta": "no" },
+    "rta_3": { "texto": "Registrar secuestros", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué debe hacer la Oficina de Administración con los reclamos administrativos?",
+    "rta_1": { "texto": "Tramitarlos y elevarlos a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Ignorarlos si no son urgentes", "rta": "no" },
+    "rta_3": { "texto": "Derivarlos a Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué documento debe archivarse obligatoriamente en la Oficina de Administración?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Actas de detención", "rta": "no" },
+    "rta_3": { "texto": "Novedades de calle", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Quién supervisa directamente al Jefe de Administración?",
+    "rta_1": { "texto": "El Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Calle", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué trámite corresponde realizar al personal que solicita pase a otra dependencia?",
+    "rta_1": { "texto": "Gestión administrativa ante la Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Registro en el libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Comunicación verbal al jefe de calle", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué información debe contener la orden interna?",
+    "rta_1": { "texto": "Servicios, novedades y disposiciones de superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Novedades del patrullaje externo", "rta": "no" },
+    "rta_3": { "texto": "Detenciones realizadas en turno", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué trámite debe iniciar la Oficina de Administración ante una licencia médica?",
+    "rta_1": { "texto": "Registrar y elevar la documentación correspondiente", "rta": "yes" },
+    "rta_2": { "texto": "Notificar a la Fiscalía", "rta": "no" },
+    "rta_3": { "texto": "Asentar en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Cuál es la finalidad del control de presentismo?",
+    "rta_1": { "texto": "Garantizar la asistencia y cumplimiento del personal", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar el servicio de calle", "rta": "no" },
+    "rta_3": { "texto": "Registrar denuncias del público", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué documento formaliza el inicio de un sumario administrativo?",
+    "rta_1": { "texto": "Actuación administrativa", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Parte de novedades", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué debe hacer el Jefe de Administración ante un requerimiento urgente?",
+    "rta_1": { "texto": "Cursarlo de inmediato con conocimiento del jefe de dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlo a judiciales", "rta": "no" },
+    "rta_3": { "texto": "Esperar la orden de calle", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué trámite gestiona la Oficina respecto al seguro de vida del personal?",
+    "rta_1": { "texto": "La solicitud y actualización del mismo", "rta": "yes" },
+    "rta_2": { "texto": "El pago directo", "rta": "no" },
+    "rta_3": { "texto": "La baja automática", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué documento se utiliza para notificar novedades administrativas urgentes?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Acta judicial", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Qué trámite debe iniciar la Oficina de Administración para gestionar becas?",
+    "rta_1": { "texto": "Elevar la solicitud formal a superioridad", "rta": "yes" },
+    "rta_2": { "texto": "Asentar en libro de novedades", "rta": "no" },
+    "rta_3": { "texto": "Derivar al jefe de calle", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué documento respalda los movimientos de personal dentro de la dependencia?",
+    "rta_1": { "texto": "Órdenes internas", "rta": "yes" },
+    "rta_2": { "texto": "Libro de sumarios", "rta": "no" },
+    "rta_3": { "texto": "Acta de detención", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Qué responsabilidad tiene la Oficina de Administración respecto a ascensos?",
+    "rta_1": { "texto": "Tramitar la documentación y requisitos", "rta": "yes" },
+    "rta_2": { "texto": "Decidir los ascensos directamente", "rta": "no" },
+    "rta_3": { "texto": "Delegar en judiciales", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué trámite administrativo corresponde a un traslado disciplinario?",
+    "rta_1": { "texto": "Gestionarlo en la Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Asentar en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Delegar en jefe de servicio", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué debe garantizar el Jefe de Administración con las órdenes internas?",
+    "rta_1": { "texto": "Que sean claras, precisas y comunicadas", "rta": "yes" },
+    "rta_2": { "texto": "Que incluyan patrullajes externos", "rta": "no" },
+    "rta_3": { "texto": "Que registren delitos transferidos", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué responsabilidad tiene la Oficina respecto al régimen disciplinario?",
+    "rta_1": { "texto": "Tramitar sanciones y sumarios administrativos", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar sanciones directas", "rta": "no" },
+    "rta_3": { "texto": "Resolver contravenciones", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿Qué trámite se realiza ante la renuncia de un efectivo?",
+    "rta_1": { "texto": "Confección y elevación de la renuncia formal", "rta": "yes" },
+    "rta_2": { "texto": "Registro en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Notificación verbal al jefe de calle", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué principio guía el accionar de la Oficina de Administración?",
+    "rta_1": { "texto": "Legalidad y transparencia", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez operativa en calle", "rta": "no" },
+    "rta_3": { "texto": "Disciplina coercitiva", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué tipo de comunicaciones debe centralizar la Oficina de Administración?",
+    "rta_1": { "texto": "Las administrativas internas", "rta": "yes" },
+    "rta_2": { "texto": "Las policiales judiciales", "rta": "no" },
+    "rta_3": { "texto": "Las de patrullaje", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué trámite debe iniciarse ante el fallecimiento de un efectivo?",
+    "rta_1": { "texto": "Gestión administrativa de beneficios y notificaciones", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Asentarlo en libro de novedades de calle", "rta": "no" }
+  }
+]

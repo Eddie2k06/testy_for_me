@@ -1,0 +1,1402 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Qué sistema procesal rige en la Ciudad Autónoma de Buenos Aires?",
+    "rta_1": { "texto": "Sistema inquisitivo", "rta": "no" },
+    "rta_2": { "texto": "Sistema acusatorio", "rta": "yes" },
+    "rta_3": { "texto": "Sistema mixto puro", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "Según el CPP CABA, ¿qué artículo regula la flagrancia?",
+    "rta_1": { "texto": "Artículo 184", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 93", "rta": "no" },
+    "rta_3": { "texto": "Artículo 15", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Qué autoridad puede ordenar la detención en casos de flagrancia en CABA?",
+    "rta_1": { "texto": "Fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Defensor oficial", "rta": "no" },
+    "rta_3": { "texto": "Oficial de servicio", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Qué artículo del CPP CABA regula la consulta judicial por detenciones?",
+    "rta_1": { "texto": "Artículo 93", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 120", "rta": "no" },
+    "rta_3": { "texto": "Artículo 70", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Cuál es el plazo máximo para comunicar la detención al fiscal en CABA?",
+    "rta_1": { "texto": "1 hora", "rta": "yes" },
+    "rta_2": { "texto": "6 horas", "rta": "no" },
+    "rta_3": { "texto": "24 horas", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "En Nación, ¿qué sistema procesal se aplica actualmente?",
+    "rta_1": { "texto": "Mixto e inquisitivo", "rta": "yes" },
+    "rta_2": { "texto": "Acusatorio pleno", "rta": "no" },
+    "rta_3": { "texto": "Oral adversarial", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué artículo del CPP CABA regula la facultad del fiscal de ordenar interrogatorios?",
+    "rta_1": { "texto": "Artículo 126", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 45", "rta": "no" },
+    "rta_3": { "texto": "Artículo 210", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué diferencia existe entre declaración testimonial e indagatoria?",
+    "rta_1": { "texto": "La testimonial la realiza un damnificado o testigo y la indagatoria el imputado", "rta": "yes" },
+    "rta_2": { "texto": "La testimonial es escrita y la indagatoria oral", "rta": "no" },
+    "rta_3": { "texto": "Ambas son idénticas", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿En qué casos el testigo puede ser reemplazado en juicio oral según CPP CABA?",
+    "rta_1": { "texto": "Cuando existen declaraciones previas registradas", "rta": "yes" },
+    "rta_2": { "texto": "Cuando el juez lo decide arbitrariamente", "rta": "no" },
+    "rta_3": { "texto": "Nunca se permite el reemplazo", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Qué plazo existe para informar al juzgado sobre una detención según CPP Nación?",
+    "rta_1": { "texto": "De 6 a 10 horas", "rta": "yes" },
+    "rta_2": { "texto": "1 hora", "rta": "no" },
+    "rta_3": { "texto": "24 horas", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué artículo del CPP Nación establece las indagatorias del imputado?",
+    "rta_1": { "texto": "Artículo 294", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 120", "rta": "no" },
+    "rta_3": { "texto": "Artículo 50", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Qué principio rige en el uso de la fuerza por parte de la policía en CABA?",
+    "rta_1": { "texto": "Gradualidad", "rta": "yes" },
+    "rta_2": { "texto": "Inmediatez", "rta": "no" },
+    "rta_3": { "texto": "Arbitrariedad", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué tipo de delitos requieren instancia privada en CABA?",
+    "rta_1": { "texto": "Calumnias e injurias", "rta": "yes" },
+    "rta_2": { "texto": "Robo con armas", "rta": "no" },
+    "rta_3": { "texto": "Homicidio", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué documento debe labrar la policía al recibir una denuncia de lesiones leves (art. 89)?",
+    "rta_1": { "texto": "Acta de denuncia y consulta fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Solo anotación en guardia", "rta": "no" },
+    "rta_3": { "texto": "Acta administrativa interna", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Quién puede ordenar un allanamiento en CABA?",
+    "rta_1": { "texto": "El juez competente", "rta": "yes" },
+    "rta_2": { "texto": "El oficial jefe de dependencia", "rta": "no" },
+    "rta_3": { "texto": "El denunciante", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué artículo del CPP CABA regula las medidas de coerción?",
+    "rta_1": { "texto": "Artículo 180", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 57", "rta": "no" },
+    "rta_3": { "texto": "Artículo 300", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué diferencia existe entre delito doloso y culposo?",
+    "rta_1": { "texto": "El doloso implica intención, el culposo negligencia o imprudencia", "rta": "yes" },
+    "rta_2": { "texto": "El culposo es más grave que el doloso", "rta": "no" },
+    "rta_3": { "texto": "Ambos son idénticos", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué autoridad conduce la investigación penal en CABA?",
+    "rta_1": { "texto": "El fiscal", "rta": "yes" },
+    "rta_2": { "texto": "El juez de instrucción", "rta": "no" },
+    "rta_3": { "texto": "La policía", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Cuál es la finalidad de la declaración indagatoria?",
+    "rta_1": { "texto": "Garantizar el derecho de defensa del imputado", "rta": "yes" },
+    "rta_2": { "texto": "Recabar pruebas contra el testigo", "rta": "no" },
+    "rta_3": { "texto": "Formalizar la denuncia", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué artículo del CPP CABA regula los plazos de detención policial?",
+    "rta_1": { "texto": "Artículo 90", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 10", "rta": "no" },
+    "rta_3": { "texto": "Artículo 220", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Qué documento se labra al trasladar a un detenido a la alcaldía?",
+    "rta_1": { "texto": "Acta de entrega de detenido", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Oficio de allanamiento", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué significa el principio de oportunidad en materia procesal?",
+    "rta_1": { "texto": "Permitir al fiscal no impulsar causas menores", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar penas más duras", "rta": "no" },
+    "rta_3": { "texto": "Excluir pruebas ilegales", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué diferencia existe entre un acta de secuestro y un acta de hallazgo?",
+    "rta_1": { "texto": "El secuestro implica orden judicial, el hallazgo un descubrimiento casual", "rta": "yes" },
+    "rta_2": { "texto": "Ambos son idénticos", "rta": "no" },
+    "rta_3": { "texto": "El hallazgo siempre requiere fiscal", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué principio debe guiar la actuación policial en investigación criminal?",
+    "rta_1": { "texto": "Legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Arbitrariedad", "rta": "no" },
+    "rta_3": { "texto": "Rapidez sin control", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué documento se elabora cuando se entrega la dependencia policial?",
+    "rta_1": { "texto": "Acta de entrega de dependencia", "rta": "yes" },
+    "rta_2": { "texto": "Informe de novedades", "rta": "no" },
+    "rta_3": { "texto": "Acta de guardia", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué artículo del CPP CABA regula la cadena de custodia?",
+    "rta_1": { "texto": "Artículo 205", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 70", "rta": "no" },
+    "rta_3": { "texto": "Artículo 120", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Qué medida se aplica en caso de delitos de violencia de género?",
+    "rta_1": { "texto": "Aplicación de protocolos específicos de género", "rta": "yes" },
+    "rta_2": { "texto": "Remisión automática a contravenciones", "rta": "no" },
+    "rta_3": { "texto": "Ninguna medida especial", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué diferencia existe entre un delito de acción pública y uno de acción privada?",
+    "rta_1": { "texto": "En público el fiscal investiga de oficio, en privado requiere denuncia de la víctima", "rta": "yes" },
+    "rta_2": { "texto": "En privado se investigan delitos graves", "rta": "no" },
+    "rta_3": { "texto": "Ambos requieren denuncia de la víctima", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué principio guía la proporcionalidad en la aplicación de sanciones?",
+    "rta_1": { "texto": "Responsabilidad", "rta": "yes" },
+    "rta_2": { "texto": "Inmediatez", "rta": "no" },
+    "rta_3": { "texto": "Facilidad", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué órgano es competente en CABA para entender en contravenciones?",
+    "rta_1": { "texto": "Juzgados de faltas", "rta": "yes" },
+    "rta_2": { "texto": "Fiscalía nacional", "rta": "no" },
+    "rta_3": { "texto": "Defensoría pública", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Cuál es el principio rector del proceso penal en la CABA?",
+    "rta_1": { "texto": "Legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Arbitrariedad", "rta": "no" },
+    "rta_3": { "texto": "Conveniencia", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Quién controla la legalidad de las detenciones en CABA?",
+    "rta_1": { "texto": "El juez competente", "rta": "yes" },
+    "rta_2": { "texto": "El comisario", "rta": "no" },
+    "rta_3": { "texto": "El denunciante", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "En Nación, ¿qué autoridad dirige la instrucción penal?",
+    "rta_1": { "texto": "El juez de instrucción", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "La policía", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "En CABA, ¿quién conduce la investigación penal preparatoria?",
+    "rta_1": { "texto": "El fiscal", "rta": "yes" },
+    "rta_2": { "texto": "El juez de instrucción", "rta": "no" },
+    "rta_3": { "texto": "El jefe de dependencia", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Qué artículo del CPP CABA regula las medidas de coerción personal?",
+    "rta_1": { "texto": "Artículo 180", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 50", "rta": "no" },
+    "rta_3": { "texto": "Artículo 300", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué ocurre si un testigo no puede declarar en juicio por impedimento físico?",
+    "rta_1": { "texto": "Se puede incorporar su testimonio previo registrado", "rta": "yes" },
+    "rta_2": { "texto": "El juicio se suspende indefinidamente", "rta": "no" },
+    "rta_3": { "texto": "Se invalida toda la causa", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "En Nación, ¿qué artículo regula el auto de procesamiento?",
+    "rta_1": { "texto": "Artículo 306", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 210", "rta": "no" },
+    "rta_3": { "texto": "Artículo 70", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué documento se confecciona al recibir un menor extraviado en dependencia?",
+    "rta_1": { "texto": "Acta de denuncia y aviso inmediato a la autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Nota interna", "rta": "no" },
+    "rta_3": { "texto": "Constancia de libro de guardia únicamente", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué principio garantiza que el imputado declare libremente sin coacción?",
+    "rta_1": { "texto": "Voluntariedad", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Imparcialidad", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "En CABA, ¿qué artículo regula la flagrancia?",
+    "rta_1": { "texto": "Artículo 184", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 100", "rta": "no" },
+    "rta_3": { "texto": "Artículo 220", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué diferencia clave existe entre el CPP Nación y el CPP CABA?",
+    "rta_1": { "texto": "En Nación instruye el juez, en CABA el fiscal", "rta": "yes" },
+    "rta_2": { "texto": "En CABA no existe flagrancia", "rta": "no" },
+    "rta_3": { "texto": "En Nación no hay jueces de garantías", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué documento se utiliza para formalizar la aprehensión?",
+    "rta_1": { "texto": "Acta de detención", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Informe interno", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué órgano es competente para causas contravencionales en CABA?",
+    "rta_1": { "texto": "Fiscalías PCyF", "rta": "yes" },
+    "rta_2": { "texto": "Juzgados federales", "rta": "no" },
+    "rta_3": { "texto": "Defensorías civiles", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué artículo del CPP Nación regula las indagatorias?",
+    "rta_1": { "texto": "Artículo 294", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 184", "rta": "no" },
+    "rta_3": { "texto": "Artículo 89", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué principio asegura la igualdad de las partes en juicio?",
+    "rta_1": { "texto": "Contradicción", "rta": "yes" },
+    "rta_2": { "texto": "Precedencia", "rta": "no" },
+    "rta_3": { "texto": "Armonía", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué plazo máximo de incomunicación prevé el CPP Nación?",
+    "rta_1": { "texto": "24 horas prorrogables", "rta": "yes" },
+    "rta_2": { "texto": "48 horas fijas", "rta": "no" },
+    "rta_3": { "texto": "72 horas prorrogables", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué documento se labra al secuestrar un vehículo en causa penal?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Informe de novedades", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué medida precautoria puede disponer un fiscal ante flagrancia?",
+    "rta_1": { "texto": "Aprehensión inmediata", "rta": "yes" },
+    "rta_2": { "texto": "Archivo automático de la causa", "rta": "no" },
+    "rta_3": { "texto": "Delegar en un testigo", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué principio rige en la valoración de la prueba?",
+    "rta_1": { "texto": "Libre convicción del juez", "rta": "yes" },
+    "rta_2": { "texto": "Precedencia jerárquica de pruebas", "rta": "no" },
+    "rta_3": { "texto": "Valor fijo de cada prueba", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué autoridad judicial resuelve sobre la prisión preventiva?",
+    "rta_1": { "texto": "El juez de garantías", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "El jefe de dependencia", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué significa que el proceso sea acusatorio?",
+    "rta_1": { "texto": "La acusación y el juzgamiento están en órganos distintos", "rta": "yes" },
+    "rta_2": { "texto": "El juez investiga y acusa", "rta": "no" },
+    "rta_3": { "texto": "El imputado no tiene defensa", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué tipo de delitos investiga la justicia federal?",
+    "rta_1": { "texto": "Delitos interjurisdiccionales o federales", "rta": "yes" },
+    "rta_2": { "texto": "Delitos contravencionales", "rta": "no" },
+    "rta_3": { "texto": "Faltas de tránsito", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué artículo del CPP CABA regula la declaración testimonial?",
+    "rta_1": { "texto": "Artículo 126", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 210", "rta": "no" },
+    "rta_3": { "texto": "Artículo 300", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué ocurre si un denunciante abandona la comisaría tras relatar un hecho?",
+    "rta_1": { "texto": "Se consigna en libro y se consulta fiscal", "rta": "yes" },
+    "rta_2": { "texto": "No se realiza ninguna acción", "rta": "no" },
+    "rta_3": { "texto": "Se lo retiene obligatoriamente", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué principio establece que nadie puede ser juzgado dos veces por el mismo hecho?",
+    "rta_1": { "texto": "Ne bis in idem", "rta": "yes" },
+    "rta_2": { "texto": "Legalidad", "rta": "no" },
+    "rta_3": { "texto": "Oficialidad", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué artículo del CPP Nación regula el sobreseimiento?",
+    "rta_1": { "texto": "Artículo 336", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 210", "rta": "no" },
+    "rta_3": { "texto": "Artículo 400", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué medida puede adoptar la policía frente a un delito flagrante?",
+    "rta_1": { "texto": "Aprehender y comunicar al fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Concluir la causa por sí misma", "rta": "no" },
+    "rta_3": { "texto": "Juzgar directamente al imputado", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué artículo del CPP CABA regula el habeas corpus?",
+    "rta_1": { "texto": "Artículo 13", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 306", "rta": "no" },
+    "rta_3": { "texto": "Artículo 205", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué autoridad puede ordenar medidas de investigación como escuchas telefónicas?",
+    "rta_1": { "texto": "El juez competente", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal por sí mismo", "rta": "no" },
+    "rta_3": { "texto": "El jefe de servicio", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué documento formaliza la finalización de la etapa de instrucción?",
+    "rta_1": { "texto": "Auto de elevación a juicio", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Acta de entrega de dependencia", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "En el proceso penal nacional, ¿qué principio asegura que nadie puede ser obligado a declarar contra sí mismo?",
+    "rta_1": { "texto": "Inimputabilidad", "rta": "no" },
+    "rta_2": { "texto": "Autoincriminación prohibida", "rta": "yes" },
+    "rta_3": { "texto": "Oficialidad", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué artículo del CPP Nación regula la declaración testimonial?",
+    "rta_1": { "texto": "Artículo 242", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 180", "rta": "no" },
+    "rta_3": { "texto": "Artículo 50", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "En CABA, ¿quién decide sobre la prisión preventiva?",
+    "rta_1": { "texto": "El juez de garantías", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "El jefe de servicios", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Cuál es la función del defensor oficial en el proceso penal?",
+    "rta_1": { "texto": "Asegurar la defensa técnica del imputado", "rta": "yes" },
+    "rta_2": { "texto": "Reemplazar al juez", "rta": "no" },
+    "rta_3": { "texto": "Llevar adelante la acusación", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "En Nación, ¿qué documento se confecciona al iniciar una investigación por denuncia?",
+    "rta_1": { "texto": "Sumario", "rta": "yes" },
+    "rta_2": { "texto": "Constancia simple", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstancial", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué artículo del CPP Nación establece las facultades de la policía como auxiliar de la justicia?",
+    "rta_1": { "texto": "Artículo 184", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 300", "rta": "no" },
+    "rta_3": { "texto": "Artículo 13", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué documento corresponde labrar cuando se secuestran armas en una investigación?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué significa la oralidad en el proceso penal?",
+    "rta_1": { "texto": "Que los actos procesales relevantes se realizan de manera verbal en audiencias", "rta": "yes" },
+    "rta_2": { "texto": "Que no se dejan registros escritos", "rta": "no" },
+    "rta_3": { "texto": "Que las pruebas son únicamente documentales", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿En qué etapa procesal se dicta el auto de elevación a juicio?",
+    "rta_1": { "texto": "Al finalizar la instrucción", "rta": "yes" },
+    "rta_2": { "texto": "Al iniciar la investigación", "rta": "no" },
+    "rta_3": { "texto": "Durante el debate oral", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué autoridad resuelve sobre las medidas cautelares personales en Nación?",
+    "rta_1": { "texto": "El juez", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "El denunciante", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué significa la contradicción en el proceso penal?",
+    "rta_1": { "texto": "La posibilidad de las partes de controlar y oponerse a la prueba", "rta": "yes" },
+    "rta_2": { "texto": "La obligación del juez de acusar", "rta": "no" },
+    "rta_3": { "texto": "El deber policial de detener", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué artículo del CPP CABA regula la flagrancia?",
+    "rta_1": { "texto": "Artículo 184", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 210", "rta": "no" },
+    "rta_3": { "texto": "Artículo 50", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué documento se labra cuando una persona presta declaración indagatoria?",
+    "rta_1": { "texto": "Acta de indagatoria", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué principio garantiza que el juez no sea parte interesada en la causa?",
+    "rta_1": { "texto": "Imparcialidad", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Economía procesal", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué significa el principio de legalidad en la persecución penal?",
+    "rta_1": { "texto": "Que el Estado debe perseguir todos los delitos que conozca", "rta": "yes" },
+    "rta_2": { "texto": "Que solo se persiguen los delitos graves", "rta": "no" },
+    "rta_3": { "texto": "Que el fiscal decide libremente qué investigar", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿En qué artículo del CPP Nación se regula la prisión preventiva?",
+    "rta_1": { "texto": "Artículo 319", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 205", "rta": "no" },
+    "rta_3": { "texto": "Artículo 50", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué documento corresponde labrar al entregar un detenido a la alcaldía?",
+    "rta_1": { "texto": "Acta de entrega", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué principio rige la admisión de pruebas en juicio?",
+    "rta_1": { "texto": "Pertinencia y utilidad", "rta": "yes" },
+    "rta_2": { "texto": "Precedencia", "rta": "no" },
+    "rta_3": { "texto": "Jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué artículo del CPP CABA regula la declaración del imputado?",
+    "rta_1": { "texto": "Artículo 120", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 250", "rta": "no" },
+    "rta_3": { "texto": "Artículo 300", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué documento corresponde labrar al inicio de un allanamiento?",
+    "rta_1": { "texto": "Acta de allanamiento", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Acta de infracción", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué principio asegura que el imputado pueda defenderse en todas las etapas?",
+    "rta_1": { "texto": "Defensa en juicio", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué artículo del CPP Nación regula la clausura de instrucción?",
+    "rta_1": { "texto": "Artículo 351", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 220", "rta": "no" },
+    "rta_3": { "texto": "Artículo 400", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué principio establece que la investigación debe hacerse en un plazo razonable?",
+    "rta_1": { "texto": "Celeridad procesal", "rta": "yes" },
+    "rta_2": { "texto": "Contradicción", "rta": "no" },
+    "rta_3": { "texto": "Imparcialidad", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué documento se utiliza para formalizar el inicio de una causa penal?",
+    "rta_1": { "texto": "Acta de denuncia", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Informe de novedades", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué órgano resuelve los recursos de apelación en el proceso penal nacional?",
+    "rta_1": { "texto": "La Cámara de Apelaciones", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal general", "rta": "no" },
+    "rta_3": { "texto": "La Defensoría", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué principio procesal prohíbe la utilización de pruebas obtenidas ilegalmente?",
+    "rta_1": { "texto": "Exclusión probatoria", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Imparcialidad", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué artículo del CPP CABA regula el procedimiento abreviado?",
+    "rta_1": { "texto": "Artículo 281", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 100", "rta": "no" },
+    "rta_3": { "texto": "Artículo 150", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué documento corresponde labrar cuando se secuestran drogas ilegales?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta de infracción", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué autoridad es competente en los delitos de acción privada?",
+    "rta_1": { "texto": "El juez a instancia de parte", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal de oficio", "rta": "no" },
+    "rta_3": { "texto": "La policía de prevención", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué principio establece que todo imputado se presume inocente hasta sentencia firme?",
+    "rta_1": { "texto": "Presunción de inocencia", "rta": "yes" },
+    "rta_2": { "texto": "Imparcialidad", "rta": "no" },
+    "rta_3": { "texto": "Celeridad", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "En el CPPN, ¿qué artículo regula la declaración indagatoria?",
+    "rta_1": { "texto": "Artículo 294", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 184", "rta": "no" },
+    "rta_3": { "texto": "Artículo 350", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "En CABA, ¿qué autoridad puede ordenar un allanamiento?",
+    "rta_1": { "texto": "El juez", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "El jefe de servicios", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Qué documento corresponde labrar al recibir la denuncia de un hecho?",
+    "rta_1": { "texto": "Acta de denuncia", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué principio procesal garantiza que las partes tengan acceso a las pruebas?",
+    "rta_1": { "texto": "Publicidad", "rta": "yes" },
+    "rta_2": { "texto": "Economía procesal", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "En el CPP CABA, ¿qué artículo regula la consulta judicial?",
+    "rta_1": { "texto": "Artículo 93", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 50", "rta": "no" },
+    "rta_3": { "texto": "Artículo 120", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "En Nación, ¿quién puede ordenar la detención en caso de flagrancia?",
+    "rta_1": { "texto": "La policía", "rta": "yes" },
+    "rta_2": { "texto": "El defensor oficial", "rta": "no" },
+    "rta_3": { "texto": "El denunciante", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿Qué documento se confecciona cuando un testigo presta declaración?",
+    "rta_1": { "texto": "Acta testimonial", "rta": "yes" },
+    "rta_2": { "texto": "Acta indagatoria", "rta": "no" },
+    "rta_3": { "texto": "Acta contravencional", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué principio asegura que el proceso penal debe ser rápido y eficiente?",
+    "rta_1": { "texto": "Celeridad procesal", "rta": "yes" },
+    "rta_2": { "texto": "Preclusión", "rta": "no" },
+    "rta_3": { "texto": "Inmediación", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué significa la inmediación en el proceso penal?",
+    "rta_1": { "texto": "Que el juez debe estar presente en las audiencias y contacto con las pruebas", "rta": "yes" },
+    "rta_2": { "texto": "Que las actuaciones se envían por escrito", "rta": "no" },
+    "rta_3": { "texto": "Que la fiscalía delega en la policía", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué documento corresponde labrar al realizar una clausura preventiva?",
+    "rta_1": { "texto": "Acta de clausura", "rta": "yes" },
+    "rta_2": { "texto": "Acta de infracción", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 101,
+    "pregunta": "En Nación, ¿qué artículo regula los allanamientos?",
+    "rta_1": { "texto": "Artículo 224", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 93", "rta": "no" },
+    "rta_3": { "texto": "Artículo 300", "rta": "no" }
+  },
+  {
+    "idq": 102,
+    "pregunta": "¿Qué principio establece que los jueces solo pueden actuar conforme a la ley?",
+    "rta_1": { "texto": "Legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Contradicción", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 103,
+    "pregunta": "¿Qué documento se utiliza para registrar la detención de una persona?",
+    "rta_1": { "texto": "Acta de detención", "rta": "yes" },
+    "rta_2": { "texto": "Acta de infracción", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 104,
+    "pregunta": "En CABA, ¿qué artículo regula la prueba anticipada?",
+    "rta_1": { "texto": "Artículo 145", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 93", "rta": "no" },
+    "rta_3": { "texto": "Artículo 310", "rta": "no" }
+  },
+  {
+    "idq": 105,
+    "pregunta": "¿Qué significa la preclusión procesal?",
+    "rta_1": { "texto": "Que las etapas procesales no se pueden reabrir una vez concluidas", "rta": "yes" },
+    "rta_2": { "texto": "Que las pruebas son públicas", "rta": "no" },
+    "rta_3": { "texto": "Que el imputado no puede defenderse", "rta": "no" }
+  },
+  {
+    "idq": 106,
+    "pregunta": "¿Qué artículo del CPP Nación regula las excarcelaciones?",
+    "rta_1": { "texto": "Artículo 317", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 180", "rta": "no" },
+    "rta_3": { "texto": "Artículo 242", "rta": "no" }
+  },
+  {
+    "idq": 107,
+    "pregunta": "¿Qué documento corresponde confeccionar cuando un menor comete un delito?",
+    "rta_1": { "texto": "Acta de procedimiento con intervención de autoridad competente", "rta": "yes" },
+    "rta_2": { "texto": "Nota interna", "rta": "no" },
+    "rta_3": { "texto": "Acta circunstanciada", "rta": "no" }
+  },
+  {
+    "idq": 108,
+    "pregunta": "¿Qué significa el principio de congruencia en el proceso penal?",
+    "rta_1": { "texto": "Que la sentencia debe respetar los límites de la acusación", "rta": "yes" },
+    "rta_2": { "texto": "Que el juez puede ampliar los hechos libremente", "rta": "no" },
+    "rta_3": { "texto": "Que la policía decide la pena", "rta": "no" }
+  },
+  {
+    "idq": 109,
+    "pregunta": "¿Qué documento se utiliza para formalizar una medida cautelar real?",
+    "rta_1": { "texto": "Acta de embargo o secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta testimonial", "rta": "no" },
+    "rta_3": { "texto": "Informe de novedades", "rta": "no" }
+  },
+  {
+    "idq": 110,
+    "pregunta": "En Nación, ¿qué artículo regula la citación de testigos?",
+    "rta_1": { "texto": "Artículo 242", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 300", "rta": "no" },
+    "rta_3": { "texto": "Artículo 100", "rta": "no" }
+  },
+  {
+    "idq": 111,
+    "pregunta": "¿Qué principio establece que las partes deben tener igualdad de armas en el proceso?",
+    "rta_1": { "texto": "Igualdad procesal", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 112,
+    "pregunta": "¿Qué documento se labra al finalizar una audiencia oral?",
+    "rta_1": { "texto": "Acta de audiencia", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 113,
+    "pregunta": "En el CPP CABA, ¿qué artículo regula el juicio por jurados?",
+    "rta_1": { "texto": "Artículo 346", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 93", "rta": "no" },
+    "rta_3": { "texto": "Artículo 126", "rta": "no" }
+  },
+  {
+    "idq": 114,
+    "pregunta": "¿Qué principio asegura que los jueces no pueden ser desplazados arbitrariamente de una causa?",
+    "rta_1": { "texto": "Juez natural", "rta": "yes" },
+    "rta_2": { "texto": "Contradicción", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 115,
+    "pregunta": "¿Qué documento se confecciona cuando se secuestran estupefacientes?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 116,
+    "pregunta": "En Nación, ¿qué artículo regula las medidas de coerción real?",
+    "rta_1": { "texto": "Artículo 518", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 350", "rta": "no" },
+    "rta_3": { "texto": "Artículo 224", "rta": "no" }
+  },
+  {
+    "idq": 117,
+    "pregunta": "¿Qué principio procesal asegura que el imputado debe ser oído antes de resolver su situación?",
+    "rta_1": { "texto": "Derecho de defensa", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Celeridad", "rta": "no" }
+  },
+  {
+    "idq": 118,
+    "pregunta": "¿Qué documento corresponde labrar al incautar un vehículo?",
+    "rta_1": { "texto": "Acta de secuestro vehicular", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Informe de novedades", "rta": "no" }
+  },
+  {
+    "idq": 119,
+    "pregunta": "¿Qué artículo del CPP Nación regula la citación del imputado?",
+    "rta_1": { "texto": "Artículo 279", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 126", "rta": "no" },
+    "rta_3": { "texto": "Artículo 351", "rta": "no" }
+  },
+  {
+    "idq": 120,
+    "pregunta": "¿Qué principio establece que toda sentencia debe ser fundada en derecho?",
+    "rta_1": { "texto": "Motivación", "rta": "yes" },
+    "rta_2": { "texto": "Contradicción", "rta": "no" },
+    "rta_3": { "texto": "Inmediación", "rta": "no" }
+  },
+  {
+    "idq": 121,
+    "pregunta": "En CABA, ¿qué artículo del CPP regula la flagrancia?",
+    "rta_1": { "texto": "Artículo 146", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 300", "rta": "no" },
+    "rta_3": { "texto": "Artículo 224", "rta": "no" }
+  },
+  {
+    "idq": 122,
+    "pregunta": "En Nación, ¿quién decide sobre la prisión preventiva?",
+    "rta_1": { "texto": "El juez", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal", "rta": "no" },
+    "rta_3": { "texto": "La policía", "rta": "no" }
+  },
+  {
+    "idq": 123,
+    "pregunta": "¿Qué documento debe confeccionarse al realizar una requisa personal?",
+    "rta_1": { "texto": "Acta de requisa", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 124,
+    "pregunta": "¿Qué principio establece que nadie puede ser juzgado dos veces por el mismo hecho?",
+    "rta_1": { "texto": "Ne bis in idem", "rta": "yes" },
+    "rta_2": { "texto": "Congruencia", "rta": "no" },
+    "rta_3": { "texto": "Legalidad", "rta": "no" }
+  },
+  {
+    "idq": 125,
+    "pregunta": "En Nación, ¿qué artículo regula la declaración testimonial?",
+    "rta_1": { "texto": "Artículo 242", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 279", "rta": "no" },
+    "rta_3": { "texto": "Artículo 317", "rta": "no" }
+  },
+  {
+    "idq": 126,
+    "pregunta": "En CABA, ¿qué artículo regula las medidas de coerción personal?",
+    "rta_1": { "texto": "Artículo 185", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 310", "rta": "no" },
+    "rta_3": { "texto": "Artículo 50", "rta": "no" }
+  },
+  {
+    "idq": 127,
+    "pregunta": "¿Qué documento se utiliza para formalizar la entrega de un detenido al juzgado?",
+    "rta_1": { "texto": "Oficio de remisión", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 128,
+    "pregunta": "¿Qué principio procesal establece que el imputado es inocente hasta que se demuestre lo contrario?",
+    "rta_1": { "texto": "Presunción de inocencia", "rta": "yes" },
+    "rta_2": { "texto": "Celeridad procesal", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 129,
+    "pregunta": "En Nación, ¿qué artículo regula la declaración indagatoria?",
+    "rta_1": { "texto": "Artículo 294", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 126", "rta": "no" },
+    "rta_3": { "texto": "Artículo 350", "rta": "no" }
+  },
+  {
+    "idq": 130,
+    "pregunta": "¿Qué documento corresponde labrar al realizar un reconocimiento de objetos?",
+    "rta_1": { "texto": "Acta de reconocimiento", "rta": "yes" },
+    "rta_2": { "texto": "Acta de infracción", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 131,
+    "pregunta": "¿Qué principio establece que las pruebas deben producirse con intervención de las partes?",
+    "rta_1": { "texto": "Contradicción", "rta": "yes" },
+    "rta_2": { "texto": "Legalidad", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 132,
+    "pregunta": "En Nación, ¿qué artículo regula la instrucción del sumario?",
+    "rta_1": { "texto": "Artículo 180", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 279", "rta": "no" }
+  },
+  {
+    "idq": 133,
+    "pregunta": "¿Qué documento se labra al realizar una pericia técnica?",
+    "rta_1": { "texto": "Informe pericial", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 134,
+    "pregunta": "¿Qué principio establece que toda decisión judicial debe estar fundada en prueba?",
+    "rta_1": { "texto": "Fundamentación", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 135,
+    "pregunta": "En CABA, ¿qué artículo regula la apelación de resoluciones?",
+    "rta_1": { "texto": "Artículo 203", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 126", "rta": "no" },
+    "rta_3": { "texto": "Artículo 93", "rta": "no" }
+  },
+  {
+    "idq": 136,
+    "pregunta": "¿Qué documento se utiliza para registrar el ingreso de un detenido a una dependencia?",
+    "rta_1": { "texto": "Libro de guardia", "rta": "yes" },
+    "rta_2": { "texto": "Nota interna", "rta": "no" },
+    "rta_3": { "texto": "Acta testimonial", "rta": "no" }
+  },
+  {
+    "idq": 137,
+    "pregunta": "¿Qué principio establece que la víctima puede participar en el proceso penal?",
+    "rta_1": { "texto": "Tutela judicial efectiva", "rta": "yes" },
+    "rta_2": { "texto": "Congruencia", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 138,
+    "pregunta": "En Nación, ¿qué artículo regula la clausura de la instrucción?",
+    "rta_1": { "texto": "Artículo 350", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 180", "rta": "no" }
+  },
+  {
+    "idq": 139,
+    "pregunta": "¿Qué documento se labra al formalizar la entrega de objetos secuestrados al tribunal?",
+    "rta_1": { "texto": "Acta de entrega", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 140,
+    "pregunta": "¿Qué principio asegura que el imputado tiene derecho a ser asistido por un defensor?",
+    "rta_1": { "texto": "Defensa en juicio", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Inmediación", "rta": "no" }
+  },
+  {
+    "idq": 141,
+    "pregunta": "En Nación, ¿qué artículo regula la prisión preventiva?",
+    "rta_1": { "texto": "Artículo 312", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 242", "rta": "no" },
+    "rta_3": { "texto": "Artículo 126", "rta": "no" }
+  },
+  {
+    "idq": 142,
+    "pregunta": "¿Qué documento corresponde confeccionar cuando se hace un reconocimiento en rueda?",
+    "rta_1": { "texto": "Acta de rueda de reconocimiento", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 143,
+    "pregunta": "¿Qué principio procesal establece que las resoluciones deben ser notificadas a las partes?",
+    "rta_1": { "texto": "Publicidad de los actos", "rta": "yes" },
+    "rta_2": { "texto": "Ne bis in idem", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 144,
+    "pregunta": "En CABA, ¿qué artículo regula la suspensión del juicio a prueba?",
+    "rta_1": { "texto": "Artículo 222", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 126", "rta": "no" },
+    "rta_3": { "texto": "Artículo 346", "rta": "no" }
+  },
+  {
+    "idq": 145,
+    "pregunta": "¿Qué documento corresponde labrar al realizar una inspección ocular?",
+    "rta_1": { "texto": "Acta de inspección", "rta": "yes" },
+    "rta_2": { "texto": "Acta testimonial", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 146,
+    "pregunta": "¿Qué principio asegura que las pruebas obtenidas ilegalmente son nulas?",
+    "rta_1": { "texto": "Exclusión probatoria", "rta": "yes" },
+    "rta_2": { "texto": "Celeridad", "rta": "no" },
+    "rta_3": { "texto": "Contradicción", "rta": "no" }
+  },
+  {
+    "idq": 147,
+    "pregunta": "En Nación, ¿qué artículo regula el sobreseimiento?",
+    "rta_1": { "texto": "Artículo 336", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 294", "rta": "no" },
+    "rta_3": { "texto": "Artículo 350", "rta": "no" }
+  },
+  {
+    "idq": 148,
+    "pregunta": "¿Qué documento corresponde labrar al detener a una persona en flagrancia?",
+    "rta_1": { "texto": "Acta de detención por flagrancia", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 149,
+    "pregunta": "¿Qué principio establece que los jueces deben resolver en un plazo razonable?",
+    "rta_1": { "texto": "Plazo razonable", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 150,
+    "pregunta": "En CABA, ¿qué artículo regula la nulidad de los actos procesales?",
+    "rta_1": { "texto": "Artículo 200", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 146", "rta": "no" },
+    "rta_3": { "texto": "Artículo 346", "rta": "no" }
+  },
+  {
+    "idq": 151,
+    "pregunta": "¿En CABA quién dirige la investigación penal preparatoria?",
+    "rta_1": { "texto": "El fiscal", "rta": "yes" },
+    "rta_2": { "texto": "El juez", "rta": "no" },
+    "rta_3": { "texto": "La policía", "rta": "no" }
+  },
+  {
+    "idq": 152,
+    "pregunta": "En Nación, ¿qué artículo regula el allanamiento domiciliario?",
+    "rta_1": { "texto": "Artículo 224", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 294", "rta": "no" },
+    "rta_3": { "texto": "Artículo 336", "rta": "no" }
+  },
+  {
+    "idq": 153,
+    "pregunta": "¿Qué documento se debe labrar al secuestrar un vehículo?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta de inspección", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 154,
+    "pregunta": "¿Qué principio procesal garantiza que las partes puedan ofrecer pruebas?",
+    "rta_1": { "texto": "Amplitud probatoria", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 155,
+    "pregunta": "En CABA, ¿qué artículo regula la flagrancia?",
+    "rta_1": { "texto": "Artículo 146", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 200", "rta": "no" },
+    "rta_3": { "texto": "Artículo 317", "rta": "no" }
+  },
+  {
+    "idq": 156,
+    "pregunta": "¿Qué documento se labra para formalizar una detención?",
+    "rta_1": { "texto": "Acta de detención", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 157,
+    "pregunta": "¿Qué principio establece que el imputado puede guardar silencio?",
+    "rta_1": { "texto": "Derecho a no autoincriminarse", "rta": "yes" },
+    "rta_2": { "texto": "Tutela judicial", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 158,
+    "pregunta": "En Nación, ¿qué artículo regula el careo?",
+    "rta_1": { "texto": "Artículo 294 bis", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 350", "rta": "no" },
+    "rta_3": { "texto": "Artículo 185", "rta": "no" }
+  },
+  {
+    "idq": 159,
+    "pregunta": "¿Qué documento corresponde labrar al trasladar un detenido?",
+    "rta_1": { "texto": "Acta de traslado", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 160,
+    "pregunta": "¿Qué principio establece que las actuaciones deben ser accesibles a las partes?",
+    "rta_1": { "texto": "Publicidad", "rta": "yes" },
+    "rta_2": { "texto": "Celeridad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 161,
+    "pregunta": "En CABA, ¿qué artículo regula la indagatoria del imputado?",
+    "rta_1": { "texto": "Artículo 126", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 336", "rta": "no" }
+  },
+  {
+    "idq": 162,
+    "pregunta": "¿Qué documento se utiliza para registrar declaraciones de testigos?",
+    "rta_1": { "texto": "Acta testimonial", "rta": "yes" },
+    "rta_2": { "texto": "Acta de inspección", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 163,
+    "pregunta": "¿Qué principio establece que el proceso debe avanzar sin retrocesos innecesarios?",
+    "rta_1": { "texto": "Preclusión", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Legalidad", "rta": "no" }
+  },
+  {
+    "idq": 164,
+    "pregunta": "En Nación, ¿qué artículo regula las medidas de coerción real?",
+    "rta_1": { "texto": "Artículo 23 CP y 518 CPPN", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 350", "rta": "no" },
+    "rta_3": { "texto": "Artículo 180", "rta": "no" }
+  },
+  {
+    "idq": 165,
+    "pregunta": "¿Qué documento se confecciona al realizar un registro domiciliario?",
+    "rta_1": { "texto": "Acta de allanamiento", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Libro de novedades", "rta": "no" }
+  },
+  {
+    "idq": 166,
+    "pregunta": "¿Qué principio asegura que toda medida restrictiva debe estar fundada?",
+    "rta_1": { "texto": "Legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Preclusión", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 167,
+    "pregunta": "En CABA, ¿qué artículo regula las audiencias orales?",
+    "rta_1": { "texto": "Artículo 120", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 224", "rta": "no" },
+    "rta_3": { "texto": "Artículo 350", "rta": "no" }
+  },
+  {
+    "idq": 168,
+    "pregunta": "¿Qué documento corresponde labrar al recibir objetos hallados?",
+    "rta_1": { "texto": "Acta de hallazgo", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 169,
+    "pregunta": "¿Qué principio establece que los jueces deben decidir dentro de la acusación fiscal?",
+    "rta_1": { "texto": "Congruencia", "rta": "yes" },
+    "rta_2": { "texto": "Ne bis in idem", "rta": "no" },
+    "rta_3": { "texto": "Tutela judicial", "rta": "no" }
+  },
+  {
+    "idq": 170,
+    "pregunta": "En Nación, ¿qué artículo regula la apelación?",
+    "rta_1": { "texto": "Artículo 442", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 224", "rta": "no" },
+    "rta_3": { "texto": "Artículo 185", "rta": "no" }
+  },
+  {
+    "idq": 171,
+    "pregunta": "¿Qué documento corresponde labrar al tomar una denuncia?",
+    "rta_1": { "texto": "Acta de denuncia", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 172,
+    "pregunta": "¿Qué principio asegura que el proceso penal respete derechos fundamentales?",
+    "rta_1": { "texto": "Debido proceso", "rta": "yes" },
+    "rta_2": { "texto": "Preclusión", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 173,
+    "pregunta": "En CABA, ¿qué artículo regula la recusación de jueces?",
+    "rta_1": { "texto": "Artículo 56", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 336", "rta": "no" }
+  },
+  {
+    "idq": 174,
+    "pregunta": "¿Qué documento se labra al recibir la libertad de un detenido?",
+    "rta_1": { "texto": "Acta de libertad", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 175,
+    "pregunta": "¿Qué principio asegura que el imputado pueda recurrir resoluciones en su contra?",
+    "rta_1": { "texto": "Doble instancia", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 176,
+    "pregunta": "En Nación, ¿qué artículo regula el recurso de casación?",
+    "rta_1": { "texto": "Artículo 456", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 146", "rta": "no" }
+  },
+  {
+    "idq": 177,
+    "pregunta": "¿Qué documento corresponde labrar al formalizar una clausura preventiva?",
+    "rta_1": { "texto": "Acta de clausura", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 178,
+    "pregunta": "¿Qué principio asegura que nadie puede ser condenado sin juicio previo?",
+    "rta_1": { "texto": "Legalidad penal", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 179,
+    "pregunta": "En CABA, ¿qué artículo regula las medidas cautelares?",
+    "rta_1": { "texto": "Artículo 185", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 350", "rta": "no" }
+  },
+  {
+    "idq": 180,
+    "pregunta": "¿Qué documento corresponde labrar al realizar un control de alcoholemia?",
+    "rta_1": { "texto": "Acta de alcoholemia", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 181,
+    "pregunta": "¿Qué principio asegura que los actos procesales sean comprensibles para las partes?",
+    "rta_1": { "texto": "Claridad", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 182,
+    "pregunta": "En Nación, ¿qué artículo regula la libertad durante el proceso?",
+    "rta_1": { "texto": "Artículo 316", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 294", "rta": "no" },
+    "rta_3": { "texto": "Artículo 126", "rta": "no" }
+  },
+  {
+    "idq": 183,
+    "pregunta": "¿Qué documento se confecciona al recibir declaraciones espontáneas?",
+    "rta_1": { "texto": "Acta circunstanciada", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 184,
+    "pregunta": "¿Qué principio asegura que la víctima pueda ser oída durante el proceso?",
+    "rta_1": { "texto": "Derecho de participación de la víctima", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Oficiosidad", "rta": "no" }
+  },
+  {
+    "idq": 185,
+    "pregunta": "En CABA, ¿qué artículo regula la audiencia de juicio?",
+    "rta_1": { "texto": "Artículo 380", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 224", "rta": "no" },
+    "rta_3": { "texto": "Artículo 126", "rta": "no" }
+  },
+  {
+    "idq": 186,
+    "pregunta": "¿Qué documento corresponde labrar al comunicar una medida cautelar a un imputado?",
+    "rta_1": { "texto": "Acta de notificación", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 187,
+    "pregunta": "¿Qué principio asegura que las pruebas deben producirse ante el juez?",
+    "rta_1": { "texto": "Inmediación", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 188,
+    "pregunta": "En Nación, ¿qué artículo regula el auto de procesamiento?",
+    "rta_1": { "texto": "Artículo 306", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317", "rta": "no" },
+    "rta_3": { "texto": "Artículo 294", "rta": "no" }
+  },
+  {
+    "idq": 189,
+    "pregunta": "¿Qué documento corresponde labrar al entregar un oficio judicial?",
+    "rta_1": { "texto": "Constancia de entrega de oficio", "rta": "yes" },
+    "rta_2": { "texto": "Acta contravencional", "rta": "no" },
+    "rta_3": { "texto": "Nota de servicio", "rta": "no" }
+  },
+  {
+    "idq": 190,
+    "pregunta": "¿Qué principio procesal asegura que nadie puede ser juzgado dos veces por el mismo hecho?",
+    "rta_1": { "texto": "Ne bis in idem", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Congruencia", "rta": "no" }
+  },
+  {
+    "idq": 191,
+    "pregunta": "En Nación, ¿qué artículo regula la elevación a juicio?",
+    "rta_1": { "texto": "Artículo 351 CPPN", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 317 CPPN", "rta": "no" },
+    "rta_3": { "texto": "Artículo 224 CPPN", "rta": "no" }
+  },
+  {
+    "idq": 192,
+    "pregunta": "¿Qué documento se confecciona al recibir la devolución de un oficio diligenciado?",
+    "rta_1": { "texto": "Acta de recepción", "rta": "yes" },
+    "rta_2": { "texto": "Acta de inspección", "rta": "no" },
+    "rta_3": { "texto": "Nota interna", "rta": "no" }
+  },
+  {
+    "idq": 193,
+    "pregunta": "¿Qué principio procesal establece que el imputado debe conocer detalladamente la imputación?",
+    "rta_1": { "texto": "Derecho de defensa", "rta": "yes" },
+    "rta_2": { "texto": "Oficiosidad", "rta": "no" },
+    "rta_3": { "texto": "Preclusión", "rta": "no" }
+  },
+  {
+    "idq": 194,
+    "pregunta": "En CABA, ¿qué artículo regula las medidas de coerción personal?",
+    "rta_1": { "texto": "Artículo 182", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 351", "rta": "no" },
+    "rta_3": { "texto": "Artículo 224", "rta": "no" }
+  },
+  {
+    "idq": 195,
+    "pregunta": "¿Qué documento corresponde labrar al ejecutar una orden de allanamiento?",
+    "rta_1": { "texto": "Acta de allanamiento", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Constancia de traslado", "rta": "no" }
+  },
+  {
+    "idq": 196,
+    "pregunta": "¿Qué principio establece que el proceso debe realizarse en un plazo razonable?",
+    "rta_1": { "texto": "Celeridad procesal", "rta": "yes" },
+    "rta_2": { "texto": "Preclusión", "rta": "no" },
+    "rta_3": { "texto": "Publicidad", "rta": "no" }
+  },
+  {
+    "idq": 197,
+    "pregunta": "En Nación, ¿qué artículo regula la prisión preventiva?",
+    "rta_1": { "texto": "Artículo 319 CPPN", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 351 CPPN", "rta": "no" },
+    "rta_3": { "texto": "Artículo 224 CPPN", "rta": "no" }
+  },
+  {
+    "idq": 198,
+    "pregunta": "¿Qué documento se labra para registrar la incautación de elementos probatorios?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Acta circunstanciada", "rta": "no" },
+    "rta_3": { "texto": "Nota de guardia", "rta": "no" }
+  },
+  {
+    "idq": 199,
+    "pregunta": "¿Qué principio asegura que el imputado solo puede ser condenado si existe prueba suficiente?",
+    "rta_1": { "texto": "Principio de inocencia", "rta": "yes" },
+    "rta_2": { "texto": "Publicidad", "rta": "no" },
+    "rta_3": { "texto": "Tutela judicial", "rta": "no" }
+  },
+  {
+    "idq": 200,
+    "pregunta": "En CABA, ¿qué artículo regula la nulidad de los actos procesales?",
+    "rta_1": { "texto": "Artículo 167", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 351", "rta": "no" },
+    "rta_3": { "texto": "Artículo 294", "rta": "no" }
+  }
+]

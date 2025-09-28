@@ -1,0 +1,773 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es la finalidad del régimen disciplinario policial según la Ley 5688?",
+    "rta_1": { "texto": "Mantener la disciplina, jerarquía y responsabilidad del personal", "rta": "yes" },
+    "rta_2": { "texto": "Sustituir el código penal", "rta": "no" },
+    "rta_3": { "texto": "Regular los ascensos automáticos", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Qué artículo de la Ley 5688 establece las obligaciones generales del personal policial?",
+    "rta_1": { "texto": "Artículo 88", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 120", "rta": "no" },
+    "rta_3": { "texto": "Artículo 45", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Qué tipo de falta se considera la más grave en el régimen disciplinario?",
+    "rta_1": { "texto": "Faltas muy graves", "rta": "yes" },
+    "rta_2": { "texto": "Faltas leves", "rta": "no" },
+    "rta_3": { "texto": "Faltas administrativas menores", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Cuál de estas NO es una sanción disciplinaria prevista en la normativa?",
+    "rta_1": { "texto": "Suspensión", "rta": "no" },
+    "rta_2": { "texto": "Arresto", "rta": "no" },
+    "rta_3": { "texto": "Privación de libertad por orden judicial", "rta": "yes" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Quién tiene la facultad de aplicar sanciones disciplinarias a los suboficiales?",
+    "rta_1": { "texto": "El Jefe de Dependencia", "rta": "yes" },
+    "rta_2": { "texto": "El Poder Judicial", "rta": "no" },
+    "rta_3": { "texto": "El Ministerio Público Fiscal", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué tipo de sanción puede aplicar un Subcomisario según Decreto 53/2017?",
+    "rta_1": { "texto": "Hasta 5 días de arresto", "rta": "yes" },
+    "rta_2": { "texto": "Expulsión inmediata", "rta": "no" },
+    "rta_3": { "texto": "Inhabilitación permanente", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué sanción corresponde a faltas leves?",
+    "rta_1": { "texto": "Apercibimiento", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad obligatoria", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué sanción corresponde a faltas muy graves?",
+    "rta_1": { "texto": "Exoneración o cesantía", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Arresto de 1 día", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Cuál es el objetivo de la sanción disciplinaria?",
+    "rta_1": { "texto": "Corregir conductas y mantener el orden institucional", "rta": "yes" },
+    "rta_2": { "texto": "Generar antecedentes penales", "rta": "no" },
+    "rta_3": { "texto": "Castigar sin finalidad correctiva", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Cuál es la máxima sanción que puede imponer un Comisario?",
+    "rta_1": { "texto": "Hasta 10 días de arresto", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad definitiva", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué órgano tiene la facultad de aplicar sanciones de exoneración?",
+    "rta_1": { "texto": "El Poder Ejecutivo", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Subcomisario", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Qué sanción puede imponer un Oficial Principal?",
+    "rta_1": { "texto": "Apercibimiento escrito", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión mayor a 30 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración inmediata", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué principio rige en la aplicación de sanciones disciplinarias?",
+    "rta_1": { "texto": "Legalidad y proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Conveniencia política", "rta": "no" },
+    "rta_3": { "texto": "Jerarquía automática", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué sanción aplica el Jefe de División a un Oficial Inspector por falta leve?",
+    "rta_1": { "texto": "Apercibimiento o hasta 3 días de arresto", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad permanente", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Qué diferencia hay entre suspensión y arresto en el régimen disciplinario?",
+    "rta_1": { "texto": "La suspensión implica cese temporal de funciones, el arresto es una sanción restrictiva de la libertad", "rta": "yes" },
+    "rta_2": { "texto": "El arresto no afecta la libertad", "rta": "no" },
+    "rta_3": { "texto": "La suspensión siempre es menor que el apercibimiento", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué autoridad puede disponer la disponibilidad preventiva de un efectivo?",
+    "rta_1": { "texto": "El Ministerio de Justicia y Seguridad", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Subcomisario de turno", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué sanción es aplicable por reiteración de faltas graves?",
+    "rta_1": { "texto": "Cesantía", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Arresto de 2 días", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Cuál es el plazo máximo de suspensión previsto por el régimen disciplinario?",
+    "rta_1": { "texto": "60 días", "rta": "yes" },
+    "rta_2": { "texto": "30 días", "rta": "no" },
+    "rta_3": { "texto": "15 días", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Qué sanción corresponde a un incumplimiento reiterado de órdenes legítimas?",
+    "rta_1": { "texto": "Falta grave con arresto o suspensión", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad permanente", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué tipo de falta es la desobediencia a un superior jerárquico?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Qué autoridad aplica las sanciones disciplinarias en casos de faltas muy graves?",
+    "rta_1": { "texto": "El Tribunal de Disciplina Policial", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Jefe de Tercio", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué documento debe confeccionarse siempre al aplicar una sanción disciplinaria?",
+    "rta_1": { "texto": "Acta o sumario administrativo", "rta": "yes" },
+    "rta_2": { "texto": "Nota manuscrita sin registro", "rta": "no" },
+    "rta_3": { "texto": "Informe verbal al superior", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué sanción puede imponer un Oficial Inspector?",
+    "rta_1": { "texto": "Apercibimiento", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión mayor a 10 días", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué principio garantiza que una sanción disciplinaria no pueda aplicarse sin normativa previa?",
+    "rta_1": { "texto": "Principio de legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de inmediatez", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué sanción corresponde a la embriaguez en servicio?",
+    "rta_1": { "texto": "Falta muy grave con exoneración posible", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué documento regula los detalles de sanciones por jerarquía?",
+    "rta_1": { "texto": "Decreto 53/2017", "rta": "yes" },
+    "rta_2": { "texto": "Ley 451", "rta": "no" },
+    "rta_3": { "texto": "Código Contravencional", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Qué sanción corresponde a una agresión física a un superior?",
+    "rta_1": { "texto": "Exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Arresto de 2 días", "rta": "no" },
+    "rta_3": { "texto": "Apercibimiento", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué tipo de falta es abandonar injustificadamente el servicio?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "No sancionable", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué sanción máxima puede imponer un Subcomisario?",
+    "rta_1": { "texto": "Hasta 5 días de arresto", "rta": "yes" },
+    "rta_2": { "texto": "Hasta 15 días de arresto", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué principio asegura que la sanción debe guardar relación con la falta cometida?",
+    "rta_1": { "texto": "Principio de proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de oportunidad", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Qué autoridad puede imponer sanciones de arresto mayores a 10 días?",
+    "rta_1": { "texto": "El Jefe de Policía", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial Inspector", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué sanción corresponde a la falsificación de documentos oficiales?",
+    "rta_1": { "texto": "Exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de 3 días", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Qué falta se configura al incurrir en actos de discriminación?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Grave", "rta": "no" },
+    "rta_3": { "texto": "Leve", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Cuál es la sanción más leve prevista en el régimen disciplinario?",
+    "rta_1": { "texto": "Apercibimiento", "rta": "yes" },
+    "rta_2": { "texto": "Arresto", "rta": "no" },
+    "rta_3": { "texto": "Suspensión", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Qué sanción corresponde por el uso indebido del uniforme?",
+    "rta_1": { "texto": "Falta leve con apercibimiento o arresto", "rta": "yes" },
+    "rta_2": { "texto": "Falta grave con suspensión", "rta": "no" },
+    "rta_3": { "texto": "Muy grave con exoneración", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué sanción puede aplicar un Oficial Mayor?",
+    "rta_1": { "texto": "Arresto hasta 2 días", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión de 30 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración inmediata", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Qué falta se configura al abandonar un puesto de consigna sin autorización?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Quién instruye el sumario administrativo por faltas muy graves?",
+    "rta_1": { "texto": "La Auditoría General de Asuntos Internos", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Subcomisario de turno", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué sanción máxima puede imponer un Comisario Inspector?",
+    "rta_1": { "texto": "Hasta 15 días de arresto", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad definitiva", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué principio prohíbe aplicar sanciones por analogía?",
+    "rta_1": { "texto": "Legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Inmediatez", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué sanción corresponde a la pérdida del arma reglamentaria por negligencia?",
+    "rta_1": { "texto": "Falta grave con suspensión o arresto", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué sanción puede aplicar un Jefe de División?",
+    "rta_1": { "texto": "Arresto hasta 5 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de 60 días", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué falta constituye el maltrato a subordinados?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué autoridad aplica sanciones a los Comisarios Generales?",
+    "rta_1": { "texto": "El Jefe de Gobierno de CABA", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "El Oficial Principal", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué sanción corresponde a la reiterada inasistencia injustificada?",
+    "rta_1": { "texto": "Cesantía", "rta": "yes" },
+    "rta_2": { "texto": "Arresto de 1 día", "rta": "no" },
+    "rta_3": { "texto": "Apercibimiento", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué sanción puede imponer un Comisario Mayor?",
+    "rta_1": { "texto": "Arresto hasta 20 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad definitiva", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué falta constituye aceptar sobornos?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué sanción corresponde a la omisión de auxilio a la comunidad?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué falta se configura al hacer abandono del cargo sin autorización?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué sanción puede imponer un Jefe de Superintendencia?",
+    "rta_1": { "texto": "Arresto hasta 25 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de 90 días", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué principio obliga a que toda sanción esté fundada y registrada?",
+    "rta_1": { "texto": "Principio de motivación", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de antigüedad", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué sanción corresponde por ausentarse en estado de ebriedad?",
+    "rta_1": { "texto": "Falta muy grave con exoneración posible", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Arresto leve", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué falta constituye revelar información clasificada sin autorización?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué sanción puede imponer un Oficial Inspector?",
+    "rta_1": { "texto": "Apercibimiento simple", "rta": "yes" },
+    "rta_2": { "texto": "Arresto mayor a 10 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué sanción corresponde a un Oficial por abandono de consigna?",
+    "rta_1": { "texto": "Falta grave con arresto", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "No sancionable", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué sanción máxima puede imponer un Suboficial Mayor?",
+    "rta_1": { "texto": "Arresto de hasta 2 días", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión de 30 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué órgano controla la correcta aplicación del régimen disciplinario?",
+    "rta_1": { "texto": "Auditoría General de Asuntos Internos", "rta": "yes" },
+    "rta_2": { "texto": "El Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El Subcomisario de turno", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué falta constituye no cumplir con el deber de auxilio inmediato?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué sanción corresponde a la reiteración de faltas leves?",
+    "rta_1": { "texto": "Conversión en falta grave", "rta": "yes" },
+    "rta_2": { "texto": "No tiene efecto acumulativo", "rta": "no" },
+    "rta_3": { "texto": "Suspensión automática", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué principio asegura que las sanciones se apliquen en un plazo razonable?",
+    "rta_1": { "texto": "Principio de inmediatez", "rta": "yes" },
+    "rta_2": { "texto": "Principio de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Principio de antigüedad", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "¿Qué sanción puede imponer directamente el Jefe de la Policía?",
+    "rta_1": { "texto": "Exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Arresto hasta 15 días", "rta": "no" },
+    "rta_3": { "texto": "Apercibimiento simple", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué falta constituye la desobediencia a órdenes legítimas?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Qué sanción corresponde a la apropiación de bienes secuestrados?",
+    "rta_1": { "texto": "Exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Arresto menor", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Qué principio indica que nadie puede ser sancionado dos veces por el mismo hecho?",
+    "rta_1": { "texto": "Principio de non bis in idem", "rta": "yes" },
+    "rta_2": { "texto": "Principio de proporcionalidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de oportunidad", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Qué sanción puede aplicar un Comisario General?",
+    "rta_1": { "texto": "Arresto hasta 30 días", "rta": "yes" },
+    "rta_2": { "texto": "Disponibilidad definitiva", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué sanción corresponde por causar daños intencionales a bienes policiales?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No sancionable", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué falta constituye negarse injustificadamente a portar el arma reglamentaria?",
+    "rta_1": { "texto": "Grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué sanción puede aplicar un Subcomisario?",
+    "rta_1": { "texto": "Arresto hasta 2 días", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión hasta 15 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué sanción corresponde a un policía por presentarse ebrio al servicio?",
+    "rta_1": { "texto": "Falta muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Falta grave", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué falta se configura al no informar una detención en tiempo y forma?",
+    "rta_1": { "texto": "Grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué sanción puede aplicar un Oficial Principal?",
+    "rta_1": { "texto": "Apercibimiento", "rta": "yes" },
+    "rta_2": { "texto": "Arresto de hasta 10 días", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de hasta 20 días", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué falta constituye no presentarse al servicio tras ser notificado?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "No constituye falta", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué sanción puede aplicar un Oficial Inspector?",
+    "rta_1": { "texto": "Apercibimiento simple", "rta": "yes" },
+    "rta_2": { "texto": "Arresto hasta 5 días", "rta": "no" },
+    "rta_3": { "texto": "Suspensión hasta 30 días", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué falta se configura al faltar al respeto a un superior?",
+    "rta_1": { "texto": "Grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué sanción corresponde por abuso de autoridad sobre un ciudadano?",
+    "rta_1": { "texto": "Muy grave con posible exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Grave con suspensión", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué sanción puede aplicar un Jefe de Departamento?",
+    "rta_1": { "texto": "Arresto hasta 10 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión hasta 90 días", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué falta se configura al utilizar vehículos oficiales para fines personales?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué principio garantiza que la sanción debe guardar proporción con la falta?",
+    "rta_1": { "texto": "Proporcionalidad", "rta": "yes" },
+    "rta_2": { "texto": "Oportunidad", "rta": "no" },
+    "rta_3": { "texto": "Jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué falta se configura por violencia de género dentro de la fuerza?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Grave", "rta": "no" },
+    "rta_3": { "texto": "Leve", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué sanción máxima puede imponer un Comisario Inspector?",
+    "rta_1": { "texto": "Arresto hasta 15 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión definitiva", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué falta se configura al negarse a cumplir con el deber de auxiliar a un superior en riesgo?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué sanción corresponde por encubrir a un colega en un ilícito?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué sanción puede aplicar un Jefe de Circunscripción?",
+    "rta_1": { "texto": "Arresto hasta 20 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Suspensión de 60 días", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué sanción puede imponer un Comisario Mayor?",
+    "rta_1": { "texto": "Arresto hasta 20 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad automática", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué falta constituye el abandono injustificado de un servicio especial?",
+    "rta_1": { "texto": "Falta muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Falta grave", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué sanción puede aplicar un Subinspector?",
+    "rta_1": { "texto": "Apercibimiento", "rta": "yes" },
+    "rta_2": { "texto": "Arresto hasta 5 días", "rta": "no" },
+    "rta_3": { "texto": "Suspensión", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué principio establece que toda sanción debe respetar la dignidad del agente?",
+    "rta_1": { "texto": "Principio de respeto", "rta": "yes" },
+    "rta_2": { "texto": "Principio de legalidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de inmediatez", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué sanción corresponde por reiterada indisciplina en el servicio?",
+    "rta_1": { "texto": "Suspensión o cesantía", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento leve", "rta": "no" },
+    "rta_3": { "texto": "Arresto menor", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué falta se configura al difundir en redes sociales información de procedimientos?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué sanción corresponde por insubordinación con violencia?",
+    "rta_1": { "texto": "Muy grave con exoneración posible", "rta": "yes" },
+    "rta_2": { "texto": "Leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Grave con arresto", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Qué sanción puede aplicar un Oficial Jefe de Dependencia a un subordinado?",
+    "rta_1": { "texto": "Arresto hasta 5 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad absoluta", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué falta se configura cuando un agente abandona injustificadamente su puesto?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Cuál es la sanción más severa prevista en el régimen disciplinario?",
+    "rta_1": { "texto": "Exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión", "rta": "no" },
+    "rta_3": { "texto": "Arresto", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué principio exige que el trámite disciplinario se realice con rapidez?",
+    "rta_1": { "texto": "Principio de celeridad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de legalidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de publicidad", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué sanción corresponde por falsificación de un parte policial?",
+    "rta_1": { "texto": "Muy grave con posible exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Falta grave con suspensión", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué sanción puede imponer un Comisario Mayor?",
+    "rta_1": { "texto": "Arresto hasta 20 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad permanente", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿Qué sanción se aplica por discriminación hacia un compañero?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Grave", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Cuál es la sanción máxima que puede imponer un Subcomisario?",
+    "rta_1": { "texto": "Arresto hasta 2 días", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión de hasta 30 días", "rta": "no" },
+    "rta_3": { "texto": "Exoneración", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué falta se configura por brindar información falsa a la superioridad?",
+    "rta_1": { "texto": "Grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué principio asegura que el agente pueda presentar descargos?",
+    "rta_1": { "texto": "Derecho de defensa", "rta": "yes" },
+    "rta_2": { "texto": "Principio de proporcionalidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 101,
+    "pregunta": "¿Qué sanción puede aplicar un Comisario Inspector?",
+    "rta_1": { "texto": "Arresto hasta 15 días", "rta": "yes" },
+    "rta_2": { "texto": "Exoneración inmediata", "rta": "no" },
+    "rta_3": { "texto": "Disponibilidad sin causa", "rta": "no" }
+  },
+  {
+    "idq": 102,
+    "pregunta": "¿Qué falta se configura al utilizar uniforme fuera del servicio para beneficio personal?",
+    "rta_1": { "texto": "Falta grave", "rta": "yes" },
+    "rta_2": { "texto": "Falta leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 103,
+    "pregunta": "¿Qué principio establece que el hecho debe probarse antes de sancionar?",
+    "rta_1": { "texto": "Principio de presunción de inocencia", "rta": "yes" },
+    "rta_2": { "texto": "Principio de oportunidad", "rta": "no" },
+    "rta_3": { "texto": "Principio de ejemplaridad", "rta": "no" }
+  },
+  {
+    "idq": 104,
+    "pregunta": "¿Qué sanción corresponde por negligencia reiterada en el servicio?",
+    "rta_1": { "texto": "Suspensión", "rta": "yes" },
+    "rta_2": { "texto": "Apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Arresto menor", "rta": "no" }
+  },
+  {
+    "idq": 105,
+    "pregunta": "¿Qué sanción corresponde por encubrimiento doloso de un delito?",
+    "rta_1": { "texto": "Muy grave con posible exoneración", "rta": "yes" },
+    "rta_2": { "texto": "Leve con apercibimiento", "rta": "no" },
+    "rta_3": { "texto": "Grave con suspensión", "rta": "no" }
+  },
+  {
+    "idq": 106,
+    "pregunta": "¿Qué sanción puede aplicar el Jefe de la Policía de la Ciudad?",
+    "rta_1": { "texto": "Todas las sanciones previstas en el régimen", "rta": "yes" },
+    "rta_2": { "texto": "Solo arresto y suspensión", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente apercibimiento", "rta": "no" }
+  },
+  {
+    "idq": 107,
+    "pregunta": "¿Qué falta constituye la pérdida intencional de elementos provistos?",
+    "rta_1": { "texto": "Grave", "rta": "yes" },
+    "rta_2": { "texto": "Leve", "rta": "no" },
+    "rta_3": { "texto": "Muy grave", "rta": "no" }
+  },
+  {
+    "idq": 108,
+    "pregunta": "¿Qué principio establece que las sanciones deben tener finalidad educativa?",
+    "rta_1": { "texto": "Principio de corrección", "rta": "yes" },
+    "rta_2": { "texto": "Principio de ejemplaridad", "rta": "no" },
+    "rta_3": { "texto": "Principio de economía procesal", "rta": "no" }
+  },
+  {
+    "idq": 109,
+    "pregunta": "¿Qué sanción corresponde a la difusión pública de información clasificada?",
+    "rta_1": { "texto": "Muy grave", "rta": "yes" },
+    "rta_2": { "texto": "Grave", "rta": "no" },
+    "rta_3": { "texto": "Leve", "rta": "no" }
+  },
+  {
+    "idq": 110,
+    "pregunta": "¿Qué sanción puede imponer un Oficial Principal en su función disciplinaria?",
+    "rta_1": { "texto": "Apercibimiento simple", "rta": "yes" },
+    "rta_2": { "texto": "Suspensión hasta 15 días", "rta": "no" },
+    "rta_3": { "texto": "Arresto prolongado", "rta": "no" }
+  }
+]
+
