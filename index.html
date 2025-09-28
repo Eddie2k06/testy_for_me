@@ -8,57 +8,61 @@
   <style>
     :root { color-scheme: light dark; }
     [data-theme="dark"] body { background-color: #0f1115; color: #e9ecef; }
-    body { background-color: #f8f9fa; padding-top: 72px; } /* espacio para navbar fijo */
+    body { background-color: #f8f9fa; padding-top: 72px; }
+
     .navbar-blur { backdrop-filter: saturate(180%) blur(8px); background: rgba(248,249,250,.85); }
     [data-theme="dark"] .navbar-blur { background: rgba(23,26,33,.75); }
+
     .question-box { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
     [data-theme="dark"] .question-box { background: #171a21; box-shadow: none; }
+
     .response-item { margin-bottom: 10px; }
+    .form-check-input { transform: scale(1.1); margin-top: .55em; }
+    .form-check-label { display: block; padding: 8px 12px; border-radius: .5rem; }
+    .form-check-input:checked + .form-check-label { background: rgba(13,110,253,.08); }
+    [data-theme="dark"] .form-check-input:checked + .form-check-label { background: rgba(13,110,253,.15); }
+
     .feedback { margin-left: 10px; font-weight: bold; }
-    .counter { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: .9rem; color: #6c757d; }
+    .counter { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9rem; color: #6c757d; }
     [data-theme="dark"] .counter { color: #adb5bd; }
-    .btn-group-bottom { display: flex; justify-content: space-between; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
-    .file-pill { font-size: .8rem; }
     .progress { height: 8px; }
-    .kbd { padding: 2px 6px; border: 1px solid #ced4da; border-radius: 4px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .tiny { font-size:.85rem }
-    .form-switch .form-check-input { cursor: pointer; }
+
+    /* Botones centrados únicamente */
+    .btn-group-bottom { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+
+    @media (max-width: 576px) {
+      .question-box { padding: 16px; }
+      .btn-group-bottom { flex-direction: column; }
+      .btn-group-bottom .btn { width: 100%; }
+      .navbar-brand { font-size: 1rem; }
+      .form-check-input { transform: scale(1.2); }
+      .form-check-label { padding: 10px 14px; }
+    }
   </style>
 </head>
 <body>
-  <!-- NAVBAR moderno fijo -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light navbar-blur fixed-top border-bottom">
     <div class="container-fluid">
-      <a class="navbar-brand fw-semibold" href="#">
-        <span class="me-2">🧠</span>EddieSoft Quiz
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <a class="navbar-brand fw-semibold" href="#"><span class="me-2">🧠</span>EddieSoft Quiz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navMain">
-        <!-- izquierda -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item me-2">
-            <button class="btn btn-sm btn-outline-secondary" id="btnCargarCarpeta">Cargar carpeta</button>
-          </li>
-          <li class="nav-item me-2">
-            <button class="btn btn-sm btn-outline-secondary" id="btnCargar">Cargar JSON</button>
-          </li>
+          <li class="nav-item me-2"><button class="btn btn-sm btn-outline-secondary" id="btnCargarCarpeta">Cargar carpeta</button></li>
+          <li class="nav-item me-3"><button class="btn btn-sm btn-outline-secondary" id="btnCargar">Cargar JSON</button></li>
 
           <li class="nav-item d-flex align-items-center me-3">
-            <label for="selectArchivo" class="form-label m-0 me-2 tiny">Archivo</label>
+            <label for="selectArchivo" class="form-label m-0 me-2 small">Archivo</label>
             <select id="selectArchivo" class="form-select form-select-sm" disabled style="min-width:220px">
-              <option value="" selected disabled>Sin selección</option>
+              <option value="" selected disabled>Seleccioná un JSON</option>
             </select>
-            <span id="badgeArchivos" class="badge text-bg-secondary file-pill ms-2 d-none">0 JSON</span>
           </li>
 
           <li class="nav-item dropdown me-2">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdownPreguntas" role="button" data-bs-toggle="dropdown">
-              Preguntas
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownPreguntas" data-bs-toggle="dropdown">Preguntas</a>
             <ul class="dropdown-menu" id="menuPreguntas" aria-labelledby="dropdownPreguntas">
               <li><a class="dropdown-item" href="#" data-limit="10">10</a></li>
               <li><a class="dropdown-item" href="#" data-limit="20">20</a></li>
@@ -70,28 +74,8 @@
           </li>
         </ul>
 
-        <!-- derecha -->
         <div class="d-flex align-items-center gap-3">
-          <div class="input-group input-group-sm" style="width:200px">
-            <span class="input-group-text">Seed</span>
-            <input type="number" class="form-control" id="inputSeed" placeholder="(opcional)"/>
-          </div>
-
-          <div class="form-check form-switch m-0">
-            <input class="form-check-input" type="checkbox" id="chkMezclarTodos">
-            <label class="form-check-label tiny" for="chkMezclarTodos">Combinar</label>
-          </div>
-
-          <div class="form-check form-switch m-0">
-            <input class="form-check-input" type="checkbox" id="chkParcial">
-            <label class="form-check-label tiny" for="chkParcial">Parcial</label>
-          </div>
-
-          <div class="form-check form-switch m-0">
-            <input class="form-check-input" type="checkbox" id="chkDark">
-            <label class="form-check-label tiny" for="chkDark">Dark</label>
-          </div>
-
+          <button class="btn btn-sm btn-outline-secondary" id="btnExportar" disabled>Exportar CSV</button>
           <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalAcerca">Acerca de</button>
         </div>
       </div>
@@ -99,53 +83,41 @@
   </nav>
 
   <div class="container mt-3">
-    <!-- Estado arriba: contador + progreso + atajos -->
     <div class="d-flex align-items-center justify-content-between mb-2">
       <div class="counter" id="contador">Pregunta: 0 de 0</div>
       <div class="flex-grow-1 ms-3">
-        <div class="progress">
-          <div class="progress-bar" id="barraProgreso" role="progressbar" style="width: 0%"></div>
-        </div>
+        <div class="progress"><div class="progress-bar" id="barraProgreso" style="width: 0%"></div></div>
       </div>
-      <div class="ms-3 tiny text-muted d-none d-md-block">Atajos: <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> / <span class="kbd">E</span> evaluar / <span class="kbd">N</span> siguiente</div>
     </div>
 
-    <!-- Contenido principal -->
+    <!-- Cuadro de preguntas -->
     <div id="contenido" class="question-box">
-      <div class="text-center">
-        <p>Cargando preguntas...</p>
-        <div class="spinner-border text-primary" role="status"></div>
+      <div>
+        <p>Cargá un archivo o carpeta con JSON para comenzar.</p>
       </div>
     </div>
 
-    <!-- Botones -->
+    <!-- Botones centrados -->
     <div class="btn-group-bottom">
-      <div class="d-flex gap-2">
-        <button class="btn btn-primary" id="btnEvaluar">Evaluar</button>
-        <button class="btn btn-success" id="btnSiguiente" disabled>Siguiente</button>
-      </div>
-      <div class="d-flex gap-2">
-        <button class="btn btn-outline-secondary" id="btnExportar" disabled>Exportar resultados</button>
-        <button class="btn btn-secondary" id="btnSalir">Salir</button>
-      </div>
+      <button class="btn btn-primary" id="btnEvaluar" disabled>Evaluar</button>
+      <button class="btn btn-success" id="btnSiguiente" disabled>Siguiente</button>
     </div>
+
+    <!-- Sección de revisión (oculta hasta finalizar) -->
+    <div id="seccionRevision" class="mt-3 d-none"></div>
   </div>
 
-  <!-- Modal "Acerca de" -->
+  <!-- Modal Acerca de -->
   <div class="modal fade" id="modalAcerca" tabindex="-1">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Acerca de Quiz de Preguntas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-header"><h5 class="modal-title">Acerca de</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+        <div class="modal-body text-center">
+          <p class="mb-1"><strong>EddieSoft</strong></p>
+          <p class="mb-1">Quiz de Preguntas</p>
+          <p class="mb-0">© <span id="anioAcerca">2025</span>. Todos los derechos reservados.</p>
         </div>
-        <div class="modal-body">
-          <p><strong>Creado por EddieSoft</strong> — Software © 2025</p>
-          <p>Atajos: <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> / <span class="kbd">E</span> / <span class="kbd">N</span></p>
-          <p>Los datos no salen de tu navegador. Exportá resultados a CSV localmente.</p>
-          <p class="small text-muted">Formato: <code>pregunta</code>; respuestas <code>rta_1/2/3</code> {<code>texto</code>, <code>rta</code>:'yes'|'no'}; opcionales: <code>explicacion</code>, <code>tema</code>, <code>dificultad</code>.</p>
-        </div>
-        <div class="modal-footer">
+        <div class="modal-footer justify-content-center">
           <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -155,513 +127,280 @@
   <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    // ========= Estado global =========
-    let preguntasCompletas = [];
-    let preguntas = [];
-    let indicePregunta = 0;
-    let preguntasCorrectas = 0;
-    let limiteSeleccionado = 'all';
-    let resultados = []; // {i, pregunta, marcadas[], correctas[], acierto, score, tiempoMs}
-    let inicioPreguntaMs = 0;
+    let preguntasCompletas=[], preguntas=[], indicePregunta=0, preguntasCorrectas=0, resultados=[];
+    let limiteSeleccionado='all', inicioPreguntaMs=0;
+    const archivosJSON=new Map();
 
-    const archivosJSON = new Map(); // Map<nombre, string>
-    const PREFS_KEY = 'quiz_prefs_v2';
+    const contenido=document.getElementById('contenido'), contador=document.getElementById('contador');
+    const barraProgreso=document.getElementById('barraProgreso');
+    const btnEvaluar=document.getElementById('btnEvaluar'), btnSiguiente=document.getElementById('btnSiguiente');
+    const btnCargar=document.getElementById('btnCargar'), btnCargarCarpeta=document.getElementById('btnCargarCarpeta');
+    const selectArchivo=document.getElementById('selectArchivo');
+    const btnExportar=document.getElementById('btnExportar');
+    const seccionRevision=document.getElementById('seccionRevision');
 
-    // ========= DOM =========
-    const contenido = document.getElementById('contenido');
-    const contador = document.getElementById('contador');
-    const barraProgreso = document.getElementById('barraProgreso');
-    const btnEvaluar = document.getElementById('btnEvaluar');
-    const btnSiguiente = document.getElementById('btnSiguiente');
-    const btnSalir = document.getElementById('btnSalir');
-    const btnCargar = document.getElementById('btnCargar');
-    const btnCargarCarpeta = document.getElementById('btnCargarCarpeta');
-    const selectArchivo = document.getElementById('selectArchivo');
-    const badgeArchivos = document.getElementById('badgeArchivos');
-    const inputSeed = document.getElementById('inputSeed');
-    const chkMezclarTodos = document.getElementById('chkMezclarTodos');
-    const chkParcial = document.getElementById('chkParcial');
-    const chkDark = document.getElementById('chkDark');
-    const btnExportar = document.getElementById('btnExportar');
+    document.getElementById('anioAcerca').textContent=new Date().getFullYear();
 
-    // ========= Init =========
-    window.addEventListener('DOMContentLoaded', () => {
-      const prefs = loadPrefs();
-      if (prefs.dark) document.documentElement.setAttribute('data-theme','dark');
-      chkDark.checked = document.documentElement.getAttribute('data-theme') === 'dark';
-      if (prefs.limite) limiteSeleccionado = prefs.limite;
-      if (prefs.seed !== undefined) inputSeed.value = prefs.seed;
-      if (prefs.mezclarTodos) chkMezclarTodos.checked = true;
-      if (prefs.parcial) chkParcial.checked = true;
-      cargarJSONHttp('quest.json'); // fallback si está servido por HTTP
-      configurarEventos();
+    btnEvaluar.addEventListener('click', evaluarRespuesta);
+    btnSiguiente.addEventListener('click', ()=>{indicePregunta++;mostrarPregunta();});
+    btnExportar.addEventListener('click', exportarCSV);
+
+    btnCargar.addEventListener('click', ()=>{
+      const i=document.createElement('input');
+      i.type='file'; i.accept='.json,application/json';
+      i.onchange=e=>cargarArchivo(e.target.files[0]);
+      i.click();
     });
 
-    function configurarEventos() {
-      btnEvaluar.addEventListener('click', evaluarRespuesta);
-      btnSiguiente.addEventListener('click', siguientePregunta);
-      btnSalir.addEventListener('click', () => window.location.reload());
-      btnExportar.addEventListener('click', exportarCSV);
+    btnCargarCarpeta.addEventListener('click', ()=>{
+      const i=document.createElement('input');
+      i.type='file'; i.webkitdirectory=true; i.multiple=true;
+      i.onchange=e=>cargarCarpeta(e.target.files);
+      i.click();
+    });
 
-      chkDark.addEventListener('change', () => {
-        document.documentElement.setAttribute('data-theme', chkDark.checked ? 'dark' : 'light');
-        savePrefs();
-      });
-      inputSeed.addEventListener('change', savePrefs);
-      chkMezclarTodos.addEventListener('change', () => { savePrefs(); if (preguntasCompletas.length) iniciarQuiz(); });
-      chkParcial.addEventListener('change', savePrefs);
+    selectArchivo.addEventListener('change', cargarDesdeSelector);
 
-      btnCargar.addEventListener('click', () => {
-        const input = document.createElement('input');
-        input.type = 'file';
-        input.accept = '.json,application/json';
-        input.onchange = e => {
-          const file = e.target.files[0];
-          if (file) {
-            leerArchivoJson(file)
-              .then(data => {
-                archivosJSON.set(file.name, JSON.stringify(data));
-                refrescarSelectorArchivos();
-                selectArchivo.value = file.name;
-                cargarDesdeSelector();
-              })
-              .catch(err => alert('Error al cargar el archivo JSON:\n' + err.message));
-          }
-        };
-        input.click();
-      });
+    document.querySelectorAll('#menuPreguntas a').forEach(a=>a.addEventListener('click',e=>{
+      e.preventDefault();
+      document.querySelectorAll('#menuPreguntas a').forEach(x=>x.classList.remove('active'));
+      a.classList.add('active');
+      limiteSeleccionado=a.dataset.limit==='all'?'all':parseInt(a.dataset.limit);
+      if(preguntasCompletas.length) iniciarQuiz();
+    }));
 
-      btnCargarCarpeta.addEventListener('click', () => {
-        const input = document.createElement('input');
-        input.type = 'file';
-        input.webkitdirectory = true;
-        input.multiple = true;
-        input.onchange = async e => {
-          try {
-            archivosJSON.clear();
-            const files = Array.from(e.target.files).filter(f => f.name.toLowerCase().endsWith('.json'));
-            if (files.length === 0) throw new Error('No se encontraron .json en la carpeta.');
-            await Promise.all(files.map(async f => archivosJSON.set(f.name, await f.text())));
-            refrescarSelectorArchivos();
-            contenido.innerHTML = `
-              <div class="text-center">
-                <h5 class="mb-2">Selecciona un archivo o activa "Combinar"</h5>
-                <p class="text-muted">Se detectaron ${files.length} JSON en la carpeta.</p>
-              </div>`;
-          } catch (err) {
-            alert('No se pudo leer la carpeta:\n' + err.message);
-          }
-        };
-        input.click();
-      });
-
-      document.querySelectorAll('#menuPreguntas a').forEach(item => {
-        item.addEventListener('click', e => {
-          e.preventDefault();
-          document.querySelectorAll('#menuPreguntas a').forEach(el => el.classList.remove('active'));
-          item.classList.add('active');
-          limiteSeleccionado = item.dataset.limit === 'all' ? 'all' : parseInt(item.dataset.limit);
-          savePrefs();
-          if (preguntasCompletas.length > 0) iniciarQuiz();
-        });
-      });
-
-      selectArchivo.addEventListener('change', () => { savePrefs(); cargarDesdeSelector(); });
-
-      // Atajos de teclado
-      window.addEventListener('keydown', (e) => {
-        if (e.key === '1' || e.key === '2' || e.key === '3') {
-          const idx = parseInt(e.key, 10) - 1;
-          const input = document.getElementById('rta'+idx);
-          if (input && !input.disabled) {
-            input.click();
-            e.preventDefault();
-          }
-        } else if (e.key.toLowerCase() === 'e') {
-          if (!btnEvaluar.disabled) btnEvaluar.click();
-        } else if (e.key.toLowerCase() === 'n') {
-          if (!btnSiguiente.disabled) btnSiguiente.click();
-        }
-      });
+    // --- Aleatoriedad ---
+    function shuffleInPlace(arr){
+      for(let i=arr.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));
+        [arr[i],arr[j]]=[arr[j],arr[i]];
+      }
     }
 
-    // ===== Prefs =====
-    function savePrefs() {
-      const prefs = {
-        archivo: selectArchivo.value || null,
-        limite: limiteSeleccionado,
-        seed: inputSeed.value ? Number(inputSeed.value) : undefined,
-        mezclarTodos: chkMezclarTodos.checked,
-        parcial: chkParcial.checked,
-        dark: chkDark.checked
-      };
-      localStorage.setItem(PREFS_KEY, JSON.stringify(prefs));
-    }
-    function loadPrefs() {
-      try { return JSON.parse(localStorage.getItem(PREFS_KEY) || '{}'); } catch { return {}; }
+    function cargarArchivo(file){
+      if(!file)return;
+      file.text().then(txt=>{
+        archivosJSON.set(file.name, txt);
+        refrescarSelector();
+        selectArchivo.value=file.name;
+        cargarDesdeSelector();
+      }).catch(e=>alert('Error: '+e.message));
     }
 
-    // ===== Carga HTTP (fallback) =====
-    function cargarJSONHttp(url) {
-      fetch(url)
-        .then(res => { if (!res.ok) throw new Error('Archivo ' + url + ' no encontrado'); return res.json(); })
-        .then(data => {
-          procesarPreguntas(data);
-          iniciarQuiz();
-          archivosJSON.set(url, JSON.stringify(data));
-          refrescarSelectorArchivos();
-          if (!selectArchivo.value) selectArchivo.value = url;
-          savePrefs();
-        })
-        .catch(() => {
+    function cargarCarpeta(files){
+      archivosJSON.clear();
+      const lista=[...files].filter(f=>f.name.toLowerCase().endsWith('.json'));
+      if(!lista.length){ alert('No se encontraron .json en la carpeta.'); return; }
+      Promise.all(lista.map(f=>f.text().then(t=>archivosJSON.set(f.name,t))))
+        .then(()=>{
+          refrescarSelector();
           contenido.innerHTML = `
-            <div class="text-center">
-              <p>No se encontró <code>quest.json</code> por HTTP.</p>
-              <div class="d-grid gap-2 d-sm-inline-flex">
-                <button class="btn btn-primary" id="btnCargarManual">Cargar archivo...</button>
-                <button class="btn btn-outline-primary" id="btnCargarDirManual">Cargar carpeta...</button>
-              </div>
+            <div>
+              <h5 class="mb-2">Seleccioná un archivo en el navbar</h5>
+              <p class="text-muted">Se detectaron ${lista.length} JSON.</p>
             </div>`;
-          document.getElementById('btnCargarManual').onclick = () => btnCargar.click();
-          document.getElementById('btnCargarDirManual').onclick = () => btnCargarCarpeta.click();
-        });
+        })
+        .catch(e=>alert('No se pudo leer la carpeta:\n'+e.message));
     }
 
-    // ===== Lectura local =====
-    async function leerArchivoJson(file) {
-      const texto = await file.text();
-      const data = JSON.parse(texto);
-      validarEstructura(data);
-      return data;
-    }
-    function refrescarSelectorArchivos() {
-      selectArchivo.disabled = false;
-      const valorActual = selectArchivo.value;
-      selectArchivo.innerHTML = '<option value="" disabled selected>Selecciona un JSON</option>';
-      Array.from(archivosJSON.keys()).sort().forEach(nombre => {
-        const opt = document.createElement('option');
-        opt.value = nombre;
-        opt.textContent = nombre;
-        selectArchivo.appendChild(opt);
+    function refrescarSelector(){
+      selectArchivo.disabled = archivosJSON.size===0;
+      selectArchivo.innerHTML='<option value="" disabled selected>Seleccioná un JSON</option>';
+      [...archivosJSON.keys()].sort().forEach(n=>{
+        const o=document.createElement('option');o.value=n;o.textContent=n;selectArchivo.appendChild(o);
       });
-      const cant = archivosJSON.size;
-      badgeArchivos.textContent = `${cant} JSON`;
-      badgeArchivos.classList.toggle('d-none', cant === 0);
-      if (valorActual && archivosJSON.has(valorActual)) selectArchivo.value = valorActual;
     }
-    function cargarDesdeSelector() {
-      const nombre = selectArchivo.value;
-      if (!nombre) return;
-      const texto = archivosJSON.get(nombre);
-      if (!texto) return;
-      try {
-        const data = JSON.parse(texto);
+
+    function cargarDesdeSelector(){
+      const nombre=selectArchivo.value;
+      const txt=archivosJSON.get(nombre);
+      if(!txt) return;
+      try{
+        let data = JSON.parse(txt);
+        if(Array.isArray(data) && data.length===1 && Array.isArray(data[0])) data = data[0];
         validarEstructura(data);
         procesarPreguntas(data);
         iniciarQuiz();
-      } catch (err) {
-        alert('No se pudo cargar "' + nombre + '":\n' + err.message);
+        btnEvaluar.disabled=false;
+      }catch(e){
+        contenido.innerHTML = `<div class="alert alert-danger"><strong>Error JSON:</strong> ${e.message}</div>`;
       }
     }
 
-    // ===== Validación =====
-    function validarEstructura(data) {
-      if (!Array.isArray(data) || data.length === 0) throw new Error('El JSON debe ser una lista no vacía');
-      for (const p of data) {
-        if (typeof p !== 'object' || !p.pregunta) throw new Error('Cada ítem requiere "pregunta".');
-        if (!(p.rta_1 || p.rta_2 || p.rta_3)) throw new Error('Se requiere al menos una rta_1/2/3.');
-      }
+    function validarEstructura(data){
+      if(!Array.isArray(data) || !data.length) throw new Error('El JSON debe ser un array no vacío de preguntas.');
+      const ok = data.every(p => p && typeof p==='object' && p.pregunta && (p.rta_1||p.rta_2||p.rta_3));
+      if(!ok) throw new Error('Cada ítem debe tener "pregunta" y al menos una "rta_1/2/3".');
     }
-
-    // ===== Utilidades RNG / shuffle =====
-    function mulberry32(seed) {
-      let t = seed >>> 0;
-      return () => {
-        t += 0x6D2B79F5;
-        let r = Math.imul(t ^ (t >>> 15), 1 | t);
-        r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
-        return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
-      };
-    }
-    function shuffleInPlace(arr, rng=Math.random) {
-      for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(rng() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-      }
-    }
-
-    // ===== Pipeline de preguntas =====
-    function procesarPreguntas(data) {
-      // Combinar todos si está activo
-      if (chkMezclarTodos.checked && archivosJSON.size > 0) {
-        const all = [];
-        for (const txt of archivosJSON.values()) {
-          try {
-            const arr = JSON.parse(txt);
-            if (Array.isArray(arr)) all.push(...arr);
-          } catch {}
-        }
-        data = all;
-      }
-
-      const seen = new Set();
-      preguntasCompletas = data.filter(p => {
-        if (typeof p !== 'object' || !p.pregunta) return false;
-        const txt = String(p.pregunta).trim();
-        if (seen.has(txt)) return false;
-        seen.add(txt);
-        return true;
+    function procesarPreguntas(data){
+      const seen=new Set();
+      preguntasCompletas=data.filter(p=>{
+        const t=String(p.pregunta).trim();
+        if(seen.has(t)) return false;
+        seen.add(t); return true;
       });
     }
 
-    function iniciarQuiz() {
-      const total = preguntasCompletas.length;
-      resultados = [];
-      preguntasCorrectas = 0;
+    function iniciarQuiz(){
+      preguntasCorrectas=0; resultados=[];
+      seccionRevision.classList.add('d-none'); // oculta revisión si se relanza
+      seccionRevision.innerHTML = '';
 
-      if (total === 0) {
-        contenido.innerHTML = `<div class="text-center text-muted">No hay preguntas en este JSON.</div>`;
-        contador.textContent = 'Pregunta: 0 de 0';
-        btnEvaluar.style.display = 'none';
-        btnSiguiente.style.display = 'none';
-        actualizarProgreso();
-        btnExportar.disabled = true;
-        return;
+      if(limiteSeleccionado==='all' || limiteSeleccionado>=preguntasCompletas.length){
+        preguntas=[...preguntasCompletas];
+      }else{
+        preguntas=preguntasCompletas.slice(0, limiteSeleccionado);
       }
-
-      const seed = inputSeed.value ? Number(inputSeed.value) : null;
-      const rng = seed !== null && !Number.isNaN(seed) ? mulberry32(seed) : Math.random;
-
-      if (limiteSeleccionado === 'all' || limiteSeleccionado >= total) {
-        preguntas = [...preguntasCompletas];
-      } else {
-        const indices = [...Array(total).keys()];
-        shuffleInPlace(indices, rng);
-        preguntas = indices.slice(0, limiteSeleccionado).map(i => preguntasCompletas[i]);
-      }
-
-      shuffleInPlace(preguntas, rng);
-
-      indicePregunta = 0;
-      mostrarPregunta();
-      btnExportar.disabled = true;
-      savePrefs();
+      shuffleInPlace(preguntas); // orden aleatorio de preguntas
+      indicePregunta=0; mostrarPregunta();
+      btnExportar.disabled=true;
     }
 
-    function actualizarProgreso() {
-      const total = preguntas.length || 0;
-      const actual = Math.min(indicePregunta, total);
-      const pct = total ? Math.round((actual / total) * 100) : 0;
-      barraProgreso.style.width = pct + '%';
-      barraProgreso.ariaValueNow = pct;
+    function actualizarProgreso(){
+      const total=preguntas.length||0;
+      const pct=total? Math.round((indicePregunta/total)*100) : 0;
+      barraProgreso.style.width=pct+'%';
     }
 
-    function tipoInputs(respuestas) {
-      const cantCorrectas = respuestas.filter(r => r.correcta).length;
-      return cantCorrectas === 1 ? 'radio' : 'checkbox';
-    }
-
-    function normalizarRespuestas(p) {
-      const rtaKeys = ['rta_1','rta_2','rta_3'].filter(k => p[k]);
-      const arr = rtaKeys.map(k => ({
-        key: k,
-        texto: (p[k] && (p[k].texto ?? p[k].opcion ?? p[k].label)) || `Opción ${k.slice(-1)}`,
-        correcta: String((p[k] && p[k].rta) ?? '').toLowerCase() === 'yes'
-      }));
-      while (arr.length < 3) arr.push({ texto: 'Opción faltante', correcta: false });
+    function normalizarRespuestas(p){
+      const keys=['rta_1','rta_2','rta_3'].filter(k=>p[k]);
+      const arr = keys.map(k=>({texto:p[k].texto, correcta:String(p[k].rta).toLowerCase()==='yes'}));
+      while(arr.length<3) arr.push({texto:'Opción faltante', correcta:false});
       return arr;
     }
 
-    function mostrarPregunta() {
-      if (indicePregunta >= preguntas.length) {
-        mostrarFin();
-        return;
-      }
+    function tipoInputs(respuestas){
+      const c = respuestas.filter(r=>r.correcta).length;
+      return c===1 ? 'radio' : 'checkbox';
+    }
 
-      const p = preguntas[indicePregunta];
-      contador.textContent = `Pregunta: ${indicePregunta + 1} de ${preguntas.length}`;
+    function mostrarPregunta(){
+      if(indicePregunta>=preguntas.length){ fin(); return; }
+      const p=preguntas[indicePregunta];
+      contador.textContent=`Pregunta: ${indicePregunta+1} de ${preguntas.length}`;
       actualizarProgreso();
 
-      // Respuestas + barajado (respetando seed si aplica)
-      const seed = inputSeed.value ? Number(inputSeed.value) : null;
-      const rng = seed !== null && !Number.isNaN(seed) ? mulberry32(seed + indicePregunta + 1) : Math.random;
+      let respuestas=normalizarRespuestas(p);
+      shuffleInPlace(respuestas); // orden aleatorio de respuestas
 
-      const respuestas = normalizarRespuestas(p);
-      shuffleInPlace(respuestas, rng);
+      const inputType=tipoInputs(respuestas);
 
-      const inputType = tipoInputs(respuestas);
-      const name = 'grupoOpciones';
-
-      let html = `<h5 class="mb-3">${p.pregunta}</h5>`;
-      respuestas.forEach((r, i) => {
-        html += `
+      let html=`<h5 class="mb-3">${p.pregunta}</h5>`;
+      respuestas.forEach((r,i)=>{
+        html+=`
           <div class="response-item">
             <div class="form-check">
-              <input class="form-check-input" type="${inputType}" name="${name}" id="rta${i}">
-              <label class="form-check-label" for="rta${i}">${r.texto}</label>
-              <span class="feedback" id="feedback${i}" aria-live="polite"></span>
+              <input class="form-check-input" type="${inputType}" name="grupo" id="r${i}">
+              <label class="form-check-label" for="r${i}">
+                ${r.texto} <span id="f${i}" class="feedback"></span>
+              </label>
             </div>
           </div>`;
       });
-      contenido.innerHTML = html;
+      contenido.innerHTML=html;
 
-      btnEvaluar.style.display = 'inline-block';
-      btnSiguiente.style.display = 'inline-block';
-      btnEvaluar.disabled = false;
-      btnSiguiente.disabled = true;
+      btnEvaluar.disabled=false;
+      btnSiguiente.disabled=true;
 
-      contenido.dataset.respuestas = JSON.stringify(respuestas);
-      contenido.dataset.pregunta = JSON.stringify(p);
-      inicioPreguntaMs = performance.now();
+      // guardo el set de respuestas renderizadas (orden ya barajado) para registrar revisión fiel
+      contenido.dataset.respuestas=JSON.stringify(respuestas);
+      contenido.dataset.pregunta=JSON.stringify(p);
+      inicioPreguntaMs=performance.now();
     }
 
-    function evaluarRespuesta() {
-      const respuestas = JSON.parse(contenido.dataset.respuestas);
-      const p = JSON.parse(contenido.dataset.pregunta);
-      const checkboxes = contenido.querySelectorAll('input.form-check-input');
-      const seleccionadas = Array.from(checkboxes).map(cb => cb.checked);
-      const correctas = respuestas.map(r => r.correcta);
+    function indicesDe(arr, val){
+      return arr.map((v,i)=>v===val?i:-1).filter(i=>i!==-1);
+    }
 
-      // Mostrar feedback
-      checkboxes.forEach((cb, i) => {
-        const fb = document.getElementById(`feedback${i}`);
-        if (correctas[i]) { fb.textContent = '✅'; fb.style.color = 'green'; }
-        else { fb.textContent = '❌'; fb.style.color = 'red'; }
-        cb.disabled = true;
+    function evaluarRespuesta(){
+      const respuestas=JSON.parse(contenido.dataset.respuestas);
+      const inputs=[...contenido.querySelectorAll('input.form-check-input')];
+      const seleccionadas=inputs.map(i=>i.checked);
+
+      respuestas.forEach((r,i)=>{
+        const f=document.getElementById('f'+i);
+        f.textContent=r.correcta?'✅':'❌';
+        f.style.color=r.correcta?'green':'red';
+        inputs[i].disabled=true;
       });
 
-      // Evaluación
-      const exactMatch =
-        arraysIguales(indicesDe(correctas, true), indicesDe(seleccionadas, true));
+      const acierto = respuestas.every((r,i)=>r.correcta===seleccionadas[i]);
+      if(acierto) preguntasCorrectas++;
 
-      let score = exactMatch && indicesDe(seleccionadas, true).length > 0 ? 1 : 0;
+      btnEvaluar.disabled=true;
+      btnSiguiente.disabled=false;
 
-      if (chkParcial.checked) {
-        score = scoreParcial(respuestas, seleccionadas);
-      }
+      const p=JSON.parse(contenido.dataset.pregunta);
+      const tiempo=(performance.now()-inicioPreguntaMs)/1000;
 
-      if (score === 1) preguntasCorrectas++;
-
-      // Explicación (si existe)
-      if (p.explicacion) {
-        contenido.insertAdjacentHTML('beforeend',
-          `<div class="alert alert-info mt-2"><strong>Explicación:</strong> ${p.explicacion}</div>`);
-      }
-
-      btnSiguiente.disabled = false;
-      btnEvaluar.disabled = true;
-
-      const tiempoMs = Math.max(0, performance.now() - inicioPreguntaMs);
       resultados.push({
-        i: indicePregunta + 1,
+        i: indicePregunta+1,
         pregunta: p.pregunta,
+        respuestasRender: respuestas,          // [{texto, correcta}] en el mismo orden mostrado
         marcadas: indicesDe(seleccionadas, true),
         correctas: indicesDe(respuestas.map(r=>r.correcta), true),
-        acierto: score === 1,
-        score,
-        tiempoMs
+        acierto,
+        tiempo
       });
     }
 
-    function siguientePregunta() {
-      indicePregunta++;
-      mostrarPregunta();
-    }
-
-    function mostrarFin() {
-      const scoreTotal = chkParcial.checked
-        ? Math.round((resultadoPromedio() * 100))
-        : Math.round((preguntasCorrectas / preguntas.length) * 100);
-
-      contenido.innerHTML = `
-        <h4 class="text-center mb-2">¡Has completado el quiz!</h4>
-        <p class="text-center fs-5 mb-4">Calificación: <strong>${scoreTotal}/100</strong></p>
-
-        <div class="d-grid gap-2 d-sm-flex justify-content-center mb-3">
-          <button class="btn btn-primary" onclick="location.reload()">Reiniciar</button>
-          <button class="btn btn-outline-secondary" onclick="document.getElementById('seccionRevision').classList.toggle('d-none')">Ver revisión</button>
-        </div>
-
-        <div id="seccionRevision" class="d-none">
-          ${renderRevision()}
+    function fin(){
+      contenido.innerHTML=`
+        <h4 class="text-center">¡Quiz finalizado!</h4>
+        <p class="text-center fs-5">Puntaje: ${Math.round((preguntasCorrectas/preguntas.length)*100)}/100</p>
+        <div class="d-flex justify-content-center mt-3">
+          <button class="btn btn-outline-secondary" id="btnToggleRevision">Ver revisión</button>
         </div>
       `;
-      contador.textContent = 'Pregunta: 0 de 0';
-      btnEvaluar.style.display = 'none';
-      btnSiguiente.style.display = 'none';
-      actualizarProgreso();
-      btnExportar.disabled = false;
+      btnEvaluar.disabled=true;
+      btnSiguiente.disabled=true;
+      btnExportar.disabled=false;
+      barraProgreso.style.width='100%';
+
+      // Preparar HTML de revisión (pero oculto hasta que lo pidan)
+      seccionRevision.innerHTML = renderRevision();
+      seccionRevision.classList.add('d-none');
+
+      document.getElementById('btnToggleRevision').addEventListener('click', ()=>{
+        seccionRevision.classList.toggle('d-none');
+        const btn = document.getElementById('btnToggleRevision');
+        btn.textContent = seccionRevision.classList.contains('d-none') ? 'Ver revisión' : 'Ocultar revisión';
+      });
     }
 
-    function renderRevision() {
+    function renderRevision(){
+      if(!resultados.length) return '';
       return resultados.map((r, idx) => {
-        const p = preguntas[idx];
-        const respuestas = normalizarRespuestas(p);
-        let filas = respuestas.map((res, i) => {
+        const filas = r.respuestasRender.map((res, i) => {
           const esCorrecta = res.correcta;
-          const marcada = r.marcadas.includes(i);
-          const icon = esCorrecta ? '✅' : (marcada ? '❌' : '');
+          const laMarque = r.marcadas.includes(i);
+          const icon = esCorrecta ? '✅' : (laMarque ? '❌' : '');
           return `<li>${icon} ${res.texto}</li>`;
         }).join('');
-        const expl = p.explicacion ? `<div class="small text-info mt-2"><strong>Explicación:</strong> ${p.explicacion}</div>` : '';
         return `
           <div class="card mb-2">
             <div class="card-body">
-              <div class="d-flex justify-content-between">
-                <strong>${r.i}. ${p.pregunta}</strong>
-                <span>${Math.round(r.score*100)}/100</span>
+              <div class="d-flex justify-content-between align-items-start">
+                <strong>${r.i}. ${r.pregunta}</strong>
+                <span class="text-muted small">${r.tiempo.toFixed(1)}s</span>
               </div>
-              <ul class="mt-2 mb-2">${filas}</ul>
-              <div class="text-muted tiny">Tiempo: ${(r.tiempoMs/1000).toFixed(1)}s</div>
-              ${expl}
+              <ul class="mt-2 mb-0">${filas}</ul>
             </div>
-          </div>`;
+          </div>
+        `;
       }).join('');
     }
 
-    // ===== Helpers scoring =====
-    function indicesDe(arr, val) {
-      return arr.map((v,i) => v===val ? i : -1).filter(i => i !== -1);
-    }
-    function arraysIguales(a, b) {
-      if (a.length !== b.length) return false;
-      for (let i=0;i<a.length;i++) if (a[i] !== b[i]) return false;
-      return true;
-    }
-    function scoreParcial(respuestas, seleccionadas) {
-      const k = respuestas.filter(r => r.correcta).length || 1;
-      let puntos = 0;
-      respuestas.forEach((r, i) => {
-        if (r.correcta && seleccionadas[i]) puntos += 1 / k;
-        if (!r.correcta && seleccionadas[i]) puntos -= 1 / k;
-      });
-      return Math.max(0, Math.min(1, puntos));
-    }
-    function resultadoPromedio() {
-      if (resultados.length === 0) return 0;
-      const s = resultados.reduce((acc, r) => acc + r.score, 0);
-      return s / resultados.length;
-    }
-
-    // ===== Exportar CSV =====
-    function exportarCSV() {
-      const headers = ['nro','pregunta','marcadas','correctas','acierto','score','tiempo_seg'];
-      const rows = resultados.map(r => [
-        r.i,
-        '"' + (r.pregunta || '').replace(/"/g,'""') + '"',
-        '"' + r.marcadas.join('|') + '"',
-        '"' + r.correctas.join('|') + '"',
-        r.acierto ? '1':'0',
-        r.score.toFixed(3),
-        (r.tiempoMs/1000).toFixed(1)
-      ].join(','));
-      const csv = [headers.join(','), ...rows].join('\n');
-      const blob = new Blob([csv], {type:'text/csv;charset=utf-8'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'resultados_quiz.csv';
-      a.click();
+    function exportarCSV(){
+      if(!resultados.length){ alert('No hay resultados'); return; }
+      const csv=['nro,pregunta,tiempo'].concat(
+        resultados.map(r=>`${r.i},"${String(r.pregunta||'').replace(/"/g,'""')}",${r.tiempo.toFixed(1)}`)
+      ).join('\n');
+      const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url; a.download='resultados.csv';
+      document.body.appendChild(a); a.click(); a.remove();
       URL.revokeObjectURL(url);
     }
   </script>
