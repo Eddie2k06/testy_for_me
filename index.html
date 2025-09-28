@@ -38,6 +38,19 @@
       .form-check-input { transform: scale(1.2); }
       .form-check-label { padding: 10px 14px; }
     }
+
+    /* Mejor espaciado de la navbar en móviles */
+    @media (max-width: 991.98px) {
+      .navbar-nav .nav-item {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: .5rem;
+      }
+      .navbar-nav .btn,
+      .navbar-nav .form-select {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -45,25 +58,27 @@
   <nav class="navbar navbar-expand-lg navbar-light navbar-blur fixed-top border-bottom">
     <div class="container-fluid">
       <a class="navbar-brand fw-semibold" href="#"><span class="me-2">🧠</span>EddieSoft Quiz</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item me-2"><button class="btn btn-sm btn-outline-secondary" id="btnCargarCarpeta">Cargar carpeta</button></li>
-          <li class="nav-item me-3"><button class="btn btn-sm btn-outline-secondary" id="btnCargar">Cargar JSON</button></li>
-
-          <li class="nav-item d-flex align-items-center me-3">
-            <label for="selectArchivo" class="form-label m-0 me-2 small">Archivo</label>
-            <select id="selectArchivo" class="form-select form-select-sm" disabled style="min-width:220px">
+          <li class="nav-item my-1 me-lg-2">
+            <button class="btn btn-sm btn-outline-secondary" id="btnCargarCarpeta">Cargar carpeta</button>
+          </li>
+          <li class="nav-item my-1 me-lg-3">
+            <button class="btn btn-sm btn-outline-secondary" id="btnCargar">Cargar JSON</button>
+          </li>
+          <li class="nav-item my-1 me-lg-3">
+            <label for="selectArchivo" class="form-label small d-block d-lg-inline mb-1 mb-lg-0">Archivo</label>
+            <select id="selectArchivo" class="form-select form-select-sm" disabled>
               <option value="" selected disabled>Seleccioná un JSON</option>
             </select>
           </li>
-
-          <li class="nav-item dropdown me-2">
+          <li class="nav-item dropdown my-1 me-lg-2">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownPreguntas" data-bs-toggle="dropdown">Preguntas</a>
-            <ul class="dropdown-menu" id="menuPreguntas" aria-labelledby="dropdownPreguntas">
+            <ul class="dropdown-menu" id="menuPreguntas">
               <li><a class="dropdown-item" href="#" data-limit="10">10</a></li>
               <li><a class="dropdown-item" href="#" data-limit="20">20</a></li>
               <li><a class="dropdown-item" href="#" data-limit="50">50</a></li>
@@ -103,7 +118,7 @@
       <button class="btn btn-success" id="btnSiguiente" disabled>Siguiente</button>
     </div>
 
-    <!-- Sección de revisión (oculta hasta finalizar) -->
+    <!-- Sección de revisión -->
     <div id="seccionRevision" class="mt-3 d-none"></div>
   </div>
 
@@ -169,7 +184,6 @@
       if(preguntasCompletas.length) iniciarQuiz();
     }));
 
-    // --- Aleatoriedad ---
     function shuffleInPlace(arr){
       for(let i=arr.length-1;i>0;i--){
         const j=Math.floor(Math.random()*(i+1));
@@ -243,7 +257,7 @@
 
     function iniciarQuiz(){
       preguntasCorrectas=0; resultados=[];
-      seccionRevision.classList.add('d-none'); // oculta revisión si se relanza
+      seccionRevision.classList.add('d-none');
       seccionRevision.innerHTML = '';
 
       if(limiteSeleccionado==='all' || limiteSeleccionado>=preguntasCompletas.length){
@@ -251,7 +265,8 @@
       }else{
         preguntas=preguntasCompletas.slice(0, limiteSeleccionado);
       }
-      shuffleInPlace(preguntas); // orden aleatorio de preguntas
+      shuffleInPlace(preguntas);
+
       indicePregunta=0; mostrarPregunta();
       btnExportar.disabled=true;
     }
@@ -281,7 +296,7 @@
       actualizarProgreso();
 
       let respuestas=normalizarRespuestas(p);
-      shuffleInPlace(respuestas); // orden aleatorio de respuestas
+      shuffleInPlace(respuestas);
 
       const inputType=tipoInputs(respuestas);
 
@@ -302,7 +317,6 @@
       btnEvaluar.disabled=false;
       btnSiguiente.disabled=true;
 
-      // guardo el set de respuestas renderizadas (orden ya barajado) para registrar revisión fiel
       contenido.dataset.respuestas=JSON.stringify(respuestas);
       contenido.dataset.pregunta=JSON.stringify(p);
       inicioPreguntaMs=performance.now();
@@ -336,7 +350,7 @@
       resultados.push({
         i: indicePregunta+1,
         pregunta: p.pregunta,
-        respuestasRender: respuestas,          // [{texto, correcta}] en el mismo orden mostrado
+        respuestasRender: respuestas,
         marcadas: indicesDe(seleccionadas, true),
         correctas: indicesDe(respuestas.map(r=>r.correcta), true),
         acierto,
@@ -357,7 +371,6 @@
       btnExportar.disabled=false;
       barraProgreso.style.width='100%';
 
-      // Preparar HTML de revisión (pero oculto hasta que lo pidan)
       seccionRevision.innerHTML = renderRevision();
       seccionRevision.classList.add('d-none');
 
@@ -368,9 +381,10 @@
       });
     }
 
+    // <-- Corregida y completa
     function renderRevision(){
       if(!resultados.length) return '';
-      return resultados.map((r, idx) => {
+      return resultados.map((r) => {
         const filas = r.respuestasRender.map((res, i) => {
           const esCorrecta = res.correcta;
           const laMarque = r.marcadas.includes(i);
