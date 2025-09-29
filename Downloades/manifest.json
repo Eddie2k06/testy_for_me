@@ -8,5 +8,7 @@
     { "name": "05_Régimen Disciplinario.json",          "label": "Régimen Disciplinario" },
     { "name": "06_Guías de Actuación Policial.json",    "label": "Guías de Actuación Policial" },
     { "name": "07_Cuestiones procesales actuales.json", "label": "Cuestiones procesales actuales" }
+    { "name": "01_Jefe de Servicios2.json",              "label": "Jefe de Servicios - 2" },
+    { "name": "02_Jefe de Judiciales2.json",             "label": "Jefe de Judiciales - 2" },
   ]
 }
