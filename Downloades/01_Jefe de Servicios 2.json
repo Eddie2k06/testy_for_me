@@ -1,0 +1,702 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "Al recibir un oficio judicial fuera del horario de oficina de Judiciales, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Asentarlo en el libro de guardia y tomar las providencias urgentes", "rta": "yes" },
+    "rta_2": { "texto": "Esperar la apertura de Judiciales para derivarlo", "rta": "no" },
+    "rta_3": { "texto": "Remitirlo al Oficial de Logística para su archivo", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "En caso de ausencia del Jefe y 2º Jefe de Dependencia, ¿qué facultades asume el Jefe de Servicios?",
+    "rta_1": { "texto": "Resolver medidas urgentes y de detenidos conforme normativa", "rta": "yes" },
+    "rta_2": { "texto": "Ejercer el mando total de la dependencia sin límites", "rta": "no" },
+    "rta_3": { "texto": "Delegar las decisiones en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios respecto al SOFLEX/AVL?",
+    "rta_1": { "texto": "Supervisar el despliegue, consignas y paradas asignadas", "rta": "yes" },
+    "rta_2": { "texto": "Utilizarlo únicamente como control de asistencia", "rta": "no" },
+    "rta_3": { "texto": "No intervenir, ya que corresponde a Logística", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "Si un detenido se encuentra hospitalizado, ¿qué responsabilidad conserva el Jefe de Servicios?",
+    "rta_1": { "texto": "Controlar su situación y causas legales de detención", "rta": "yes" },
+    "rta_2": { "texto": "Liberarlo temporalmente hasta que reciba el alta", "rta": "no" },
+    "rta_3": { "texto": "Desentenderse del control y delegarlo en sanidad", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Qué móvil requiere estar a cargo de un Oficial con experiencia por antigüedad?",
+    "rta_1": { "texto": "Móvil 300", "rta": "yes" },
+    "rta_2": { "texto": "Móvil 200", "rta": "no" },
+    "rta_3": { "texto": "Móviles de sector", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué acción corresponde al Jefe de Servicios cuando un ciudadano informa un hallazgo de arma?",
+    "rta_1": { "texto": "Disponer el secuestro inmediato y documentarlo en sumario", "rta": "yes" },
+    "rta_2": { "texto": "Anotarlo en el libro de guardia sin otra acción", "rta": "no" },
+    "rta_3": { "texto": "Solicitar que el ciudadano lo guarde hasta que venga Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué responsabilidad le compete al Jefe de Servicios sobre las consignas judiciales?",
+    "rta_1": { "texto": "Controlar su cumplimiento y supervisar novedades", "rta": "yes" },
+    "rta_2": { "texto": "Delegar enteramente en el personal apostado", "rta": "no" },
+    "rta_3": { "texto": "Informar solamente a la Oficina de Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "Si un denunciante por paradero de un menor se retira de la Comisaría sin completar denuncia, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Asentar en el libro de guardia y activar consulta judicial", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a que regrese espontáneamente", "rta": "no" },
+    "rta_3": { "texto": "Informar únicamente a Logística", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué debe consignar el Jefe de Servicios en el libro de entrega de guardia?",
+    "rta_1": { "texto": "Hora, diligencias, depósitos, providencias y comisionados", "rta": "yes" },
+    "rta_2": { "texto": "Solo asistencia y novedades mínimas", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente oficios judiciales", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Qué tiempo tiene el Jefe de Servicios para realizar una consulta a Fiscalía en CABA?",
+    "rta_1": { "texto": "Dentro de la primera hora", "rta": "yes" },
+    "rta_2": { "texto": "Dentro de las 6 horas", "rta": "no" },
+    "rta_3": { "texto": "Al finalizar el turno", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué documentación mínima debe tener un sumario iniciado por el Jefe de Servicios?",
+    "rta_1": { "texto": "Acta inicial, partes, declaraciones y actuaciones preventivas", "rta": "yes" },
+    "rta_2": { "texto": "Solo la carátula y firma del denunciante", "rta": "no" },
+    "rta_3": { "texto": "Una nota manuscrita del Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿Cuál es la función del Jefe de Servicios en relación con los móviles de sector?",
+    "rta_1": { "texto": "Controlar recorridos, patrullaje y cumplimiento de paradas", "rta": "yes" },
+    "rta_2": { "texto": "Efectuar reparaciones mecánicas", "rta": "no" },
+    "rta_3": { "texto": "Verificar la vigencia de las cédulas verdes", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué principio guía la atención del Jefe de Servicios al público en casos delicados?",
+    "rta_1": { "texto": "Atender personalmente al ciudadano con trato correcto y cortesía", "rta": "yes" },
+    "rta_2": { "texto": "Derivar inmediatamente a otra dependencia", "rta": "no" },
+    "rta_3": { "texto": "Minimizar el contacto directo", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué guardia (tercio) tiene horario fijo dentro de la organización de servicios?",
+    "rta_1": { "texto": "Tercio IV", "rta": "yes" },
+    "rta_2": { "texto": "Tercio II", "rta": "no" },
+    "rta_3": { "texto": "Tercio I", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Qué acción debe realizar el Jefe de Servicios en caso de flagrancia?",
+    "rta_1": { "texto": "Proceder a la aprehensión inmediata y consulta judicial", "rta": "yes" },
+    "rta_2": { "texto": "Esperar confirmación escrita del Comisario", "rta": "no" },
+    "rta_3": { "texto": "Asentar solo en el libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué registro debe supervisar diariamente el Jefe de Servicios respecto a armas y efectos?",
+    "rta_1": { "texto": "Inventario y condiciones de conservación", "rta": "yes" },
+    "rta_2": { "texto": "Solo cantidad total aproximada", "rta": "no" },
+    "rta_3": { "texto": "El stock de municiones sin detalle", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Qué decisión puede tomar el Jefe de Servicios sobre detenidos contraventores?",
+    "rta_1": { "texto": "Resolver su libertad si lo autoriza normativa vigente", "rta": "yes" },
+    "rta_2": { "texto": "Liberarlos por criterio propio", "rta": "no" },
+    "rta_3": { "texto": "Mantenerlos sin intervención judicial", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios respecto a providencias judiciales urgentes?",
+    "rta_1": { "texto": "Asentarlas y dar curso inmediato", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlas únicamente al siguiente turno", "rta": "no" },
+    "rta_3": { "texto": "Delegarlas al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Qué acción debe realizar el Jefe de Servicios al recibir un oficio de allanamiento nocturno?",
+    "rta_1": { "texto": "Coordinar su cumplimiento inmediato con móviles disponibles", "rta": "yes" },
+    "rta_2": { "texto": "Esperar la apertura de la Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Suspender la orden hasta el día siguiente", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios en relación con los libros institucionales?",
+    "rta_1": { "texto": "Fiscalizar su correcta confección y actualización", "rta": "yes" },
+    "rta_2": { "texto": "Conservarlos en archivo sin control", "rta": "no" },
+    "rta_3": { "texto": "Delegar su firma en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "En el marco de un procedimiento, ¿qué debe verificar el Jefe de Servicios antes de autorizar la libertad de un detenido?",
+    "rta_1": { "texto": "Que exista disposición judicial o normativa expresa", "rta": "yes" },
+    "rta_2": { "texto": "Que el detenido prometa no reincidir", "rta": "no" },
+    "rta_3": { "texto": "Que el personal de guardia lo sugiera", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "Cuando se inicia un sumario por denuncia espontánea, ¿qué responsabilidad inmediata recae sobre el Jefe de Servicios?",
+    "rta_1": { "texto": "Recepción, apertura y primeras diligencias", "rta": "yes" },
+    "rta_2": { "texto": "Trasladar al denunciante a Fiscalía sin intervención", "rta": "no" },
+    "rta_3": { "texto": "Delegar en el Oficial de Guardia automáticamente", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "En relación con las guardias, ¿qué debe garantizar el Jefe de Servicios en cada cambio de tercio?",
+    "rta_1": { "texto": "Relevo formal documentado en libro de entrega", "rta": "yes" },
+    "rta_2": { "texto": "Rotación libre sin registro escrito", "rta": "no" },
+    "rta_3": { "texto": "Simple comunicación verbal entre guardias", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "En caso de recibir una denuncia por violencia de género, ¿qué obligación tiene el Jefe de Servicios?",
+    "rta_1": { "texto": "Activar protocolo específico y dar aviso a la Fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Derivar a un área administrativa", "rta": "no" },
+    "rta_3": { "texto": "Esperar confirmación del Jefe de Dependencia", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué actuación le corresponde al Jefe de Servicios respecto a testigos que deben declarar fuera de horario judicial?",
+    "rta_1": { "texto": "Atenderlos personalmente y registrar sus manifestaciones", "rta": "yes" },
+    "rta_2": { "texto": "Reprogramar la audiencia para el día siguiente", "rta": "no" },
+    "rta_3": { "texto": "Informarles que regresen en horario administrativo", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué acción preventiva debe realizar el Jefe de Servicios en relación con los móviles de la dependencia?",
+    "rta_1": { "texto": "Supervisar patrullajes y el cumplimiento del despliegue territorial", "rta": "yes" },
+    "rta_2": { "texto": "Revisar mecánicamente el estado de los rodados", "rta": "no" },
+    "rta_3": { "texto": "Designar choferes sin verificar licencias", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Qué debe consignar obligatoriamente el Jefe de Servicios en el libro de sumarios?",
+    "rta_1": { "texto": "Todas las actuaciones iniciadas durante su servicio", "rta": "yes" },
+    "rta_2": { "texto": "Solo los hechos graves", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente detenciones por delitos", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué criterio debe aplicar el Jefe de Servicios al disponer el despliegue del personal en consignas?",
+    "rta_1": { "texto": "Adecuación a directivas superiores y seguridad del servicio", "rta": "yes" },
+    "rta_2": { "texto": "Preferencias personales del personal", "rta": "no" },
+    "rta_3": { "texto": "Rotación aleatoria sin considerar riesgos", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios ante la visita de superiores a la dependencia?",
+    "rta_1": { "texto": "Presentar novedades y documentación actualizada", "rta": "yes" },
+    "rta_2": { "texto": "Solicitar que regresen en otro horario", "rta": "no" },
+    "rta_3": { "texto": "Delegar la atención en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué documentación debe garantizar el Jefe de Servicios en caso de libertad de un detenido?",
+    "rta_1": { "texto": "Diligencias y constancia en las actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Firma del detenido y nada más", "rta": "no" },
+    "rta_3": { "texto": "Una nota en el libro de guardia sin respaldo", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "Si un móvil de sector reporta una novedad grave, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Dar cuenta inmediata a superiores y registrar", "rta": "yes" },
+    "rta_2": { "texto": "Esperar el fin del turno para informarlo", "rta": "no" },
+    "rta_3": { "texto": "Ordenar silencio hasta confirmación escrita", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios respecto a las órdenes telefónicas recibidas?",
+    "rta_1": { "texto": "Asentarlas y garantizar cumplimiento en plazo", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlas oralmente al próximo turno", "rta": "no" },
+    "rta_3": { "texto": "Ignorarlas si no vienen acompañadas de nota oficial", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Cuál es el principio rector de la relación del Jefe de Servicios con el público?",
+    "rta_1": { "texto": "Atención respetuosa y trato correcto", "rta": "yes" },
+    "rta_2": { "texto": "Derivar siempre sin contacto directo", "rta": "no" },
+    "rta_3": { "texto": "Informar solo a través de terceros", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios con las armas secuestradas durante su turno?",
+    "rta_1": { "texto": "Asegurar custodia y registrarlas en actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Dejarlas bajo control del denunciante", "rta": "no" },
+    "rta_3": { "texto": "Guardarlas sin registro hasta Fiscalía", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "En ausencia del Jefe de Dependencia, ¿qué informes debe elevar el Jefe de Servicios?",
+    "rta_1": { "texto": "Todas las novedades de servicio relevantes", "rta": "yes" },
+    "rta_2": { "texto": "Solo las relacionadas con contravenciones", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente las administrativas", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué procedimiento debe seguir el Jefe de Servicios con detenidos hospitalizados?",
+    "rta_1": { "texto": "Supervisar seguridad y situación legal del detenido", "rta": "yes" },
+    "rta_2": { "texto": "Delegar en el hospital sin control policial", "rta": "no" },
+    "rta_3": { "texto": "Liberarlos automáticamente", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "En el marco del control de personal, ¿qué debe fiscalizar el Jefe de Servicios?",
+    "rta_1": { "texto": "Asistencia y presentación acorde normativa", "rta": "yes" },
+    "rta_2": { "texto": "Opiniones personales del personal", "rta": "no" },
+    "rta_3": { "texto": "Rendimiento académico", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "Si un detenido solicita atención médica urgente, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Disponer asistencia inmediata y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Esperar al próximo turno", "rta": "no" },
+    "rta_3": { "texto": "Ignorar la solicitud hasta orden judicial", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué debe controlar el Jefe de Servicios respecto al edificio y mobiliario de la dependencia?",
+    "rta_1": { "texto": "Conservación e higiene", "rta": "yes" },
+    "rta_2": { "texto": "Solo el estado de la fachada", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente el despacho del Comisario", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué procedimiento debe seguir el Jefe de Servicios al recibir un oficio de secuestro de vehículo?",
+    "rta_1": { "texto": "Ejecutar secuestro, registrarlo y dar aviso judicial", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlo a Logística para archivo", "rta": "no" },
+    "rta_3": { "texto": "Esperar al turno siguiente para ejecutar", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "Si el Jefe de Servicios debe decidir sobre la permanencia de un detenido en condiciones de hacinamiento, ¿qué principio debe aplicar prioritariamente?",
+    "rta_1": { "texto": "Garantía de derechos humanos y dignidad del detenido", "rta": "yes" },
+    "rta_2": { "texto": "Economía de recursos en la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Conveniencia de la guardia", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué debe verificar el Jefe de Servicios antes de autorizar un traslado interjurisdiccional de detenidos?",
+    "rta_1": { "texto": "Orden judicial o fiscal correspondiente y condiciones de seguridad", "rta": "yes" },
+    "rta_2": { "texto": "Disponibilidad de móviles sin autorización superior", "rta": "no" },
+    "rta_3": { "texto": "Decisión del chofer designado", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "En caso de contradicción entre la orden de un superior y la normativa vigente, el Jefe de Servicios debe:",
+    "rta_1": { "texto": "Priorizar la normativa legal y dejar constancia de la situación", "rta": "yes" },
+    "rta_2": { "texto": "Cumplir la orden sin cuestionamiento", "rta": "no" },
+    "rta_3": { "texto": "Derivar la decisión al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué herramienta documental utiliza el Jefe de Servicios para dejar constancia de novedades críticas del servicio?",
+    "rta_1": { "texto": "Libro de entrega de guardia", "rta": "yes" },
+    "rta_2": { "texto": "Libro de visitas", "rta": "no" },
+    "rta_3": { "texto": "Planilla de licencias", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué implica para el Jefe de Servicios el principio de 'relación funcional con el Jefe de Dependencia'?",
+    "rta_1": { "texto": "Subordinación administrativa y responsabilidad operativa compartida", "rta": "yes" },
+    "rta_2": { "texto": "Autonomía total en decisiones judiciales", "rta": "no" },
+    "rta_3": { "texto": "Delegación automática de funciones", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Cuál es la principal diferencia en la intervención del Jefe de Servicios en un hecho contravencional respecto a un delito?",
+    "rta_1": { "texto": "En contravenciones puede instruir acta; en delitos debe dar intervención inmediata a Fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "En contravenciones no labra acta; en delitos sí", "rta": "no" },
+    "rta_3": { "texto": "No existe diferencia alguna", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "Cuando se recibe un oficio judicial fuera de horario administrativo, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Cumplirlo inmediatamente y dejar constancia en los libros", "rta": "yes" },
+    "rta_2": { "texto": "Esperar el turno siguiente", "rta": "no" },
+    "rta_3": { "texto": "Derivarlo a la oficina administrativa", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "En caso de fuga de un detenido bajo custodia, ¿qué medida inmediata corresponde al Jefe de Servicios?",
+    "rta_1": { "texto": "Informar a superiores y activar protocolo de recaptura", "rta": "yes" },
+    "rta_2": { "texto": "Esperar orden escrita del Comisario", "rta": "no" },
+    "rta_3": { "texto": "Registrar la fuga sin actuar", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué control debe ejercer el Jefe de Servicios sobre la oficina de judiciales?",
+    "rta_1": { "texto": "Supervisar que los sumarios se formalicen correctamente y en tiempo", "rta": "yes" },
+    "rta_2": { "texto": "Limitarse a recibir copias de las actuaciones", "rta": "no" },
+    "rta_3": { "texto": "Delegar completamente la función sin control", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué medida preventiva debe tomar el Jefe de Servicios frente a un evento masivo en la jurisdicción?",
+    "rta_1": { "texto": "Coordinar despliegue preventivo y asegurar recursos logísticos", "rta": "yes" },
+    "rta_2": { "texto": "Esperar órdenes del Ministerio de Seguridad", "rta": "no" },
+    "rta_3": { "texto": "Delegar la coordinación en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Cómo debe proceder el Jefe de Servicios si detecta inconsistencias en el libro de guardia?",
+    "rta_1": { "texto": "Informar y corregir dejando constancia formal", "rta": "yes" },
+    "rta_2": { "texto": "Ignorarlas para evitar conflictos", "rta": "no" },
+    "rta_3": { "texto": "Eliminar páginas para rehacerlas", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios respecto al SOFLEX?",
+    "rta_1": { "texto": "Supervisar confección y asignación de paradas", "rta": "yes" },
+    "rta_2": { "texto": "Solo observar registros sin intervenir", "rta": "no" },
+    "rta_3": { "texto": "Delegar en operadores sin control", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Qué corresponde si un denunciante se retira sin formalizar su denuncia?",
+    "rta_1": { "texto": "Asentar la novedad en libro de guardia y consultar judicialmente", "rta": "yes" },
+    "rta_2": { "texto": "Dejarlo sin registro", "rta": "no" },
+    "rta_3": { "texto": "Retenerlo por la fuerza", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué relación funcional tiene el Jefe de Servicios con el Jefe de Servicios Externo?",
+    "rta_1": { "texto": "Supervisión general y coordinación de despliegue", "rta": "yes" },
+    "rta_2": { "texto": "Independencia operativa total", "rta": "no" },
+    "rta_3": { "texto": "Exclusiva subordinación al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "En ausencia de superiores, el Jefe de Servicios puede resolver sobre detenidos siempre que:",
+    "rta_1": { "texto": "Se ajuste a disposiciones legales y reglamentarias", "rta": "yes" },
+    "rta_2": { "texto": "Sea conveniente para la guardia", "rta": "no" },
+    "rta_3": { "texto": "Lo avale un subalterno", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios respecto a testigos convocados?",
+    "rta_1": { "texto": "Garantizar su recepción y registración incluso fuera de horario", "rta": "yes" },
+    "rta_2": { "texto": "Derivarlos siempre al día siguiente", "rta": "no" },
+    "rta_3": { "texto": "No intervenir si son testigos de hecho", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué documento regula las responsabilidades del Jefe de Servicios en la CABA?",
+    "rta_1": { "texto": "Ley 5688 y normativa complementaria", "rta": "yes" },
+    "rta_2": { "texto": "Solo el Código Civil y Comercial", "rta": "no" },
+    "rta_3": { "texto": "El Reglamento del Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué actuación inmediata debe disponer el Jefe de Servicios ante un hallazgo de arma en la vía pública?",
+    "rta_1": { "texto": "Secuestro, registro y comunicación a autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Entrega a transeúntes para custodia", "rta": "no" },
+    "rta_3": { "texto": "Archivar el hecho como 'hallazgo menor'", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué control debe ejercer el Jefe de Servicios sobre las consignas judiciales?",
+    "rta_1": { "texto": "Cumplimiento efectivo y permanente", "rta": "yes" },
+    "rta_2": { "texto": "Delegar sin supervisión", "rta": "no" },
+    "rta_3": { "texto": "Solo informarlas verbalmente", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué implica la fiscalización de libros a cargo del Jefe de Servicios?",
+    "rta_1": { "texto": "Control sistemático de exactitud, prolijidad y legalidad de los registros", "rta": "yes" },
+    "rta_2": { "texto": "Revisar solo firmas", "rta": "no" },
+    "rta_3": { "texto": "Conservarlos sin leerlos", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "Si un detenido denuncia maltrato en la dependencia, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Informar de inmediato a la autoridad judicial y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a que lo confirme otro oficial", "rta": "no" },
+    "rta_3": { "texto": "Registrar solo en libro interno sin informar", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué significa el control de 'paradas fijas' a cargo del Jefe de Servicios?",
+    "rta_1": { "texto": "Supervisar cumplimiento en tiempo, lugar y modalidad asignada", "rta": "yes" },
+    "rta_2": { "texto": "Controlar solo si hay denuncias", "rta": "no" },
+    "rta_3": { "texto": "Verificarlas a criterio del personal", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "En caso de novedad extraordinaria en la jurisdicción, ¿qué orden debe cumplir el Jefe de Servicios primero?",
+    "rta_1": { "texto": "Comunicar al Jefe de Dependencia y activar despliegue inmediato", "rta": "yes" },
+    "rta_2": { "texto": "Esperar confirmación del operador SOFLEX", "rta": "no" },
+    "rta_3": { "texto": "Notificar solo en el libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "Si el Jefe de Servicios detecta un error en la confección de un sumario judicial, ¿qué corresponde?",
+    "rta_1": { "texto": "Corregir y dar intervención al Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Ignorarlo para evitar demoras", "rta": "no" },
+    "rta_3": { "texto": "Anular el sumario sin registrar", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios respecto al estado de los móviles?",
+    "rta_1": { "texto": "Controlar disponibilidad y comunicar averías a Logística", "rta": "yes" },
+    "rta_2": { "texto": "Confiar en que los choferes avisen", "rta": "no" },
+    "rta_3": { "texto": "Dejar el control a la Oficina de Administración", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios si recibe una orden contradictoria entre dos superiores?",
+    "rta_1": { "texto": "Cumplir la jerárquicamente superior y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Decidir por conveniencia operativa", "rta": "no" },
+    "rta_3": { "texto": "No ejecutar ninguna hasta recibir aclaración escrita", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Cuál es la obligación del Jefe de Servicios frente a un oficio judicial que dispone allanamiento urgente?",
+    "rta_1": { "texto": "Ejecutar de inmediato, coordinando con el personal disponible", "rta": "yes" },
+    "rta_2": { "texto": "Esperar el cambio de guardia", "rta": "no" },
+    "rta_3": { "texto": "Derivarlo al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "El control de consignas judiciales por parte del Jefe de Servicios implica:",
+    "rta_1": { "texto": "Verificar cumplimiento efectivo, turnos y relevos", "rta": "yes" },
+    "rta_2": { "texto": "Revisar una vez al día", "rta": "no" },
+    "rta_3": { "texto": "Delegar en personal subalterno", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué procedimiento corresponde si un menor es dejado en la comisaría sin adulto responsable?",
+    "rta_1": { "texto": "Comunicar al Consejo de Derechos y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Esperar que regrese el adulto", "rta": "no" },
+    "rta_3": { "texto": "Trasladarlo por cuenta propia al domicilio", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué control debe ejercer el Jefe de Servicios sobre el libro de sumarios?",
+    "rta_1": { "texto": "Verificar foliatura, correlatividad y firmas", "rta": "yes" },
+    "rta_2": { "texto": "Dejarlo a criterio de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Revisar solo la primera hoja", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué acción inmediata debe realizar el Jefe de Servicios al asumir la guardia?",
+    "rta_1": { "texto": "Actualizarse sobre detenidos, sumarios y personal de servicio", "rta": "yes" },
+    "rta_2": { "texto": "Firmar solo el libro de novedades", "rta": "no" },
+    "rta_3": { "texto": "Pasar lista a criterio personal", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué medida preventiva debe disponer el Jefe de Servicios en caso de corte de energía en la dependencia?",
+    "rta_1": { "texto": "Activar protocolos de contingencia y reforzar seguridad", "rta": "yes" },
+    "rta_2": { "texto": "Cerrar temporalmente la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Esperar a que se normalice sin actuar", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios respecto al trato con ciudadanos en la comisaría?",
+    "rta_1": { "texto": "Respeto, corrección y atención directa en casos delicados", "rta": "yes" },
+    "rta_2": { "texto": "Delegar todo al Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "Atender solo denuncias escritas", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Qué acción corresponde ante la detención de un extranjero indocumentado?",
+    "rta_1": { "texto": "Dar intervención a Migraciones y autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Liberarlo por falta de documentación", "rta": "no" },
+    "rta_3": { "texto": "Retenerlo indefinidamente", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué decisión puede tomar el Jefe de Servicios frente a un detenido hospitalizado?",
+    "rta_1": { "texto": "Disponer custodia y supervisar novedades médicas", "rta": "yes" },
+    "rta_2": { "texto": "Dejarlo sin custodia si el hospital lo permite", "rta": "no" },
+    "rta_3": { "texto": "Derivar la custodia a familiares", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué significa para el Jefe de Servicios la fiscalización de la higiene del edificio?",
+    "rta_1": { "texto": "Velar por condiciones de salubridad para detenidos y personal", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar solo la fachada", "rta": "no" },
+    "rta_3": { "texto": "No tiene responsabilidad alguna", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios al recibir una exposición espontánea?",
+    "rta_1": { "texto": "Registrarla y derivarla a Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Desecharla por no ser denuncia formal", "rta": "no" },
+    "rta_3": { "texto": "Dejarla en libro de guardia sin trámite", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "¿Qué control debe realizar el Jefe de Servicios respecto a licencias del personal?",
+    "rta_1": { "texto": "Verificar altas, bajas y modificaciones comunicadas por Administración", "rta": "yes" },
+    "rta_2": { "texto": "Desentenderse porque es tarea administrativa", "rta": "no" },
+    "rta_3": { "texto": "Aprobarlas discrecionalmente", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Qué debe priorizar el Jefe de Servicios al disponer relevos en zonas críticas?",
+    "rta_1": { "texto": "Continuidad preventiva y disponibilidad de personal", "rta": "yes" },
+    "rta_2": { "texto": "Preferencia de horarios de los agentes", "rta": "no" },
+    "rta_3": { "texto": "Comodidad de la guardia interna", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios frente a secuestros de automotores?",
+    "rta_1": { "texto": "Garantizar custodia, registro y comunicación judicial", "rta": "yes" },
+    "rta_2": { "texto": "Confiar en que el damnificado lo reclame", "rta": "no" },
+    "rta_3": { "texto": "Dejarlo estacionado en la vía pública", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "Durante un operativo nocturno el Jefe de Servicios recibe simultáneamente un pedido judicial y una novedad crítica en la vía pública. ¿Qué debe hacer?",
+    "rta_1": { "texto": "Priorizar la novedad crítica garantizando la vida y luego dar curso al pedido judicial", "rta": "yes" },
+    "rta_2": { "texto": "Cumplir el pedido judicial aunque implique descuidar la emergencia", "rta": "no" },
+    "rta_3": { "texto": "Esperar órdenes superiores sin actuar", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "Si el libro de guardia presenta tachaduras o enmiendas no salvadas, ¿qué responsabilidad tiene el Jefe de Servicios?",
+    "rta_1": { "texto": "Debe dejar constancia de la irregularidad e informar a sus superiores", "rta": "yes" },
+    "rta_2": { "texto": "Aceptar el libro tal como está", "rta": "no" },
+    "rta_3": { "texto": "Ordenar su destrucción", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué procedimiento debe seguir el Jefe de Servicios ante la fuga de un detenido durante traslado hospitalario?",
+    "rta_1": { "texto": "Dar aviso inmediato a la autoridad judicial, disponer operativo cerrojo y comunicar a superiores", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a que lo encuentre otra comisaría", "rta": "no" },
+    "rta_3": { "texto": "Dejar constancia solo en el libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "Si un detenido solicita atención médica urgente, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Garantizar su asistencia médica inmediata y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Postergar hasta el horario laboral del SAME", "rta": "no" },
+    "rta_3": { "texto": "Derivar la decisión al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios respecto al trato con damnificados de delitos de género?",
+    "rta_1": { "texto": "Garantizar aplicación de protocolos y atención especializada", "rta": "yes" },
+    "rta_2": { "texto": "Delegar en personal sin capacitación específica", "rta": "no" },
+    "rta_3": { "texto": "Derivar directamente al hospital sin registrar", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué debe verificar el Jefe de Servicios en el despliegue territorial registrado en SOFLEX?",
+    "rta_1": { "texto": "Que las paradas y recorridos coincidan con el diagrama aprobado", "rta": "yes" },
+    "rta_2": { "texto": "Que solo figuren móviles en servicio", "rta": "no" },
+    "rta_3": { "texto": "Que se cargue una vez por semana", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "En caso de motín en calabozos, ¿qué acción corresponde al Jefe de Servicios?",
+    "rta_1": { "texto": "Dar aviso inmediato a superiores, activar protocolos y preservar la vida", "rta": "yes" },
+    "rta_2": { "texto": "Esperar intervención de Gendarmería", "rta": "no" },
+    "rta_3": { "texto": "Negarse a actuar sin orden escrita", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué control documental debe realizar el Jefe de Servicios al recibir detenidos de otra dependencia?",
+    "rta_1": { "texto": "Revisar fichas, actas y legalidad de la detención", "rta": "yes" },
+    "rta_2": { "texto": "Aceptar sin revisar por confianza institucional", "rta": "no" },
+    "rta_3": { "texto": "Firmar el ingreso sin observaciones", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Qué medida adopta el Jefe de Servicios si detecta un sumario sin número correlativo?",
+    "rta_1": { "texto": "Informar a Judiciales y dejar constancia en acta", "rta": "yes" },
+    "rta_2": { "texto": "Ignorarlo", "rta": "no" },
+    "rta_3": { "texto": "Reiniciar la foliatura sin registrar", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué debe disponer el Jefe de Servicios frente a una orden judicial urgente fuera del horario habitual?",
+    "rta_1": { "texto": "Ejecutarla de inmediato con el personal en turno", "rta": "yes" },
+    "rta_2": { "texto": "Esperar al día siguiente", "rta": "no" },
+    "rta_3": { "texto": "Rechazarla por fuera de horario", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Cuál es la obligación del Jefe de Servicios respecto a novedades de violencia institucional?",
+    "rta_1": { "texto": "Registrar y comunicar inmediatamente a la superioridad y autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Resolver de forma interna sin informar", "rta": "no" },
+    "rta_3": { "texto": "Delegar en personal de menor jerarquía", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué implica la fiscalización de detenidos hospitalizados por parte del Jefe de Servicios?",
+    "rta_1": { "texto": "Controlar custodia, registros y comunicación constante", "rta": "yes" },
+    "rta_2": { "texto": "Esperar informe médico final", "rta": "no" },
+    "rta_3": { "texto": "No asumir responsabilidad fuera de la comisaría", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "Si el Jefe de Servicios detecta trato irrespetuoso hacia un ciudadano por parte de un agente, ¿qué corresponde?",
+    "rta_1": { "texto": "Corregir de inmediato y dejar constancia disciplinaria", "rta": "yes" },
+    "rta_2": { "texto": "Ignorarlo para evitar conflictos", "rta": "no" },
+    "rta_3": { "texto": "Justificarlo como exceso de trabajo", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios al controlar consignas judiciales prolongadas?",
+    "rta_1": { "texto": "Asegurar relevos adecuados y comunicación constante con el juzgado", "rta": "yes" },
+    "rta_2": { "texto": "Revisar una vez por semana", "rta": "no" },
+    "rta_3": { "texto": "Confiar solo en reportes verbales", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios si una persona denuncia desaparición de un menor?",
+    "rta_1": { "texto": "Dar intervención inmediata a la fiscalía y activar protocolos", "rta": "yes" },
+    "rta_2": { "texto": "Esperar confirmación de familiares", "rta": "no" },
+    "rta_3": { "texto": "Tomar solo una exposición simple", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios en caso de secuestro de armas?",
+    "rta_1": { "texto": "Custodia, inventario y comunicación inmediata a Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Guardar en oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Delegar en el denunciante", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "Si durante un patrullaje un móvil informa una situación de flagrancia, ¿qué debe disponer el Jefe de Servicios?",
+    "rta_1": { "texto": "Coordinar apoyo inmediato y comunicar a fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Esperar reporte escrito", "rta": "no" },
+    "rta_3": { "texto": "Registrar solo en libro de novedades", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué implica para el Jefe de Servicios la fiscalización del SOFLEX?",
+    "rta_1": { "texto": "Supervisar en tiempo real recorridos y consignas", "rta": "yes" },
+    "rta_2": { "texto": "Revisar solo al final del mes", "rta": "no" },
+    "rta_3": { "texto": "Dejarlo a criterio de operadores", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios al recibir un oficio judicial de allanamiento fuera de su jurisdicción?",
+    "rta_1": { "texto": "Comunicar a la dependencia competente y asistir si se lo requiere", "rta": "yes" },
+    "rta_2": { "texto": "Ejecutarlo igualmente sin comunicar", "rta": "no" },
+    "rta_3": { "texto": "Archivar el oficio", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios frente a la pérdida de un bien secuestrado?",
+    "rta_1": { "texto": "Informar inmediatamente a superiores y a la autoridad judicial", "rta": "yes" },
+    "rta_2": { "texto": "Reemplazar el bien con recursos propios", "rta": "no" },
+    "rta_3": { "texto": "No registrar la pérdida", "rta": "no" }
+  }
+]

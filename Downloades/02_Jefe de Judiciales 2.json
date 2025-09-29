@@ -1,0 +1,704 @@
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es la función principal del Jefe de Judiciales dentro de una dependencia?",
+    "rta_1": { "texto": "Supervisar la totalidad de los sumarios judiciales y contravencionales", "rta": "yes" },
+    "rta_2": { "texto": "Controlar el patrullaje externo", "rta": "no" },
+    "rta_3": { "texto": "Administrar licencias del personal", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales respecto a las declaraciones testimoniales?",
+    "rta_1": { "texto": "Que sean tomadas conforme a las garantías procesales y correctamente documentadas", "rta": "yes" },
+    "rta_2": { "texto": "Que se realicen únicamente de forma oral", "rta": "no" },
+    "rta_3": { "texto": "Que sean registradas en el libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "En ausencia del Jefe de Servicios, ¿qué rol puede asumir el Jefe de Judiciales?",
+    "rta_1": { "texto": "Iniciar sumarios de prevención y realizar comunicaciones urgentes", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar la flota automotor", "rta": "no" },
+    "rta_3": { "texto": "Asignar guardias en los sectores", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Qué documento debe fiscalizar personalmente el Jefe de Judiciales?",
+    "rta_1": { "texto": "El Libro Registro de Sumarios", "rta": "yes" },
+    "rta_2": { "texto": "El Libro de Recargos de Servicio", "rta": "no" },
+    "rta_3": { "texto": "El Libro de Asistencia del personal", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Qué relación funcional mantiene el Jefe de Judiciales con el Jefe de la Dependencia?",
+    "rta_1": { "texto": "Debe dar cuenta inmediata de todas las actuaciones judiciales en curso", "rta": "yes" },
+    "rta_2": { "texto": "No tiene relación directa, depende solo del fiscal", "rta": "no" },
+    "rta_3": { "texto": "Solo informa sobre contravenciones leves", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "En la confección de sumarios, ¿qué error compromete la validez de la causa?",
+    "rta_1": { "texto": "Omisión de la identificación del imputado o damnificado", "rta": "yes" },
+    "rta_2": { "texto": "Incluir testigos de identidad reservada", "rta": "no" },
+    "rta_3": { "texto": "Utilizar varios colores de tinta", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Judiciales en el secuestro de elementos?",
+    "rta_1": { "texto": "Garantizar la cadena de custodia y el registro en actas", "rta": "yes" },
+    "rta_2": { "texto": "Trasladar personalmente todos los elementos al fiscal", "rta": "no" },
+    "rta_3": { "texto": "Guardar los elementos en la oficina de administración", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Qué debe hacer el Jefe de Judiciales cuando recibe un oficio judicial?",
+    "rta_1": { "texto": "Diligenciarlo de inmediato y dejar constancia escrita", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a que lo ejecute el jefe de guardia", "rta": "no" },
+    "rta_3": { "texto": "Remitirlo al área de logística", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿En qué casos el Jefe de Judiciales puede tomar declaración a testigos?",
+    "rta_1": { "texto": "Fuera del horario de la oficina respectiva o en casos urgentes", "rta": "yes" },
+    "rta_2": { "texto": "Nunca, solo el juez lo hace", "rta": "no" },
+    "rta_3": { "texto": "Únicamente en delitos de acción privada", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Cuál es una obligación esencial del Jefe de Judiciales respecto a las causas?",
+    "rta_1": { "texto": "Controlar que los sumarios sean elevados al magistrado en término", "rta": "yes" },
+    "rta_2": { "texto": "Custodiar los móviles de la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Supervisar al personal administrativo", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "Ante una instrucción sumarial con pruebas periciales pendientes, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que se realicen solo las declaraciones de testigos", "rta": "no" },
+    "rta_2": { "texto": "La incorporación de informes periciales al sumario en tiempo y forma", "rta": "yes" },
+    "rta_3": { "texto": "La remisión automática del expediente al Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "Si un magistrado solicita diligencias urgentes, ¿cómo debe proceder el Jefe de Judiciales?",
+    "rta_1": { "texto": "Esperar autorización administrativa de la Jefatura", "rta": "no" },
+    "rta_2": { "texto": "Disponer de inmediato el cumplimiento, informando al Jefe de Dependencia", "rta": "yes" },
+    "rta_3": { "texto": "Delegar en el Oficial de Guardia sin supervisión", "rta": "no" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Qué actuación corresponde si el Jefe de Judiciales detecta irregularidades en una prevención sumarial?",
+    "rta_1": { "texto": "Deberá elevarla igual al fiscal para su revisión", "rta": "no" },
+    "rta_2": { "texto": "Debe corregir, supervisar y recién después elevarla a la judicatura", "rta": "yes" },
+    "rta_3": { "texto": "Archivar la prevención y no remitirla", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Judiciales en relación con las pruebas recogidas?",
+    "rta_1": { "texto": "Garantizar su custodia, preservación y cadena de custodia", "rta": "yes" },
+    "rta_2": { "texto": "Delegar siempre su resguardo en el área administrativa", "rta": "no" },
+    "rta_3": { "texto": "Enviar directamente al juez sin registro policial", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Cuál es el vínculo funcional entre el Jefe de Judiciales y el Ministerio Público Fiscal?",
+    "rta_1": { "texto": "Dependencia operativa directa", "rta": "no" },
+    "rta_2": { "texto": "Actuar como auxiliar judicial en la instrucción de prevenciones", "rta": "yes" },
+    "rta_3": { "texto": "No existe relación alguna", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué acción debe tomar el Jefe de Judiciales frente a declaraciones contradictorias de testigos?",
+    "rta_1": { "texto": "Dejar constancia y elevar las actuaciones al fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Excluir la declaración inconsistente", "rta": "no" },
+    "rta_3": { "texto": "Resolver por sí mismo la veracidad", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "Si el Jefe de Judiciales omite controlar un sumario antes de su elevación, ¿qué riesgo genera?",
+    "rta_1": { "texto": "Solo demora administrativa", "rta": "no" },
+    "rta_2": { "texto": "Posible nulidad procesal por errores u omisiones", "rta": "yes" },
+    "rta_3": { "texto": "Ninguna consecuencia legal", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué documento es esencial para acreditar la legalidad de un procedimiento en sede judicial?",
+    "rta_1": { "texto": "El parte administrativo interno", "rta": "no" },
+    "rta_2": { "texto": "El sumario policial con actuaciones debidamente registradas", "rta": "yes" },
+    "rta_3": { "texto": "La planilla de guardia", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "Cuando el Jefe de Judiciales organiza comisiones, ¿qué debe priorizar?",
+    "rta_1": { "texto": "Disponibilidad de móviles de logística", "rta": "no" },
+    "rta_2": { "texto": "Cumplimiento oportuno de la instrucción sumarial", "rta": "yes" },
+    "rta_3": { "texto": "Rotación equitativa del personal sin importar la urgencia", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué distingue a la Oficina de Judiciales de otras áreas de la dependencia?",
+    "rta_1": { "texto": "Su rol de nexo directo con el Poder Judicial", "rta": "yes" },
+    "rta_2": { "texto": "El manejo exclusivo de recursos materiales", "rta": "no" },
+    "rta_3": { "texto": "El control del régimen disciplinario del personal", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Cuál es el efecto de un acta mal confeccionada bajo supervisión del Jefe de Judiciales?",
+    "rta_1": { "texto": "No tiene valor probatorio", "rta": "yes" },
+    "rta_2": { "texto": "Se subsana automáticamente en sede judicial", "rta": "no" },
+    "rta_3": { "texto": "Se reemplaza por un informe administrativo", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "Si un testigo es clave en un sumario, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que declare siempre ante la fiscalía sin intervención policial", "rta": "no" },
+    "rta_2": { "texto": "Que se tome su declaración conforme a la normativa procesal", "rta": "yes" },
+    "rta_3": { "texto": "Que firme un acta de compromiso", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué implica la supervisión del Jefe de Judiciales en diligencias de allanamiento?",
+    "rta_1": { "texto": "Asegurar legalidad, registro y preservación de la prueba", "rta": "yes" },
+    "rta_2": { "texto": "Solo coordinar móviles de traslado", "rta": "no" },
+    "rta_3": { "texto": "Emitir órdenes administrativas", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Qué ocurre si el Jefe de Judiciales no controla la cadena de custodia?",
+    "rta_1": { "texto": "Puede declararse inválida la prueba recolectada", "rta": "yes" },
+    "rta_2": { "texto": "La responsabilidad recae automáticamente en el fiscal", "rta": "no" },
+    "rta_3": { "texto": "No genera consecuencias legales", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué diferencia procesal existe entre un sumario iniciado por el Jefe de Servicios y la revisión del Jefe de Judiciales?",
+    "rta_1": { "texto": "Servicios lo inicia, Judiciales lo supervisa y eleva", "rta": "yes" },
+    "rta_2": { "texto": "Ambos cumplen la misma función", "rta": "no" },
+    "rta_3": { "texto": "Judiciales nunca interviene en sumarios iniciados por Servicios", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Cuál es el rol del Jefe de Judiciales en actuaciones preliminares?",
+    "rta_1": { "texto": "Supervisar su formalización antes de elevarlas", "rta": "yes" },
+    "rta_2": { "texto": "Gestionar exclusivamente licencias administrativas", "rta": "no" },
+    "rta_3": { "texto": "Autorizar guardias", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "En caso de delitos complejos, ¿qué debe coordinar el Jefe de Judiciales?",
+    "rta_1": { "texto": "La articulación de pericias, testimonios e inspecciones", "rta": "yes" },
+    "rta_2": { "texto": "El otorgamiento de recargos de servicio", "rta": "no" },
+    "rta_3": { "texto": "La reorganización de horarios de guardia", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué principio se afecta si el Jefe de Judiciales demora en remitir actuaciones?",
+    "rta_1": { "texto": "El de inmediatez procesal", "rta": "yes" },
+    "rta_2": { "texto": "El de proporcionalidad", "rta": "no" },
+    "rta_3": { "texto": "El de autonomía administrativa", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué debe consignarse siempre en un acta bajo control del Jefe de Judiciales?",
+    "rta_1": { "texto": "Lugar, fecha, hora y firma del personal actuante", "rta": "yes" },
+    "rta_2": { "texto": "La opinión personal del testigo", "rta": "no" },
+    "rta_3": { "texto": "La autorización del área de logística", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué caracteriza al Jefe de Judiciales frente a un proceso contravencional?",
+    "rta_1": { "texto": "La supervisión de actas contravencionales y su elevación", "rta": "yes" },
+    "rta_2": { "texto": "Otorgar permisos administrativos", "rta": "no" },
+    "rta_3": { "texto": "Coordinar patrullajes externos", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Qué función ejerce el Jefe de Judiciales frente a la elevación de pruebas al juez?",
+    "rta_1": { "texto": "Garantizar que estén ordenadas y legalmente obtenidas", "rta": "yes" },
+    "rta_2": { "texto": "Delegar directamente al personal de guardia", "rta": "no" },
+    "rta_3": { "texto": "Entregar solo la declaración principal", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Cómo debe actuar el Jefe de Judiciales ante instrucciones contradictorias de distintas autoridades?",
+    "rta_1": { "texto": "Debe priorizar siempre la orden judicial competente", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar criterio propio sin consulta", "rta": "no" },
+    "rta_3": { "texto": "Cumplir primero la orden administrativa", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Qué ocurre si el Jefe de Judiciales no supervisa declaraciones en sede policial?",
+    "rta_1": { "texto": "Las mismas pueden perder validez probatoria", "rta": "yes" },
+    "rta_2": { "texto": "El fiscal las valida automáticamente", "rta": "no" },
+    "rta_3": { "texto": "Se reemplazan por informes administrativos", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Judiciales en cuanto a la documentación sumarial?",
+    "rta_1": { "texto": "Asegurar prolijidad, legalidad y control", "rta": "yes" },
+    "rta_2": { "texto": "Delegar su confección en el área administrativa", "rta": "no" },
+    "rta_3": { "texto": "Emitir solo notas informales", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "En delitos flagrantes, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Formalización inmediata de las actuaciones sumariales", "rta": "yes" },
+    "rta_2": { "texto": "Esperar informe escrito del Jefe de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Remitir la actuación a logística", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué actuación está fuera de las competencias del Jefe de Judiciales?",
+    "rta_1": { "texto": "Confeccionar órdenes de servicio internas", "rta": "no" },
+    "rta_2": { "texto": "Supervisar diligencias sumariales", "rta": "yes" },
+    "rta_3": { "texto": "Revisar prevenciones judiciales", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Qué principio procesal se garantiza con la actuación del Jefe de Judiciales?",
+    "rta_1": { "texto": "Legalidad e inmediatez en la prueba", "rta": "yes" },
+    "rta_2": { "texto": "Discrecionalidad administrativa", "rta": "no" },
+    "rta_3": { "texto": "Flexibilidad organizativa", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué diferencia hay entre la supervisión del Jefe de Judiciales y la del Jefe de Servicios?",
+    "rta_1": { "texto": "Judiciales controla legalidad probatoria, Servicios supervisa operatividad", "rta": "yes" },
+    "rta_2": { "texto": "Judiciales controla móviles, Servicios actas contravencionales", "rta": "no" },
+    "rta_3": { "texto": "No existe diferencia", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué elemento no puede faltar en un sumario bajo control del Jefe de Judiciales?",
+    "rta_1": { "texto": "Firma y sello de autoridad policial interviniente", "rta": "yes" },
+    "rta_2": { "texto": "Nota administrativa de la oficina de servicios", "rta": "no" },
+    "rta_3": { "texto": "Constancia de recargos", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales al coordinar inspecciones oculares?",
+    "rta_1": { "texto": "Registro fiel y documentación fotográfica", "rta": "yes" },
+    "rta_2": { "texto": "Que se realicen solo en horario diurno", "rta": "no" },
+    "rta_3": { "texto": "Que participen exclusivamente peritos externos", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué ocurre si el Jefe de Judiciales autoriza una diligencia fuera de su competencia?",
+    "rta_1": { "texto": "Puede ser considerado exceso funcional", "rta": "yes" },
+    "rta_2": { "texto": "La diligencia se valida automáticamente", "rta": "no" },
+    "rta_3": { "texto": "No tiene consecuencias procesales", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué diferencia existe entre testigos policiales y ciudadanos en sumarios?",
+    "rta_1": { "texto": "Ambos aportan pruebas, pero el Jefe de Judiciales debe supervisar su incorporación diferenciada", "rta": "yes" },
+    "rta_2": { "texto": "Solo los ciudadanos pueden declarar en sumarios", "rta": "no" },
+    "rta_3": { "texto": "Los policiales no tienen validez", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué facultad ejerce el Jefe de Judiciales en relación a oficios judiciales?",
+    "rta_1": { "texto": "Disponer su cumplimiento inmediato en coordinación con el personal", "rta": "yes" },
+    "rta_2": { "texto": "Delegar su recepción a logística", "rta": "no" },
+    "rta_3": { "texto": "Archivar sin cumplimiento", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué tipo de control realiza el Jefe de Judiciales sobre los informes periciales?",
+    "rta_1": { "texto": "Control formal y de legalidad antes de su elevación", "rta": "yes" },
+    "rta_2": { "texto": "Solo control administrativo", "rta": "no" },
+    "rta_3": { "texto": "Delegación total al Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué actuación debe priorizar el Jefe de Judiciales en delitos transferidos?",
+    "rta_1": { "texto": "Asegurar remisión inmediata a la justicia competente", "rta": "yes" },
+    "rta_2": { "texto": "Esperar orden administrativa de la comisaría", "rta": "no" },
+    "rta_3": { "texto": "No intervenir hasta que lo ordene el Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué consecuencia acarrea un error en la transcripción de declaraciones?",
+    "rta_1": { "texto": "Puede afectar la validez de la prueba testimonial", "rta": "yes" },
+    "rta_2": { "texto": "Se corrige automáticamente en fiscalía", "rta": "no" },
+    "rta_3": { "texto": "No tiene importancia procesal", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué acción corresponde si una diligencia queda incompleta?",
+    "rta_1": { "texto": "Debe completarse y registrarse bajo control del Jefe de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Se archiva sin concluir", "rta": "no" },
+    "rta_3": { "texto": "Se reemplaza por un informe de servicios", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué función cumple el Jefe de Judiciales en delitos con múltiples imputados?",
+    "rta_1": { "texto": "Coordinar la correcta individualización y documentación de cada imputado", "rta": "yes" },
+    "rta_2": { "texto": "Remitir solo el principal a sede judicial", "rta": "no" },
+    "rta_3": { "texto": "Dividir el sumario en partes", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué norma procesal guía la actuación del Jefe de Judiciales en sumarios?",
+    "rta_1": { "texto": "El Código Procesal Penal de la CABA", "rta": "yes" },
+    "rta_2": { "texto": "El Reglamento Administrativo de Personal", "rta": "no" },
+    "rta_3": { "texto": "El Código de Faltas", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué debe garantizar el Jefe de Judiciales en la remisión de actuaciones a la justicia?",
+    "rta_1": { "texto": "Que estén completas, ordenadas y firmadas", "rta": "yes" },
+    "rta_2": { "texto": "Que sean enviadas solo en formato digital", "rta": "no" },
+    "rta_3": { "texto": "Que sean firmadas únicamente por el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "Durante una investigación con múltiples detenidos, uno de ellos alega ser menor de edad. ¿Qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que se lo trate como imputado adulto hasta que lo determine el juez", "rta": "no" },
+    "rta_2": { "texto": "Que se le apliquen de inmediato las garantías procesales especiales para menores", "rta": "yes" },
+    "rta_3": { "texto": "Que sea trasladado a la Oficina de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "Si se omite la firma de un testigo en un acta supervisada por el Jefe de Judiciales, ¿qué riesgo se genera?",
+    "rta_1": { "texto": "Posible nulidad del acta por vicio formal", "rta": "yes" },
+    "rta_2": { "texto": "Solo una demora administrativa", "rta": "no" },
+    "rta_3": { "texto": "El acta sigue teniendo plena validez", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "En un procedimiento donde se secuestran armas de fuego, ¿qué debe verificar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que se cumpla la cadena de custodia y registro balístico", "rta": "yes" },
+    "rta_2": { "texto": "Que el arma quede bajo resguardo de logística", "rta": "no" },
+    "rta_3": { "texto": "Que solo se documente en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "Un fiscal ordena diligencias contradictorias con un juez de turno. ¿Qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Cumplir la orden del fiscal siempre", "rta": "no" },
+    "rta_2": { "texto": "Dar cumplimiento prioritario a la orden judicial competente", "rta": "yes" },
+    "rta_3": { "texto": "Suspender ambas diligencias hasta consultar a superiores policiales", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "Si una declaración fue obtenida sin lectura de derechos, ¿qué impacto tiene?",
+    "rta_1": { "texto": "La prueba puede ser excluida por violar garantías constitucionales", "rta": "yes" },
+    "rta_2": { "texto": "Solo implica un error administrativo", "rta": "no" },
+    "rta_3": { "texto": "Se valida en fiscalía automáticamente", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "En una causa con múltiples testigos, ¿qué debe priorizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "El orden cronológico de los hechos y su correlación en las declaraciones", "rta": "yes" },
+    "rta_2": { "texto": "Que todos los testigos declaren simultáneamente", "rta": "no" },
+    "rta_3": { "texto": "Que se tome declaración solo al denunciante", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "Un acta circunstanciada carece de la firma del imputado. ¿Qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Subsanar el error dejando constancia y continuar", "rta": "yes" },
+    "rta_2": { "texto": "Archivar la actuación", "rta": "no" },
+    "rta_3": { "texto": "Remitir igual sin observaciones", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Qué ocurre si el Jefe de Judiciales no asegura la custodia de elementos secuestrados?",
+    "rta_1": { "texto": "La prueba puede ser declarada inválida en juicio", "rta": "yes" },
+    "rta_2": { "texto": "El juez la valida automáticamente", "rta": "no" },
+    "rta_3": { "texto": "Se traslada la responsabilidad al fiscal", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "En delitos flagrantes, ¿qué principio debe garantizar la supervisión del Jefe de Judiciales?",
+    "rta_1": { "texto": "Inmediatez procesal", "rta": "yes" },
+    "rta_2": { "texto": "Delegación administrativa", "rta": "no" },
+    "rta_3": { "texto": "Rotación equitativa del personal", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "Si un oficio judicial llega con errores formales, ¿qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Solicitar aclaración o rectificación a la autoridad emisora", "rta": "yes" },
+    "rta_2": { "texto": "Cumplir igual sin observaciones", "rta": "no" },
+    "rta_3": { "texto": "Delegar al área administrativa", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "Si durante la declaración un testigo se contradice varias veces, ¿qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Levantar acta de las contradicciones y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Suspender la declaración y archivar", "rta": "no" },
+    "rta_3": { "texto": "Modificar el acta para unificar la versión", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué control debe ejercer el Jefe de Judiciales en la entrega de oficios a otras dependencias?",
+    "rta_1": { "texto": "Verificar que estén debidamente diligenciados y documentados en el libro correspondiente", "rta": "yes" },
+    "rta_2": { "texto": "Solo asegurarse de la firma del jefe de dependencia", "rta": "no" },
+    "rta_3": { "texto": "Delegar completamente en la Oficina de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "Ante un imputado que no comprende el idioma castellano, ¿qué debe asegurar el Jefe de Judiciales?",
+    "rta_1": { "texto": "La presencia de un traductor o intérprete oficial", "rta": "yes" },
+    "rta_2": { "texto": "Que firme igualmente el acta", "rta": "no" },
+    "rta_3": { "texto": "Que declare con ayuda de otro detenido", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "En el marco de la Ley 5688, ¿qué principio debe garantizarse siempre en las actuaciones?",
+    "rta_1": { "texto": "Legalidad y respeto de garantías constitucionales", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez sin formalismos", "rta": "no" },
+    "rta_3": { "texto": "Autonomía absoluta del personal interviniente", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "Un elemento secuestrado es extraviado en sede policial. ¿Qué implica para el Jefe de Judiciales?",
+    "rta_1": { "texto": "Responsabilidad administrativa y posible sanción disciplinaria", "rta": "yes" },
+    "rta_2": { "texto": "Se anula automáticamente la causa", "rta": "no" },
+    "rta_3": { "texto": "No tiene consecuencias porque es responsabilidad del juez", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "En la redacción de un acta contravencional, ¿qué error puede generar nulidad?",
+    "rta_1": { "texto": "Omisión de datos esenciales como hora, lugar o identidad", "rta": "yes" },
+    "rta_2": { "texto": "Falta de sello policial", "rta": "no" },
+    "rta_3": { "texto": "Uso de bolígrafo distinto en la firma", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "Cuando se trata de delitos transferidos a la justicia local, ¿qué rol cumple el Jefe de Judiciales?",
+    "rta_1": { "texto": "Garantizar que la causa se remita a la jurisdicción correspondiente", "rta": "yes" },
+    "rta_2": { "texto": "Continuar el trámite sin informar", "rta": "no" },
+    "rta_3": { "texto": "Derivar automáticamente a la Policía Federal", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "Si un denunciante de paradero de menores se retracta, ¿qué corresponde?",
+    "rta_1": { "texto": "Continuar la búsqueda porque es una obligación del Estado", "rta": "yes" },
+    "rta_2": { "texto": "Archivar inmediatamente la denuncia", "rta": "no" },
+    "rta_3": { "texto": "Solicitarle que firme un desistimiento", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "En un acta de entrega de dependencia, ¿qué formato corresponde?",
+    "rta_1": { "texto": "Por triplicado", "rta": "yes" },
+    "rta_2": { "texto": "Por duplicado", "rta": "no" },
+    "rta_3": { "texto": "Un solo ejemplar", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "Si un testigo es ciego y amputado, ¿puede declarar como testigo de hecho?",
+    "rta_1": { "texto": "Sí, siempre que pueda percibir de algún modo el hecho", "rta": "yes" },
+    "rta_2": { "texto": "No, porque no cumple condiciones físicas", "rta": "no" },
+    "rta_3": { "texto": "Solo si el juez lo aprueba en audiencia", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "En flagrancia, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que se cumpla el procedimiento con celeridad y respeto de garantías", "rta": "yes" },
+    "rta_2": { "texto": "Que se traslade inmediatamente al juez sin acta", "rta": "no" },
+    "rta_3": { "texto": "Que se tome declaración al damnificado sin su consentimiento", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "Si un detenido solicita asistencia médica, ¿qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Garantizar atención inmediata y dejar constancia en el acta", "rta": "yes" },
+    "rta_2": { "texto": "Esperar a la autorización judicial", "rta": "no" },
+    "rta_3": { "texto": "Derivar la responsabilidad al oficial de guardia", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "Cuando se registra una exposición civil, ¿qué debe cuidar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que no implique cuestiones penales o contravencionales", "rta": "yes" },
+    "rta_2": { "texto": "Que quede archivada en mesa de entradas", "rta": "no" },
+    "rta_3": { "texto": "Que se adjunte a un sumario penal", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "Un detenido no tiene documento ni datos verificables. ¿Qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Dar intervención a la UFAI para identificación", "rta": "yes" },
+    "rta_2": { "texto": "Liberarlo por falta de identidad", "rta": "no" },
+    "rta_3": { "texto": "Pedir a familiares que lo identifiquen", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "En qué casos el Jefe de Judiciales debe iniciar sumario de prevención directamente?",
+    "rta_1": { "texto": "Cuando el hecho no está a cargo de otra oficina o no hay disponibilidad inmediata de fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Nunca, siempre espera orden judicial", "rta": "no" },
+    "rta_3": { "texto": "Solo cuando lo solicita el denunciante", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "En relación al SISEP, ¿qué debe verificar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que las actuaciones sean cargadas en tiempo real", "rta": "yes" },
+    "rta_2": { "texto": "Que las cargue exclusivamente el jefe de servicios", "rta": "no" },
+    "rta_3": { "texto": "Que solo se documenten delitos graves", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "Si un denunciante abandona la comisaría luego de denunciar un delito, ¿qué corresponde?",
+    "rta_1": { "texto": "Asentar la denuncia y realizar la consulta judicial", "rta": "yes" },
+    "rta_2": { "texto": "No hacer nada hasta que vuelva", "rta": "no" },
+    "rta_3": { "texto": "Solo registrarlo en libro de guardia", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "En un juicio oral en CABA, ¿puede reemplazarse la declaración de un testigo?",
+    "rta_1": { "texto": "No, salvo excepciones expresas previstas en el CPPCABA", "rta": "yes" },
+    "rta_2": { "texto": "Sí, por lectura de cualquier acta", "rta": "no" },
+    "rta_3": { "texto": "Siempre que lo autorice el fiscal", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "Qué debe constatar el Jefe de Judiciales en un acta de allanamiento?",
+    "rta_1": { "texto": "Que consten datos precisos del domicilio y autoridad ordenante", "rta": "yes" },
+    "rta_2": { "texto": "Que esté firmada por todos los testigos barriales", "rta": "no" },
+    "rta_3": { "texto": "Que figure el nombre de todos los móviles presentes", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "Cuando se toman medidas precautorias en contravenciones, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "Que se respete la proporcionalidad y se documente la medida", "rta": "yes" },
+    "rta_2": { "texto": "Que siempre se clausure el local", "rta": "no" },
+    "rta_3": { "texto": "Que el imputado firme sin explicación", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "Cuando el Jefe de Judiciales recibe un sumario iniciado por el Jefe de Servicios, ¿qué debe hacer antes de elevarlo al magistrado?",
+    "rta_1": { "texto": "Actuar como contralor verificando la correcta formalización y legalidad del procedimiento", "rta": "yes" },
+    "rta_2": { "texto": "Agregar únicamente la firma de la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Trasladarlo sin revisión al Ministerio Público Fiscal", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Qué principio se ve comprometido si el Jefe de Judiciales no asegura la cadena de custodia de un elemento secuestrado?",
+    "rta_1": { "texto": "El de inalterabilidad de la prueba", "rta": "yes" },
+    "rta_2": { "texto": "El de proporcionalidad en el uso de la fuerza", "rta": "no" },
+    "rta_3": { "texto": "El de gradualidad en la intervención", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "En un procedimiento por flagrancia, ¿qué rol específico asume el Jefe de Judiciales respecto a los testigos?",
+    "rta_1": { "texto": "Debe recibir las declaraciones testimoniales si la urgencia lo requiere", "rta": "yes" },
+    "rta_2": { "texto": "Coordina el patrullaje para ubicar testigos", "rta": "no" },
+    "rta_3": { "texto": "Solicita reemplazo al Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Cuál es la obligación del Jefe de Judiciales respecto a un oficio judicial con plazo perentorio?",
+    "rta_1": { "texto": "Garantizar su diligenciamiento inmediato y notificar el cumplimiento al magistrado", "rta": "yes" },
+    "rta_2": { "texto": "Trasladarlo al área de administración para archivo", "rta": "no" },
+    "rta_3": { "texto": "Esperar confirmación escrita del Jefe de Dependencia", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "En caso de contradicción en testimonios, ¿qué debe hacer el Jefe de Judiciales?",
+    "rta_1": { "texto": "Asentar las divergencias y remitir las actuaciones al fiscal para su valoración", "rta": "yes" },
+    "rta_2": { "texto": "Modificar las declaraciones para unificarlas", "rta": "no" },
+    "rta_3": { "texto": "Esperar la intervención del Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Qué documento constituye la base probatoria inicial que fiscaliza el Jefe de Judiciales en un sumario?",
+    "rta_1": { "texto": "El acta de procedimiento", "rta": "yes" },
+    "rta_2": { "texto": "El libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "El parte de móviles", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué ocurre si el Jefe de Judiciales omite notificar una orden de libertad?",
+    "rta_1": { "texto": "Configura una privación ilegítima de la libertad", "rta": "yes" },
+    "rta_2": { "texto": "Un error administrativo sin consecuencias jurídicas", "rta": "no" },
+    "rta_3": { "texto": "Una falta disciplinaria menor", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Qué acción debe adoptar el Jefe de Judiciales al recibir prueba digital?",
+    "rta_1": { "texto": "Garantizar su integridad con acta de secuestro y respaldo en soporte seguro", "rta": "yes" },
+    "rta_2": { "texto": "Guardar la prueba únicamente en un pendrive de la dependencia", "rta": "no" },
+    "rta_3": { "texto": "Derivarla directamente a logística", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "En ausencia de fiscal, ¿qué limitación tiene el Jefe de Judiciales respecto a la investigación?",
+    "rta_1": { "texto": "No puede disponer medidas restrictivas de derechos sin autorización judicial", "rta": "yes" },
+    "rta_2": { "texto": "No puede recibir declaraciones de testigos", "rta": "no" },
+    "rta_3": { "texto": "No puede elaborar actas circunstanciadas", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué debe hacer el Jefe de Judiciales si un imputado solicita declarar espontáneamente?",
+    "rta_1": { "texto": "Labrar acta de indagatoria conforme a las normas y remitir al fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Rechazar la solicitud hasta la llegada de un juez", "rta": "no" },
+    "rta_3": { "texto": "Elevar informe a la oficina de administración", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "Cuando se recibe una denuncia por desaparición de menores, ¿qué obligación tiene el Jefe de Judiciales?",
+    "rta_1": { "texto": "Activar inmediatamente el protocolo de búsqueda y dar cuenta al fiscal", "rta": "yes" },
+    "rta_2": { "texto": "Asentar solo en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Esperar confirmación del Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Cuál es el rol del Jefe de Judiciales en la actuación por contravenciones?",
+    "rta_1": { "texto": "Conducir la instrucción sumarial contravencional y asegurar su elevación", "rta": "yes" },
+    "rta_2": { "texto": "Fiscalizar patrullajes preventivos", "rta": "no" },
+    "rta_3": { "texto": "Otorgar licencias administrativas", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "Si el Jefe de Judiciales recibe un oficio para allanamiento urgente, ¿qué debe garantizar?",
+    "rta_1": { "texto": "Que se ejecute conforme a la ley y que el acta sea remitida al juez competente", "rta": "yes" },
+    "rta_2": { "texto": "Que el operativo se realice sin acta escrita", "rta": "no" },
+    "rta_3": { "texto": "Que lo coordine exclusivamente el Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué principio de actuación debe observar el Jefe de Judiciales al recibir declaraciones?",
+    "rta_1": { "texto": "El principio de inmediación y legalidad", "rta": "yes" },
+    "rta_2": { "texto": "El principio de delegación total al Jefe de Guardia", "rta": "no" },
+    "rta_3": { "texto": "El principio de confidencialidad absoluta sin registro", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué consecuencias acarrea la falta de notificación de derechos al imputado en la instrucción sumarial?",
+    "rta_1": { "texto": "La nulidad del procedimiento", "rta": "yes" },
+    "rta_2": { "texto": "Una simple advertencia administrativa", "rta": "no" },
+    "rta_3": { "texto": "Un retraso procesal sin relevancia", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué facultad NO posee el Jefe de Judiciales dentro de la dependencia?",
+    "rta_1": { "texto": "Ordenar medidas restrictivas de libertad sin autorización judicial", "rta": "yes" },
+    "rta_2": { "texto": "Iniciar sumarios de prevención", "rta": "no" },
+    "rta_3": { "texto": "Controlar actuaciones contravencionales", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "En materia de delitos de acción privada, ¿qué debe verificar el Jefe de Judiciales antes de iniciar un sumario?",
+    "rta_1": { "texto": "La existencia de instancia de parte habilitante", "rta": "yes" },
+    "rta_2": { "texto": "La asignación de móviles externos", "rta": "no" },
+    "rta_3": { "texto": "La disponibilidad de recursos logísticos", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "Si un testigo es ciego o con discapacidad, ¿qué debe garantizar el Jefe de Judiciales?",
+    "rta_1": { "texto": "La accesibilidad y condiciones necesarias para declarar", "rta": "yes" },
+    "rta_2": { "texto": "La exclusión automática de su testimonio", "rta": "no" },
+    "rta_3": { "texto": "Que declare solo por escrito", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Qué medida corresponde adoptar ante contradicciones graves en una exposición inicial?",
+    "rta_1": { "texto": "Ampliar la declaración y dejar constancia en el sumario", "rta": "yes" },
+    "rta_2": { "texto": "Eliminar la exposición anterior", "rta": "no" },
+    "rta_3": { "texto": "Trasladar la responsabilidad al Jefe de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Qué debe consignar siempre el Jefe de Judiciales en el Libro Registro de Sumarios?",
+    "rta_1": { "texto": "La carátula, datos del imputado, damnificado y estado procesal de la causa", "rta": "yes" },
+    "rta_2": { "texto": "Únicamente el nombre del denunciante", "rta": "no" },
+    "rta_3": { "texto": "Solo la firma de quien instruye", "rta": "no" }
+  }
+]
+
+
