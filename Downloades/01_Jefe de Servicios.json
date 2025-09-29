@@ -1,1 +1,1052 @@
-
+[
+  {
+    "idq": 1,
+    "pregunta": "¿Cuál es la función principal del Jefe de Servicios?",
+    "rta_1": { "texto": "Dirigir y fiscalizar al personal subordinado", "rta": "yes" },
+    "rta_2": { "texto": "Llevar la contabilidad de la comisaría", "rta": "no" },
+    "rta_3": { "texto": "Supervisar únicamente al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 2,
+    "pregunta": "¿Qué debe conocer permanentemente el Jefe de Servicios?",
+    "rta_1": { "texto": "La ubicación de oficinas públicas y hospitales", "rta": "yes" },
+    "rta_2": { "texto": "La lista de proveedores de suministros", "rta": "no" },
+    "rta_3": { "texto": "La agenda personal del Comisario", "rta": "no" }
+  },
+  {
+    "idq": 3,
+    "pregunta": "¿A quién debe dar cuenta el Jefe de Servicios de toda novedad?",
+    "rta_1": { "texto": "A la Oficina de Logística", "rta": "no" },
+    "rta_2": { "texto": "A sus superiores inmediatos", "rta": "yes" },
+    "rta_3": { "texto": "Al Ministerio Público Fiscal", "rta": "no" }
+  },
+  {
+    "idq": 4,
+    "pregunta": "¿Qué documento debe consignar el Jefe de Servicios al relevar guardia?",
+    "rta_1": { "texto": "Libro Entrega de Guardia de Jefes de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "Libro Copiador de Notas Ordinarias", "rta": "no" },
+    "rta_3": { "texto": "Libro de Infracciones de Tránsito", "rta": "no" }
+  },
+  {
+    "idq": 5,
+    "pregunta": "¿Qué oficina lleva el gerenciamiento administrativo de licencias y sumarios?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 6,
+    "pregunta": "¿Qué sistema informático controla recorridos de móviles y caminatas UBG?",
+    "rta_1": { "texto": "SADE", "rta": "no" },
+    "rta_2": { "texto": "SOFLEX", "rta": "yes" },
+    "rta_3": { "texto": "AVL-SISEP", "rta": "no" }
+  },
+  {
+    "idq": 7,
+    "pregunta": "¿Cuál es la responsabilidad del Oficial de Guardia?",
+    "rta_1": { "texto": "Atender en primera instancia al ciudadano", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar la Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Asignar móviles de patrullaje", "rta": "no" }
+  },
+  {
+    "idq": 8,
+    "pregunta": "¿Quién reemplaza al Jefe de Dependencia en su ausencia?",
+    "rta_1": { "texto": "El Jefe de Servicios", "rta": "no" },
+    "rta_2": { "texto": "El 2º Jefe (Subcomisario)", "rta": "yes" },
+    "rta_3": { "texto": "El Jefe de Logística", "rta": "no" }
+  },
+  {
+    "idq": 9,
+    "pregunta": "¿Qué móvil está a cargo de un Oficial Primero más un chofer?",
+    "rta_1": { "texto": "Móvil 200", "rta": "yes" },
+    "rta_2": { "texto": "Móvil 300", "rta": "no" },
+    "rta_3": { "texto": "Móviles de sectores", "rta": "no" }
+  },
+  {
+    "idq": 10,
+    "pregunta": "¿Qué debe procurar el Jefe de Servicios respecto a los ciudadanos?",
+    "rta_1": { "texto": "Un trato correcto y cortés", "rta": "yes" },
+    "rta_2": { "texto": "Un trámite rápido y superficial", "rta": "no" },
+    "rta_3": { "texto": "Un acceso directo al Comisario", "rta": "no" }
+  },
+  {
+    "idq": 11,
+    "pregunta": "¿Qué tipo de guardia tiene horario fijo?",
+    "rta_1": { "texto": "Tercio I", "rta": "no" },
+    "rta_2": { "texto": "Tercio IV", "rta": "yes" },
+    "rta_3": { "texto": "Tercio II", "rta": "no" }
+  },
+  {
+    "idq": 12,
+    "pregunta": "¿En qué horario trabaja el Tercio II?",
+    "rta_1": { "texto": "22:00 a 06:00 hs", "rta": "no" },
+    "rta_2": { "texto": "06:00 a 14:00 hs", "rta": "no" },
+    "rta_3": { "texto": "14:00 a 22:00 hs", "rta": "yes" }
+  },
+  {
+    "idq": 13,
+    "pregunta": "¿Quién es responsable de los móviles 911 (200-300)?",
+    "rta_1": { "texto": "Jefe de Servicio Externo", "rta": "yes" },
+    "rta_2": { "texto": "Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "Jefe de Logística", "rta": "no" }
+  },
+  {
+    "idq": 14,
+    "pregunta": "¿Qué debe controlar el Jefe de Servicios respecto al edificio?",
+    "rta_1": { "texto": "La conservación e higiene del mismo", "rta": "yes" },
+    "rta_2": { "texto": "El diseño arquitectónico", "rta": "no" },
+    "rta_3": { "texto": "El cambio de mobiliario", "rta": "no" }
+  },
+  {
+    "idq": 15,
+    "pregunta": "¿Qué documento se utiliza para las actuaciones iniciadas durante el servicio?",
+    "rta_1": { "texto": "Libro Registro de Sumarios", "rta": "yes" },
+    "rta_2": { "texto": "Libro de Contravenciones", "rta": "no" },
+    "rta_3": { "texto": "Libro de Infracciones de Tránsito", "rta": "no" }
+  },
+  {
+    "idq": 16,
+    "pregunta": "¿Qué oficina responde por sumarios y exposiciones?",
+    "rta_1": { "texto": "Oficina de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Guardia", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Logística", "rta": "no" }
+  },
+  {
+    "idq": 17,
+    "pregunta": "¿Cuál es la función del operador SOFLEX?",
+    "rta_1": { "texto": "Asignación de paradas y control de móviles", "rta": "yes" },
+    "rta_2": { "texto": "Gestionar faltas de tránsito", "rta": "no" },
+    "rta_3": { "texto": "Revisar sumarios judiciales", "rta": "no" }
+  },
+  {
+    "idq": 18,
+    "pregunta": "¿Qué debe fiscalizar el Jefe de Servicios respecto al personal?",
+    "rta_1": { "texto": "Presentación y distribución acorde a directivas", "rta": "yes" },
+    "rta_2": { "texto": "Situación financiera del agente", "rta": "no" },
+    "rta_3": { "texto": "Actividades personales fuera de servicio", "rta": "no" }
+  },
+  {
+    "idq": 19,
+    "pregunta": "¿Qué oficina gestiona reparaciones de móviles radiados?",
+    "rta_1": { "texto": "Oficina de Logística", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 20,
+    "pregunta": "¿Qué libro es responsabilidad del Oficial de Guardia?",
+    "rta_1": { "texto": "Libro de Tercio", "rta": "yes" },
+    "rta_2": { "texto": "Libro de Actuaciones de Logística", "rta": "no" },
+    "rta_3": { "texto": "Libro Registro de Bienes", "rta": "no" }
+  },
+  {
+    "idq": 21,
+    "pregunta": "¿Quién debe atender personalmente a las personas con asuntos delicados?",
+    "rta_1": { "texto": "Jefe de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 22,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios respecto a los detenidos?",
+    "rta_1": { "texto": "Su seguridad y trato conforme a la ley", "rta": "yes" },
+    "rta_2": { "texto": "Su inmediata liberación", "rta": "no" },
+    "rta_3": { "texto": "Que no reciban visitas", "rta": "no" }
+  },
+  {
+    "idq": 23,
+    "pregunta": "¿Qué nivel jerárquico corresponde al Jefe de Dependencia?",
+    "rta_1": { "texto": "Comisario", "rta": "yes" },
+    "rta_2": { "texto": "Subinspector", "rta": "no" },
+    "rta_3": { "texto": "Oficial Principal", "rta": "no" }
+  },
+  {
+    "idq": 24,
+    "pregunta": "¿Cuál es la misión de los Directores de Área?",
+    "rta_1": { "texto": "Controlar y supervisar servicios preventivos comunitarios", "rta": "yes" },
+    "rta_2": { "texto": "Revisar sumarios judiciales", "rta": "no" },
+    "rta_3": { "texto": "Gestionar becas del personal", "rta": "no" }
+  },
+  {
+    "idq": 25,
+    "pregunta": "¿Qué debe consignarse en el relevo de guardia?",
+    "rta_1": { "texto": "Novedades y diligencias realizadas durante el servicio", "rta": "yes" },
+    "rta_2": { "texto": "Listado de licencias del personal", "rta": "no" },
+    "rta_3": { "texto": "Agenda de reuniones internas", "rta": "no" }
+  },
+  {
+    "idq": 26,
+    "pregunta": "¿Qué oficina tramita beneficios como becas y cursos?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 27,
+    "pregunta": "¿Qué control realiza la Oficina de Logística sobre choferes?",
+    "rta_1": { "texto": "Registro actualizado de licencias de conducir", "rta": "yes" },
+    "rta_2": { "texto": "Supervisión de vacaciones", "rta": "no" },
+    "rta_3": { "texto": "Asistencia a cursos de ascenso", "rta": "no" }
+  },
+  {
+    "idq": 28,
+    "pregunta": "¿Qué móvil puede estar a cargo de un oficial con experiencia?",
+    "rta_1": { "texto": "Móvil 300", "rta": "yes" },
+    "rta_2": { "texto": "Móvil 100", "rta": "no" },
+    "rta_3": { "texto": "Móvil 50", "rta": "no" }
+  },
+  {
+    "idq": 29,
+    "pregunta": "¿Qué debe documentar el Jefe de Servicios en el Libro de Sumarios?",
+    "rta_1": { "texto": "Las actuaciones iniciadas durante su servicio", "rta": "yes" },
+    "rta_2": { "texto": "Los movimientos de logística", "rta": "no" },
+    "rta_3": { "texto": "Los partes meteorológicos", "rta": "no" }
+  },
+  {
+    "idq": 30,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios Externo?",
+    "rta_1": { "texto": "Supervisar móviles y prevención en vía pública", "rta": "yes" },
+    "rta_2": { "texto": "Gestionar licencias médicas", "rta": "no" },
+    "rta_3": { "texto": "Coordinar traslados administrativos", "rta": "no" }
+  },
+  {
+    "idq": 31,
+    "pregunta": "¿Qué móvil suele contar con un Oficial Primero y un chofer?",
+    "rta_1": { "texto": "Móvil 200", "rta": "yes" },
+    "rta_2": { "texto": "Móvil 400", "rta": "no" },
+    "rta_3": { "texto": "Móvil 150", "rta": "no" }
+  },
+  {
+    "idq": 32,
+    "pregunta": "¿Qué autoridad es responsable del funcionamiento integral de la dependencia?",
+    "rta_1": { "texto": "Jefe de Dependencia (Comisario)", "rta": "yes" },
+    "rta_2": { "texto": "Oficial de Guardia", "rta": "no" },
+    "rta_3": { "texto": "Jefe de Servicios Externo", "rta": "no" }
+  },
+  {
+    "idq": 33,
+    "pregunta": "¿Qué responsabilidad tiene el 3er y 4to Jefe?",
+    "rta_1": { "texto": "Colaborar en tareas judiciales y administrativas", "rta": "yes" },
+    "rta_2": { "texto": "Dirigir sumarios administrativos", "rta": "no" },
+    "rta_3": { "texto": "Coordinar solo guardias fijas", "rta": "no" }
+  },
+  {
+    "idq": 34,
+    "pregunta": "¿Quién responde por el acopio de pruebas en prevenciones sumariales?",
+    "rta_1": { "texto": "Oficina de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Administración", "rta": "no" }
+  },
+  {
+    "idq": 35,
+    "pregunta": "¿Qué elemento debe fiscalizar el Jefe de Servicios respecto al patrullaje?",
+    "rta_1": { "texto": "El despliegue territorial de los móviles", "rta": "yes" },
+    "rta_2": { "texto": "La asistencia a cursos de capacitación", "rta": "no" },
+    "rta_3": { "texto": "La cantidad de combustible en la comisaría", "rta": "no" }
+  },
+  {
+    "idq": 36,
+    "pregunta": "¿Qué debe arbitrar el Jefe de Servicios para difundir secuestros?",
+    "rta_1": { "texto": "Los medios más rápidos disponibles", "rta": "yes" },
+    "rta_2": { "texto": "Notas escritas en duplicado", "rta": "no" },
+    "rta_3": { "texto": "Publicación en medios de prensa", "rta": "no" }
+  },
+  {
+    "idq": 37,
+    "pregunta": "¿Qué oficina confecciona órdenes internas de lectura obligatoria?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Servicios", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Logística", "rta": "no" }
+  },
+  {
+    "idq": 38,
+    "pregunta": "¿Qué responsabilidad tiene la Oficina de Logística en emergencias?",
+    "rta_1": { "texto": "Concientizar a choferes sobre seguridad", "rta": "yes" },
+    "rta_2": { "texto": "Relevar testigos en sumarios", "rta": "no" },
+    "rta_3": { "texto": "Autorizar horas extras", "rta": "no" }
+  },
+  {
+    "idq": 39,
+    "pregunta": "¿Qué debe fiscalizar el Jefe de Servicios respecto a consignas judiciales?",
+    "rta_1": { "texto": "Su cumplimiento y control", "rta": "yes" },
+    "rta_2": { "texto": "Que sean redactadas por duplicado", "rta": "no" },
+    "rta_3": { "texto": "Que sean firmadas por el Comisario", "rta": "no" }
+  },
+  {
+    "idq": 40,
+    "pregunta": "¿Qué debe realizar el Jefe de Servicios en ausencia de sus superiores?",
+    "rta_1": { "texto": "Resolver situación de detenidos según la ley", "rta": "yes" },
+    "rta_2": { "texto": "Convocar reunión extraordinaria", "rta": "no" },
+    "rta_3": { "texto": "Derivar todo al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 41,
+    "pregunta": "¿Qué registro debe controlar el Jefe de Servicios respecto a detenidos?",
+    "rta_1": { "texto": "Cantidad y situación de cada uno", "rta": "yes" },
+    "rta_2": { "texto": "El menú de alimentación diaria", "rta": "no" },
+    "rta_3": { "texto": "Los informes médicos reservados", "rta": "no" }
+  },
+  {
+    "idq": 42,
+    "pregunta": "¿Qué característica distingue al Tercio IV?",
+    "rta_1": { "texto": "Tiene horario fijo", "rta": "yes" },
+    "rta_2": { "texto": "Es rotativo como los demás", "rta": "no" },
+    "rta_3": { "texto": "Solo actúa en días festivos", "rta": "no" }
+  },
+  {
+    "idq": 43,
+    "pregunta": "¿Qué oficina se encarga de responder órdenes de servicio y solicitudes superiores?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Logística", "rta": "no" }
+  },
+  {
+    "idq": 44,
+    "pregunta": "¿Qué medio usa el operador SOFLEX para contestar órdenes?",
+    "rta_1": { "texto": "Correo electrónico y órdenes telefónicas", "rta": "yes" },
+    "rta_2": { "texto": "Mensajes de WhatsApp", "rta": "no" },
+    "rta_3": { "texto": "Actas manuscritas", "rta": "no" }
+  },
+  {
+    "idq": 45,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios respecto a testigos?",
+    "rta_1": { "texto": "Atenderlos fuera del horario de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Delegar su atención a Logística", "rta": "no" },
+    "rta_3": { "texto": "Remitirlos siempre al Comisario", "rta": "no" }
+  },
+  {
+    "idq": 46,
+    "pregunta": "¿Qué relación tiene el 2º Jefe con el personal?",
+    "rta_1": { "texto": "Es jefe inmediato y controla instrucción y disciplina", "rta": "yes" },
+    "rta_2": { "texto": "Gestiona solo sumarios judiciales", "rta": "no" },
+    "rta_3": { "texto": "Releva guardias nocturnas", "rta": "no" }
+  },
+  {
+    "idq": 47,
+    "pregunta": "¿Qué función cumple el Libro de Guardia?",
+    "rta_1": { "texto": "Registrar novedades del servicio en cada guardia", "rta": "yes" },
+    "rta_2": { "texto": "Asentar faltas administrativas", "rta": "no" },
+    "rta_3": { "texto": "Registrar sanciones disciplinarias", "rta": "no" }
+  },
+  {
+    "idq": 48,
+    "pregunta": "¿Qué función tiene la Oficina de Judiciales respecto a testigos?",
+    "rta_1": { "texto": "Recibir declaraciones y agregarlas al sumario", "rta": "yes" },
+    "rta_2": { "texto": "Supervisar horarios del personal", "rta": "no" },
+    "rta_3": { "texto": "Llevar libros de guardia", "rta": "no" }
+  },
+  {
+    "idq": 49,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios sobre órdenes recibidas?",
+    "rta_1": { "texto": "Arbitrar medios para su cumplimiento inmediato", "rta": "yes" },
+    "rta_2": { "texto": "Remitirlas siempre al Juez competente", "rta": "no" },
+    "rta_3": { "texto": "Delegarlas al personal sin control", "rta": "no" }
+  },
+  {
+    "idq": 50,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios en la comisaría?",
+    "rta_1": { "texto": "El orden, seguridad y trato correcto", "rta": "yes" },
+    "rta_2": { "texto": "El aumento salarial de su personal", "rta": "no" },
+    "rta_3": { "texto": "La renovación de mobiliario", "rta": "no" }
+  },
+  {
+    "idq": 51,
+    "pregunta": "¿Qué relación debe mantener el Jefe de Servicios con la comunidad?",
+    "rta_1": { "texto": "De cooperación en la labor preventiva", "rta": "yes" },
+    "rta_2": { "texto": "De distancia para evitar conflictos", "rta": "no" },
+    "rta_3": { "texto": "De dependencia administrativa", "rta": "no" }
+  },
+  {
+    "idq": 52,
+    "pregunta": "¿Qué debe consignar el Jefe de Servicios al relevar una guardia?",
+    "rta_1": { "texto": "Movimientos, detenidos y diligencias realizadas", "rta": "yes" },
+    "rta_2": { "texto": "Licencias del personal administrativo", "rta": "no" },
+    "rta_3": { "texto": "Balance económico de la dependencia", "rta": "no" }
+  },
+  {
+    "idq": 53,
+    "pregunta": "¿Quién reemplaza al Jefe de Dependencia en caso de ausencia?",
+    "rta_1": { "texto": "El 2º Jefe (Subcomisario)", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 54,
+    "pregunta": "¿Qué acción debe tomar el Jefe de Servicios si detecta un error en el patrullaje?",
+    "rta_1": { "texto": "Corregirlo de inmediato e informar a superiores", "rta": "yes" },
+    "rta_2": { "texto": "Anotarlo para revisión mensual", "rta": "no" },
+    "rta_3": { "texto": "Delegar la corrección al Jefe de Logística", "rta": "no" }
+  },
+  {
+    "idq": 55,
+    "pregunta": "¿Qué principio debe regir el trato hacia los ciudadanos en la comisaría?",
+    "rta_1": { "texto": "Cortesía y respeto", "rta": "yes" },
+    "rta_2": { "texto": "Distancia y reserva", "rta": "no" },
+    "rta_3": { "texto": "Autoridad estricta", "rta": "no" }
+  },
+  {
+    "idq": 56,
+    "pregunta": "¿Quién controla la conservación del edificio y armamento?",
+    "rta_1": { "texto": "El Jefe de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "El Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 57,
+    "pregunta": "¿Qué documento debe labrar el Jefe de Servicios en caso de liberación de un detenido?",
+    "rta_1": { "texto": "Las diligencias en las actuaciones correspondientes", "rta": "yes" },
+    "rta_2": { "texto": "Un parte reservado a Logística", "rta": "no" },
+    "rta_3": { "texto": "Un informe al área de Recursos Humanos", "rta": "no" }
+  },
+  {
+    "idq": 58,
+    "pregunta": "¿Quién fiscaliza la distribución del personal en la comisaría?",
+    "rta_1": { "texto": "El Jefe de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Administración", "rta": "no" },
+    "rta_3": { "texto": "El 3er Jefe", "rta": "no" }
+  },
+  {
+    "idq": 59,
+    "pregunta": "¿Qué móvil está destinado a recorrer sectores con un solo infante?",
+    "rta_1": { "texto": "Móviles de sector (1 al 6)", "rta": "yes" },
+    "rta_2": { "texto": "Móvil 200", "rta": "no" },
+    "rta_3": { "texto": "Móvil 300", "rta": "no" }
+  },
+  {
+    "idq": 60,
+    "pregunta": "¿Qué autoridad es la primera en atender al ciudadano que llega a la comisaría?",
+    "rta_1": { "texto": "Oficial de Guardia", "rta": "yes" },
+    "rta_2": { "texto": "Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "Jefe de Servicios Externo", "rta": "no" }
+  },
+  {
+    "idq": 61,
+    "pregunta": "¿Qué debe conocer permanentemente el Jefe de Servicios sobre el personal?",
+    "rta_1": { "texto": "La asistencia y situaciones que los afecten", "rta": "yes" },
+    "rta_2": { "texto": "Su historial familiar", "rta": "no" },
+    "rta_3": { "texto": "Su situación crediticia", "rta": "no" }
+  },
+  {
+    "idq": 62,
+    "pregunta": "¿Qué oficina responde solicitudes de retiro voluntario del personal?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 63,
+    "pregunta": "¿Qué acción debe tomar el Jefe de Servicios con secuestros recibidos?",
+    "rta_1": { "texto": "Difundirlos rápidamente por medios adecuados", "rta": "yes" },
+    "rta_2": { "texto": "Guardarlos hasta la reunión semanal", "rta": "no" },
+    "rta_3": { "texto": "Remitirlos directamente al juzgado", "rta": "no" }
+  },
+  {
+    "idq": 64,
+    "pregunta": "¿Qué documento oficializa la entrega de guardia?",
+    "rta_1": { "texto": "Libro de Entrega de Guardia", "rta": "yes" },
+    "rta_2": { "texto": "Libro de Administración", "rta": "no" },
+    "rta_3": { "texto": "Libro de Logística", "rta": "no" }
+  },
+  {
+    "idq": 65,
+    "pregunta": "¿Qué oficina supervisa comisiones de pruebas periciales?",
+    "rta_1": { "texto": "Oficina de Judiciales", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios Externo", "rta": "no" }
+  },
+  {
+    "idq": 66,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios al iniciar un sumario?",
+    "rta_1": { "texto": "Comunicación urgente de las novedades", "rta": "yes" },
+    "rta_2": { "texto": "Firma del Comisario", "rta": "no" },
+    "rta_3": { "texto": "Publicación en boletín oficial", "rta": "no" }
+  },
+  {
+    "idq": 67,
+    "pregunta": "¿Qué función cumple el SOFLEX en la comisaría?",
+    "rta_1": { "texto": "Asignar despliegues y paradas", "rta": "yes" },
+    "rta_2": { "texto": "Otorgar licencias médicas", "rta": "no" },
+    "rta_3": { "texto": "Supervisar trámites de retiro", "rta": "no" }
+  },
+  {
+    "idq": 68,
+    "pregunta": "¿Qué facultad tiene el Jefe de Servicios en caso de ausencia de superiores?",
+    "rta_1": { "texto": "Adoptar medidas urgentes dentro de la legalidad", "rta": "yes" },
+    "rta_2": { "texto": "Solicitar siempre autorización escrita", "rta": "no" },
+    "rta_3": { "texto": "Suspender servicios preventivos", "rta": "no" }
+  },
+  {
+    "idq": 69,
+    "pregunta": "¿Qué debe controlar el Jefe de Servicios en el patrullaje de móviles?",
+    "rta_1": { "texto": "El cumplimiento del recorrido asignado", "rta": "yes" },
+    "rta_2": { "texto": "La cantidad de combustible cargado", "rta": "no" },
+    "rta_3": { "texto": "El uniforme de los choferes", "rta": "no" }
+  },
+  {
+    "idq": 70,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios respecto a los libros oficiales?",
+    "rta_1": { "texto": "Fiscalizar que estén correctamente actualizados", "rta": "yes" },
+    "rta_2": { "texto": "Firmarlos todos al inicio del turno", "rta": "no" },
+    "rta_3": { "texto": "Delegar su control en el Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 71,
+    "pregunta": "¿Qué debe verificar el Jefe de Servicios al inicio de su turno?",
+    "rta_1": { "texto": "El estado de los libros y novedades pendientes", "rta": "yes" },
+    "rta_2": { "texto": "La nómina del personal en situación de retiro", "rta": "no" },
+    "rta_3": { "texto": "El inventario de suministros de oficina", "rta": "no" }
+  },
+  {
+    "idq": 72,
+    "pregunta": "¿Qué procedimiento debe seguirse en caso de detención en flagrancia?",
+    "rta_1": { "texto": "Adoptar medidas urgentes y comunicar a la fiscalía", "rta": "yes" },
+    "rta_2": { "texto": "Esperar directivas del Comisario General", "rta": "no" },
+    "rta_3": { "texto": "Liberar al detenido si no hay juez presente", "rta": "no" }
+  },
+  {
+    "idq": 73,
+    "pregunta": "¿Qué implica el principio de gradualidad en el uso de la fuerza?",
+    "rta_1": { "texto": "Utilizar la mínima fuerza necesaria y proporcional", "rta": "yes" },
+    "rta_2": { "texto": "Aplicar fuerza máxima para garantizar control", "rta": "no" },
+    "rta_3": { "texto": "Usar la fuerza solo en casos administrativos", "rta": "no" }
+  },
+  {
+    "idq": 74,
+    "pregunta": "¿Cuál es la finalidad del sistema SADE?",
+    "rta_1": { "texto": "Gestionar digitalmente expedientes y documentos", "rta": "yes" },
+    "rta_2": { "texto": "Controlar asistencia del personal", "rta": "no" },
+    "rta_3": { "texto": "Supervisar combustible de los móviles", "rta": "no" }
+  },
+  {
+    "idq": 75,
+    "pregunta": "¿Qué se entiende por zona de impacto en un operativo?",
+    "rta_1": { "texto": "El área inmediata donde ocurre el hecho", "rta": "yes" },
+    "rta_2": { "texto": "El perímetro de los barrios cercanos", "rta": "no" },
+    "rta_3": { "texto": "La zona de apoyo logístico", "rta": "no" }
+  },
+  {
+    "idq": 76,
+    "pregunta": "¿Qué documento respalda la entrega de dependencia?",
+    "rta_1": { "texto": "Acta por triplicado", "rta": "yes" },
+    "rta_2": { "texto": "Nota simple en libro de guardia", "rta": "no" },
+    "rta_3": { "texto": "Parte diario del comisario", "rta": "no" }
+  },
+  {
+    "idq": 77,
+    "pregunta": "¿Qué obligación tiene el denunciante en causas por paradero de menores?",
+    "rta_1": { "texto": "Notificar cualquier novedad del paradero", "rta": "yes" },
+    "rta_2": { "texto": "Conseguir abogado defensor", "rta": "no" },
+    "rta_3": { "texto": "Retirarse sin obligación posterior", "rta": "no" }
+  },
+  {
+    "idq": 78,
+    "pregunta": "En un juicio oral según el CPPCABA, ¿puede reemplazarse la declaración de un testigo?",
+    "rta_1": { "texto": "Solo si existen pruebas documentales válidas", "rta": "yes" },
+    "rta_2": { "texto": "Sí, siempre que el acusado lo autorice", "rta": "no" },
+    "rta_3": { "texto": "No, nunca puede reemplazarse", "rta": "no" }
+  },
+  {
+    "idq": 79,
+    "pregunta": "¿Un testigo ciego o amputado puede declarar como testigo de hecho?",
+    "rta_1": { "texto": "Sí, siempre que tenga percepción directa del hecho", "rta": "yes" },
+    "rta_2": { "texto": "No, por su condición física", "rta": "no" },
+    "rta_3": { "texto": "Solo si el juez lo aprueba", "rta": "no" }
+  },
+  {
+    "idq": 80,
+    "pregunta": "¿Qué son los delitos transferidos en CABA?",
+    "rta_1": { "texto": "Aquellos que la Nación delega a la Ciudad", "rta": "yes" },
+    "rta_2": { "texto": "Los delitos sin autor conocido", "rta": "no" },
+    "rta_3": { "texto": "Las contravenciones administrativas", "rta": "no" }
+  },
+  {
+    "idq": 81,
+    "pregunta": "¿Qué se debe hacer si un denunciante informa un delito y se retira?",
+    "rta_1": { "texto": "Registrar en libro de guardia y dar inicio a actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "No se registra porque no firmó", "rta": "no" },
+    "rta_3": { "texto": "Se retiene al denunciante obligatoriamente", "rta": "no" }
+  },
+  {
+    "idq": 82,
+    "pregunta": "¿Cuál es la definición correcta de flagrancia?",
+    "rta_1": { "texto": "Cuando el autor es sorprendido cometiendo el delito o inmediatamente después", "rta": "yes" },
+    "rta_2": { "texto": "Cuando el delito fue denunciado por terceros", "rta": "no" },
+    "rta_3": { "texto": "Cuando el autor confiesa voluntariamente", "rta": "no" }
+  },
+  {
+    "idq": 83,
+    "pregunta": "¿Qué artículo del régimen disciplinario establece el agravante de faltas?",
+    "rta_1": { "texto": "Artículo 93", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 57", "rta": "no" },
+    "rta_3": { "texto": "Artículo 101", "rta": "no" }
+  },
+  {
+    "idq": 84,
+    "pregunta": "¿Qué característica tiene el sistema SISEP en el despliegue?",
+    "rta_1": { "texto": "Permite seguimiento satelital de móviles", "rta": "yes" },
+    "rta_2": { "texto": "Gestiona denuncias contravencionales", "rta": "no" },
+    "rta_3": { "texto": "Autoriza licencias médicas", "rta": "no" }
+  },
+  {
+    "idq": 85,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios en un hecho de sangre?",
+    "rta_1": { "texto": "Bajar al lugar y coordinar medidas", "rta": "yes" },
+    "rta_2": { "texto": "Esperar orden del juez para intervenir", "rta": "no" },
+    "rta_3": { "texto": "Delegar todo al Jefe de Judiciales", "rta": "no" }
+  },
+  {
+    "idq": 86,
+    "pregunta": "¿Cuántos juegos de fichas deben confeccionarse para remitir a un detenido a la Unidad 28?",
+    "rta_1": { "texto": "Tres juegos de fichas", "rta": "yes" },
+    "rta_2": { "texto": "Un solo juego", "rta": "no" },
+    "rta_3": { "texto": "Dos juegos", "rta": "no" }
+  },
+  {
+    "idq": 87,
+    "pregunta": "¿Qué tipo de lesiones son las del artículo 89 del Código Penal?",
+    "rta_1": { "texto": "De acción pública", "rta": "yes" },
+    "rta_2": { "texto": "De instancia privada", "rta": "no" },
+    "rta_3": { "texto": "Faltas administrativas", "rta": "no" }
+  },
+  {
+    "idq": 88,
+    "pregunta": "¿Cuál es el plazo máximo para consultar a la fiscalía según normativa?",
+    "rta_1": { "texto": "1 hora", "rta": "yes" },
+    "rta_2": { "texto": "6 horas", "rta": "no" },
+    "rta_3": { "texto": "12 horas", "rta": "no" }
+  },
+  {
+    "idq": 89,
+    "pregunta": "¿Cuál es el plazo máximo para consultar al juzgado en Nación?",
+    "rta_1": { "texto": "Entre 6 y 10 horas", "rta": "yes" },
+    "rta_2": { "texto": "1 hora", "rta": "no" },
+    "rta_3": { "texto": "24 horas", "rta": "no" }
+  },
+  {
+    "idq": 90,
+    "pregunta": "¿Qué principios básicos debe aplicar el personal en el uso de la fuerza?",
+    "rta_1": { "texto": "Gradualidad, oportunidad y responsabilidad", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez, firmeza y castigo", "rta": "no" },
+    "rta_3": { "texto": "Disciplina, obediencia y silencio", "rta": "no" }
+  },
+  {
+    "idq": 91,
+    "pregunta": "¿Qué debe consignar el Jefe de Servicios en el Libro de Entrega de Guardia?",
+    "rta_1": { "texto": "Las novedades del turno, diligencias y oficiales comisionados", "rta": "yes" },
+    "rta_2": { "texto": "Solo el nombre del jefe entrante", "rta": "no" },
+    "rta_3": { "texto": "Únicamente la cantidad de detenidos", "rta": "no" }
+  },
+  {
+    "idq": 92,
+    "pregunta": "¿Qué se entiende por detención en flagrancia según el CPPN?",
+    "rta_1": { "texto": "Ser sorprendido cometiendo el delito o inmediatamente después", "rta": "yes" },
+    "rta_2": { "texto": "Cuando el sospechoso es mencionado en una denuncia", "rta": "no" },
+    "rta_3": { "texto": "Cuando el imputado se entrega voluntariamente", "rta": "no" }
+  },
+  {
+    "idq": 93,
+    "pregunta": "¿Qué artículo de la Ley 5688 obliga a intervenir al personal policial para prevenir delitos?",
+    "rta_1": { "texto": "Artículo 88", "rta": "yes" },
+    "rta_2": { "texto": "Artículo 101", "rta": "no" },
+    "rta_3": { "texto": "Artículo 34", "rta": "no" }
+  },
+  {
+    "idq": 94,
+    "pregunta": "¿Qué obligación tiene el Jefe de Servicios sobre los detenidos?",
+    "rta_1": { "texto": "Velar por su seguridad y situación legal", "rta": "yes" },
+    "rta_2": { "texto": "Trasladarlos siempre al hospital", "rta": "no" },
+    "rta_3": { "texto": "Liberarlos si no hay fiscal presente", "rta": "no" }
+  },
+  {
+    "idq": 95,
+    "pregunta": "¿Qué oficina lleva la administración del personal en la comisaría?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 96,
+    "pregunta": "¿Qué sistema registra digitalmente las actuaciones policiales?",
+    "rta_1": { "texto": "GAP Web", "rta": "yes" },
+    "rta_2": { "texto": "SOFLEX", "rta": "no" },
+    "rta_3": { "texto": "SADE", "rta": "no" }
+  },
+  {
+    "idq": 97,
+    "pregunta": "¿En qué casos corresponde confeccionar un Formulario de Intervención?",
+    "rta_1": { "texto": "Cuando se registra un hecho sin constituir delito, falta o contravención", "rta": "yes" },
+    "rta_2": { "texto": "En toda denuncia penal", "rta": "no" },
+    "rta_3": { "texto": "Solo en accidentes con lesionados", "rta": "no" }
+  },
+  {
+    "idq": 98,
+    "pregunta": "¿Qué características debe cumplir un acta circunstanciada?",
+    "rta_1": { "texto": "Ser clara, formal y cumplir con la normativa vigente", "rta": "yes" },
+    "rta_2": { "texto": "Redactarse de manera verbal y sin firmas", "rta": "no" },
+    "rta_3": { "texto": "Solo consignar nombre del denunciante", "rta": "no" }
+  },
+  {
+    "idq": 99,
+    "pregunta": "¿Cuál es la diferencia entre falta y contravención?",
+    "rta_1": { "texto": "La falta está en el Régimen de Faltas (Ley 451) y la contravención en el Código Contravencional (Ley 1472)", "rta": "yes" },
+    "rta_2": { "texto": "Son lo mismo pero con distinta redacción", "rta": "no" },
+    "rta_3": { "texto": "La falta la sanciona la policía y la contravención un fiscal", "rta": "no" }
+  },
+  {
+    "idq": 100,
+    "pregunta": "¿Quién es la autoridad judicial competente en materia contravencional en CABA?",
+    "rta_1": { "texto": "Fiscalía Penal, Contravencional y de Faltas", "rta": "yes" },
+    "rta_2": { "texto": "Juzgado Federal", "rta": "no" },
+    "rta_3": { "texto": "Corte Suprema", "rta": "no" }
+  },
+  {
+    "idq": 101,
+    "pregunta": "¿Qué principio debe guiar el trato hacia los ciudadanos en la comisaría?",
+    "rta_1": { "texto": "Respeto y cortesía", "rta": "yes" },
+    "rta_2": { "texto": "Rapidez sin explicaciones", "rta": "no" },
+    "rta_3": { "texto": "Autoridad y silencio", "rta": "no" }
+  },
+  {
+    "idq": 102,
+    "pregunta": "¿Qué libros debe controlar el Oficial de Guardia?",
+    "rta_1": { "texto": "Registro de certificados de domicilio, notas, memorando y libreta de tercio", "rta": "yes" },
+    "rta_2": { "texto": "Inventario de armamento", "rta": "no" },
+    "rta_3": { "texto": "Libro de sanciones disciplinarias", "rta": "no" }
+  },
+  {
+    "idq": 103,
+    "pregunta": "¿Qué oficina gestiona la flota automotor y medios de comunicación?",
+    "rta_1": { "texto": "Oficina de Logística", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios Externos", "rta": "no" }
+  },
+  {
+    "idq": 104,
+    "pregunta": "¿Qué función cumple el operador del sistema SOFLEX?",
+    "rta_1": { "texto": "Confeccionar y controlar el servicio de despliegue", "rta": "yes" },
+    "rta_2": { "texto": "Registrar causas judiciales", "rta": "no" },
+    "rta_3": { "texto": "Supervisar inventario de suministros", "rta": "no" }
+  },
+  {
+    "idq": 105,
+    "pregunta": "¿Qué responsabilidades tiene el Jefe de Servicios Externo?",
+    "rta_1": { "texto": "Fiscalizar el servicio en calle y velar por la seguridad pública", "rta": "yes" },
+    "rta_2": { "texto": "Autorizar licencias médicas", "rta": "no" },
+    "rta_3": { "texto": "Resolver faltas administrativas", "rta": "no" }
+  },
+  {
+    "idq": 106,
+    "pregunta": "¿Qué móviles están bajo responsabilidad del Jefe de Servicio Externo?",
+    "rta_1": { "texto": "Móviles 200, 300, sectores y UBG", "rta": "yes" },
+    "rta_2": { "texto": "Solo móviles de traslado de detenidos", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente móviles judiciales", "rta": "no" }
+  },
+  {
+    "idq": 107,
+    "pregunta": "¿Cómo se dividen las guardias en la comisaría?",
+    "rta_1": { "texto": "En cuatro tercios, tres rotativos y uno fijo", "rta": "yes" },
+    "rta_2": { "texto": "En dos turnos de 12 horas", "rta": "no" },
+    "rta_3": { "texto": "En cinco guardias de 6 horas", "rta": "no" }
+  },
+  {
+    "idq": 108,
+    "pregunta": "¿Qué se debe hacer en el relevo de guardia?",
+    "rta_1": { "texto": "Consignar por escrito todas las novedades y diligencias realizadas", "rta": "yes" },
+    "rta_2": { "texto": "Avisar solo verbalmente al jefe entrante", "rta": "no" },
+    "rta_3": { "texto": "No registrar nada si no hay detenidos", "rta": "no" }
+  },
+  {
+    "idq": 109,
+    "pregunta": "¿Qué principio normativo respalda la intervención policial en hechos sin delito?",
+    "rta_1": { "texto": "Principio de oportunidad", "rta": "yes" },
+    "rta_2": { "texto": "Principio de discrecionalidad absoluta", "rta": "no" },
+    "rta_3": { "texto": "Principio de sanción", "rta": "no" }
+  },
+  {
+    "idq": 110,
+    "pregunta": "¿Qué medida cautelar puede aplicar la policía en contravenciones de tránsito?",
+    "rta_1": { "texto": "Inmovilización y depósito del vehículo", "rta": "yes" },
+    "rta_2": { "texto": "Arresto inmediato del conductor", "rta": "no" },
+    "rta_3": { "texto": "Retención indefinida de la licencia", "rta": "no" }
+  },
+  {
+    "idq": 111,
+    "pregunta": "Si un ciudadano llega a la comisaría a denunciar un hecho y se retira antes de finalizar el trámite, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Registrar la circunstancia en el libro de guardia y dar intervención si corresponde", "rta": "yes" },
+    "rta_2": { "texto": "Ignorar el aviso por falta de formalidad", "rta": "no" },
+    "rta_3": { "texto": "Retener al denunciante hasta completar la declaración", "rta": "no" }
+  },
+  {
+    "idq": 112,
+    "pregunta": "En un control de rutina, el Jefe de Servicios constata que un móvil no realizó el recorrido asignado. ¿Qué debe hacer?",
+    "rta_1": { "texto": "Informar la novedad y corregir el despliegue", "rta": "yes" },
+    "rta_2": { "texto": "No registrar nada para evitar sanciones al personal", "rta": "no" },
+    "rta_3": { "texto": "Suspender inmediatamente al chofer", "rta": "no" }
+  },
+  {
+    "idq": 113,
+    "pregunta": "¿Qué documento debe confeccionar el Jefe de Servicios si un detenido recupera su libertad?",
+    "rta_1": { "texto": "Acta de libertad con constancias en actuaciones", "rta": "yes" },
+    "rta_2": { "texto": "Libro de guardia únicamente", "rta": "no" },
+    "rta_3": { "texto": "No hace falta documento alguno", "rta": "no" }
+  },
+  {
+    "idq": 114,
+    "pregunta": "¿Qué función cumple el Jefe de Servicios respecto a las órdenes judiciales recibidas?",
+    "rta_1": { "texto": "Difundirlas rápidamente y garantizar su cumplimiento", "rta": "yes" },
+    "rta_2": { "texto": "Delegar la responsabilidad en la Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Guardar las órdenes sin difundirlas", "rta": "no" }
+  },
+  {
+    "idq": 115,
+    "pregunta": "En caso de inspección interna, ¿qué debe presentar el Jefe de Servicios?",
+    "rta_1": { "texto": "Libros de guardia, sumarios y registros actualizados", "rta": "yes" },
+    "rta_2": { "texto": "Solo el listado de móviles", "rta": "no" },
+    "rta_3": { "texto": "Únicamente el parte de novedades", "rta": "no" }
+  },
+  {
+    "idq": 116,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios en relación con los detenidos?",
+    "rta_1": { "texto": "Condiciones de seguridad, higiene y resguardo legal", "rta": "yes" },
+    "rta_2": { "texto": "Que reciban visitas sin control", "rta": "no" },
+    "rta_3": { "texto": "Que sean liberados a las 24 horas", "rta": "no" }
+  },
+  {
+    "idq": 117,
+    "pregunta": "¿Qué acción corresponde si el Jefe de Servicios detecta armas defectuosas en la dependencia?",
+    "rta_1": { "texto": "Informar a Logística y asegurar su reemplazo", "rta": "yes" },
+    "rta_2": { "texto": "Guardar las armas sin uso y no informar", "rta": "no" },
+    "rta_3": { "texto": "Asignarlas de todas formas al personal", "rta": "no" }
+  },
+  {
+    "idq": 118,
+    "pregunta": "¿Qué horario cubre el Tercio II en la guardia de la comisaría?",
+    "rta_1": { "texto": "De 14:00 a 22:00 horas", "rta": "yes" },
+    "rta_2": { "texto": "De 06:00 a 14:00 horas", "rta": "no" },
+    "rta_3": { "texto": "De 22:00 a 06:00 horas", "rta": "no" }
+  },
+  {
+    "idq": 119,
+    "pregunta": "Si un testigo se presenta fuera del horario de Judiciales, ¿quién debe tomar su declaración?",
+    "rta_1": { "texto": "El Jefe de Servicios", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "Nadie hasta el turno siguiente", "rta": "no" }
+  },
+  {
+    "idq": 120,
+    "pregunta": "¿Qué móvil debe estar a cargo de un Oficial Primero como mínimo?",
+    "rta_1": { "texto": "Móvil 200", "rta": "yes" },
+    "rta_2": { "texto": "Móviles de sectores", "rta": "no" },
+    "rta_3": { "texto": "Móvil de traslado sanitario", "rta": "no" }
+  },
+  {
+    "idq": 121,
+    "pregunta": "¿Cuál es la principal responsabilidad del Jefe de Servicios Externo?",
+    "rta_1": { "texto": "Fiscalizar el desempeño del personal en calle", "rta": "yes" },
+    "rta_2": { "texto": "Controlar exclusivamente los libros internos", "rta": "no" },
+    "rta_3": { "texto": "Aprobar licencias médicas", "rta": "no" }
+  },
+  {
+    "idq": 122,
+    "pregunta": "¿Qué debe consignar el acta de entrega de dependencia?",
+    "rta_1": { "texto": "Inventario, libros y estado general en duplicado o triplicado", "rta": "yes" },
+    "rta_2": { "texto": "Solo la firma del jefe entrante", "rta": "no" },
+    "rta_3": { "texto": "Nombre del comisario únicamente", "rta": "no" }
+  },
+  {
+    "idq": 123,
+    "pregunta": "Si se detecta un motovehículo sin patente circulando, ¿qué corresponde labrar?",
+    "rta_1": { "texto": "Acta de Infracción, Ley 451", "rta": "yes" },
+    "rta_2": { "texto": "Acta de Detención", "rta": "no" },
+    "rta_3": { "texto": "Acta Contravencional", "rta": "no" }
+  },
+  {
+    "idq": 124,
+    "pregunta": "¿Qué documento respalda la división en tercios de guardia?",
+    "rta_1": { "texto": "Reglamento interno policial", "rta": "yes" },
+    "rta_2": { "texto": "Ley Nacional 23.098", "rta": "no" },
+    "rta_3": { "texto": "Código Civil y Comercial", "rta": "no" }
+  },
+  {
+    "idq": 125,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios al recibir un oficio judicial urgente?",
+    "rta_1": { "texto": "Dar trámite inmediato y registrarlo", "rta": "yes" },
+    "rta_2": { "texto": "Esperar al turno siguiente", "rta": "no" },
+    "rta_3": { "texto": "Delegarlo al personal de guardia sin informar", "rta": "no" }
+  },
+  {
+    "idq": 126,
+    "pregunta": "¿Qué oficina tramita los suplementos por recargos de servicio?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios Externos", "rta": "no" }
+  },
+  {
+    "idq": 127,
+    "pregunta": "Si un detenido requiere atención médica urgente, ¿qué debe hacer el Jefe de Servicios?",
+    "rta_1": { "texto": "Trasladarlo con custodia y dejar constancia", "rta": "yes" },
+    "rta_2": { "texto": "Esperar confirmación judicial", "rta": "no" },
+    "rta_3": { "texto": "Liberarlo inmediatamente", "rta": "no" }
+  },
+  {
+    "idq": 128,
+    "pregunta": "¿Qué principio debe respetar la policía al intervenir en faltas de tránsito?",
+    "rta_1": { "texto": "Auxilio a la autoridad de control y respeto normativo", "rta": "yes" },
+    "rta_2": { "texto": "Priorizar rapidez sin documentación", "rta": "no" },
+    "rta_3": { "texto": "Delegar siempre al Cuerpo de Tránsito", "rta": "no" }
+  },
+  {
+    "idq": 129,
+    "pregunta": "¿Quién reemplaza al Jefe de Servicios en su ausencia?",
+    "rta_1": { "texto": "El 2do Jefe de la dependencia o el Oficial de Guardia", "rta": "yes" },
+    "rta_2": { "texto": "El Jefe de Logística", "rta": "no" },
+    "rta_3": { "texto": "Un suboficial designado", "rta": "no" }
+  },
+  {
+    "idq": 130,
+    "pregunta": "¿Qué responsabilidad tiene el Jefe de Servicios sobre el estado edilicio?",
+    "rta_1": { "texto": "Velar por conservación e higiene del edificio y mobiliario", "rta": "yes" },
+    "rta_2": { "texto": "Solo controlar armamento", "rta": "no" },
+    "rta_3": { "texto": "Supervisar expedientes judiciales", "rta": "no" }
+  },
+  {
+    "idq": 131,
+    "pregunta": "¿Qué debe verificar el Jefe de Servicios al inicio de su guardia?",
+    "rta_1": { "texto": "Estado de detenidos, libros y novedades pendientes", "rta": "yes" },
+    "rta_2": { "texto": "Solo el parte meteorológico", "rta": "no" },
+    "rta_3": { "texto": "Exclusivamente la asistencia del personal", "rta": "no" }
+  },
+  {
+    "idq": 132,
+    "pregunta": "¿Qué significa que la autoridad del jefe es ascendente?",
+    "rta_1": { "texto": "Que depende del subordinado", "rta": "no" },
+    "rta_2": { "texto": "Que la autoridad se ejerce hacia los superiores", "rta": "no" },
+    "rta_3": { "texto": "Que la autoridad se ejerce hacia los subordinados en la cadena de mando", "rta": "yes" }
+  },
+  {
+    "idq": 133,
+    "pregunta": "¿Qué tipo de acta debe realizarse al entregar una dependencia?",
+    "rta_1": { "texto": "Duplicado o triplicado según normativa", "rta": "yes" },
+    "rta_2": { "texto": "Un único ejemplar", "rta": "no" },
+    "rta_3": { "texto": "Ningún acta formal", "rta": "no" }
+  },
+  {
+    "idq": 134,
+    "pregunta": "¿Qué debe garantizar el Jefe de Servicios respecto al trato de los ciudadanos?",
+    "rta_1": { "texto": "Un trato correcto y cortés", "rta": "yes" },
+    "rta_2": { "texto": "Trato solo a personas de jerarquía", "rta": "no" },
+    "rta_3": { "texto": "Trato indiferente para evitar problemas", "rta": "no" }
+  },
+  {
+    "idq": 135,
+    "pregunta": "¿Cuál es el objetivo del Libro de Sumarios?",
+    "rta_1": { "texto": "Registrar actuaciones judiciales iniciadas", "rta": "yes" },
+    "rta_2": { "texto": "Controlar asistencia de personal", "rta": "no" },
+    "rta_3": { "texto": "Anotar licencias médicas", "rta": "no" }
+  },
+  {
+    "idq": 136,
+    "pregunta": "¿Qué hace el Jefe de Servicios con las providencias urgentes?",
+    "rta_1": { "texto": "Las dispone y asienta en el libro correspondiente", "rta": "yes" },
+    "rta_2": { "texto": "Las comunica verbalmente sin registro", "rta": "no" },
+    "rta_3": { "texto": "Las delega a un subalterno sin control", "rta": "no" }
+  },
+  {
+    "idq": 137,
+    "pregunta": "¿Qué tipo de documento debe confeccionarse en caso de secuestro de un vehículo?",
+    "rta_1": { "texto": "Acta de secuestro", "rta": "yes" },
+    "rta_2": { "texto": "Formulario de intervención", "rta": "no" },
+    "rta_3": { "texto": "Acta de guardia", "rta": "no" }
+  },
+  {
+    "idq": 138,
+    "pregunta": "¿Qué dependencia controla las licencias y sumarios administrativos?",
+    "rta_1": { "texto": "Oficina de Administración", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Logística", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios Externos", "rta": "no" }
+  },
+  {
+    "idq": 139,
+    "pregunta": "¿Qué ocurre si un testigo no posee documento de identidad?",
+    "rta_1": { "texto": "Puede ser testigo de hecho igualmente", "rta": "yes" },
+    "rta_2": { "texto": "No puede declarar bajo ninguna circunstancia", "rta": "no" },
+    "rta_3": { "texto": "Debe esperar a presentar documento", "rta": "no" }
+  },
+  {
+    "idq": 140,
+    "pregunta": "¿Qué autoridad debe intervenir en contravenciones en CABA?",
+    "rta_1": { "texto": "Fiscalías Penales, Contravencionales y de Faltas", "rta": "yes" },
+    "rta_2": { "texto": "Juzgados Federales", "rta": "no" },
+    "rta_3": { "texto": "Ministerio de Defensa", "rta": "no" }
+  },
+  {
+    "idq": 141,
+    "pregunta": "¿Qué característica distingue al móvil 300?",
+    "rta_1": { "texto": "Debe estar a cargo de un oficial con experiencia suficiente", "rta": "yes" },
+    "rta_2": { "texto": "Siempre lleva dos infantes", "rta": "no" },
+    "rta_3": { "texto": "Solo se utiliza en traslados internos", "rta": "no" }
+  },
+  {
+    "idq": 142,
+    "pregunta": "¿Cuál es la obligación del Jefe de Servicios respecto a los libros?",
+    "rta_1": { "texto": "Fiscalizarlos y documentar novedades", "rta": "yes" },
+    "rta_2": { "texto": "Firmarlos una vez por semana", "rta": "no" },
+    "rta_3": { "texto": "Delegar su firma al Oficial de Guardia", "rta": "no" }
+  },
+  {
+    "idq": 143,
+    "pregunta": "¿Qué documento se utiliza cuando no hay Formulario de Intervención?",
+    "rta_1": { "texto": "Acta circunstanciada", "rta": "yes" },
+    "rta_2": { "texto": "Acta de secuestro", "rta": "no" },
+    "rta_3": { "texto": "Nota al Jefe de Dependencia", "rta": "no" }
+  },
+  {
+    "idq": 144,
+    "pregunta": "¿Qué oficina gestiona la reparación de móviles?",
+    "rta_1": { "texto": "Oficina de Logística", "rta": "yes" },
+    "rta_2": { "texto": "Oficina de Judiciales", "rta": "no" },
+    "rta_3": { "texto": "Oficina de Servicios", "rta": "no" }
+  },
+  {
+    "idq": 145,
+    "pregunta": "¿Cuál es la principal función del Operador de Soflex?",
+    "rta_1": { "texto": "Controlar el despliegue y asignación de paradas", "rta": "yes" },
+    "rta_2": { "texto": "Otorgar licencias", "rta": "no" },
+    "rta_3": { "texto": "Instruir sumarios judiciales", "rta": "no" }
+  },
+  {
+    "idq": 146,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios con respecto a consignas judiciales?",
+    "rta_1": { "texto": "Fiscalizarlas y controlar su cumplimiento", "rta": "yes" },
+    "rta_2": { "texto": "Delegarlas sin supervisión", "rta": "no" },
+    "rta_3": { "texto": "Anularlas si generan sobrecarga", "rta": "no" }
+  },
+  {
+    "idq": 147,
+    "pregunta": "¿Qué recurso utiliza el Jefe de Servicios para difundir órdenes rápidas?",
+    "rta_1": { "texto": "Soporte telefónico o vía fax/email", "rta": "yes" },
+    "rta_2": { "texto": "Mensajes personales escritos", "rta": "no" },
+    "rta_3": { "texto": "Anotaciones en pizarrón", "rta": "no" }
+  },
+  {
+    "idq": 148,
+    "pregunta": "¿Qué implica el término 'flagrancia' en la actuación policial?",
+    "rta_1": { "texto": "Comisión inmediata o actual de un delito", "rta": "yes" },
+    "rta_2": { "texto": "Hecho ocurrido en el pasado sin testigos", "rta": "no" },
+    "rta_3": { "texto": "Acto administrativo interno", "rta": "no" }
+  },
+  {
+    "idq": 149,
+    "pregunta": "¿Qué debe hacer el Jefe de Servicios con los efectos secuestrados?",
+    "rta_1": { "texto": "Asentarlos y garantizar su conservación", "rta": "yes" },
+    "rta_2": { "texto": "Guardarlos sin registro", "rta": "no" },
+    "rta_3": { "texto": "Delegar su custodia a un ciudadano", "rta": "no" }
+  },
+  {
+    "idq": 150,
+    "pregunta": "¿Qué tercio de guardia posee horario fijo?",
+    "rta_1": { "texto": "Tercio IV", "rta": "yes" },
+    "rta_2": { "texto": "Tercio I", "rta": "no" },
+    "rta_3": { "texto": "Tercio III", "rta": "no" }
+  }
+]
