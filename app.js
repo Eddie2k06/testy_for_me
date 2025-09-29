@@ -159,9 +159,12 @@ function cargarCarpeta(files){
 
 function refrescarSelector(){
   selectArchivo.disabled = archivosJSON.size===0;
-  selectArchivo.innerHTML='<option value="" disabled selected>Seleccioná un JSON</option>';
-  [...archivosJSON.keys()].sort().forEach(n=>{
-    const o=document.createElement('option');o.value=n;o.textContent=n;selectArchivo.appendChild(o);
+  selectArchivo.innerHTML='<option value="" disabled selected>Seleccioná un tema</option>';
+  [...archivosJSON.keys()].sort().forEach(label=>{
+    const o=document.createElement('option');
+    o.value=label;
+    o.textContent=label;
+    selectArchivo.appendChild(o);
   });
 }
 
