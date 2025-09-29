@@ -1,0 +1,56 @@
+:root { color-scheme: light dark; }
+[data-theme="dark"] body { background-color: #0f1115; color: #e9ecef; }
+body { background-color: #f8f9fa; padding-top: 72px; }
+
+/* Navbar */
+.navbar-blur {
+  backdrop-filter: saturate(180%) blur(8px);
+  background: rgba(248,249,250,.85);
+}
+[data-theme="dark"] .navbar-blur { background: rgba(23,26,33,.75); }
+
+/* Caja de pregunta */
+.question-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+[data-theme="dark"] .question-box {
+  background: #171a21;
+  box-shadow: none;
+}
+
+/* Opciones */
+.response-item { margin-bottom: 10px; }
+.form-check-input { transform: scale(1.1); margin-top: .55em; }
+.form-check-label { display: block; padding: 8px 12px; border-radius: .5rem; }
+.form-check-input:checked + .form-check-label { background: rgba(13,110,253,.08); }
+[data-theme="dark"] .form-check-input:checked + .form-check-label { background: rgba(13,110,253,.15); }
+
+/* Feedback ✓ ✗ */
+.feedback { margin-left: 10px; font-weight: bold; }
+
+/* Contador y progreso */
+.counter { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9rem; color: #6c757d; }
+[data-theme="dark"] .counter { color: #adb5bd; }
+.progress { height: 8px; }
+
+/* Botones (centrados solo estos) */
+.btn-group-bottom { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+
+/* Responsive */
+@media (max-width: 576px) {
+  .question-box { padding: 16px; }
+  .btn-group-bottom { flex-direction: column; }
+  .btn-group-bottom .btn { width: 100%; }
+  .navbar-brand { font-size: 1rem; }
+  .form-check-input { transform: scale(1.2); }
+  .form-check-label { padding: 10px 14px; }
+}
+
+/* Mejor espaciado de la navbar en móviles */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-item { width: 100%; margin-right: 0 !important; margin-bottom: .5rem; }
+  .navbar-nav .btn, .navbar-nav .form-select { width: 100%; }
+}
