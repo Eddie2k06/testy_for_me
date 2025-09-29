@@ -59,8 +59,8 @@ async function preloadFromManifest(){
       const res = await fetch(url, {cache:'no-store'});
       if(!res.ok) continue;
       const txt = await res.text();
-      // Guardamos clave amigable: label si existe; si no, la ruta
-      const key = f.label ? `${f.label} (${f.name})` : `${manifest.folder}/${f.name}`;
+      // Usamos SOLO el label como clave visible en el combo
+      const key = f.label || f.name;
       archivosJSON.set(key, txt);
     }
     refrescarSelector();
