@@ -1,17 +1,19 @@
 /* ========= Estado ========= */
-let preguntasCompletas=[], preguntas=[], indicePregunta=0, preguntasCorrectas=0, resultados=[];
-let limiteSeleccionado='all', inicioPreguntaMs=0;
-const archivosJSON=new Map();
+let preguntasCompletas = [], preguntas = [], indicePregunta = 0, preguntasCorrectas = 0, resultados = [];
+let limiteSeleccionado = 10; // <- por defecto 10 (coincide con el select)
+let inicioPreguntaMs = 0;
+const archivosJSON = new Map();
 
 /* ========= DOM ========= */
-const contenido=document.getElementById('contenido'), contador=document.getElementById('contador');
-const barraProgreso=document.getElementById('barraProgreso');
-const btnEvaluar=document.getElementById('btnEvaluar'), btnSiguiente=document.getElementById('btnSiguiente');
-const btnCargar=document.getElementById('btnCargar'), btnCargarCarpeta=document.getElementById('btnCargarCarpeta');
-const selectArchivo=document.getElementById('selectArchivo');
-const btnExportar=document.getElementById('btnExportar');
-const seccionRevision=document.getElementById('seccionRevision');
-const autoMsg=document.getElementById('autoMsg');
+const contenido = document.getElementById('contenido'), contador = document.getElementById('contador');
+const barraProgreso = document.getElementById('barraProgreso');
+const btnEvaluar = document.getElementById('btnEvaluar'), btnSiguiente = document.getElementById('btnSiguiente');
+const btnCargar = document.getElementById('btnCargar'), btnCargarCarpeta = document.getElementById('btnCargarCarpeta');
+const selectArchivo = document.getElementById('selectArchivo');
+const selectPreguntas = document.getElementById('selectPreguntas');
+const btnExportar = document.getElementById('btnExportar');
+const seccionRevision = document.getElementById('seccionRevision');
+const autoMsg = document.getElementById('autoMsg');
 
 // Descargas (modal)
 const modalDescargas = document.getElementById('modalDescargas');
@@ -20,7 +22,7 @@ const estadoDescargas = document.getElementById('estadoDescargas');
 const chkTodos = document.getElementById('chkTodos');
 const btnDescargarSeleccion = document.getElementById('btnDescargarSeleccion');
 
-document.getElementById('anioAcerca').textContent=new Date().getFullYear();
+document.getElementById('anioAcerca').textContent = new Date().getFullYear();
 
 /* ========= Utils ========= */
 function shuffleInPlace(arr){
@@ -64,7 +66,7 @@ async function preloadFromManifest(){
       archivosJSON.set(key, txt);
     }
     refrescarSelector();
-    autoMsg.textContent = `Detectados ${archivosJSON.size} JSON desde manifest. Elegí uno en "Archivo".`;
+    autoMsg.textContent = `Detectados ${archivosJSON.size} JSON desde manifest. Elegí un tema.`;
 
     // Prepara el modal de descargas con los mismos archivos
     prepararModalDescargas(manifest);
@@ -150,7 +152,7 @@ function cargarCarpeta(files){
       refrescarSelector();
       contenido.innerHTML = `
         <div>
-          <h5 class="mb-2">Seleccioná un archivo en el navbar</h5>
+          <h5 class="mb-2">Seleccioná un tema</h5>
           <p class="text-muted">Se detectaron ${lista.length} JSON.</p>
         </div>`;
     })
@@ -176,27 +178,27 @@ function cargarDesdeSelector(){
   if(!txt) return;
   try{
     let data = JSON.parse(txt);
+    // Compatibilidad con JSON envuelto en un array extra
     if(Array.isArray(data) && data.length===1 && Array.isArray(data[0])) data = data[0];
     validarEstructura(data);
     procesarPreguntas(data);
-    iniciarQuiz();
+    iniciarQuiz();               // usa el límite actual (limiteSeleccionado)
     btnEvaluar.disabled=false;
   }catch(e){
     contenido.innerHTML = `<div class="alert alert-danger"><strong>Error JSON:</strong> ${e.message}</div>`;
   }
 }
 
-/* ========= Quiz ========= */
-document.querySelectorAll('#menuPreguntas a').forEach(a=>a.addEventListener('click',e=>{
-  e.preventDefault();
-  document.querySelectorAll('#menuPreguntas a').forEach(x=>x.classList.remove('active'));
-  a.classList.add('active');
-  limiteSeleccionado=a.dataset.limit==='all'?'all':parseInt(a.dataset.limit);
-  if(preguntasCompletas.length) iniciarQuiz();
-}));
+/* ========= Select de Preguntas (NUEVO) ========= */
+selectPreguntas.addEventListener('change', (e)=>{
+  const val = e.target.value;
+  limiteSeleccionado = (val === 'all') ? 'all' : parseInt(val, 10);
+  if (preguntasCompletas.length) iniciarQuiz(); // reinicia con nuevo límite
+});
 
+/* ========= Quiz ========= */
 btnEvaluar.addEventListener('click', evaluarRespuesta);
-btnSiguiente.addEventListener('click', ()=>{indicePregunta++;mostrarPregunta();});
+btnSiguiente.addEventListener('click', ()=>{ indicePregunta++; mostrarPregunta(); });
 btnExportar.addEventListener('click', exportarCSV);
 
 function validarEstructura(data){
@@ -222,9 +224,10 @@ function iniciarQuiz(){
   if(limiteSeleccionado==='all' || limiteSeleccionado>=preguntasCompletas.length){
     preguntas=[...preguntasCompletas];
   }else{
+    // tomar las primeras N pero después barajamos todo
     preguntas=preguntasCompletas.slice(0, limiteSeleccionado);
   }
-  shuffleInPlace(preguntas);
+  shuffleInPlace(preguntas); // <- orden random SIEMPRE
 
   indicePregunta=0; mostrarPregunta();
   btnExportar.disabled=true;
@@ -251,7 +254,7 @@ function mostrarPregunta(){
   actualizarProgreso();
 
   let respuestas=normalizarRespuestas(p);
-  shuffleInPlace(respuestas);
+  shuffleInPlace(respuestas); // <- orden de respuestas random SIEMPRE
 
   const inputType=tipoInputs(respuestas);
   let html=`<h5 class="mb-3">${p.pregunta}</h5>`;
