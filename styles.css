@@ -39,6 +39,14 @@ body { background-color: #f8f9fa; padding-top: 72px; }
 /* Botones (centrados solo estos) */
 .btn-group-bottom { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
 
+/* Ajustes Tema y Preguntas en la navbar */
+#selectArchivo, 
+#selectPreguntas {
+  min-width: 120px;    /* evita que se vean demasiado chicos */
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
 /* Responsive */
 @media (max-width: 576px) {
   .question-box { padding: 16px; }
@@ -52,5 +60,6 @@ body { background-color: #f8f9fa; padding-top: 72px; }
 /* Mejor espaciado de la navbar en móviles */
 @media (max-width: 991.98px) {
   .navbar-nav .nav-item { width: 100%; margin-right: 0 !important; margin-bottom: .5rem; }
-  .navbar-nav .btn, .navbar-nav .form-select { width: 100%; }
+  .navbar-nav .btn, 
+  .navbar-nav .form-select { width: 100%; }
 }
