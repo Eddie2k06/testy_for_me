@@ -1,6 +1,6 @@
 /* ========= Estado ========= */
 let preguntasCompletas = [], preguntas = [], indicePregunta = 0, preguntasCorrectas = 0, resultados = [];
-let limiteSeleccionado = 10; // <- por defecto 10 (coincide con el select)
+let limiteSeleccionado = 10; // por defecto 10 (coincide con el select)
 let inicioPreguntaMs = 0;
 const archivosJSON = new Map();
 
@@ -189,11 +189,11 @@ function cargarDesdeSelector(){
   }
 }
 
-/* ========= Select de Preguntas (NUEVO) ========= */
+/* ========= Select de Preguntas (APLICA LÍMITE) ========= */
 selectPreguntas.addEventListener('change', (e)=>{
   const val = e.target.value;
   limiteSeleccionado = (val === 'all') ? 'all' : parseInt(val, 10);
-  if (preguntasCompletas.length) iniciarQuiz(); // reinicia con nuevo límite
+  if (preguntasCompletas.length) iniciarQuiz(); // reinicia con el nuevo límite
 });
 
 /* ========= Quiz ========= */
@@ -217,20 +217,24 @@ function procesarPreguntas(data){
 }
 
 function iniciarQuiz(){
-  preguntasCorrectas=0; resultados=[];
+  preguntasCorrectas = 0;
+  resultados = [];
   seccionRevision.classList.add('d-none');
   seccionRevision.innerHTML = '';
 
-  if(limiteSeleccionado==='all' || limiteSeleccionado>=preguntasCompletas.length){
-    preguntas=[...preguntasCompletas];
-  }else{
-    // tomar las primeras N pero después barajamos todo
-    preguntas=preguntasCompletas.slice(0, limiteSeleccionado);
-  }
-  shuffleInPlace(preguntas); // <- orden random SIEMPRE
+  // Barajamos una copia del total y recién ahí aplicamos el límite
+  const pool = [...preguntasCompletas];
+  shuffleInPlace(pool);
 
-  indicePregunta=0; mostrarPregunta();
-  btnExportar.disabled=true;
+  if (limiteSeleccionado === 'all' || limiteSeleccionado >= pool.length) {
+    preguntas = pool;
+  } else {
+    preguntas = pool.slice(0, Number(limiteSeleccionado));
+  }
+
+  indicePregunta = 0;
+  mostrarPregunta();
+  btnExportar.disabled = true;
 }
 
 function actualizarProgreso(){
@@ -254,7 +258,7 @@ function mostrarPregunta(){
   actualizarProgreso();
 
   let respuestas=normalizarRespuestas(p);
-  shuffleInPlace(respuestas); // <- orden de respuestas random SIEMPRE
+  shuffleInPlace(respuestas); // orden de respuestas random SIEMPRE
 
   const inputType=tipoInputs(respuestas);
   let html=`<h5 class="mb-3">${p.pregunta}</h5>`;
