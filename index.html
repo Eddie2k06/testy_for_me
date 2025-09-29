@@ -29,30 +29,21 @@
             <button class="btn btn-sm btn-outline-secondary" id="btnCargar">Cargar JSON</button>
           </li>
 
-          <!-- Tema -->
+          <!-- Tema + Preguntas en una sola línea -->
           <li class="nav-item d-flex align-items-center my-1 me-lg-3">
             <label for="selectArchivo" class="form-label small mb-0 me-2">Tema:</label>
             <select id="selectArchivo" class="form-select form-select-sm w-auto" disabled>
               <option value="" selected disabled>Seleccioná un tema</option>
             </select>
-          </li>
 
-          <!-- Preguntas -->
-          <li class="nav-item d-flex align-items-center my-1 me-lg-2">
-            <label for="dropdownPreguntas" class="form-label small mb-0 me-2">Preguntas:</label>
-            <div class="dropdown">
-              <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownPreguntas" data-bs-toggle="dropdown">
-                Seleccionar
-              </button>
-              <ul class="dropdown-menu" id="menuPreguntas">
-                <li><a class="dropdown-item" href="#" data-limit="10">10</a></li>
-                <li><a class="dropdown-item" href="#" data-limit="20">20</a></li>
-                <li><a class="dropdown-item" href="#" data-limit="50">50</a></li>
-                <li><a class="dropdown-item" href="#" data-limit="100">100</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item active" href="#" data-limit="all">Todas</a></li>
-              </ul>
-            </div>
+            <label for="selectPreguntas" class="form-label small mb-0 ms-3 me-2">Preguntas:</label>
+            <select id="selectPreguntas" class="form-select form-select-sm w-auto">
+              <option value="10" selected>10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="all">Todas</option>
+            </select>
           </li>
         </ul>
 
