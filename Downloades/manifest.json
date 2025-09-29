@@ -1,0 +1,12 @@
+{
+  "folder": "Downloades",
+  "files": [
+    { "name": "01_Jefe de Servicios.json",              "label": "Jefe de Servicios" },
+    { "name": "02_Jefe de Judiciales.json",             "label": "Jefe de Judiciales" },
+    { "name": "03_Jefe de Administracion.json",         "label": "Jefe de Administración" },
+    { "name": "04_Mando y Conduccion.json",             "label": "Mando y Conducción" },
+    { "name": "05_Régimen Disciplinario.json",          "label": "Régimen Disciplinario" },
+    { "name": "06_Guías de Actuación Policial.json",    "label": "Guías de Actuación Policial" },
+    { "name": "07_Cuestiones procesales actuales.json", "label": "Cuestiones procesales actuales" }
+  ]
+}
