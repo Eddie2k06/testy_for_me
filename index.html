@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de Ascenso &mdash; Quiz</title>
+<style>
+  :root {
+    --navy: #12213B;
+    --navy-2: #1C3357;
+    --steel: #2E4A72;
+    --gold: #C9A24B;
+    --gold-dim: #9C7F38;
+    --bg: #EEF1F6;
+    --card: #FFFFFF;
+    --ink: #141B28;
+    --ink-dim: #5B6577;
+    --ok: #2E7D4F;
+    --ok-bg: #E6F4EA;
+    --bad: #B3412C;
+    --bad-bg: #FBE9E4;
+    --border: #E3E7EE;
+    --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0B1424;
+    color: var(--ink);
+  }
+  #phone {
+    max-width: 430px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .screen { display: none; flex-direction: column; flex: 1; min-height: 100vh; }
+  .screen.active { display: flex; }
+
+  /* ---------- HOME ---------- */
+  #screen-home { background: var(--bg); }
+  .home-hero {
+    background: var(--navy);
+    padding: 38px 24px 30px;
+    color: var(--white);
+    position: relative;
+  }
+  .home-hero::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px; height: 18px;
+    background: var(--bg);
+    border-radius: 18px 18px 0 0;
+  }
+  .home-eyebrow {
+    color: var(--gold);
+    font-size: 11px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; margin: 0 0 8px;
+  }
+  .home-title { font-size: 26px; font-weight: 700; margin: 0 0 6px; line-height: 1.2; }
+  .home-sub { font-size: 13px; color: #B9C2D6; margin: 0; }
+  .home-hero-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .btn-settings-gear {
+    flex-shrink: 0;
+    width: 38px; height: 38px; border-radius: 10px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+    color: var(--gold); font-size: 17px;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .btn-settings-gear:active { transform: scale(0.96); }
+
+  .upload-box {
+    margin: 0 18px 4px;
+    background: var(--card);
+    border: 1.5px dashed var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+  .upload-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px; margin-top: 10px; flex-wrap: wrap;
+  }
+  .upload-btn {
+    background: var(--navy); color: var(--gold);
+    font-size: 12.5px; font-weight: 700;
+    padding: 9px 14px; border-radius: 10px; cursor: pointer;
+    position: relative; overflow: hidden;
+  }
+  .upload-btn input[type="file"] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer;
+  }
+  .upload-check {
+    font-size: 11.5px; color: var(--ink-dim); display: flex; align-items: center; gap: 6px;
+  }
+  #upload-feedback {
+    margin-top: 10px; display: flex; flex-direction: column; gap: 4px;
+  }
+  .upload-msg {
+    font-size: 11.5px; padding: 7px 9px; border-radius: 8px;
+    background: var(--ok-bg); color: var(--ok);
+  }
+  .upload-msg.error { background: var(--bad-bg); color: var(--bad); }
+
+  .materias-list {
+    padding: 22px 18px 90px;
+    display: flex; flex-direction: column; gap: 12px;
+    flex: 1;
+  }
+  .materia-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 16px;
+    display: flex; align-items: center; gap: 14px;
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .materia-card:active { transform: scale(0.98); }
+  .materia-card:hover { box-shadow: 0 4px 14px rgba(18,33,59,0.08); }
+  .materia-num {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--navy); color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px; flex-shrink: 0;
+  }
+  .materia-info { flex: 1; min-width: 0; }
+  .materia-name { font-size: 14.5px; font-weight: 600; color: var(--navy); margin: 0 0 3px; }
+  .materia-count { font-size: 12px; color: var(--ink-dim); margin: 0; }
+  .materia-arrow { color: var(--gold-dim); font-size: 18px; }
+
+  .settings-bar {
+    position: sticky; bottom: 0;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    padding: 12px 18px 14px;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .settings-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px;
+  }
+  .settings-row + .settings-row {
+    padding-top: 12px; border-top: 1px solid var(--border);
+  }
+  .settings-label { font-size: 12.5px; color: var(--ink); font-weight: 600; }
+  .settings-sub { font-size: 11px; color: var(--ink-dim); margin-top: 2px; }
+  .switch {
+    position: relative; width: 44px; height: 26px; flex-shrink: 0;
+  }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .switch-track {
+    position: absolute; inset: 0; background: #C7CEDA;
+    border-radius: 14px; cursor: pointer; transition: background .15s;
+  }
+  .switch-track::before {
+    content: ""; position: absolute; width: 20px; height: 20px;
+    left: 3px; top: 3px; background: white; border-radius: 50%;
+    transition: transform .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  }
+  .switch input:checked + .switch-track { background: var(--gold); }
+  .switch input:checked + .switch-track::before { transform: translateX(18px); }
+  .seconds-input {
+    width: 46px; text-align: center; border: 1px solid var(--border);
+    border-radius: 8px; padding: 5px 4px; font-size: 13px; font-weight: 600;
+    color: var(--navy);
+  }
+
+  /* ---------- SETTINGS ---------- */
+  #screen-settings { background: var(--bg); }
+  .settings-hero {
+    background: var(--navy);
+    padding: 30px 20px 24px;
+    color: var(--white);
+    position: relative;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .settings-hero::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px; height: 18px;
+    background: var(--bg);
+    border-radius: 18px 18px 0 0;
+  }
+  .btn-back-settings {
+    width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+    color: var(--gold); font-size: 18px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .settings-hero-title { font-size: 19px; font-weight: 700; margin: 0; }
+  .settings-hero-sub { font-size: 12.5px; color: #B9C2D6; margin: 3px 0 0; }
+  .settings-body { padding: 20px 18px 40px; display: flex; flex-direction: column; gap: 16px; flex: 1; }
+  .upload-paste { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+  #json-paste-area {
+    width: 100%; min-height: 74px; resize: vertical; margin-top: 8px;
+    border: 1px solid var(--border); border-radius: 10px; padding: 10px;
+    font-size: 12px; font-family: ui-monospace, monospace; color: var(--ink);
+  }
+  .upload-paste-btn {
+    margin-top: 8px; background: var(--navy); color: var(--gold);
+    font-size: 12.5px; font-weight: 700; border: none;
+    padding: 9px 14px; border-radius: 10px; cursor: pointer;
+  }
+  .settings-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px;
+  }
+  .settings-card-title { font-size: 13.5px; font-weight: 700; color: var(--navy); margin: 0 0 3px; }
+  .settings-card-sub { font-size: 11.5px; color: var(--ink-dim); margin: 0 0 12px; }
+
+  /* ---------- MODAL ---------- */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(11,20,36,0.6);
+    display: none; align-items: center; justify-content: center;
+    padding: 24px; z-index: 50;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-card {
+    background: var(--card); border-radius: 18px; width: 100%; max-width: 360px;
+    overflow: hidden; box-shadow: 0 18px 40px rgba(11,20,36,0.35);
+  }
+  .modal-header {
+    background: var(--navy); padding: 20px 20px 16px; color: var(--white); position: relative;
+  }
+  .modal-icon {
+    width: 40px; height: 40px; border-radius: 50%; background: rgba(201,162,75,0.16);
+    color: var(--gold); display: flex; align-items: center; justify-content: center;
+    font-size: 19px; margin-bottom: 10px;
+  }
+  .modal-title { font-size: 16px; font-weight: 700; margin: 0; }
+  .modal-sub { font-size: 12px; color: #B9C2D6; margin: 3px 0 0; }
+  .modal-body { padding: 16px 20px; max-height: 40vh; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; }
+  .modal-footer { padding: 4px 20px 20px; }
+
+  /* ---------- QUIZ ---------- */
+  #screen-quiz { background: var(--bg); position: relative; }
+  .quiz-header { padding: 28px 20px 14px; }
+  .quiz-titles { margin-bottom: 14px; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .quiz-titles-text { min-width: 0; flex: 1; }
+  .btn-cancel-quiz {
+    flex-shrink: 0;
+    background: var(--card); border: 1.5px solid var(--border); border-radius: 10px;
+    color: var(--ink-dim); font-size: 12px; font-weight: 700;
+    padding: 8px 12px; cursor: pointer; margin-top: 2px;
+  }
+  .btn-cancel-quiz:active { transform: scale(0.97); }
+  .quiz-materia-title {
+    font-size: 20px; font-weight: 700; color: var(--navy);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    margin: 0;
+  }
+  .quiz-status { font-size: 13px; font-weight: 700; color: var(--gold-dim); margin: 4px 0 0; }
+  .progress-track {
+    height: 10px; background: var(--border); border-radius: 5px; overflow: hidden;
+  }
+  .progress-fill { height: 100%; width: 0%; background: var(--gold); transition: width .25s ease; }
+
+  .quiz-body {
+    flex: 1; overflow-y: auto; padding: 0 18px 110px;
+  }
+  .question-card {
+    background: var(--card); border: 1.5px solid var(--border); border-radius: 14px;
+    padding: 18px; margin-bottom: 18px;
+  }
+  .question-label {
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--gold-dim);
+    text-transform: uppercase; margin: 0 0 6px;
+  }
+  .question-text { font-size: 15.5px; line-height: 1.5; color: var(--ink); margin: 0; }
+
+  .answers { display: flex; flex-direction: column; gap: 10px; }
+  .answer-option {
+    background: var(--card); border: 1.5px solid var(--border); border-radius: 12px;
+    padding: 13px 14px; display: flex; align-items: center; gap: 12px;
+    font-size: 13.5px; color: var(--ink); cursor: pointer;
+    transition: border-color .12s, background .12s;
+  }
+  .answer-option:hover { border-color: var(--gold-dim); }
+  .answer-option .letter {
+    width: 24px; height: 24px; border-radius: 50%; background: var(--bg);
+    color: var(--navy); font-size: 12px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .answer-option.selected { border-color: var(--gold); background: #FBF6EA; }
+  .answer-option.selected .letter { background: var(--gold); color: var(--white); }
+  .answer-option.correct { border-color: var(--ok); background: var(--ok-bg); }
+  .answer-option.correct .letter { background: var(--ok); color: white; }
+  .answer-option.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .answer-option.wrong .letter { background: var(--bad); color: white; }
+  .answer-option.disabled { cursor: default; }
+
+  .quiz-footer {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 18px;
+  }
+  .btn-primary {
+    width: 100%; text-align: center; padding: 15px; border: none;
+    border-radius: 12px; background: var(--navy); color: var(--gold);
+    font-size: 14.5px; font-weight: 700; cursor: pointer;
+    opacity: .5; transition: opacity .15s;
+  }
+  .btn-primary.enabled { opacity: 1; }
+  .btn-primary:disabled { cursor: not-allowed; }
+
+  /* Floating timer */
+  #timer-card-wrapper {
+    position: absolute; right: 22px; bottom: 110px;
+    width: 86px; height: 86px; display: none;
+  }
+  #timer-pulse-ring {
+    position: absolute; inset: 0; border-radius: 50%;
+    border: 2.5px solid var(--gold);
+    animation: pulseRing 1s linear infinite;
+  }
+  #timer-pulse-ring.urgent { border-color: var(--bad); animation-duration: .7s; }
+  #timer-circle {
+    position: absolute; inset: 11px; border-radius: 50%;
+    background: var(--navy); border: 2.5px solid var(--gold);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  #timer-circle.urgent { background: var(--bad); border-color: var(--white); }
+  #timer-icon { font-size: 12px; color: var(--gold); }
+  #timer-circle.urgent #timer-icon { color: var(--white); }
+  #timer-value { font-size: 22px; font-weight: 700; color: var(--white); line-height: 1.1; }
+  @keyframes pulseRing {
+    0% { transform: scale(1); opacity: .9; }
+    100% { transform: scale(1.45); opacity: 0; }
+  }
+
+  /* ---------- RESULTS ---------- */
+  #screen-results { background: var(--navy); color: var(--white); align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
+  .results-eyebrow { color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 14px; }
+  .results-score { font-size: 56px; font-weight: 700; margin: 0; line-height: 1; }
+  .results-total { font-size: 15px; color: #B9C2D6; margin: 8px 0 0; }
+  .results-pct {
+    margin: 22px 0 30px; font-size: 14px; font-weight: 700; color: var(--navy);
+    background: var(--gold); display: inline-block; padding: 8px 18px; border-radius: 20px;
+  }
+  .results-actions { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 280px; }
+  .btn-secondary {
+    padding: 14px; border-radius: 12px; border: 1.5px solid rgba(255,255,255,0.25);
+    background: transparent; color: var(--white); font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .btn-gold {
+    padding: 14px; border-radius: 12px; border: none;
+    background: var(--gold); color: var(--navy); font-size: 14px; font-weight: 700; cursor: pointer;
+  }
+
+  ::-webkit-scrollbar { width: 0; height: 0; }
+</style>
+</head>
+<body>
+<div id="phone">
+
+  <!-- ============ HOME ============ -->
+  <section id="screen-home" class="screen active">
+    <div class="home-hero">
+      <div class="home-hero-top">
+        <div>
+          <p class="home-eyebrow">ISSP &middot; Curso de Ascenso</p>
+          <h1 class="home-title">Elegí una materia</h1>
+          <p class="home-sub">Practicá con preguntas de opción múltiple, con o sin cronómetro.</p>
+        </div>
+        <button class="btn-settings-gear" id="btn-open-settings" title="Configuración">&#9881;</button>
+      </div>
+    </div>
+    <div class="materias-list" id="materias-list"></div>
+  </section>
+
+  <!-- ============ SETTINGS ============ -->
+  <section id="screen-settings" class="screen">
+    <div class="settings-hero">
+      <button class="btn-back-settings" id="btn-close-settings">&#8249;</button>
+      <div>
+        <p class="settings-hero-title">Configuración</p>
+        <p class="settings-hero-sub">Cargar materias y ajustar el quiz</p>
+      </div>
+    </div>
+    <div class="settings-body">
+      <div class="settings-card">
+        <div class="settings-card-title">Cargar preguntas (JSON)</div>
+        <div class="settings-card-sub">Subí uno o más archivos con el formato de materiaN.json (materia_id, materia_name, questions)</div>
+        <div class="upload-row">
+          <label class="upload-btn">
+            Elegir archivo(s)
+            <input type="file" id="json-file-input" accept=".json" multiple>
+          </label>
+          <label class="upload-check">
+            <input type="checkbox" id="replace-toggle">
+            Reemplazar si ya existe
+          </label>
+        </div>
+        <div class="upload-paste">
+          <div class="settings-sub" style="margin-bottom:6px;">¿En iPhone no se abre el selector de archivos? Pegá el JSON acá directamente:</div>
+          <textarea id="json-paste-area" placeholder='{"materia_id": "m8", "materia_name": "...", "questions": [...]}'></textarea>
+          <button class="upload-paste-btn" id="btn-load-paste">Cargar este texto</button>
+        </div>
+      </div>
+      <div class="settings-bar" style="position:static; border-radius:14px; border:1px solid var(--border);">
+        <div class="settings-row">
+          <div>
+            <div class="settings-label">Cronómetro por pregunta</div>
+            <div class="settings-sub" id="timer-sub-label">Desactivado</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <input type="number" class="seconds-input" id="timer-seconds-input" value="20" min="5" max="120">
+            <label class="switch">
+              <input type="checkbox" id="timer-toggle">
+              <span class="switch-track"></span>
+            </label>
+          </div>
+        </div>
+        <div class="settings-row">
+          <div>
+            <div class="settings-label">Cantidad de preguntas</div>
+            <div class="settings-sub" id="count-sub-label">Todas las disponibles</div>
+          </div>
+          <input type="number" class="seconds-input" id="question-count-input" placeholder="Todas" min="1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ UPLOAD MODAL ============ -->
+  <div class="modal-overlay" id="upload-modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-icon">&#10003;</div>
+        <p class="modal-title">Carga de materias</p>
+        <p class="modal-sub" id="modal-sub">Resultado del procesamiento</p>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer">
+        <button class="btn-primary enabled" id="btn-modal-close">Listo</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============ QUIZ ============ -->
+  <section id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <div class="quiz-titles">
+        <div class="quiz-titles-text">
+          <p class="quiz-materia-title" id="quiz-materia-title">Materia</p>
+          <p class="quiz-status" id="quiz-status">Pregunta 1 de 10</p>
+        </div>
+        <button class="btn-cancel-quiz" id="btn-cancel-quiz">Cancelar</button>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+
+    <div class="quiz-body">
+      <div class="question-card">
+        <p class="question-label" id="question-label">PREGUNTA 1</p>
+        <p class="question-text" id="question-text">Cargando...</p>
+      </div>
+      <div class="answers" id="answers-container"></div>
+    </div>
+
+    <div class="quiz-footer">
+      <button class="btn-primary" id="btn-confirm" disabled>Confirmar respuesta</button>
+    </div>
+
+    <div id="timer-card-wrapper">
+      <div id="timer-pulse-ring"></div>
+      <div id="timer-circle">
+        <span id="timer-icon">&#9201;</span>
+        <span id="timer-value">20</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESULTS ============ -->
+  <section id="screen-results" class="screen">
+    <p class="results-eyebrow" id="results-materia">Materia</p>
+    <p class="results-score"><span id="results-score">0</span><span style="font-size:28px; color:#B9C2D6;">&nbsp;/&nbsp;<span id="results-total-inline">0</span></span></p>
+    <p class="results-total">respuestas correctas</p>
+    <div class="results-pct" id="results-pct">0%</div>
+    <div class="results-actions">
+      <button class="btn-gold" id="btn-retry">Repetir esta materia</button>
+      <button class="btn-secondary" id="btn-home">Volver al inicio</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+const MATERIAS = {"m1": {"materia_id": "m1", "materia_name": "Jefe de Servicios", "questions": [{"text": "Según el Art. 88 de la Ley N° 5688, ¿durante qué horario rige el deber del personal policial de intervenir ante situaciones riesgosas?", "options": ["Únicamente durante allanamientos ordenados", "Durante su horario de servicio ordinario o complementario", "Solo si media orden expresa del Jefe de Dependencia"], "correct": 1}, {"text": "Desde un enfoque práctico, ¿cuáles son los cuatro tipos de intervención en toda actuación policial?", "options": ["Hechos, Faltas, Contravenciones y Delitos", "Denuncias, Sumarios, Actas y Expedientes", "Detenciones, Secuestros, Allanamientos y Testimoniales"], "correct": 0}, {"text": "¿Cómo se denomina el sistema informático donde la Policía de la Ciudad registra, gestiona y audita digitalmente sus actuaciones?", "options": ["SADE", "GAP Web (Sistema de Gestión de Actuaciones Policiales)", "SIRMA"], "correct": 1}, {"text": "En contexto policial, un 'Hecho' se define como:", "options": ["Toda situación que constituye delito de acción pública", "Una situación con la que toma contacto el funcionario sin que llegue a constituir falta, contravención o delito", "Exclusivamente los accidentes de tránsito con lesionados"], "correct": 1}, {"text": "Cuando un hecho no amerita expediente Constancia ni Contravención, ¿cómo queda registrado?", "options": ["No se registra de ninguna forma", "Mediante constancia en el parte del móvil y carta de novedades del D.E.P.", "Se remite directamente al fuero civil"], "correct": 1}, {"text": "¿Qué instrumento se utiliza para registrar una Falta de Tránsito?", "options": ["El Acta de Infracción", "El Acta Circunstanciada", "El Acta de Secuestro"], "correct": 0}, {"text": "¿Qué organismo tiene competencia en el tratamiento de las faltas comprendidas en la Ley 451 (Régimen de Faltas) de la Ciudad?", "options": ["La Dirección General de Administración de Infracciones (DGAI)", "La Fiscalía Penal, Contravencional y de Faltas", "El Cuerpo de Agentes de Control de Tránsito exclusivamente"], "correct": 0}, {"text": "Una vez labrada el acta de infracción municipal, ¿mediante qué sistema se eleva a la DGAI?", "options": ["Por correo postal certificado", "Mediante expediente electrónico en el sistema SADE", "Se archiva en la dependencia sin elevarse"], "correct": 1}, {"text": "Las contravenciones constituyen una infracción a:", "options": ["El Código Penal de la Nación", "El Código Contravencional - Ley N° 1472", "La Ley 5688 exclusivamente"], "correct": 1}, {"text": "En materia contravencional, ¿qué autoridad judicial resulta competente según turnos judiciales?", "options": ["El Juzgado en lo Civil", "La Fiscalía Penal, Contravencional y de Faltas en turno del Ministerio Público Fiscal", "La Cámara Federal"], "correct": 1}, {"text": "Ante una flagrante contravención que produzca grave e inminente peligro para la salud o seguridad públicas, la autoridad preventora puede adoptar como medida precautoria:", "options": ["La clausura preventiva", "La detención por 48 horas sin consulta", "El decomiso definitivo automático"], "correct": 0}, {"text": "La superioridad que se ejerce sobre otro por poseer un grado superior en la escala jerárquica se denomina:", "options": ["Superioridad funcional", "Superioridad jerárquica", "Superioridad orgánica"], "correct": 1}, {"text": "La superioridad que se ejerce durante una misión u operación concreta, con independencia del grado o cargo, se denomina:", "options": ["Superioridad por antigüedad", "Superioridad orgánica", "Superioridad funcional"], "correct": 2}, {"text": "Los egresados del Instituto Superior de Seguridad Pública se integran al Escalafón General Policial en:", "options": ["El primer puesto del grado de Oficial", "El último puesto del grado de Oficial", "El puesto que determine su antigüedad civil previa"], "correct": 1}, {"text": "En el orden de precedencia entre personal del mismo grado (sin tener en cuenta la antigüedad), ¿quién precede en primer lugar?", "options": ["El personal en situación de retiro", "El personal en situación de actividad", "El personal en retiro llamado a prestar servicios"], "correct": 1}, {"text": "Según el Art. 88 de la Ley N° 5688, el deber de intervenir ante situaciones riesgosas rige únicamente durante el horario de servicio ordinario, y no durante el complementario.", "type": "vf", "correct": false}, {"text": "El GAP Web es el sistema informático mediante el cual la Policía de la Ciudad registra, gestiona y audita digitalmente sus actuaciones.", "type": "vf", "correct": true}]}, "m2": {"materia_id": "m2", "materia_name": "Jefe de Oficina Judicial", "questions": [{"text": "Según la RESOL-2023-1834-GCABA-JPCAD, la Oficina de Judiciales se compone de:", "options": ["Jefe de la Oficina de Judiciales, Depósito Judicial y personal en funciones administrativas", "Solo el Jefe de la Oficina y un chofer asignado", "Jefe de Judiciales y Jefe de Guardia únicamente"], "correct": 0}, {"text": "El Jefe de Judiciales es nombrado por:", "options": ["El Ministerio de Seguridad directamente", "El Jefe de la División", "Votación del personal de la dependencia"], "correct": 1}, {"text": "En materia judicial, el Jefe de Judiciales actúa como:", "options": ["Secretario en la sustanciación de las actuaciones labradas en la oficina", "Juez de instrucción sumarial", "Fiscal auxiliar de turno"], "correct": 0}, {"text": "¿Está facultado el Jefe de Judiciales para citar ciudadanos a presentarse en sede policial a fin de cumplir diligencias?", "options": ["Sí, cuando sea necesario para la instrucción sumarial", "No, solo puede hacerlo un juez", "Solo con autorización previa del Ministerio Público Fiscal por escrito"], "correct": 0}, {"text": "Entre los libros y registros que debe mantener actualizados el Jefe de Judiciales se encuentra:", "options": ["El libro de asistencia del comedor policial", "El libro registro de sumarios y contravenciones", "El libro de mantenimiento vehicular"], "correct": 1}, {"text": "El artículo de la RESOL-2023-1834-GCABA-JPCAD que enumera de forma detallada las atribuciones y deberes del Jefe de Judiciales es el:", "options": ["Artículo 88", "Artículo 141", "Artículo 53"], "correct": 1}, {"text": "Ante toda novedad relacionada con consignas y medidas de protección, el Jefe de Judiciales debe comunicar de inmediato a:", "options": ["Los medios de prensa", "El Jefe de la Dependencia o de la División", "El detenido bajo custodia"], "correct": 1}, {"text": "Si en un Expediente de Exposición no pudiera identificarse o ubicarse al propietario de los elementos involucrados, ¿a qué autoridad se da intervención para resolver su destino final?", "options": ["A la autoridad judicial del fuero civil", "A la Legislatura porteña", "Al Registro de la Propiedad Automotor exclusivamente"], "correct": 0}]}, "m3": {"materia_id": "m3", "materia_name": "CPPCABA", "questions": [{"text": "La Teoría del Caso se define como:", "options": ["Un simple listado de pruebas documentales", "Una historia simple, lógica y persuasiva sobre lo que realmente sucedió", "Un formulario preimpreso de acta contravencional"], "correct": 1}, {"text": "El estándar probatorio para arribar a una condena, mencionado en el marco de la Teoría del Caso, es:", "options": ["Certeza absoluta e infalible", "Más allá de toda duda razonable (in dubio pro reo)", "Simple verosimilitud de los hechos"], "correct": 1}, {"text": "La característica de la Teoría del Caso según la cual no pueden presentarse varias versiones alternativas de los hechos se denomina:", "options": ["Mutable", "Verosímil", "Única"], "correct": 2}, {"text": "La característica que exige que la Teoría del Caso dé cuenta de todos los hechos, sin dejar cabos sueltos, se denomina:", "options": ["Autosuficiente", "Flexible", "Provisoria"], "correct": 0}, {"text": "El relato de los hechos dentro de la Teoría del Caso debe responder principalmente a las preguntas:", "options": ["Quién, qué, cuándo, dónde, cómo (y por qué)", "Cuánto, cuándo y con qué presupuesto", "Quién ganó y quién perdió el litigio"], "correct": 0}, {"text": "El relato de los hechos de la Teoría del Caso NO puede contener:", "options": ["Los datos de tiempo y lugar del hecho", "Valoraciones jurídicas ni probatorias", "El nombre del imputado"], "correct": 1}, {"text": "Desde la 'notitia criminis', la Teoría del Caso resulta útil para:", "options": ["Llevar adelante la investigación, decidir la fortaleza del caso y preparar la audiencia de juicio oral", "Reemplazar la denuncia penal formal", "Evitar la intervención de la Fiscalía"], "correct": 0}, {"text": "Según el programa tentativo de la materia, en la clase dedicada a 'urgencia e inmediatez' se abordan especialmente:", "options": ["Flagrancia y sus tipos, allanamiento y secuestro", "Régimen disciplinario y sumarios administrativos", "Organigrama de la Oficina de Administración"], "correct": 0}]}, "m4": {"materia_id": "m4", "materia_name": "Guía de Actuación Policial", "questions": [{"text": "El D.E.I.M. (Dispositivo Electrónico de Inmovilización Momentánea) es un sistema diseñado para:", "options": ["El registro fotográfico de detenidos", "La inmovilización muscular momentánea, de baja letalidad", "La comunicación radial encriptada"], "correct": 1}, {"text": "El uso del D.E.I.M. debe aplicarse únicamente cuando se justifique su necesidad, conforme a:", "options": ["El Protocolo para el Uso de la Fuerza (4-OPT-001)", "El Código Contravencional", "El Reglamento de Uniformes"], "correct": 0}, {"text": "El D.E.I.M. debe utilizarse junto con:", "options": ["Un testigo civil obligatorio", "Una cámara audiovisual compatible que registre y conserve audio y video de la intervención", "Autorización escrita del Ministerio Público Fiscal en el momento"], "correct": 1}, {"text": "Según el Modelo de Protocolo Latinoamericano, el femicidio se define como:", "options": ["Cualquier homicidio ocurrido dentro del ámbito doméstico", "La muerte violenta de mujeres por razones de género", "Un delito exclusivamente tipificado en el Código Contravencional"], "correct": 1}, {"text": "Entre los principios generales de intervención en el lugar del hallazgo de un femicidio se encuentra:", "options": ["Resguardar el lugar del hallazgo de cualquier tipo de contaminación", "Notificar primero a los medios de prensa", "Trasladar el cuerpo de inmediato para agilizar el procedimiento"], "correct": 0}, {"text": "La Guía de Actuación para la Investigación de Femicidios en el lugar del hallazgo fue elaborada por:", "options": ["La Dirección de Ejecución de Políticas de Género y Diversidad del Ministerio de Seguridad de la Nación", "El Poder Judicial de la CABA exclusivamente", "Una ONG internacional sin relación estatal"], "correct": 0}, {"text": "La aprobación del actual 'Instructivo de Uso D.E.I.M.' dejó sin efecto a:", "options": ["La Ley 5688", "La Resolución N° 205-GCABA-MJYSGC/23", "El Código Procesal Penal de la CABA"], "correct": 1}, {"text": "¿Qué ODI corresponde a la Guía de Aprehensión, Custodia y Egreso de Detenidos?", "options": ["ODI 225/2025", "ODI 93/2017", "ODI 129/2019"], "correct": 2}, {"text": "¿Qué ODI corresponde al Protocolo de Actuación de Fuerzas Policiales para delitos cometidos en flagrancia (Ley 27.272)?", "options": ["ODI 24/2017", "ODI 186/2025", "ODI 93/2017"], "correct": 0}, {"text": "Al observar el lugar del hallazgo en casos de violencia de género, la descripción del entorno debe realizarse:", "options": ["Utilizando estereotipos de género para orientar la hipótesis", "Sin estereotipos de género", "Solo si lo requiere expresamente el fiscal"], "correct": 1}]}, "m5": {"materia_id": "m5", "materia_name": "Régimen Disciplinario", "questions": [{"text": "El Reglamento Disciplinario de la Policía de la Ciudad fue aprobado por:", "options": ["Decreto N° 53/17", "Ley N° 5688", "Resolución N° 625/2018"], "correct": 0}, {"text": "Comunicado el cargo por una falta leve, el presunto infractor debe presentar su descargo, como máximo:", "options": ["Dentro de los 30 días corridos", "Al día siguiente en que deba prestar servicio", "En la misma audiencia, sin plazo posterior"], "correct": 1}, {"text": "Si el presunto infractor se encuentra en disponibilidad o pasiva, el plazo para presentar el descargo es de:", "options": ["24 horas", "72 horas", "48 horas desde la comunicación del cargo"], "correct": 2}, {"text": "Cuando al momento del descargo se ofrece prueba cuyo esclarecimiento requiere sustanciar diligencias, el procedimiento disciplinario tramita excepcionalmente como:", "options": ["Sumario", "Expediente de exposición", "Consulta judicial directa"], "correct": 0}, {"text": "¿Quién dispone la instrucción del sumario cuando el descargo ofrece prueba a sustanciar?", "options": ["El jefe de la dependencia", "El detenido interesado", "La Legislatura de la Ciudad"], "correct": 0}, {"text": "Si quien detecta una falta leve considera insuficientes sus propias facultades disciplinarias para sancionarla, debe:", "options": ["Dejar la falta sin sanción hasta nueva orden", "Aplicar el máximo dentro del límite de sus facultades y solicitar al superior el aumento de la sanción", "Sancionar igualmente por encima de sus facultades"], "correct": 1}, {"text": "Si una falta se comete en presencia de un superior a quien corresponde sancionarla, ¿puede sancionarla un subalterno?", "options": ["Sí, siempre que quede registrado por escrito", "No, salvo que le fuera ordenado por ese superior", "Sí, automáticamente por estar presente en el lugar"], "correct": 1}, {"text": "Al ejercer la fiscalización de una sanción determinada por un subordinado, el Jefe de la dependencia puede agravarla, pero:", "options": ["Sin ningún límite normativo", "Dentro del límite de sus propias facultades disciplinarias", "Solo si lo autoriza el Ministerio de Seguridad"], "correct": 1}, {"text": "Una denuncia de un particular que deba encuadrarse como falta leve del personal debe comunicarse mediante Comunicación Oficial a:", "options": ["La Oficina de Transparencia y Control Externo", "El Registro Civil", "La Defensoría del Pueblo exclusivamente"], "correct": 0}, {"text": "Si la sanción disciplinaria fue determinada por el propio jefe de la dependencia, ¿quién ejerce la fiscalización de esa sanción?", "options": ["Nadie, queda firme de inmediato", "El superior jerárquico inmediato", "El mismo jefe que la determinó, en segunda instancia"], "correct": 1}]}, "m6": {"materia_id": "m6", "materia_name": "Oficina de Administración", "questions": [{"text": "En la estructura funcional básica de una Comisaría, la Jefatura de la Dependencia recae en el grado de:", "options": ["Comisario", "Subcomisario", "Oficial de Supervisión"], "correct": 0}, {"text": "El Segundo Jefe de Dependencia tiene a su cargo, entre otras cosas:", "options": ["El control de los servicios internos y externos, siendo Jefe inmediato de todo el personal", "Exclusivamente la administración de móviles", "La instrucción de sumarios judiciales federales"], "correct": 0}, {"text": "En caso de ausencia temporaria del Jefe de la Dependencia, ¿quién lo reemplaza con las mismas atribuciones y facultades?", "options": ["El Jefe de Servicios", "El Segundo Jefe de Dependencia", "El Jefe de Judiciales"], "correct": 1}, {"text": "Según el Art. 115 inc. h de la Resol-2023-1834-GCABA-JPCDAD, el Segundo Jefe es el encargado de:", "options": ["La fiscalización de los libros administrativos y de los sistemas que se llevan en la dependencia", "La provisión de armamento reglamentario", "El dictado de clases en el ISSP"], "correct": 0}, {"text": "El Jefe de la Oficina de Administración es nombrado por:", "options": ["El Jefe de la División", "El Ministerio de Seguridad directamente", "El personal subalterno por votación"], "correct": 0}, {"text": "Entre las responsabilidades de la Oficina de Administración se encuentra:", "options": ["El gerenciamiento administrativo del personal: licencias, sumarios administrativos, reclamos, etc.", "El patrullaje preventivo de la jurisdicción", "La instrucción de causas penales federales"], "correct": 0}, {"text": "La confección de las órdenes internas de lectura obligatoria para informar servicios, cambios de horario y novedades corresponde a:", "options": ["La Oficina de Judiciales", "La Oficina de Administración", "El Departamento de Emergencias Policiales"], "correct": 1}, {"text": "¿De qué oficina depende la Oficina de Logística según el material de la materia?", "options": ["De la Oficina de Guardia", "De la Oficina de Administración", "De la Jefatura de la Policía directamente"], "correct": 1}, {"text": "La Oficina de Logística gestiona la reparación de los móviles radiados a través del sistema denominado:", "options": ["SIRMA", "GAP Web", "SADE"], "correct": 0}, {"text": "Además de Administración y Judiciales, ¿qué otros servicios integran una Comisaría según el material?", "options": ["Oficina de Jefe de Servicio y Oficina de Guardia", "Oficina de Prensa y Protocolo", "Oficina de Relaciones Internacionales"], "correct": 0}]}, "m7": {"materia_id": "m7", "materia_name": "Mando y Conducción", "questions": [{"text": "El mando se define en la materia como:", "options": ["La facultad que tiene el superior para impartir órdenes a un subordinado", "El grado más alto del escalafón policial", "Un tipo de sanción disciplinaria"], "correct": 0}, {"text": "Según la materia, la jerarquía otorga potestad de mando, pero muchas veces no resulta suficiente para:", "options": ["Cobrar los suplementos por servicio", "Una conducción eficaz", "Acceder al curso de ascenso"], "correct": 1}, {"text": "¿Qué ocurre con las jerarquías, según el material, en los momentos críticos?", "options": ["Se refuerzan automáticamente", "Se quiebran", "Se transforman en superioridad orgánica"], "correct": 1}, {"text": "La autoridad, según lo desarrollado en la materia, siempre es un fenómeno:", "options": ["Descendente y automático", "Ascendente", "Exclusivamente normativo"], "correct": 1}, {"text": "La fórmula planteada en la materia es:", "options": ["Autoridad = Antigüedad + Grado", "Autoridad = Compromiso + Valores", "Autoridad = Mando + Sanción"], "correct": 1}, {"text": "La genuina autoridad es la base para construir múltiples canales de:", "options": ["Influencia, persuasión, diálogo, entrenamiento e identificación", "Control disciplinario exclusivamente", "Comunicación radial"], "correct": 0}, {"text": "Según el texto de Fernando Grosso, la influencia es la práctica eficaz de un verdadero:", "options": ["Reglamento interno", "Liderazgo", "Escalafón"], "correct": 1}, {"text": "El líder, según el desarrollo de la materia, ejerce su gestión principalmente a través de:", "options": ["La coerción directa sobre el subordinado", "La influencia, sin necesidad de recurrir a la coerción", "La aplicación estricta del régimen disciplinario"], "correct": 1}, {"text": "Según Warren Bennis, citado en el texto, el liderazgo es una de las problemáticas de las ciencias sociales que resulta:", "options": ["Poco relevante para las instituciones modernas", "De las más estudiadas y a la vez menos comprendidas", "Ya completamente resuelta por la literatura académica"], "correct": 1}, {"text": "Según el material, ¿se nace líder o se desarrolla el liderazgo?", "options": ["Se nace líder, es un don exclusivamente innato", "Es una potencialidad que requiere entrenamiento de competencias básicas", "Depende únicamente del grado jerárquico alcanzado"], "correct": 1}]}};
+const INDEX = {"materias": [{"id": "m1", "name": "Jefe de Servicios", "file": "materia1.json"}, {"id": "m2", "name": "Jefe de Oficina Judicial", "file": "materia2.json"}, {"id": "m3", "name": "CPPCABA", "file": "materia3.json"}, {"id": "m4", "name": "Guía de Actuación Policial", "file": "materia4.json"}, {"id": "m5", "name": "Régimen Disciplinario", "file": "materia5.json"}, {"id": "m6", "name": "Oficina de Administración", "file": "materia6.json"}, {"id": "m7", "name": "Mando y Conducción", "file": "materia7.json"}]};
+
+// ---------------- State ----------------
+let currentMateriaId = null;
+let currentQuestions = [];
+let currentIndex = 0;
+let score = 0;
+let selectedOption = null;
+let answered = false;
+let timerEnabled = false;
+let timerSeconds = 20;
+let timeLeft = 20;
+let timerInterval = null;
+
+const el = (id) => document.getElementById(id);
+
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  el('screen-' + name).classList.add('active');
+}
+
+el('btn-open-settings').addEventListener('click', () => showScreen('settings'));
+el('btn-close-settings').addEventListener('click', () => showScreen('home'));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ---------------- Home ----------------
+function renderHome() {
+  const list = el('materias-list');
+  list.innerHTML = '';
+  INDEX.materias.forEach((m, i) => {
+    const data = MATERIAS[m.id];
+    const count = data ? data.questions.length : 0;
+    const card = document.createElement('div');
+    card.className = 'materia-card';
+    card.innerHTML = `
+      <div class="materia-num">${i + 1}</div>
+      <div class="materia-info">
+        <p class="materia-name">${m.name}</p>
+        <p class="materia-count">${count} preguntas</p>
+      </div>
+      <div class="materia-arrow">&#8250;</div>
+    `;
+    card.addEventListener('click', () => startQuiz(m.id));
+    list.appendChild(card);
+  });
+}
+
+// ---------------- Carga de JSON ----------------
+el('json-file-input').addEventListener('change', (e) => {
+  const files = Array.from(e.target.files);
+  if (!files.length) return;
+  let pending = files.length;
+  const messages = [];
+
+  files.forEach((file) => {
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      messages.push(ingestMateriaFile(ev.target.result, file.name));
+      pending--;
+      if (pending === 0) {
+        showUploadModal(messages);
+        renderHome();
+      }
+    };
+    reader.onerror = () => {
+      messages.push({ error: true, text: `${file.name}: no se pudo leer el archivo` });
+      pending--;
+      if (pending === 0) {
+        showUploadModal(messages);
+        renderHome();
+      }
+    };
+    reader.readAsText(file, 'utf-8');
+  });
+  e.target.value = '';
+});
+
+// ---------------- Modal de carga ----------------
+function showUploadModal(messages) {
+  const anyError = messages.some(m => m.error);
+  const anyOk = messages.some(m => !m.error);
+  document.querySelector('.modal-icon').textContent = anyError && !anyOk ? '!' : '✓';
+  el('modal-sub').textContent = anyError
+    ? (anyOk ? 'Se cargaron algunas materias, otras tuvieron errores' : 'No se pudo cargar ningún archivo')
+    : `${messages.length} archivo${messages.length > 1 ? 's' : ''} procesado${messages.length > 1 ? 's' : ''} correctamente`;
+  el('modal-body').innerHTML = messages
+    .map(m => `<div class="upload-msg${m.error ? ' error' : ''}">${m.text}</div>`)
+    .join('');
+  el('upload-modal-overlay').classList.add('active');
+}
+el('btn-modal-close').addEventListener('click', () => {
+  el('upload-modal-overlay').classList.remove('active');
+});
+el('upload-modal-overlay').addEventListener('click', (e) => {
+  if (e.target === el('upload-modal-overlay')) el('upload-modal-overlay').classList.remove('active');
+});
+
+el('btn-load-paste').addEventListener('click', () => {
+  const text = el('json-paste-area').value.trim();
+  if (!text) return;
+  const result = ingestMateriaFile(text, 'texto pegado');
+  showUploadModal([result]);
+  if (!result.error) {
+    el('json-paste-area').value = '';
+    renderHome();
+  }
+});
+
+function ingestMateriaFile(rawText, filename) {
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch (err) {
+    return { error: true, text: `${filename}: JSON inválido (${err.message})` };
+  }
+  if (!data.materia_id || !data.materia_name || !Array.isArray(data.questions) || data.questions.length === 0) {
+    return { error: true, text: `${filename}: faltan campos requeridos (materia_id, materia_name, questions)` };
+  }
+  const badQuestion = data.questions.find(q =>
+    !q.text || !Array.isArray(q.options) || q.options.length !== 3 ||
+    typeof q.correct !== 'number' || q.correct < 0 || q.correct > 2
+  );
+  if (badQuestion) {
+    return { error: true, text: `${filename}: hay una pregunta sin 3 opciones o con "correct" fuera de 0-2` };
+  }
+
+  const replace = el('replace-toggle').checked;
+  const existing = MATERIAS[data.materia_id];
+
+  if (existing && !replace) {
+    const existingTexts = new Set(existing.questions.map(q => q.text));
+    const added = data.questions.filter(q => !existingTexts.has(q.text));
+    existing.questions = existing.questions.concat(added);
+    existing.materia_name = data.materia_name || existing.materia_name;
+    return { error: false, text: `${filename}: sumadas ${added.length} preguntas nuevas a "${existing.materia_name}" (total ${existing.questions.length})` };
+  }
+
+  MATERIAS[data.materia_id] = data;
+  const entry = INDEX.materias.find(m => m.id === data.materia_id);
+  if (entry) {
+    entry.name = data.materia_name;
+  } else {
+    INDEX.materias.push({ id: data.materia_id, name: data.materia_name, file: filename });
+  }
+  return { error: false, text: `${filename}: cargada "${data.materia_name}" con ${data.questions.length} preguntas${existing ? ' (reemplazada)' : ' (nueva)'}` };
+}
+
+el('timer-toggle').addEventListener('change', (e) => {
+  timerEnabled = e.target.checked;
+  el('timer-sub-label').textContent = timerEnabled
+    ? `Activado · ${el('timer-seconds-input').value}s por pregunta`
+    : 'Desactivado';
+});
+el('timer-seconds-input').addEventListener('input', (e) => {
+  if (timerEnabled) {
+    el('timer-sub-label').textContent = `Activado · ${e.target.value}s por pregunta`;
+  }
+});
+
+// ---------------- Quiz flow ----------------
+function startQuiz(materiaId) {
+  currentMateriaId = materiaId;
+  const data = MATERIAS[materiaId];
+  currentQuestions = shuffle(data.questions);
+  currentIndex = 0;
+  score = 0;
+  timerSeconds = parseInt(el('timer-seconds-input').value, 10) || 20;
+  el('quiz-materia-title').textContent = data.materia_name;
+  showScreen('quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const total = currentQuestions.length;
+  const q = currentQuestions[currentIndex];
+  selectedOption = null;
+  answered = false;
+
+  el('quiz-status').textContent = `Pregunta ${currentIndex + 1} de ${total}`;
+  el('question-label').textContent = `PREGUNTA ${currentIndex + 1}`;
+  el('question-text').textContent = q.text;
+  el('progress-fill').style.width = `${(currentIndex / total) * 100}%`;
+
+  const container = el('answers-container');
+  container.innerHTML = '';
+  const letters = ['A', 'B', 'C'];
+  q.options.forEach((opt, idx) => {
+    const div = document.createElement('div');
+    div.className = 'answer-option';
+    div.dataset.idx = idx;
+    div.innerHTML = `<span class="letter">${letters[idx]}</span><span>${opt}</span>`;
+    div.addEventListener('click', () => selectOption(idx));
+    container.appendChild(div);
+  });
+
+  const btn = el('btn-confirm');
+  btn.textContent = 'Confirmar respuesta';
+  btn.classList.remove('enabled');
+  btn.disabled = true;
+  btn.onclick = onConfirmClick;
+
+  if (timerEnabled) {
+    startTimer();
+  } else {
+    el('timer-card-wrapper').style.display = 'none';
+  }
+}
+
+function selectOption(idx) {
+  if (answered) return;
+  selectedOption = idx;
+  document.querySelectorAll('.answer-option').forEach(o => {
+    o.classList.toggle('selected', parseInt(o.dataset.idx, 10) === idx);
+  });
+  const btn = el('btn-confirm');
+  btn.disabled = false;
+  btn.classList.add('enabled');
+}
+
+function onConfirmClick() {
+  if (!answered) {
+    revealAnswer(selectedOption);
+  } else {
+    goNext();
+  }
+}
+
+function revealAnswer(chosenIdx) {
+  answered = true;
+  stopTimer();
+  const q = currentQuestions[currentIndex];
+  document.querySelectorAll('.answer-option').forEach(o => {
+    const idx = parseInt(o.dataset.idx, 10);
+    o.classList.add('disabled');
+    if (idx === q.correct) o.classList.add('correct');
+    else if (idx === chosenIdx) o.classList.add('wrong');
+  });
+  if (chosenIdx === q.correct) score++;
+
+  const btn = el('btn-confirm');
+  btn.disabled = false;
+  btn.classList.add('enabled');
+  btn.textContent = (currentIndex === currentQuestions.length - 1) ? 'Ver resultados' : 'Siguiente pregunta';
+}
+
+function goNext() {
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex++;
+    renderQuestion();
+  } else {
+    showResults();
+  }
+}
+
+// ---------------- Timer ----------------
+function startTimer() {
+  clearInterval(timerInterval);
+  timeLeft = timerSeconds;
+  const wrapper = el('timer-card-wrapper');
+  const ring = el('timer-pulse-ring');
+  const circle = el('timer-circle');
+  wrapper.style.display = 'block';
+  ring.classList.remove('urgent');
+  circle.classList.remove('urgent');
+  el('timer-value').textContent = timeLeft;
+
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    el('timer-value').textContent = Math.max(timeLeft, 0);
+    if (timeLeft <= 5) {
+      ring.classList.add('urgent');
+      circle.classList.add('urgent');
+    }
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      if (!answered) revealAnswer(selectedOption); // selectedOption may be null -> counts as wrong
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+// ---------------- Results ----------------
+function showResults() {
+  const data = MATERIAS[currentMateriaId];
+  const total = currentQuestions.length;
+  el('results-materia').textContent = data.materia_name;
+  el('results-score').textContent = score;
+  el('results-total-inline').textContent = total;
+  el('results-pct').textContent = Math.round((score / total) * 100) + '%';
+  showScreen('results');
+}
+
+el('btn-retry').addEventListener('click', () => startQuiz(currentMateriaId));
+el('btn-home').addEventListener('click', () => showScreen('home'));
+
+el('btn-cancel-quiz').addEventListener('click', () => {
+  const confirmExit = confirm('¿Seguro que querés salir? Vas a perder el progreso de este quiz.');
+  if (confirmExit) {
+    stopTimer();
+    el('timer-card-wrapper').style.display = 'none';
+    showScreen('home');
+  }
+});
+
+renderHome();
+</script>
+</body>
+</html>
