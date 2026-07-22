@@ -1,0 +1,96 @@
+{
+  "materia_id": "m7",
+  "materia_name": "Mando y Conducción",
+  "questions": [
+    {
+      "text": "El mando se define en la materia como:",
+      "options": [
+        "La facultad que tiene el superior para impartir órdenes a un subordinado",
+        "El grado más alto del escalafón policial",
+        "Un tipo de sanción disciplinaria"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según la materia, la jerarquía otorga potestad de mando, pero muchas veces no resulta suficiente para:",
+      "options": [
+        "Cobrar los suplementos por servicio",
+        "Una conducción eficaz",
+        "Acceder al curso de ascenso"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué ocurre con las jerarquías, según el material, en los momentos críticos?",
+      "options": [
+        "Se refuerzan automáticamente",
+        "Se quiebran",
+        "Se transforman en superioridad orgánica"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "La autoridad, según lo desarrollado en la materia, siempre es un fenómeno:",
+      "options": [
+        "Descendente y automático",
+        "Ascendente",
+        "Exclusivamente normativo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "La fórmula planteada en la materia es:",
+      "options": [
+        "Autoridad = Antigüedad + Grado",
+        "Autoridad = Compromiso + Valores",
+        "Autoridad = Mando + Sanción"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "La genuina autoridad es la base para construir múltiples canales de:",
+      "options": [
+        "Influencia, persuasión, diálogo, entrenamiento e identificación",
+        "Control disciplinario exclusivamente",
+        "Comunicación radial"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según el texto de Fernando Grosso, la influencia es la práctica eficaz de un verdadero:",
+      "options": [
+        "Reglamento interno",
+        "Liderazgo",
+        "Escalafón"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "El líder, según el desarrollo de la materia, ejerce su gestión principalmente a través de:",
+      "options": [
+        "La coerción directa sobre el subordinado",
+        "La influencia, sin necesidad de recurrir a la coerción",
+        "La aplicación estricta del régimen disciplinario"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según Warren Bennis, citado en el texto, el liderazgo es una de las problemáticas de las ciencias sociales que resulta:",
+      "options": [
+        "Poco relevante para las instituciones modernas",
+        "De las más estudiadas y a la vez menos comprendidas",
+        "Ya completamente resuelta por la literatura académica"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el material, ¿se nace líder o se desarrolla el liderazgo?",
+      "options": [
+        "Se nace líder, es un don exclusivamente innato",
+        "Es una potencialidad que requiere entrenamiento de competencias básicas",
+        "Depende únicamente del grado jerárquico alcanzado"
+      ],
+      "correct": 1
+    }
+  ]
+}
