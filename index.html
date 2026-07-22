@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de Ascenso &mdash; Quiz</title>
+<style>
+  :root {
+    --navy: #12213B;
+    --navy-2: #1C3357;
+    --steel: #2E4A72;
+    --gold: #C9A24B;
+    --gold-dim: #9C7F38;
+    --bg: #EEF1F6;
+    --card: #FFFFFF;
+    --ink: #141B28;
+    --ink-dim: #5B6577;
+    --ok: #2E7D4F;
+    --ok-bg: #E6F4EA;
+    --bad: #B3412C;
+    --bad-bg: #FBE9E4;
+    --border: #E3E7EE;
+    --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0B1424;
+    color: var(--ink);
+  }
+  #phone {
+    max-width: 430px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .screen { display: none; flex-direction: column; flex: 1; min-height: 100vh; }
+  .screen.active { display: flex; }
+
+  /* ---------- HOME ---------- */
+  #screen-home { background: var(--bg); }
+  .home-hero {
+    background: var(--navy);
+    padding: 38px 24px 30px;
+    color: var(--white);
+    position: relative;
+  }
+  .home-hero::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px; height: 18px;
+    background: var(--bg);
+    border-radius: 18px 18px 0 0;
+  }
+  .home-eyebrow {
+    color: var(--gold);
+    font-size: 11px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; margin: 0 0 8px;
+  }
+  .home-title { font-size: 26px; font-weight: 700; margin: 0 0 6px; line-height: 1.2; }
+  .home-sub { font-size: 13px; color: #B9C2D6; margin: 0; }
+  .home-hero-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .btn-settings-gear {
+    flex-shrink: 0;
+    width: 38px; height: 38px; border-radius: 10px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+    color: var(--gold); font-size: 17px;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .btn-settings-gear:active { transform: scale(0.96); }
+
+  .upload-box {
+    margin: 0 18px 4px;
+    background: var(--card);
+    border: 1.5px dashed var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+  .upload-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px; margin-top: 10px; flex-wrap: wrap;
+  }
+  .upload-btn {
+    background: var(--navy); color: var(--gold);
+    font-size: 12.5px; font-weight: 700;
+    padding: 9px 14px; border-radius: 10px; cursor: pointer;
+    position: relative; overflow: hidden;
+  }
+  .upload-btn input[type="file"] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer;
+  }
+  .upload-check {
+    font-size: 11.5px; color: var(--ink-dim); display: flex; align-items: center; gap: 6px;
+  }
+  #upload-feedback {
+    margin-top: 10px; display: flex; flex-direction: column; gap: 4px;
+  }
+  .upload-msg {
+    font-size: 11.5px; padding: 7px 9px; border-radius: 8px;
+    background: var(--ok-bg); color: var(--ok);
+  }
+  .upload-msg.error { background: var(--bad-bg); color: var(--bad); }
+
+  .materias-list {
+    padding: 22px 18px 90px;
+    display: flex; flex-direction: column; gap: 12px;
+    flex: 1;
+  }
+  .materia-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 16px;
+    display: flex; align-items: center; gap: 14px;
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .materia-card:active { transform: scale(0.98); }
+  .materia-card:hover { box-shadow: 0 4px 14px rgba(18,33,59,0.08); }
+  .materia-num {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--navy); color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px; flex-shrink: 0;
+  }
+  .materia-info { flex: 1; min-width: 0; }
+  .materia-name { font-size: 14.5px; font-weight: 600; color: var(--navy); margin: 0 0 3px; }
+  .materia-count { font-size: 12px; color: var(--ink-dim); margin: 0; }
+  .materia-arrow { color: var(--gold-dim); font-size: 18px; }
+
+  /* ---------- TIPO DE EXAMEN ---------- */
+  .tipo-list { padding: 22px 18px 40px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
+  .tipo-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 20px 18px; display: flex; align-items: center; gap: 14px; cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .tipo-card:active { transform: scale(0.98); }
+  .tipo-card:hover { box-shadow: 0 4px 14px rgba(18,33,59,0.08); }
+  .tipo-icon {
+    width: 46px; height: 46px; border-radius: 12px; background: var(--navy); color: var(--gold);
+    display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;
+  }
+  .tipo-info { flex: 1; min-width: 0; }
+  .tipo-name { font-size: 15.5px; font-weight: 700; color: var(--navy); margin: 0 0 4px; }
+  .tipo-desc { font-size: 12.5px; color: var(--ink-dim); margin: 0; line-height: 1.4; }
+  .tipo-arrow { color: var(--gold-dim); font-size: 18px; flex-shrink: 0; }
+
+  /* ---------- CANTIDAD DE PREGUNTAS ---------- */
+  .count-options { display: flex; gap: 12px; padding: 10px 18px 0; }
+  .count-option {
+    flex: 1; background: var(--card); border: 1.5px solid var(--border); border-radius: 14px;
+    padding: 22px 10px; text-align: center; cursor: pointer; transition: border-color .12s, background .12s;
+  }
+  .count-option:active { transform: scale(0.98); }
+  .count-option.selected { border-color: var(--gold); background: #FBF6EA; }
+  .count-option-num { font-size: 24px; font-weight: 700; color: var(--navy); }
+  .count-option-label { font-size: 11px; color: var(--ink-dim); margin-top: 4px; }
+  .count-note { font-size: 12px; color: var(--bad); padding: 14px 18px 0; text-align: center; min-height: 16px; }
+  .count-footer { padding: 18px; margin-top: auto; }
+
+  .settings-bar {
+    position: sticky; bottom: 0;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    padding: 12px 18px 14px;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .settings-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px;
+  }
+  .settings-row + .settings-row {
+    padding-top: 12px; border-top: 1px solid var(--border);
+  }
+  .settings-label { font-size: 12.5px; color: var(--ink); font-weight: 600; }
+  .settings-sub { font-size: 11px; color: var(--ink-dim); margin-top: 2px; }
+  .switch {
+    position: relative; width: 44px; height: 26px; flex-shrink: 0;
+  }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .switch-track {
+    position: absolute; inset: 0; background: #C7CEDA;
+    border-radius: 14px; cursor: pointer; transition: background .15s;
+  }
+  .switch-track::before {
+    content: ""; position: absolute; width: 20px; height: 20px;
+    left: 3px; top: 3px; background: white; border-radius: 50%;
+    transition: transform .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  }
+  .switch input:checked + .switch-track { background: var(--gold); }
+  .switch input:checked + .switch-track::before { transform: translateX(18px); }
+  .seconds-input {
+    width: 46px; text-align: center; border: 1px solid var(--border);
+    border-radius: 8px; padding: 5px 4px; font-size: 13px; font-weight: 600;
+    color: var(--navy);
+  }
+
+  /* ---------- SETTINGS ---------- */
+  #screen-settings { background: var(--bg); }
+  .settings-hero {
+    background: var(--navy);
+    padding: 30px 20px 24px;
+    color: var(--white);
+    position: relative;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .settings-hero::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px; height: 18px;
+    background: var(--bg);
+    border-radius: 18px 18px 0 0;
+  }
+  .btn-back-settings {
+    width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+    color: var(--gold); font-size: 18px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .settings-hero-title { font-size: 19px; font-weight: 700; margin: 0; }
+  .settings-hero-sub { font-size: 12.5px; color: #B9C2D6; margin: 3px 0 0; }
+  .settings-body { padding: 20px 18px 40px; display: flex; flex-direction: column; gap: 16px; flex: 1; }
+  .upload-paste { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+  #json-paste-area {
+    width: 100%; min-height: 74px; resize: vertical; margin-top: 8px;
+    border: 1px solid var(--border); border-radius: 10px; padding: 10px;
+    font-size: 12px; font-family: ui-monospace, monospace; color: var(--ink);
+  }
+  .upload-paste-btn {
+    margin-top: 8px; background: var(--navy); color: var(--gold);
+    font-size: 12.5px; font-weight: 700; border: none;
+    padding: 9px 14px; border-radius: 10px; cursor: pointer;
+  }
+  .settings-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px;
+  }
+  .settings-card-title { font-size: 13.5px; font-weight: 700; color: var(--navy); margin: 0 0 3px; }
+  .settings-card-sub { font-size: 11.5px; color: var(--ink-dim); margin: 0 0 12px; }
+
+  /* ---------- MODAL ---------- */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(11,20,36,0.6);
+    display: none; align-items: center; justify-content: center;
+    padding: 24px; z-index: 50;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-card {
+    background: var(--card); border-radius: 18px; width: 100%; max-width: 360px;
+    overflow: hidden; box-shadow: 0 18px 40px rgba(11,20,36,0.35);
+  }
+  .modal-header {
+    background: var(--navy); padding: 20px 20px 16px; color: var(--white); position: relative;
+  }
+  .modal-icon {
+    width: 40px; height: 40px; border-radius: 50%; background: rgba(201,162,75,0.16);
+    color: var(--gold); display: flex; align-items: center; justify-content: center;
+    font-size: 19px; margin-bottom: 10px;
+  }
+  .modal-title { font-size: 16px; font-weight: 700; margin: 0; }
+  .modal-sub { font-size: 12px; color: #B9C2D6; margin: 3px 0 0; }
+  .modal-body { padding: 16px 20px; max-height: 40vh; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; }
+  .modal-footer { padding: 4px 20px 20px; }
+
+  /* ---------- QUIZ ---------- */
+  #screen-quiz { background: var(--bg); position: relative; }
+  .quiz-header { padding: 28px 20px 14px; }
+  .quiz-titles { margin-bottom: 14px; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .quiz-titles-text { min-width: 0; flex: 1; }
+  .btn-cancel-quiz {
+    width: 100%; text-align: center; padding: 16px; border: 1.5px solid var(--bad);
+    border-radius: 12px; background: var(--bad-bg); color: var(--bad);
+    font-size: 15px; font-weight: 700; cursor: pointer;
+  }
+  .btn-cancel-quiz:active { transform: scale(0.98); }
+  .quiz-materia-title {
+    font-size: 20px; font-weight: 700; color: var(--navy);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    margin: 0;
+  }
+  .quiz-status { font-size: 13px; font-weight: 700; color: var(--gold-dim); margin: 4px 0 0; }
+  .progress-track {
+    height: 10px; background: var(--border); border-radius: 5px; overflow: hidden;
+  }
+  .progress-fill { height: 100%; width: 0%; background: var(--gold); transition: width .25s ease; }
+
+  .quiz-body {
+    flex: 1; overflow-y: auto; padding: 0 18px 200px;
+  }
+  .question-card {
+    background: var(--card); border: 1.5px solid var(--border); border-radius: 14px;
+    padding: 18px; margin-bottom: 18px;
+  }
+  .question-label {
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--gold-dim);
+    text-transform: uppercase; margin: 0 0 6px;
+  }
+  .question-text { font-size: 15.5px; line-height: 1.5; color: var(--ink); margin: 0; }
+
+  .answers { display: flex; flex-direction: column; gap: 10px; }
+  .answer-option {
+    background: var(--card); border: 1.5px solid var(--border); border-radius: 12px;
+    padding: 13px 14px; display: flex; align-items: center; gap: 12px;
+    font-size: 13.5px; color: var(--ink); cursor: pointer;
+    transition: border-color .12s, background .12s;
+  }
+  .answer-option:hover { border-color: var(--gold-dim); }
+  .answer-option .letter {
+    width: 24px; height: 24px; border-radius: 50%; background: var(--bg);
+    color: var(--navy); font-size: 12px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .answer-option.selected { border-color: var(--gold); background: #FBF6EA; }
+  .answer-option.selected .letter { background: var(--gold); color: var(--white); }
+  .answer-option.correct { border-color: var(--ok); background: var(--ok-bg); }
+  .answer-option.correct .letter { background: var(--ok); color: white; }
+  .answer-option.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .answer-option.wrong .letter { background: var(--bad); color: white; }
+  .answer-option.disabled { cursor: default; }
+
+  .quiz-footer {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 18px; display: flex; flex-direction: column; gap: 10px;
+  }
+  .btn-primary {
+    width: 100%; text-align: center; padding: 15px; border: none;
+    border-radius: 12px; background: var(--navy); color: var(--gold);
+    font-size: 14.5px; font-weight: 700; cursor: pointer;
+    opacity: .5; transition: opacity .15s;
+  }
+  .btn-primary.enabled { opacity: 1; }
+  .btn-primary:disabled { cursor: not-allowed; }
+
+  /* Floating timer */
+  #timer-card-wrapper {
+    position: absolute; right: 22px; bottom: 190px;
+    width: 86px; height: 86px; display: none;
+  }
+  #timer-pulse-ring {
+    position: absolute; inset: 0; border-radius: 50%;
+    border: 2.5px solid var(--gold);
+    animation: pulseRing 1s linear infinite;
+  }
+  #timer-pulse-ring.urgent { border-color: var(--bad); animation-duration: .7s; }
+  #timer-circle {
+    position: absolute; inset: 11px; border-radius: 50%;
+    background: var(--navy); border: 2.5px solid var(--gold);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  #timer-circle.urgent { background: var(--bad); border-color: var(--white); }
+  #timer-icon { font-size: 12px; color: var(--gold); }
+  #timer-circle.urgent #timer-icon { color: var(--white); }
+  #timer-value { font-size: 22px; font-weight: 700; color: var(--white); line-height: 1.1; }
+  @keyframes pulseRing {
+    0% { transform: scale(1); opacity: .9; }
+    100% { transform: scale(1.45); opacity: 0; }
+  }
+
+  /* ---------- RESULTS ---------- */
+  #screen-results { background: var(--navy); color: var(--white); align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
+  .results-eyebrow { color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 14px; }
+  .results-score { font-size: 56px; font-weight: 700; margin: 0; line-height: 1; }
+  .results-total { font-size: 15px; color: #B9C2D6; margin: 8px 0 0; }
+  .results-pct {
+    margin: 22px 0 30px; font-size: 14px; font-weight: 700; color: var(--navy);
+    background: var(--gold); display: inline-block; padding: 8px 18px; border-radius: 20px;
+  }
+  .results-actions { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 280px; }
+  .btn-secondary {
+    padding: 14px; border-radius: 12px; border: 1.5px solid rgba(255,255,255,0.25);
+    background: transparent; color: var(--white); font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .btn-gold {
+    padding: 14px; border-radius: 12px; border: none;
+    background: var(--gold); color: var(--navy); font-size: 14px; font-weight: 700; cursor: pointer;
+  }
+
+  ::-webkit-scrollbar { width: 0; height: 0; }
+</style>
+</head>
+<body>
+<div id="phone">
+
+  <!-- ============ HOME (tipo de examen) ============ -->
+  <section id="screen-home" class="screen active">
+    <div class="home-hero">
+      <div class="home-hero-top">
+        <div>
+          <p class="home-eyebrow">QUIZ para ejercitarse</p>
+          <h1 class="home-title">Elegí el tipo de examen</h1>
+          <p class="home-sub">Practicá con preguntas de opción múltiple, con o sin cronómetro.</p>
+        </div>
+        <button class="btn-settings-gear" id="btn-open-settings" title="Configuración">&#9881;</button>
+      </div>
+    </div>
+    <div class="tipo-list">
+      <div class="tipo-card" id="btn-tipo-individual">
+        <div class="tipo-icon">&#128218;</div>
+        <div class="tipo-info">
+          <p class="tipo-name">Examen individual</p>
+          <p class="tipo-desc">Elegí una materia puntual para practicar.</p>
+        </div>
+        <div class="tipo-arrow">&#8250;</div>
+      </div>
+      <div class="tipo-card" id="btn-tipo-completo">
+        <div class="tipo-icon">&#127942;</div>
+        <div class="tipo-info">
+          <p class="tipo-name">Examen completo</p>
+          <p class="tipo-desc">Preguntas mezcladas de todas las materias cargadas.</p>
+        </div>
+        <div class="tipo-arrow">&#8250;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MATERIAS (examen individual) ============ -->
+  <section id="screen-materias" class="screen">
+    <div class="settings-hero">
+      <button class="btn-back-settings" id="btn-back-materias">&#8249;</button>
+      <div>
+        <p class="settings-hero-title">Elegí una materia</p>
+        <p class="settings-hero-sub">Examen individual</p>
+      </div>
+    </div>
+    <div class="materias-list" id="materias-list"></div>
+  </section>
+
+  <!-- ============ CANTIDAD DE PREGUNTAS ============ -->
+  <section id="screen-count" class="screen">
+    <div class="settings-hero">
+      <button class="btn-back-settings" id="btn-back-count">&#8249;</button>
+      <div>
+        <p class="settings-hero-title" id="count-screen-title">Cantidad de preguntas</p>
+        <p class="settings-hero-sub" id="count-screen-sub">Elegí cuántas preguntas querés responder</p>
+      </div>
+    </div>
+    <div class="count-options">
+      <div class="count-option" data-count="10">
+        <div class="count-option-num">10</div>
+        <div class="count-option-label">preguntas</div>
+      </div>
+      <div class="count-option" data-count="20">
+        <div class="count-option-num">20</div>
+        <div class="count-option-label">preguntas</div>
+      </div>
+      <div class="count-option" data-count="30">
+        <div class="count-option-num">30</div>
+        <div class="count-option-label">preguntas</div>
+      </div>
+    </div>
+    <p class="count-note" id="count-note"></p>
+    <div class="count-footer">
+      <button class="btn-primary" id="btn-start-test" disabled>Iniciar test</button>
+    </div>
+  </section>
+
+  <!-- ============ SETTINGS ============ -->
+  <section id="screen-settings" class="screen">
+    <div class="settings-hero">
+      <button class="btn-back-settings" id="btn-close-settings">&#8249;</button>
+      <div>
+        <p class="settings-hero-title">Configuración</p>
+        <p class="settings-hero-sub">Cargar materias y ajustar el quiz</p>
+      </div>
+    </div>
+    <div class="settings-body">
+      <div class="settings-card">
+        <div class="settings-card-title">Cargar preguntas (JSON)</div>
+        <div class="settings-card-sub">Subí uno o más archivos con el formato de materiaN.json (materia_id, materia_name, questions)</div>
+        <div class="upload-row">
+          <label class="upload-btn">
+            Elegir archivo(s)
+            <input type="file" id="json-file-input" accept=".json" multiple>
+          </label>
+          <label class="upload-check">
+            <input type="checkbox" id="replace-toggle">
+            Reemplazar si ya existe
+          </label>
+        </div>
+        <div class="upload-paste">
+          <div class="settings-sub" style="margin-bottom:6px;">¿En iPhone no se abre el selector de archivos? Pegá el JSON acá directamente:</div>
+          <textarea id="json-paste-area" placeholder='{"materia_id": "m8", "materia_name": "...", "questions": [...]}'></textarea>
+          <button class="upload-paste-btn" id="btn-load-paste">Cargar este texto</button>
+        </div>
+      </div>
+      <div class="settings-bar" style="position:static; border-radius:14px; border:1px solid var(--border);">
+        <div class="settings-row">
+          <div>
+            <div class="settings-label">Cronómetro por pregunta</div>
+            <div class="settings-sub" id="timer-sub-label">Desactivado</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <input type="number" class="seconds-input" id="timer-seconds-input" value="20" min="5" max="120">
+            <label class="switch">
+              <input type="checkbox" id="timer-toggle">
+              <span class="switch-track"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ UPLOAD MODAL ============ -->
+  <div class="modal-overlay" id="upload-modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-icon">&#10003;</div>
+        <p class="modal-title">Carga de materias</p>
+        <p class="modal-sub" id="modal-sub">Resultado del procesamiento</p>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer">
+        <button class="btn-primary enabled" id="btn-modal-close">Listo</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============ QUIZ ============ -->
+  <section id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <div class="quiz-titles">
+        <div class="quiz-titles-text">
+          <p class="quiz-materia-title" id="quiz-materia-title">Materia</p>
+          <p class="quiz-status" id="quiz-status">Pregunta 1 de 10</p>
+        </div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+
+    <div class="quiz-body">
+      <div class="question-card">
+        <p class="question-label" id="question-label">PREGUNTA 1</p>
+        <p class="question-text" id="question-text">Cargando...</p>
+      </div>
+      <div class="answers" id="answers-container"></div>
+    </div>
+
+    <div class="quiz-footer">
+      <button class="btn-primary" id="btn-confirm" disabled>Confirmar respuesta</button>
+      <button class="btn-cancel-quiz" id="btn-cancel-quiz">Cancelar examen</button>
+    </div>
+
+    <div id="timer-card-wrapper">
+      <div id="timer-pulse-ring"></div>
+      <div id="timer-circle">
+        <span id="timer-icon">&#9201;</span>
+        <span id="timer-value">20</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESULTS ============ -->
+  <section id="screen-results" class="screen">
+    <p class="results-eyebrow" id="results-materia">Materia</p>
+    <p class="results-score"><span id="results-score">0</span><span style="font-size:28px; color:#B9C2D6;">&nbsp;/&nbsp;<span id="results-total-inline">0</span></span></p>
+    <p class="results-total">respuestas correctas</p>
+    <div class="results-pct" id="results-pct">0%</div>
+    <div class="results-actions">
+      <button class="btn-gold" id="btn-retry">Repetir esta materia</button>
+      <button class="btn-secondary" id="btn-home">Volver al inicio</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+const MATERIAS = {}; // se carga dinámicamente desde QUIZ/*.json
+const INDEX = {"materias": [{"id": "m1", "name": "Jefe de Servicios", "file": "materia1.json"}, {"id": "m2", "name": "Jefe de Oficina Judicial", "file": "materia2.json"}, {"id": "m3", "name": "CPPCABA", "file": "materia3.json"}, {"id": "m4", "name": "Guía de Actuación Policial", "file": "materia4.json"}, {"id": "m5", "name": "Régimen Disciplinario", "file": "materia5.json"}, {"id": "m6", "name": "Oficina de Administración", "file": "materia6.json"}, {"id": "m7", "name": "Mando y Conducción", "file": "materia7.json"}]};
+
+// ---------------- State ----------------
+let examType = null; // 'individual' | 'completo'
+let selectedMateriaId = null;
+let selectedCount = null;
+let currentMateriaId = null;
+let currentQuestions = [];
+let currentIndex = 0;
+let score = 0;
+let selectedOption = null;
+let answered = false;
+let timerEnabled = false;
+let timerSeconds = 20;
+let timeLeft = 20;
+let timerInterval = null;
+
+const materiaLoadPromises = {};
+
+// Carpeta donde están los JSON de cada materia (junto al index.html)
+const QUIZ_FOLDER = 'QUIZ/';
+
+function loadMateria(id) {
+  if (MATERIAS[id]) return Promise.resolve(MATERIAS[id]);
+  if (materiaLoadPromises[id]) return materiaLoadPromises[id];
+
+  const entry = INDEX.materias.find(m => m.id === id);
+  if (!entry) return Promise.reject(new Error(`Materia "${id}" no está en el índice`));
+
+  const p = fetch(QUIZ_FOLDER + entry.file)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status} al pedir ${entry.file}`);
+      return res.json();
+    })
+    .then(data => {
+      MATERIAS[id] = data;
+      return data;
+    })
+    .catch(err => {
+      delete materiaLoadPromises[id];
+      throw err;
+    });
+
+  materiaLoadPromises[id] = p;
+  return p;
+}
+
+function loadAllMaterias() {
+  return Promise.all(INDEX.materias.map(m => loadMateria(m.id)));
+}
+
+const el = (id) => document.getElementById(id);
+
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  el('screen-' + name).classList.add('active');
+}
+
+el('btn-open-settings').addEventListener('click', () => showScreen('settings'));
+el('btn-close-settings').addEventListener('click', () => showScreen('home'));
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ---------------- Tipo de examen / materias ----------------
+function renderMateriasList() {
+  const list = el('materias-list');
+  list.innerHTML = '';
+  INDEX.materias.forEach((m, i) => {
+    const data = MATERIAS[m.id];
+    const countId = `materia-count-${m.id}`;
+    const card = document.createElement('div');
+    card.className = 'materia-card';
+    card.innerHTML = `
+      <div class="materia-num">${i + 1}</div>
+      <div class="materia-info">
+        <p class="materia-name">${m.name}</p>
+        <p class="materia-count" id="${countId}">${data ? data.questions.length + ' preguntas' : 'Cargando...'}</p>
+      </div>
+      <div class="materia-arrow">&#8250;</div>
+    `;
+    card.addEventListener('click', () => {
+      examType = 'individual';
+      selectedMateriaId = m.id;
+      showScreen('count');
+      el('count-screen-title').textContent = m.name;
+      el('count-screen-sub').textContent = 'Cargando preguntas...';
+      document.querySelectorAll('.count-option').forEach(o => o.classList.remove('selected'));
+      const startBtn = el('btn-start-test');
+      startBtn.disabled = true;
+      startBtn.classList.remove('enabled');
+      loadMateria(m.id)
+        .then(() => setupCountScreen())
+        .catch(err => {
+          el('count-screen-sub').textContent = `Error al cargar "${m.name}": ${err.message}`;
+        });
+    });
+    list.appendChild(card);
+
+    if (!data) {
+      loadMateria(m.id)
+        .then(loaded => {
+          const countEl = document.getElementById(countId);
+          if (countEl) countEl.textContent = `${loaded.questions.length} preguntas`;
+        })
+        .catch(() => {
+          const countEl = document.getElementById(countId);
+          if (countEl) countEl.textContent = 'Error al cargar';
+        });
+    }
+  });
+}
+
+el('btn-tipo-individual').addEventListener('click', () => {
+  renderMateriasList();
+  showScreen('materias');
+});
+el('btn-tipo-completo').addEventListener('click', () => {
+  examType = 'completo';
+  selectedMateriaId = null;
+  showScreen('count');
+  el('count-screen-title').textContent = 'Examen completo';
+  el('count-screen-sub').textContent = 'Cargando preguntas...';
+  document.querySelectorAll('.count-option').forEach(o => o.classList.remove('selected'));
+  const startBtn = el('btn-start-test');
+  startBtn.disabled = true;
+  startBtn.classList.remove('enabled');
+  loadAllMaterias()
+    .then(() => setupCountScreen())
+    .catch(err => {
+      el('count-screen-sub').textContent = `Error al cargar materias: ${err.message}`;
+    });
+});
+el('btn-back-materias').addEventListener('click', () => showScreen('home'));
+el('btn-back-count').addEventListener('click', () => {
+  if (examType === 'individual') {
+    showScreen('materias');
+  } else {
+    showScreen('home');
+  }
+});
+
+// ---------------- Cantidad de preguntas ----------------
+function getAvailableCount() {
+  if (examType === 'completo') {
+    return Object.values(MATERIAS).reduce((sum, d) => sum + (d.questions ? d.questions.length : 0), 0);
+  }
+  const data = MATERIAS[selectedMateriaId];
+  return data ? data.questions.length : 0;
+}
+
+function setupCountScreen() {
+  selectedCount = null;
+  document.querySelectorAll('.count-option').forEach(o => o.classList.remove('selected'));
+  const btn = el('btn-start-test');
+  btn.disabled = true;
+  btn.classList.remove('enabled');
+  el('count-note').textContent = '';
+
+  const available = getAvailableCount();
+  if (examType === 'completo') {
+    el('count-screen-title').textContent = 'Examen completo';
+    el('count-screen-sub').textContent = `Todas las materias · ${available} preguntas disponibles`;
+  } else {
+    const data = MATERIAS[selectedMateriaId];
+    el('count-screen-title').textContent = data ? data.materia_name : 'Materia';
+    el('count-screen-sub').textContent = `${available} preguntas disponibles`;
+  }
+}
+
+document.querySelectorAll('.count-option').forEach(opt => {
+  opt.addEventListener('click', () => {
+    document.querySelectorAll('.count-option').forEach(o => o.classList.remove('selected'));
+    opt.classList.add('selected');
+    selectedCount = parseInt(opt.dataset.count, 10);
+
+    const available = getAvailableCount();
+    const btn = el('btn-start-test');
+    if (available === 0) {
+      el('count-note').textContent = 'No hay preguntas cargadas para esta selección.';
+      btn.disabled = true;
+      btn.classList.remove('enabled');
+    } else {
+      el('count-note').textContent = selectedCount > available
+        ? `Sólo hay ${available} preguntas disponibles; se usarán todas.`
+        : '';
+      btn.disabled = false;
+      btn.classList.add('enabled');
+    }
+  });
+});
+
+el('btn-start-test').addEventListener('click', () => {
+  if (!selectedCount) return;
+  startQuiz();
+});
+
+// ---------------- Carga de JSON ----------------
+el('json-file-input').addEventListener('change', (e) => {
+  const files = Array.from(e.target.files);
+  if (!files.length) return;
+  let pending = files.length;
+  const messages = [];
+
+  files.forEach((file) => {
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      messages.push(ingestMateriaFile(ev.target.result, file.name));
+      pending--;
+      if (pending === 0) {
+        showUploadModal(messages);
+        renderMateriasList();
+      }
+    };
+    reader.onerror = () => {
+      messages.push({ error: true, text: `${file.name}: no se pudo leer el archivo` });
+      pending--;
+      if (pending === 0) {
+        showUploadModal(messages);
+        renderMateriasList();
+      }
+    };
+    reader.readAsText(file, 'utf-8');
+  });
+  e.target.value = '';
+});
+
+// ---------------- Modal de carga ----------------
+function showUploadModal(messages) {
+  const anyError = messages.some(m => m.error);
+  const anyOk = messages.some(m => !m.error);
+  document.querySelector('.modal-icon').textContent = anyError && !anyOk ? '!' : '✓';
+  el('modal-sub').textContent = anyError
+    ? (anyOk ? 'Se cargaron algunas materias, otras tuvieron errores' : 'No se pudo cargar ningún archivo')
+    : `${messages.length} archivo${messages.length > 1 ? 's' : ''} procesado${messages.length > 1 ? 's' : ''} correctamente`;
+  el('modal-body').innerHTML = messages
+    .map(m => `<div class="upload-msg${m.error ? ' error' : ''}">${m.text}</div>`)
+    .join('');
+  el('upload-modal-overlay').classList.add('active');
+}
+el('btn-modal-close').addEventListener('click', () => {
+  el('upload-modal-overlay').classList.remove('active');
+});
+el('upload-modal-overlay').addEventListener('click', (e) => {
+  if (e.target === el('upload-modal-overlay')) el('upload-modal-overlay').classList.remove('active');
+});
+
+el('btn-load-paste').addEventListener('click', () => {
+  const text = el('json-paste-area').value.trim();
+  if (!text) return;
+  const result = ingestMateriaFile(text, 'texto pegado');
+  showUploadModal([result]);
+  if (!result.error) {
+    el('json-paste-area').value = '';
+    renderMateriasList();
+  }
+});
+
+function ingestMateriaFile(rawText, filename) {
+  let data;
+  try {
+    data = JSON.parse(rawText);
+  } catch (err) {
+    return { error: true, text: `${filename}: JSON inválido (${err.message})` };
+  }
+  if (!data.materia_id || !data.materia_name || !Array.isArray(data.questions) || data.questions.length === 0) {
+    return { error: true, text: `${filename}: faltan campos requeridos (materia_id, materia_name, questions)` };
+  }
+  const badQuestion = data.questions.find(q =>
+    !q.text || !Array.isArray(q.options) || q.options.length !== 3 ||
+    typeof q.correct !== 'number' || q.correct < 0 || q.correct > 2
+  );
+  if (badQuestion) {
+    return { error: true, text: `${filename}: hay una pregunta sin 3 opciones o con "correct" fuera de 0-2` };
+  }
+
+  const replace = el('replace-toggle').checked;
+  const existing = MATERIAS[data.materia_id];
+
+  if (existing && !replace) {
+    const existingTexts = new Set(existing.questions.map(q => q.text));
+    const added = data.questions.filter(q => !existingTexts.has(q.text));
+    existing.questions = existing.questions.concat(added);
+    existing.materia_name = data.materia_name || existing.materia_name;
+    return { error: false, text: `${filename}: sumadas ${added.length} preguntas nuevas a "${existing.materia_name}" (total ${existing.questions.length})` };
+  }
+
+  MATERIAS[data.materia_id] = data;
+  const entry = INDEX.materias.find(m => m.id === data.materia_id);
+  if (entry) {
+    entry.name = data.materia_name;
+  } else {
+    INDEX.materias.push({ id: data.materia_id, name: data.materia_name, file: filename });
+  }
+  return { error: false, text: `${filename}: cargada "${data.materia_name}" con ${data.questions.length} preguntas${existing ? ' (reemplazada)' : ' (nueva)'}` };
+}
+
+el('timer-toggle').addEventListener('change', (e) => {
+  timerEnabled = e.target.checked;
+  el('timer-sub-label').textContent = timerEnabled
+    ? `Activado · ${el('timer-seconds-input').value}s por pregunta`
+    : 'Desactivado';
+});
+el('timer-seconds-input').addEventListener('input', (e) => {
+  if (timerEnabled) {
+    el('timer-sub-label').textContent = `Activado · ${e.target.value}s por pregunta`;
+  }
+});
+
+// ---------------- Quiz flow ----------------
+function startQuiz() {
+  let data;
+  if (examType === 'completo') {
+    const allQuestions = Object.values(MATERIAS).flatMap(d => d.questions || []);
+    data = { materia_name: 'Examen completo', questions: allQuestions };
+    currentMateriaId = null;
+  } else {
+    currentMateriaId = selectedMateriaId;
+    data = MATERIAS[selectedMateriaId];
+  }
+  const shuffled = shuffle(data.questions);
+  currentQuestions = shuffled.slice(0, Math.min(selectedCount || shuffled.length, shuffled.length));
+  currentIndex = 0;
+  score = 0;
+  timerSeconds = parseInt(el('timer-seconds-input').value, 10) || 20;
+  el('quiz-materia-title').textContent = data.materia_name;
+  showScreen('quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const total = currentQuestions.length;
+  const q = currentQuestions[currentIndex];
+  selectedOption = null;
+  answered = false;
+
+  el('quiz-status').textContent = `Pregunta ${currentIndex + 1} de ${total}`;
+  el('question-label').textContent = `PREGUNTA ${currentIndex + 1}`;
+  el('question-text').textContent = q.text;
+  el('progress-fill').style.width = `${(currentIndex / total) * 100}%`;
+
+  const container = el('answers-container');
+  container.innerHTML = '';
+  const letters = ['A', 'B', 'C'];
+  q.options.forEach((opt, idx) => {
+    const div = document.createElement('div');
+    div.className = 'answer-option';
+    div.dataset.idx = idx;
+    div.innerHTML = `<span class="letter">${letters[idx]}</span><span>${opt}</span>`;
+    div.addEventListener('click', () => selectOption(idx));
+    container.appendChild(div);
+  });
+
+  const btn = el('btn-confirm');
+  btn.textContent = 'Confirmar respuesta';
+  btn.classList.remove('enabled');
+  btn.disabled = true;
+  btn.onclick = onConfirmClick;
+
+  if (timerEnabled) {
+    startTimer();
+  } else {
+    el('timer-card-wrapper').style.display = 'none';
+  }
+}
+
+function selectOption(idx) {
+  if (answered) return;
+  selectedOption = idx;
+  document.querySelectorAll('.answer-option').forEach(o => {
+    o.classList.toggle('selected', parseInt(o.dataset.idx, 10) === idx);
+  });
+  const btn = el('btn-confirm');
+  btn.disabled = false;
+  btn.classList.add('enabled');
+}
+
+function onConfirmClick() {
+  if (!answered) {
+    revealAnswer(selectedOption);
+  } else {
+    goNext();
+  }
+}
+
+function revealAnswer(chosenIdx) {
+  answered = true;
+  stopTimer();
+  const q = currentQuestions[currentIndex];
+  document.querySelectorAll('.answer-option').forEach(o => {
+    const idx = parseInt(o.dataset.idx, 10);
+    o.classList.add('disabled');
+    if (idx === q.correct) o.classList.add('correct');
+    else if (idx === chosenIdx) o.classList.add('wrong');
+  });
+  if (chosenIdx === q.correct) score++;
+
+  const btn = el('btn-confirm');
+  btn.disabled = false;
+  btn.classList.add('enabled');
+  btn.textContent = (currentIndex === currentQuestions.length - 1) ? 'Ver resultados' : 'Siguiente pregunta';
+}
+
+function goNext() {
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex++;
+    renderQuestion();
+  } else {
+    showResults();
+  }
+}
+
+// ---------------- Timer ----------------
+function startTimer() {
+  clearInterval(timerInterval);
+  timeLeft = timerSeconds;
+  const wrapper = el('timer-card-wrapper');
+  const ring = el('timer-pulse-ring');
+  const circle = el('timer-circle');
+  wrapper.style.display = 'block';
+  ring.classList.remove('urgent');
+  circle.classList.remove('urgent');
+  el('timer-value').textContent = timeLeft;
+
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    el('timer-value').textContent = Math.max(timeLeft, 0);
+    if (timeLeft <= 5) {
+      ring.classList.add('urgent');
+      circle.classList.add('urgent');
+    }
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      if (!answered) revealAnswer(selectedOption); // selectedOption may be null -> counts as wrong
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+// ---------------- Results ----------------
+function showResults() {
+  const data = MATERIAS[currentMateriaId];
+  const total = currentQuestions.length;
+  el('results-materia').textContent = data.materia_name;
+  el('results-score').textContent = score;
+  el('results-total-inline').textContent = total;
+  el('results-pct').textContent = Math.round((score / total) * 100) + '%';
+  showScreen('results');
+}
+
+el('btn-retry').addEventListener('click', () => startQuiz());
+el('btn-home').addEventListener('click', () => showScreen('home'));
+
+el('btn-cancel-quiz').addEventListener('click', () => {
+  const confirmExit = confirm('¿Seguro que querés salir? Vas a perder el progreso de este quiz.');
+  if (confirmExit) {
+    stopTimer();
+    el('timer-card-wrapper').style.display = 'none';
+    showScreen('home');
+  }
+});
+
+renderMateriasList();
+</script>
+</body>
+</html>
