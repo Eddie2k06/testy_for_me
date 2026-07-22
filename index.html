@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<script defer src="/_vercel/insights/script.js"></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -242,6 +243,78 @@
   .settings-card-title { font-size: 13.5px; font-weight: 700; color: var(--navy); margin: 0 0 3px; }
   .settings-card-sub { font-size: 11.5px; color: var(--ink-dim); margin: 0 0 12px; }
 
+  /* ---------- DARK MODE ---------- */
+  #phone.dark-mode {
+    --navy: #0B1424;
+    --navy-2: #16233B;
+    --steel: #24344F;
+    --gold: #E8C468;
+    --gold-dim: #C9A24B;
+    --bg: #10151F;
+    --card: #1A2130;
+    --ink: #E8ECF3;
+    --ink-dim: #8B96AA;
+    --ok: #4CAF77;
+    --ok-bg: #17301F;
+    --bad: #E1604A;
+    --bad-bg: #3A1712;
+    --border: #2A3347;
+    --white: #FFFFFF;
+  }
+
+  /* ---------- ZOOM CONTROL ---------- */
+  .zoom-control { display: flex; align-items: center; gap: 12px; }
+  .zoom-control input[type="range"] {
+    flex: 1; height: 4px; border-radius: 2px; background: var(--border);
+    -webkit-appearance: none; appearance: none;
+  }
+  .zoom-control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 18px; height: 18px; border-radius: 50%; background: var(--gold);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3); cursor: pointer;
+  }
+  .zoom-control input[type="range"]::-moz-range-thumb {
+    width: 18px; height: 18px; border-radius: 50%; background: var(--gold);
+    border: none; box-shadow: 0 1px 3px rgba(0,0,0,0.3); cursor: pointer;
+  }
+  .zoom-value {
+    font-size: 12.5px; font-weight: 700; color: var(--navy);
+    background: var(--bg); border: 1px solid var(--border);
+    border-radius: 8px; padding: 4px 8px; min-width: 44px; text-align: center;
+  }
+
+  /* ---------- FILES TABLE ---------- */
+  .files-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+  .files-table th {
+    font-size: 10px; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--ink-dim); text-align: left; padding: 4px 6px 8px;
+    border-bottom: 1px solid var(--border); font-weight: 700;
+  }
+  .files-table td {
+    font-size: 12.5px; color: var(--ink); padding: 9px 6px;
+    border-bottom: 1px solid var(--border); vertical-align: middle;
+  }
+  .files-table tr:last-child td { border-bottom: none; }
+  .file-name-cell { display: flex; flex-direction: column; min-width: 0; }
+  .file-name-cell .fname {
+    font-weight: 600; color: var(--navy); font-size: 12.5px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px;
+  }
+  .file-name-cell .fsub { font-size: 10px; color: var(--ink-dim); margin-top: 1px; }
+  .file-count-badge {
+    display: inline-block; background: var(--bg); border: 1px solid var(--border);
+    border-radius: 8px; padding: 3px 8px; font-size: 11.5px; font-weight: 700;
+    color: var(--navy); white-space: nowrap;
+  }
+  .file-action-btn {
+    width: 28px; height: 28px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--bg); font-size: 13px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .file-action-btn.reload { color: var(--gold-dim); }
+  .file-action-btn.delete { color: var(--bad); }
+  .file-action-btn:active { transform: scale(0.92); }
+
   /* ---------- MODAL ---------- */
   .modal-overlay {
     position: fixed; inset: 0; background: rgba(11,20,36,0.6);
@@ -469,6 +542,26 @@
     </div>
     <div class="settings-body">
       <div class="settings-card">
+        <div class="settings-card-title">Zoom</div>
+        <div class="settings-card-sub">Ajustá el tamaño de la interfaz (100% a 200%)</div>
+        <div class="zoom-control">
+          <input type="range" id="zoom-range" min="100" max="200" step="10" value="100">
+          <span class="zoom-value" id="zoom-value">100%</span>
+        </div>
+      </div>
+      <div class="settings-card">
+        <div class="settings-row" style="padding-top:0;">
+          <div>
+            <div class="settings-label">Modo noche</div>
+            <div class="settings-sub" id="dark-sub-label">Desactivado</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="dark-toggle">
+            <span class="switch-track"></span>
+          </label>
+        </div>
+      </div>
+      <div class="settings-card">
         <div class="settings-card-title">Cargar preguntas (JSON)</div>
         <div class="settings-card-sub">Subí uno o más archivos con el formato de materiaN.json (materia_id, materia_name, questions)</div>
         <div class="upload-row">
@@ -487,6 +580,16 @@
           <button class="upload-paste-btn" id="btn-load-paste">Cargar este texto</button>
         </div>
       </div>
+      <div class="settings-card">
+        <div class="settings-card-title">JSONs cargados</div>
+        <div class="settings-card-sub">Archivo · preguntas · recargar · eliminar de memoria</div>
+        <table class="files-table">
+          <thead>
+            <tr><th>Archivo</th><th>Preg.</th><th></th><th></th></tr>
+          </thead>
+          <tbody id="files-table-body"></tbody>
+        </table>
+      </div>
       <div class="settings-bar" style="position:static; border-radius:14px; border:1px solid var(--border);">
         <div class="settings-row">
           <div>
@@ -501,6 +604,11 @@
             </label>
           </div>
         </div>
+      </div>
+      <div class="settings-card">
+        <div class="settings-card-title">Restablecer configuración</div>
+        <div class="settings-card-sub">Vuelve el zoom, el modo noche y el cronómetro a sus valores por defecto</div>
+        <button class="upload-paste-btn" id="btn-reset-config" style="background:var(--bad); width:100%;">Restablecer todo</button>
       </div>
     </div>
   </section>
@@ -629,8 +737,129 @@ function showScreen(name) {
   el('screen-' + name).classList.add('active');
 }
 
-el('btn-open-settings').addEventListener('click', () => showScreen('settings'));
+el('btn-open-settings').addEventListener('click', () => {
+  showScreen('settings');
+  renderFilesTable();
+});
 el('btn-close-settings').addEventListener('click', () => showScreen('home'));
+
+// ---------------- Config: zoom / modo noche / reset ----------------
+const APP_SETTINGS_KEY = 'quizAppSettings';
+
+function loadAppSettings() {
+  try {
+    const raw = localStorage.getItem(APP_SETTINGS_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveAppSettings(settings) {
+  try {
+    localStorage.setItem(APP_SETTINGS_KEY, JSON.stringify(settings));
+  } catch (e) { /* ignorar si no hay storage disponible */ }
+}
+
+function applyZoom(value) {
+  el('phone').style.zoom = value + '%';
+  el('zoom-value').textContent = value + '%';
+  el('zoom-range').value = value;
+}
+
+function applyDarkMode(enabled) {
+  el('phone').classList.toggle('dark-mode', enabled);
+  el('dark-toggle').checked = enabled;
+  el('dark-sub-label').textContent = enabled ? 'Activado' : 'Desactivado';
+}
+
+const appSettings = loadAppSettings();
+applyZoom(appSettings.zoom || 100);
+applyDarkMode(!!appSettings.darkMode);
+
+el('zoom-range').addEventListener('input', (e) => {
+  const value = parseInt(e.target.value, 10);
+  applyZoom(value);
+  const s = loadAppSettings();
+  s.zoom = value;
+  saveAppSettings(s);
+});
+
+el('dark-toggle').addEventListener('change', (e) => {
+  applyDarkMode(e.target.checked);
+  const s = loadAppSettings();
+  s.darkMode = e.target.checked;
+  saveAppSettings(s);
+});
+
+el('btn-reset-config').addEventListener('click', () => {
+  const confirmReset = confirm('¿Restablecer zoom, modo noche y cronómetro a los valores por defecto?');
+  if (!confirmReset) return;
+  applyZoom(100);
+  applyDarkMode(false);
+  timerEnabled = false;
+  el('timer-toggle').checked = false;
+  el('timer-seconds-input').value = 20;
+  el('timer-sub-label').textContent = 'Desactivado';
+  saveAppSettings({});
+});
+
+// ---------------- Tabla de JSONs cargados ----------------
+function renderFilesTable() {
+  const tbody = el('files-table-body');
+  if (!tbody) return;
+  tbody.innerHTML = INDEX.materias.map(m => {
+    const data = MATERIAS[m.id];
+    const loading = materiaLoadPromises[m.id] && !data;
+    const countText = data ? `${data.questions.length}q` : (loading ? '...' : '—');
+    return `
+      <tr>
+        <td>
+          <div class="file-name-cell">
+            <span class="fname">${m.name}</span>
+            <span class="fsub">${m.file}</span>
+          </div>
+        </td>
+        <td><span class="file-count-badge">${countText}</span></td>
+        <td><button class="file-action-btn reload" data-action="reload" data-id="${m.id}" title="Recargar">&#8635;</button></td>
+        <td><button class="file-action-btn delete" data-action="delete" data-id="${m.id}" title="Eliminar de memoria">&#10005;</button></td>
+      </tr>
+    `;
+  }).join('');
+
+  tbody.querySelectorAll('.file-action-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.id;
+      if (btn.dataset.action === 'reload') {
+        forceReloadMateria(id);
+      } else {
+        unloadMateria(id);
+      }
+    });
+  });
+}
+
+function forceReloadMateria(id) {
+  delete MATERIAS[id];
+  delete materiaLoadPromises[id];
+  renderFilesTable();
+  loadMateria(id)
+    .then(() => {
+      renderFilesTable();
+      renderMateriasList();
+    })
+    .catch(err => {
+      renderFilesTable();
+      alert(`No se pudo recargar "${id}": ${err.message}`);
+    });
+}
+
+function unloadMateria(id) {
+  delete MATERIAS[id];
+  delete materiaLoadPromises[id];
+  renderFilesTable();
+  renderMateriasList();
+}
 
 function shuffle(arr) {
   const a = arr.slice();
@@ -789,6 +1018,7 @@ el('json-file-input').addEventListener('change', (e) => {
       if (pending === 0) {
         showUploadModal(messages);
         renderMateriasList();
+        renderFilesTable();
       }
     };
     reader.onerror = () => {
@@ -797,6 +1027,7 @@ el('json-file-input').addEventListener('change', (e) => {
       if (pending === 0) {
         showUploadModal(messages);
         renderMateriasList();
+        renderFilesTable();
       }
     };
     reader.readAsText(file, 'utf-8');
@@ -832,6 +1063,7 @@ el('btn-load-paste').addEventListener('click', () => {
   if (!result.error) {
     el('json-paste-area').value = '';
     renderMateriasList();
+    renderFilesTable();
   }
 });
 
