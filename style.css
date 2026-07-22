@@ -1,0 +1,33 @@
+:root {
+  --navy: #12213B;
+  --navy-2: #1C3357;
+  --steel: #2E4A72;
+  --gold: #C9A24B;
+  --gold-dim: #9C7F38;
+  --bg: #EEF1F6;
+  --card: #FFFFFF;
+  --ink: #141B28;
+  --ink-dim: #5B6577;
+  --ok: #2E7D4F;
+  --ok-bg: #E6F4EA;
+  --bad: #B3412C;
+  --bad-bg: #FBE9E4;
+  --border: #E3E7EE;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #0B1424;
+  color: var(--ink);
+}
+
+/* Continúa aquí todo el CSS que tenías dentro de la etiqueta style */
