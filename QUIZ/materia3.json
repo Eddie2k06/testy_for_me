@@ -1,0 +1,276 @@
+{
+  "materia_id": "m3",
+  "materia_name": "CPP CABA)",
+  "questions": [
+    {
+      "text": "¿Qué principio establece que una norma inferior nunca puede contradecir válidamente a una superior?",
+      "options": [
+        "Principio de legalidad",
+        "Principio de supremacía constitucional (art. 31 CN)",
+        "Principio de inocencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué garantía establece que nadie puede ser penado sin juicio previo fundado en ley anterior al hecho?",
+      "options": [
+        "Juez natural",
+        "Debido proceso legal (art. 18 CN)",
+        "Defensa en juicio"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué garantía impide que alguien sea juzgado por comisiones especiales o sacado del juez designado por ley antes del hecho?",
+      "options": [
+        "Juez natural",
+        "Non bis in idem",
+        "Presunción de inocencia"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cómo se denomina el principio por el cual nadie puede ser juzgado ni penado dos veces por el mismo hecho?",
+      "options": [
+        "Legalidad y proporcionalidad",
+        "Inviolabilidad del domicilio",
+        "Non bis in idem"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuándo interviene la Justicia Federal según el material?",
+      "options": [
+        "Cuando el delito afecta intereses de la Nación, se comete en lugares/instituciones federales o cruza límites provinciales",
+        "En todos los delitos comunes del Código Penal",
+        "Solo en delitos cometidos en CABA"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Entre qué dos fueros ordinarios se reparte hoy la competencia penal en CABA?",
+      "options": [
+        "Civil y Penal",
+        "Justicia Nacional en lo Penal y Justicia Penal, Contravencional y de Faltas (PCyF)",
+        "Federal y Contencioso Administrativo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según la jerarquía de infracciones penales, ¿qué son las contravenciones?",
+      "options": [
+        "Infracciones de mayor gravedad reguladas por el Código Penal",
+        "Infracciones de menor entidad reguladas por el Código Contravencional de CABA",
+        "Infracciones administrativas de tránsito y habilitaciones"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En la metáfora de la \"cancha de básquet\", ¿quién cumple el rol de árbitro?",
+      "options": [
+        "El fiscal",
+        "El defensor",
+        "El juez"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la principal diferencia entre el CPPN y el CPPCABA según quién dirige la investigación?",
+      "options": [
+        "En el CPPN siempre dirige el fiscal; en el CPPCABA, el juez",
+        "En el CPPN dirige el juez de instrucción o el fiscal según el caso (sistema mixto); en el CPPCABA siempre el fiscal (sistema acusatorio)",
+        "Ambos códigos asignan la dirección exclusivamente al juez"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cómo se llama la etapa de investigación en el CPPCABA?",
+      "options": [
+        "Instrucción",
+        "Sumario",
+        "Investigación Penal Preparatoria (IPP)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el art. 18 CN, ¿qué determina la ley respecto del domicilio?",
+      "options": [
+        "Que el domicilio es siempre allanable con orden verbal",
+        "En qué casos y con qué justificativos podrá procederse a su allanamiento y ocupación",
+        "Que el domicilio solo puede allanarse con consentimiento del fiscal"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué estándar de fundamentación exige el juez para restringir derechos fundamentales?",
+      "options": [
+        "Certeza absoluta de culpabilidad",
+        "Motivos objetivos y razonables, en grado de probabilidad, que surjan del expediente",
+        "Simple sospecha subjetiva del funcionario preventor"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué habilita la urgencia respecto de la fundamentación del decreto judicial?",
+      "options": [
+        "Que el juez quede relevado de fundar el decreto si los motivos surgen indubitablemente del expediente",
+        "Que no sea necesaria ninguna orden judicial en ningún caso",
+        "Que el fiscal reemplace permanentemente al juez"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según el art. 285 CPPN, ¿cuándo habrá flagrancia?",
+      "options": [
+        "Solo cuando el autor es sorprendido cometiendo el delito",
+        "Cuando el autor es sorprendido cometiendo el delito, intentándolo, inmediatamente después, mientras es perseguido, o mientras tiene objetos/rastros que permitan sostener razonablemente su participación",
+        "Únicamente cuando existe una denuncia previa"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de los siguientes es uno de los tres grados de flagrancia?",
+      "options": [
+        "Flagrancia diferida",
+        "Cuasiflagrancia",
+        "Flagrancia subsidiaria"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué caracteriza a la \"flagrancia presunta\"?",
+      "options": [
+        "El autor es sorprendido en el momento mismo del hecho",
+        "No hubo percepción directa del hecho ni persecución, pero la persona porta objetos o rastros que permiten presumir razonablemente su participación",
+        "El autor es detenido por orden judicial previa"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué exige la regla general del allanamiento según el art. 224 CPPN / art. 108 CPPCABA?",
+      "options": [
+        "Orden judicial escrita y fundada",
+        "Simple autorización verbal del fiscal",
+        "Consentimiento previo del imputado únicamente"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál de los siguientes NO es un requisito formal de la orden de allanamiento?",
+      "options": [
+        "Causa (identificación del expediente)",
+        "Lugar concreto a registrar",
+        "Presencia obligatoria de un fiscal en todos los casos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el art. 227 CPPN, ¿cuál de las siguientes es una causal de urgencia que habilita el allanamiento sin orden?",
+      "options": [
+        "Que el propietario esté de vacaciones",
+        "Incendio, explosión, inundación u otro peligro similar",
+        "Que haya pasado más de un año del hecho investigado"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según la doctrina de la CSJN (Fallos \"Fiorentino\" y \"Fato\"), ¿qué habilita el consentimiento válido del morador?",
+      "options": [
+        "Nada, siempre se requiere orden judicial",
+        "El ingreso sin orden judicial previa, incluso sin que medien razones de urgencia",
+        "Solo el ingreso si además hay flagrancia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿En qué se diferencia la requisa personal del allanamiento?",
+      "options": [
+        "La requisa recae sobre la persona y no sobre un lugar cerrado",
+        "Ambas son exactamente lo mismo",
+        "La requisa solo puede hacerse con orden judicial, nunca sin ella"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué es el secuestro según el material?",
+      "options": [
+        "La privación de la libertad de una persona sospechada",
+        "La aprehensión de cosas relacionadas con el delito (instrumentos, efectos, rastros) para asegurarlas como prueba",
+        "Un tipo de allanamiento sin testigos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué puede debilitar o invalidar el valor probatorio de un elemento secuestrado?",
+      "options": [
+        "Que el acta esté firmada por los concurrentes",
+        "Una ruptura en la cadena de custodia",
+        "Que el secuestro derive de un allanamiento"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según la definición dada, ¿qué es la teoría del caso?",
+      "options": [
+        "Un resumen de todas las pruebas disponibles sin orden",
+        "Una simple, lógica y persuasiva historia sobre lo que realmente sucedió, desde nuestro punto de vista",
+        "El listado de artículos del Código Penal aplicables"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de las siguientes NO es una de las características principales de la teoría del caso?",
+      "options": [
+        "Única",
+        "Autosuficiente",
+        "Flexible en cuanto a la imputación de conductas alternativas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué características debe tener el relato de los hechos dentro de la teoría del caso?",
+      "options": [
+        "Debe incluir valoración jurídica y probatoria detallada",
+        "Debe ser simple, claro, en lenguaje coloquial y sin valoraciones jurídicas ni probatorias",
+        "Debe redactarse únicamente en términos técnico-jurídicos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué preguntas debe responder el relato de los hechos según el material?",
+      "options": [
+        "¿Quién, qué, cuándo, dónde, cómo? (¿por qué?)",
+        "¿Cuánto, cuándo, con qué prueba?",
+        "¿Es culpable o inocente?"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué es una proposición fáctica?",
+      "options": [
+        "Una norma jurídica abstracta y general",
+        "Una afirmación de hecho respecto de un caso concreto que tiende a satisfacer un elemento de la teoría jurídica",
+        "El testimonio literal de un testigo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿En qué consiste la teoría jurídica dentro de la construcción de la teoría del caso?",
+      "options": [
+        "En identificar los elementos del tipo penal, la antijuridicidad, la culpabilidad y la autoría requeridos para la adecuación típica del hecho",
+        "En narrar los hechos sin ninguna referencia legal",
+        "En listar únicamente las pruebas documentales disponibles"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál de las siguientes es una de las funciones del Ministerio Público Fiscal mencionadas en el material?",
+      "options": [
+        "Dictar sentencia definitiva en los casos que investiga",
+        "Buscar una solución al caso: archivo, alternativa o juicio oral",
+        "Representar exclusivamente los intereses del imputado"
+      ],
+      "correct": 1
+    }
+  ]
+}

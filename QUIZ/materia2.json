@@ -1,0 +1,456 @@
+{
+  "materia_id": "m2",
+  "materia_name": "Jefe de Oficina Judicial",
+  "questions": [
+    {
+      "text": "¿Cuáles son los elementos que estructura la Teoría del delito?",
+      "options": [
+        "Solo dolo y culpa",
+        "Sujeto, acción, tipicidad, antijuridicidad, culpabilidad y punibilidad",
+        "Solo tipicidad y pena"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cómo se denomina al sujeto activo que traza el plan del delito, pero no lo ejecuta?",
+      "options": [
+        "Autor mediato",
+        "Inductor",
+        "Autor intelectual"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cómo se denomina al sujeto que comete el delito sirviéndose de otro como \"instrumento\"?",
+      "options": [
+        "Inductor",
+        "Autor mediato",
+        "Encubridor"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cómo se denomina a quien interviene después de la ejecución, sin haber sido autor ni cómplice, para evitar el descubrimiento del delito?",
+      "options": [
+        "Cómplice",
+        "Coautor",
+        "Encubridor"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cómo se define la antijuridicidad?",
+      "options": [
+        "La valoración de la conducta como imputable a un sujeto",
+        "El desvalor de un hecho típico contrario al ordenamiento jurídico",
+        "La imposición de una pena por parte del juez"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuándo se admiten los delitos culposos según el Código Penal?",
+      "options": [
+        "Siempre que exista un delito doloso equivalente",
+        "En cualquier tipo penal, sin excepción",
+        "Solo cuando están expresamente contemplados, en un catálogo cerrado"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuáles son las cuatro etapas del \"iter criminis\"?",
+      "options": [
+        "Solo tentativa y consumación",
+        "Dolo, culpa, tipicidad y pena",
+        "Ideación, preparación, ejecución y consumación"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En qué tipo de delitos es posible la tentativa?",
+      "options": [
+        "Solo en los culposos",
+        "En cualquier tipo de delito",
+        "Solo en los dolosos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el material, ¿cuál de los siguientes delitos solo admite su forma dolosa (no existe forma culposa)?",
+      "options": [
+        "El homicidio",
+        "Las lesiones",
+        "El daño (art. 183 CP)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el material, ¿quién está legitimado para imponer la pena?",
+      "options": [
+        "El Fiscal interviniente",
+        "El propio funcionario policial preventor",
+        "Solo los jueces"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 12 del Código Contravencional, ¿es punible la tentativa en materia contravencional?",
+      "options": [
+        "Sí, con la misma pena que la consumación",
+        "Sí, pero con pena reducida a un tercio",
+        "No, la tentativa no es punible"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 12 CC, ¿qué sanción corresponde al partícipe secundario de una contravención?",
+      "options": [
+        "La misma sanción que al autor",
+        "Una sanción reducida en un tercio",
+        "Ninguna sanción"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué caracteriza a las \"contravenciones especiales\"?",
+      "options": [
+        "Pueden cometerlas todas las personas por igual",
+        "Solo pueden cometerlas personas con una calidad especial (propietario, gerente, encargado, etc.)",
+        "Solo pueden cometerlas menores de edad"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según la Ley 451, ¿a partir de qué edad son punibles las faltas?",
+      "options": [
+        "18 años",
+        "14 años",
+        "16 años"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué ley regula el procedimiento de faltas en la CABA?",
+      "options": [
+        "Ley 451",
+        "Ley 1472",
+        "Ley 1217"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 10 del Código Contravencional, la comisión de una contravención respecto de la responsabilidad por falta de otra persona por el mismo hecho:",
+      "options": [
+        "La exime completamente",
+        "Solo la exime si se trata del mismo sujeto",
+        "No la exime; la sanción por falta se aplica sin perjuicio de la pena contravencional"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la diferencia principal entre el Código Penal y el Código Procesal Penal?",
+      "options": [
+        "Ambos regulan exactamente lo mismo",
+        "El Código Penal es derecho de fondo (conductas y penas); el Código Procesal Penal es derecho de forma (procedimientos)",
+        "El Código Procesal Penal es dictado en exclusiva por el Congreso Nacional, igual que el Penal"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién dicta el Código Procesal Penal?",
+      "options": [
+        "Exclusivamente el Congreso Nacional",
+        "El Poder Ejecutivo Nacional",
+        "Cada Provincia o la Ciudad"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué convenio marcó el inicio de la transferencia progresiva de competencias penales a la CABA?",
+      "options": [
+        "La Ley 5935 de 2018",
+        "El del 19 de enero de 2017",
+        "El Decreto 560/2019"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué trasladó específicamente el Decreto 560/2019?",
+      "options": [
+        "Solamente el narcomenudeo",
+        "Los delitos de lesiones graves y gravísimas",
+        "Narcomenudeo, delitos ambientales y tenencia/portación ilegal de armas de uso civil"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un delito transferido incorporado por transferencias posteriores?",
+      "options": [
+        "Robo",
+        "Homicidio",
+        "Grooming (Art. 131 CP)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Desde qué fecha interviene la Justicia de la Ciudad en narcomenudeo?",
+      "options": [
+        "1° de enero de 2017",
+        "19 de enero de 2018",
+        "1° de enero de 2019"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué ley aceptó la competencia de la CABA sobre narcomenudeo?",
+      "options": [
+        "La Ley 27.272",
+        "La Ley 23.737",
+        "La Ley 5935"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es uno de los elementos indiciarios típicos del narcomenudeo, según el material?",
+      "options": [
+        "Armas de fuego de grueso calibre",
+        "Vehículos de alta gama",
+        "Balanzas de precisión y papeles de corte"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 286 CPPN, ¿en qué plazo debe presentarse a un detenido sin orden judicial ante la autoridad judicial competente?",
+      "options": [
+        "24 horas",
+        "10 horas",
+        "6 horas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En sumarios con autor no individualizado (N.N.), ¿quién evacúa la consulta?",
+      "options": [
+        "El Juez de Instrucción directamente",
+        "El Jefe de la Dependencia policial",
+        "El Ministerio Público Fiscal directamente, con simple noticia al Juez de Instrucción"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué ley estableció el Régimen Procesal Penal Juvenil en la CABA?",
+      "options": [
+        "La Ley nacional 26.061",
+        "La Ley local 114",
+        "La Ley local 2451 (2007)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué estableció la Ley nacional 26.061 respecto de las medidas de protección de NNyA?",
+      "options": [
+        "Que siempre requieren privación de la libertad",
+        "Que quedan a criterio exclusivo de la policía",
+        "Que nunca pueden consistir en privación de la libertad"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En el proceso penal juvenil, ¿ante quién debe declarar el menor si desea admitir responsabilidad?",
+      "options": [
+        "Ante cualquier autoridad policial",
+        "Ante sus padres o tutores, exclusivamente",
+        "Ante el juez penal juvenil, con intervención del fiscal y defensor especializado"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Dónde se toma declaración a víctimas o testigos menores de edad?",
+      "options": [
+        "En la Oficina de Guardia de la dependencia policial",
+        "En el domicilio del menor",
+        "En Cámara Gesell"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Quién actúa como entrevistador en la declaración en Cámara Gesell?",
+      "options": [
+        "El fiscal interviniente",
+        "El Jefe de Judiciales",
+        "Un psicólogo especialista en NNyA"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la duración general de la investigación en el régimen penal juvenil?",
+      "options": [
+        "30 días, prorrogables por 15",
+        "6 meses, sin prórroga",
+        "90 días, prorrogables por 60 más"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿A cuánto se reduce esa duración en caso de flagrancia?",
+      "options": [
+        "30 días, prorrogables por 30",
+        "5 días, sin prórroga",
+        "15 días, prorrogables por 15"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuántos jueces componen el Tribunal Superior de Justicia de la CABA?",
+      "options": [
+        "7",
+        "9",
+        "5"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuántos miembros integran el Consejo de la Magistratura de la CABA?",
+      "options": [
+        "5",
+        "12",
+        "9"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la duración del mandato de los miembros del Consejo de la Magistratura?",
+      "options": [
+        "6 años",
+        "2 años",
+        "4 años"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuántos organismos independientes integran el Ministerio Público de la CABA?",
+      "options": [
+        "2",
+        "4",
+        "3 (Fiscal, Defensa y Tutelar)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué distingue al Juzgado de Rogatorias del Exhorto Judicial?",
+      "options": [
+        "Son exactamente lo mismo",
+        "El Exhorto es el órgano y el Juzgado de Rogatorias es el pedido",
+        "El Juzgado de Rogatorias es el órgano que tramita; el Exhorto es el pedido"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En un exhorto, ¿cómo se denomina al juez que solicita la diligencia a otro juzgado?",
+      "options": [
+        "Juez exhortado",
+        "Juez de turno",
+        "Juez exhortante"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿A qué dos fueros quedó limitada la competencia de la Justicia porteña por la \"Ley Cafiero\"?",
+      "options": [
+        "Civil y Comercial",
+        "Laboral y de Familia",
+        "Contencioso Administrativo y Tributario, y Penal-Contravencional"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 177 CPPN, ¿quiénes tienen obligación legal de denunciar?",
+      "options": [
+        "Cualquier ciudadano, sin excepción",
+        "Solo los familiares directos de la víctima",
+        "Los funcionarios públicos y los profesionales de la salud, en los casos previstos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 178 CPPN, ¿a quién no se puede denunciar, salvo excepciones?",
+      "options": [
+        "A cualquier persona mayor de edad",
+        "A un funcionario público en ejercicio de sus funciones",
+        "Al cónyuge, ascendiente, descendiente o hermano"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Es obligatorio el patrocinio letrado para presentar una denuncia?",
+      "options": [
+        "Sí, siempre es obligatorio",
+        "Solo si el delito es de acción pública",
+        "No, salvo que se pida ser tenido como querellante"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 186 CPPN, ¿cuál es el plazo para practicar las actuaciones de prevención?",
+      "options": [
+        "10 días, sin prórroga",
+        "24 horas",
+        "5 días, prorrogables por 5 más"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En un caso de flagrante delito, ¿qué ocurre con las preguntas orientativas hechas al sospechoso según el Art. 184 inc. 9 CPPN?",
+      "options": [
+        "Tienen pleno valor probatorio si el sospechoso responde libremente",
+        "Deben ser firmadas por un abogado defensor para tener validez",
+        "No pueden ser documentadas ni tienen valor alguno en el proceso"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Está prevista en el CPPCABA (Art. 89) la atribución de interrogatorio orientativo al sospechoso en flagrancia?",
+      "options": [
+        "Sí, en los mismos términos que el CPPN",
+        "Sí, pero solo para delitos graves",
+        "No, esa atribución solo está prevista en el CPPN"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Pueden ser testigos de actuación las personas indocumentadas?",
+      "options": [
+        "No, en ningún caso",
+        "Solo si presentan una constancia policial de identidad",
+        "Sí, dejando constancia de su calidad de indocumentadas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuáles son las tres partes de la estructura del inicio sumarial en una declaración?",
+      "options": [
+        "Carátula, Cuerpo y Cierre",
+        "Denuncia, Prevención y Oficio",
+        "Introducción, Nudo y Desenlace"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuáles son las tres formas de inicio de la instrucción según el Art. 174 CPPN / Art. 77 CPPCABA?",
+      "options": [
+        "Flagrancia, Denuncia y Querella",
+        "Acta, Sumario y Consulta",
+        "Denuncia, Prevención y Oficio"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el material, ¿cuándo se evacúan las consultas judiciales derivadas de una denuncia recibida en la Oficina de Guardia (salvo urgencia)?",
+      "options": [
+        "De forma inmediata, siempre dentro de la hora",
+        "Recién a los 5 días hábiles",
+        "Al día siguiente de tomado el sumario, en hora de despacho"
+      ],
+      "correct": 2
+    }
+  ]
+}

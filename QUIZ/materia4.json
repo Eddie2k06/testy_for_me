@@ -1,0 +1,456 @@
+{
+  "materia_id": "m4",
+  "materia_name": "Guía de Actuación Policial",
+  "questions": [
+    {
+      "text": "Tras el uso del D.E.I.M., ¿qué debe hacerse con las sondas utilizadas?",
+      "options": [
+        "Remitirlas a la Superintendencia de Policía Científica bajo cadena de custodia, tratándolas como riesgo biológico",
+        "Desecharlas en cualquier contenedor de residuos comunes",
+        "Devolverlas al fabricante para su reciclaje"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "El uso del D.E.I.M. en modo directo sin cartucho está:",
+      "options": [
+        "Prohibido, salvo situaciones estrictamente excepcionales con riesgo de vida",
+        "Permitido en cualquier momento como primera opción",
+        "Reservado exclusivamente para el control de animales agresivos"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Puede el D.E.I.M. usarse como sustituto de las armas de fuego o de las técnicas de autodefensa?",
+      "options": [
+        "No, es un instrumento intermedio en situaciones de alto riesgo",
+        "Sí, siempre que el agresor esté desarmado",
+        "Sí, en cualquier evento masivo"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Con qué frase de advertencia verbal debe avisar el operador antes de accionar el D.E.I.M.?",
+      "options": [
+        "\"ALTO, POLICÍA\"",
+        "\"TASER, TASER, TASER\"",
+        "\"ARMA, ARMA, ARMA\""
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién puede realizar la advertencia verbal previa al uso del D.E.I.M.?",
+      "options": [
+        "Cualquier efectivo presente en el lugar",
+        "Solo el Jefe de servicio",
+        "De forma privativa y exclusiva, el personal que opera el dispositivo"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la duración automática del ciclo de descarga si se deja de presionar el disparador?",
+      "options": [
+        "10 segundos",
+        "30 segundos",
+        "5 segundos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En cuál de las siguientes situaciones NO debe utilizarse el D.E.I.M.?",
+      "options": [
+        "Con personas que muestran resistencia pasiva, sin amenaza real inmediata",
+        "Para impedir la fuga de una persona luego de cometer un delito, si esa fuga representa una amenaza",
+        "Con un individuo con facultades mentales alteradas que exhibe comportamiento agresivo con riesgo físico inmediato"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Salvo peligro cierto e inminente, ¿contra qué población de riesgo no debe usarse el D.E.I.M.?",
+      "options": [
+        "Personas con antecedentes penales",
+        "Adultos mayores, embarazadas, NNyA y personas discapacitadas o de bajo peso corporal",
+        "Personas en estado de ebriedad"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Al activar el D.E.I.M., ¿qué ocurre con otras cámaras Axon que estén cerca?",
+      "options": [
+        "No se ven afectadas",
+        "Se apagan automáticamente por seguridad",
+        "Pasan a modo activo e inician grabación automática vía Bluetooth"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Tras toda descarga efectuada con el D.E.I.M., ¿a quién debe convocarse obligatoriamente?",
+      "options": [
+        "Al SAME",
+        "Únicamente al Juzgado interviniente",
+        "A la División de Armamento, Munición y Explosivos"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Dónde debe portarse el D.E.I.M. respecto de la pistola de servicio?",
+      "options": [
+        "Del mismo lado que la pistola",
+        "En funda certificada, del lado opuesto a la pistola de servicio",
+        "Guardado en el vehículo policial, no en el cuerpo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién debe realizar la prueba de arco al inicio de cada jornada?",
+      "options": [
+        "Cualquier operador disponible",
+        "El Jefe de Dependencia",
+        "El Encargado de la Sala de Armas D.E.I.M."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Al apuntar con el D.E.I.M., ¿qué zonas del cuerpo deben evitarse?",
+      "options": [
+        "Piernas y brazos",
+        "Cara, cabeza y cuello",
+        "Torso y espalda"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué significa el acrónimo L.A.C.E.R. utilizado en los lineamientos de intervención?",
+      "options": [
+        "Localizar, Aislar, Contener, Evaluar, Responder",
+        "Ley, Autoridad, Custodia, Escuela, Riesgo",
+        "Lugar, Análisis, Cadena, Evidencia, Reporte"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Quién tipifica una situación de armas en un establecimiento educativo como riesgo BAJO o ALTO?",
+      "options": [
+        "El operador de la División 911",
+        "El director del establecimiento educativo",
+        "El Fiscal de turno"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "En un caso de riesgo BAJO, ¿a qué organismo notifica la División Despacho?",
+      "options": [
+        "A la Superintendencia de Unidades Especiales",
+        "A la DSSIyE de la SIVFYG",
+        "Directamente al CDNNyA"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En un caso de riesgo ALTO, ¿qué organismo interviene, pudiendo conformarse un Comité de Crisis?",
+      "options": [
+        "La SIVFYG",
+        "La Oficina de Judiciales",
+        "La Superintendencia de Unidades Especiales"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En qué situación puede ingresarse a un establecimiento educativo sin autorización previa de su máxima autoridad?",
+      "options": [
+        "Solo con autorización del CDNNyA",
+        "Nunca; siempre se requiere autorización previa",
+        "Con orden judicial escrita y fundada, o ante flagrancia o riesgo de vida"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Cuando hay menores involucrados en una intervención por armas en un establecimiento educativo, ¿a qué organismo debe darse intervención inmediata junto con la comunicación judicial?",
+      "options": [
+        "Al Consejo de los Derechos de Niñas, Niños y Adolescentes (CDNNyA)",
+        "A la Superintendencia de Policía Científica",
+        "Únicamente al Ministerio de Educación"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según la Guía, ¿qué se considera un \"arma impropia\"?",
+      "options": [
+        "Un objeto no destinado originalmente como arma, pero utilizado para lesionar (por ejemplo, herramientas o elementos escolares)",
+        "Cualquier arma de fuego reglamentaria",
+        "Un arma blanca fabricada específicamente para atacar"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Al secuestrar elementos en una intervención educativa, ¿qué acta debe labrarse junto con la Planilla Cadena de Custodia?",
+      "options": [
+        "Acta de Detención (5-INA-015)",
+        "Nota de Remisión de detenidos (5-INA-001)",
+        "Acta de Secuestro (5-INA-005)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un principio rector de la actuación policial en el ámbito educativo?",
+      "options": [
+        "Proporcionalidad y necesidad de la respuesta frente al riesgo detectado",
+        "Máxima exhibición de fuerza como elemento disuasivo",
+        "Prioridad absoluta a la comunicación con los medios"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Quién debe concurrir siempre ante este tipo de intervenciones, según los lineamientos generales?",
+      "options": [
+        "El Ministro de Seguridad",
+        "El Oficial de Dirección a cargo de la dependencia jurisdiccional",
+        "El Fiscal General"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cómo debe esposarse a un detenido, salvo excepciones previstas?",
+      "options": [
+        "Con las manos detrás de la espalda",
+        "Con las manos delante del cuerpo",
+        "Sin esposar, si el detenido coopera"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cómo deben esposarse las mujeres en estado de gravidez?",
+      "options": [
+        "Igual que el resto de los detenidos, con las manos detrás",
+        "Con las manos delante del cuerpo",
+        "No corresponde esposarlas en ningún caso"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué documento se labra al momento de la detención por un delito?",
+      "options": [
+        "Acta Contravencional (5-INA-016)",
+        "Nota de Remisión de detenidos (5-INA-001)",
+        "Acta de Detención (5-INA-015)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el plazo máximo para demorar a un presunto contraventor a fin de establecer su identidad?",
+      "options": [
+        "10 horas",
+        "24 horas",
+        "48 horas"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Respecto de las contravenciones, los menores de 18 años:",
+      "options": [
+        "Son siempre punibles, igual que los mayores",
+        "No son punibles, excepto en contravenciones de tránsito",
+        "Son punibles solo si reinciden"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿A qué dependencia deben trasladarse los menores de 18 años detenidos?",
+      "options": [
+        "A la alcaidía común, junto con los mayores",
+        "A la Oficina Central de Identificación",
+        "A la División Coordinación Instituto de Menores"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la composición mínima de personal para un vehículo Patrullero en un traslado de detenidos?",
+      "options": [
+        "Solo un chofer",
+        "Un chofer y dos (2) Oficiales de custodia",
+        "Un chofer y un Celador"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Puede el chofer de la Unidad de Traslado de Detenidos (UTD) cumplir funciones de seguridad o custodia?",
+      "options": [
+        "Sí, siempre que esté armado",
+        "No, el chofer no puede cumplir esas funciones",
+        "Sí, solo si no hay otro personal disponible"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la función del \"Celador\" en la custodia de detenidos?",
+      "options": [
+        "Personal armado a cargo del traslado",
+        "Conducir el vehículo de traslado",
+        "Personal de custodia en alcaidía o UTD, que no porta armas en proximidad o contacto con los detenidos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la cantidad máxima de visitantes simultáneos permitida por detenido?",
+      "options": [
+        "5",
+        "3",
+        "1"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué documento es indispensable para permitir el ingreso de un visitante a un detenido?",
+      "options": [
+        "Autorización notarial",
+        "DNI vigente",
+        "Comprobante de pago de un arancel"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la cantidad mínima de Oficiales de custodia por detenido internado en un Centro de Salud?",
+      "options": [
+        "1",
+        "4",
+        "2"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Dentro de qué plazo debe comunicarse el hecho al Fiscal de turno tras la aprehensión en flagrancia?",
+      "options": [
+        "Dentro de la hora de ocurrido el hecho",
+        "Dentro de las 3 horas",
+        "Dentro de las 24 horas"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Además de la comunicación telefónica al Fiscal, ¿qué otro medio debe utilizarse para informar los hechos?",
+      "options": [
+        "Un oficio en papel remitido por correo postal",
+        "Ningún otro medio es necesario",
+        "Un correo electrónico a la casilla oficial de la Fiscalía de turno"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el plazo máximo para realizar la Audiencia Oral Inicial de Flagrancia desde la detención?",
+      "options": [
+        "24 horas",
+        "48 horas",
+        "72 horas"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Si el Fiscal considera que el hecho fue cometido en flagrancia, ¿qué debe constar visiblemente en la carátula del sumario?",
+      "options": [
+        "Únicamente la firma del Juez de turno",
+        "El término \"Procedimiento en Flagrancia\"",
+        "No es necesario dejar constancia alguna"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Si el Fiscal determina que el hecho no se encuadra en el procedimiento de flagrancia, ¿qué corresponde hacer?",
+      "options": [
+        "Liberar al imputado de inmediato",
+        "Aplicar igualmente el procedimiento de flagrancia",
+        "Aplicar el procedimiento ordinario"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 353 ter del CPPN (modificado por Ley 27.272), ¿qué derecho tiene la víctima?",
+      "options": [
+        "Decidir si corresponde aplicar el procedimiento de flagrancia",
+        "Asistir a todas las audiencias y ser notificada de su realización",
+        "Recibir copia íntegra del legajo policial"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según la Guía, la identidad de género de travestis y mujeres trans en un travesticidio/transfemicidio es:",
+      "options": [
+        "Un elemento que debe probarse aparte",
+        "Irrelevante para la investigación",
+        "Condición suficiente para presumir violencia de género"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué ley modificó el Art. 80 del Código Penal, eliminando la reducción de penas para quien mate a una mujer por razón de género?",
+      "options": [
+        "Ley N.° 26.485",
+        "Ley N.° 26.791",
+        "Ley N.° 26.743"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué se entiende por \"lugar del hallazgo\" en la investigación de femicidios?",
+      "options": [
+        "Siempre la vivienda particular de la víctima",
+        "El espacio físico donde se encuentra el cadáver, que puede o no ser la escena del crimen",
+        "El lugar donde se realiza la autopsia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué elementos de bioseguridad debe usar toda persona que ingrese al lugar del hallazgo?",
+      "options": [
+        "Solo guantes de látex",
+        "Mameluco, barbijo, guantes de cirugía, cubrecalzado y cofia",
+        "El uniforme reglamentario, sin modificaciones"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Está permitido fotografiar la escena del hallazgo con un teléfono celular personal?",
+      "options": [
+        "Sí, siempre que se borre la foto después",
+        "No, solo puede hacerse con cámara oficial",
+        "Sí, pero solo puede hacerlo el Jefe de servicio"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Salvo el médico legista, ¿quién no debe manipular ni desvestir el cadáver en el lugar del hallazgo?",
+      "options": [
+        "El personal criminalístico",
+        "El Fiscal interviniente",
+        "El Preventor, únicamente en casos de riesgo"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿En cuántos espacios diferenciados como mínimo deben organizarse los cordones de seguridad en el lugar del hallazgo?",
+      "options": [
+        "Dos espacios",
+        "Un único perímetro",
+        "Tres espacios diferenciados"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Ante la presencia de niños, niñas o adolescentes testigos del hallazgo, ¿qué debe hacer el personal interviniente?",
+      "options": [
+        "Interrogarlos de inmediato para no perder información",
+        "Alejarlos del lugar sin registrar nada de lo que digan",
+        "Limitarse a la contención emocional, registrando solo expresiones espontáneas, sin interrogatorio"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el plazo máximo para elevar la documentación del caso a la Subsecretaría de Articulación con los Poderes Judiciales?",
+      "options": [
+        "24 horas",
+        "72 horas",
+        "48 horas"
+      ],
+      "correct": 2
+    }
+  ]
+}

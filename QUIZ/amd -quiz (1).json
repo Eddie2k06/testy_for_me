@@ -1,0 +1,673 @@
+{
+  "materia_id": "Administracion",
+  "materia_name": "Administración y Régimen de Personal",
+  "questions": [
+    {
+      "text": "Según el Art. 146, ¿cuál es una función del jefe de la oficina de administración?",
+      "options": [
+        "Fiscalizar y dirigir la acción del personal directamente subordinado.",
+        "Disponer ascensos del personal de la dependencia.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál de las siguientes corresponde a un deber del jefe de la oficina de administración?",
+      "options": [
+        "Recibir y cumplir las órdenes y directivas de sus superiores directos.",
+        "Determinar los destinos operativos del personal policial.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Respecto a los registros del personal, el Art. 146 establece que el jefe de la oficina de administración debe:",
+      "options": [
+        "Elaborar sanciones disciplinarias para el personal.",
+        "Actualizar los registros del personal y dar trámite a actuaciones relacionadas con ellos.",
+        "Designar jefes de servicio en la dependencia.",
+        "Todas son incorrectas."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de las siguientes acciones corresponde al jefe de la oficina de administración?",
+      "options": [
+        "Diligenciar toda tramitación recepcionada u originada en la dependencia.",
+        "Autorizar compras de equipamiento institucional.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según el Art. 146, el jefe de la oficina de administración debe:",
+      "options": [
+        "Informar al Ministerio todas las novedades administrativas.",
+        "Informar al Jefe de la División en forma inmediata sobre novedades importantes de la dependencia o del personal policial.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de las siguientes funciones está establecida en el Art. 146?",
+      "options": [
+        "Autorizar la compra de armamento para la dependencia.",
+        "Velar por el mantenimiento y preservación de los móviles, armamento y equipos de comunicación asignados a la dependencia.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 146, ¿cuál es una función del jefe de la oficina de administración?",
+      "options": [
+        "Recibir y cumplir las órdenes y directivas emanadas por sus Superiores directos.",
+        "Actualizar los registros del personal y otorgar trámite a toda actuación relacionada con los mismos.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 146, ¿cuál es una función del jefe de la oficina de administración?",
+      "options": [
+        "Informar al Jefe de la División, en forma inmediata, sobre toda novedad de importancia referente a la Dependencia como al personal policial.",
+        "Velar por el mantenimiento y la preservación de los móviles, armamento y equipos de comunicación asignados a la Dependencia.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 146, ¿cuál es una función del jefe de la oficina de administración?",
+      "options": [
+        "Autorizar sanciones disciplinarias al personal policial.",
+        "Disponer ascensos del personal de la dependencia.",
+        "Modificar las órdenes impartidas por sus superiores.",
+        "Todas son incorrectas."
+      ],
+      "correct": 3
+    },
+    {
+      "text": "Según el Art. 146, ¿cuál es una función del jefe de la oficina de administración?",
+      "options": [
+        "Elaborar sanciones disciplinarias para el personal.",
+        "Designar jefes de servicio en la dependencia.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct": 3
+    },
+    {
+      "text": "¿Cuál es la consecuencia directa respecto al desarrollo de carrera para un efectivo que no asiste al Plan Anual de Entrenamiento (PAE) sin justificación?",
+      "options": [
+        "Impedimento permanente para realizar cursos de especialización técnica.",
+        "Inhabilitación para participar en el proceso de ascenso ordinario del año posterior.",
+        "Baja automática de las filas de la institución por incumplimiento de deberes."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué define al Plan Anual de Entrenamiento (PAE) según el módulo?",
+      "options": [
+        "Es una jornada de entrenamiento obligatoria para todo el personal con estado policial.",
+        "Es una capacitación opcional dictada trimestralmente por el ISSP.",
+        "Es una evaluación voluntaria para quienes desean ascender de rango."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es el procedimiento correcto para la inscripción en el PAE?",
+      "options": [
+        "El efectivo se preinscribe individualmente y la oficina administrativa realiza la inscripción final.",
+        "Se realiza una única inscripción presencial en el Instituto Superior de Seguridad Pública.",
+        "El personal debe inscribirse únicamente a través del sistema SIFOR sin intervención administrativa."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál de los siguientes es un impedimento para inscribirse en el Plan de Entrenamiento?",
+      "options": [
+        "Prestar tareas adecuadas en la dependencia.",
+        "Encontrarse en situación de disponibilidad.",
+        "Estar en Junta Médica por una afección psíquica."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cómo participa del PAE el personal que se encuentra bajo licencia por maternidad?",
+      "options": [
+        "Participa en un plan adecuado a su condición desarrollado en jornadas específicas.",
+        "Debe solicitar una prórroga para rendir en el siguiente ciclo anual.",
+        "Realiza el entrenamiento estándar pero sin portación de armas."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué consecuencia tiene la ausencia injustificada al Plan Anual de Entrenamiento?",
+      "options": [
+        "La baja automática de la institución por abandono de servicio.",
+        "Únicamente la pérdida de los días de licencia anual ordinaria.",
+        "Sanciones disciplinarias e impedimento para inscribirse al ascenso el año posterior."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de las siguientes situaciones se considera una ausencia justificada?",
+      "options": [
+        "Mudanza personal con certificado de cambio de domicilio.",
+        "Cursos de capacitación externos no vinculados a la fuerza.",
+        "Citaciones judiciales adjuntando la documentación respaldatoria."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué es el Plan de Evaluación Personal (PEP)?",
+      "options": [
+        "Una jornada de reentrenamiento para personal con sanciones graves.",
+        "Un examen psicológico obligatorio para portar armas de fuego.",
+        "Una instancia de evaluación para el personal postulado voluntariamente al ascenso."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Al inscribirse al proceso de ascenso, ¿qué tipo de certificado médico debe presentar el postulante?",
+      "options": [
+        "Certificado de salud mental expedido por el hospital policial.",
+        "Certificado de alta médica por ART de los últimos dos años.",
+        "Aptitud clínica para realizar actividad deportiva no competitiva."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿A través de qué sistema se informan los resultados del PEP al personal?",
+      "options": [
+        "Correo electrónico institucional únicamente.",
+        "SIFOR",
+        "SIPAP"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un tipo de usuario definido en el sistema CAE?",
+      "options": [
+        "Instructor de Campo",
+        "Auditor Externo",
+        "Individual"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué ocurre si un personal intenta preinscribirse a más de una convocatoria por plan en el sistema CAE?",
+      "options": [
+        "Quedará a la espera de que el administrador elija una de las dos fechas.",
+        "El sistema no lo permitirá y mostrará un mensaje de advertencia en rojo.",
+        "Se le cobrará un recargo administrativo en su próximo haber."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué estado indica que la inscripción fue realizada por la dependencia pero aún no está confirmada?",
+      "options": [
+        "Preinscripto",
+        "Confirmada",
+        "Pendiente"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la duración de la Licencia Anual Ordinaria para un oficial con hasta cinco (5) años de antigüedad?",
+      "options": [
+        "15 días hábiles.",
+        "30 días hábiles.",
+        "21 días hábiles."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "En el caso de oficiales casados o convivientes que integran la Policía de la Ciudad, ¿bajo qué condición se otorga la licencia anual de forma simultánea?",
+      "options": [
+        "Siempre que las razones de servicio lo permitan.",
+        "Es obligatoria sin excepción por razones familiares.",
+        "Solo si ambos trabajan en la misma dependencia de revista."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué requisito debe cumplir el diagnóstico médico en una constancia para ser validada?",
+      "options": [
+        "Es opcional si el médico incluye el tratamiento sugerido.",
+        "Debe incluir el diagnóstico médico o el código CIE equivalente.",
+        "Solo requiere la firma del profesional si el reposo es menor a 48 horas."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué consecuencia administrativa tiene la presentación de un certificado médico falso o adulterado?",
+      "options": [
+        "Solo implica el descuento de los haberes por los días no trabajados.",
+        "Se considera una falta leve si es la primera vez que ocurre.",
+        "Configura una falta grave según el Decreto 53/17."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Para usufructuar una licencia médica, ¿con cuánta antelación mínima debe dar aviso el personal a su dependencia?",
+      "options": [
+        "Hasta DOCE (12) horas antes para casos programados.",
+        "DOS (2) horas antes de iniciar su servicio ordinario.",
+        "Inmediatamente al momento de notar los síntomas, sin plazo fijo."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el procedimiento correcto para validar un certificado digital expedido por la aplicación ÜMA?",
+      "options": [
+        "Debe contener el código QR o link de verificación de atención al pie.",
+        "Requiere únicamente el envío del número de ID por mensaje de texto.",
+        "Debe ser impreso y sellado manualmente por la farmacia de turno."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Si una licencia médica por enfermedad personal 'Deambula' se inicia un sábado para un oficial que entra a las 16:00 hs, ¿cuándo debe validarla en el CML?",
+      "options": [
+        "El mismo sábado antes del inicio de su turno.",
+        "Antes de las 12:00 hs. del día hábil siguiente.",
+        "El domingo en la guardia administrativa central."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuántos días de licencia con goce de haberes se otorgan anualmente por enfermedad de un familiar a cargo?",
+      "options": [
+        "Hasta 10 días por año calendario.",
+        "60 días renovables según el diagnóstico.",
+        "Hasta 30 días corridos."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué medida preventiva debe tomar la dependencia al conocerse una licencia por patología de salud mental?",
+      "options": [
+        "Asignar un custodio en el domicilio del oficial.",
+        "Solicitar el desarme preventivo del personal.",
+        "Prohibir el contacto telefónico con otros miembros de la fuerza."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En licencias con 'reposo absoluto', ¿cuál es la obligación del personal respecto a los controles médicos?",
+      "options": [
+        "Presentarse espontáneamente en el CML cada 48 horas.",
+        "Someterse obligatoriamente a reconocimientos en domicilio o por video llamada.",
+        "Solo atender llamadas telefónicas de la dependencia de revista."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué información específica debe contener un certificado médico por patología de embarazo?",
+      "options": [
+        "Nombre del centro asistencial donde se realizará el parto.",
+        "Fecha probable de parto (FPP) y edad gestacional.",
+        "Autorización del cónyuge si también pertenece a la fuerza."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Si el personal necesita ausentarse de su domicilio declarado para realizar estudios médicos durante su licencia, ¿qué debe hacer?",
+      "options": [
+        "Informar al SMLAM con una antelación mínima de 48 hs. vía correo electrónico.",
+        "Presentar el comprobante del estudio únicamente si el médico fue a su casa y no lo encontró.",
+        "No es necesario informar si el estudio dura menos de dos horas."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿De qué manera se realiza el cálculo para determinar el monto del suplemento por servicio en la vía pública que percibirá el personal?",
+      "options": [
+        "Se calcula dividiendo el sueldo básico por las horas totales de servicio en el año calendario.",
+        "Se otorga un monto fijo mensual independientemente de las inasistencias por licencias médicas.",
+        "Se divide el monto por la cantidad de días mensuales de servicio y se multiplica por los días efectivamente prestados."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de las siguientes situaciones se computa como 'día de servicio efectivamente prestado' para el cobro del suplemento de vía pública?",
+      "options": [
+        "Los días en los que el personal se encuentre bajo sanción disciplinaria de suspensión.",
+        "Los días de licencia por accidente de trabajo o enfermedad profesional.",
+        "Los días de licencia por asuntos personales sin goce de haberes."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿En qué plazo deben las dependencias entregar los informes mensuales (Anexos I y II) a la Dirección Autónoma de Servicios Complementarios?",
+      "options": [
+        "Durante la última semana del mes en curso.",
+        "Antes del día 15 de cada mes para su auditoría.",
+        "Del 01 al 05 de cada mes."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "De acuerdo con el Artículo 19 del Decreto 47/2017, ¿cuándo se liquida la compensación por recargo de servicio?",
+      "options": [
+        "Cuando los servicios extraordinarios excedan una hora diaria fuera del horario normal.",
+        "Únicamente si el servicio extraordinario se realiza en días feriados o no laborables.",
+        "A partir de la primera media hora de labor excedente en operativos especiales."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es la restricción principal respecto a la superposición del recargo de servicio?",
+      "options": [
+        "Debe evitarse su superposición con el horario de entrenamiento físico obligatorio.",
+        "No se puede superponer con el servicio ordinario ni con servicios de policía complementaria.",
+        "No se puede realizar si el agente tiene menos de dos años de antigüedad en el grado."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Para tramitar viajes oficiales que demanden gastos de pasajes y viáticos, ¿con cuánta antelación debe realizarse la solicitud?",
+      "options": [
+        "15 días hábiles.",
+        "30 días corridos.",
+        "48 horas hábiles."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué requisito es obligatorio incluir en el expediente de un viaje oficial respecto a los participantes?",
+      "options": [
+        "El historial crediticio de los agentes que viajan.",
+        "La firma de conformidad de los familiares directos.",
+        "Grado, nombre y apellido, DNI, CUIT, LP y teléfono de contacto de todas las personas que viajan."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En caso de un siniestro vial con un móvil policial, ¿qué característica debe tener el croquis que se adjunta al informe?",
+      "options": [
+        "Debe ser confeccionado exclusivamente por personal de la Policía Científica.",
+        "Debe realizarse a mano alzada, detallando sentidos de circulación y señalización.",
+        "Solo debe contener la posición final de los vehículos sin detallar la cartelería."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el propósito principal del sistema SIRMA dentro del área de logística?",
+      "options": [
+        "Gestionar averías, mantenimientos y reparaciones de los recursos materiales.",
+        "Verificar la validez de los seguros de responsabilidad civil de terceros.",
+        "Registrar las infracciones de tránsito cometidas por los móviles."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Cuando se produce un relevo de titular en una dependencia, ¿qué tipo de acta se debe suscribir de forma inmediata?",
+      "options": [
+        "Declaración Jurada de Bienes Patrimoniales Inmuebles.",
+        "Acta de Entrega y Recepción de Dependencia con carácter Provisorio.",
+        "Acta de Cierre de Inventario Anual Definitivo."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la función principal del sistema GAP WEB en la Policía de la Ciudad?",
+      "options": [
+        "La gestión integral de las actuaciones policiales en comisarías y brigadas.",
+        "La actualización de las declaraciones juradas patrimoniales.",
+        "El control exclusivo del presentismo del personal policial."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Por qué es fundamental el correcto registro de datos en el sistema GAP WEB?",
+      "options": [
+        "Porque permite la liquidación de haberes a fin de mes.",
+        "Porque es la fuente principal para la diagramación del Mapa del Delito.",
+        "Porque reemplaza la necesidad de realizar actas en soporte papel por completo."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Dentro del sistema SADE, ¿cuál de los siguientes siglas se encarga del Generador Electrónico de Documentos Oficiales?",
+      "options": [
+        "EU",
+        "GEDO",
+        "CCOO"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué garantiza la digitalización de trámites a través de la plataforma SADE según el material de estudio?",
+      "options": [
+        "El acceso público y sin restricciones a todos los expedientes policiales.",
+        "La inmutabilidad, inalterabilidad, perdurabilidad, estabilidad y valor jurídico de los documentos.",
+        "La generación de sanciones automáticas ante errores de carga."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Respecto a la seguridad de los sistemas policiales, ¿qué recomendación se le hace al usuario?",
+      "options": [
+        "No cambiar nunca la contraseña para evitar olvidos que bloqueen el sistema.",
+        "Utilizar la misma contraseña para todos los sistemas externos e internos.",
+        "Modificar la contraseña periódicamente y no traspasarla a terceros."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el propósito del sistema SISEP dentro de la gestión de seguridad pública?",
+      "options": [
+        "Administrar exclusivamente las multas de tránsito en la ciudad.",
+        "Registrar las calificaciones anuales del personal policial.",
+        "Mejorar la distribución de efectivos y móviles basándose en criterios de saturación."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "El sistema SILOL es el encargado de administrar:",
+      "options": [
+        "El legajo académico y los títulos del personal.",
+        "El proceso de ascenso y las inscripciones a cursos.",
+        "Todas las licencias laborales previstas en la Ley Nro. 5.688."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué información arroja el sistema SISOL una vez cargada una sanción disciplinaria?",
+      "options": [
+        "Una orden de detención inmediata para el sancionado.",
+        "Un recibo de sueldo actualizado con el descuento.",
+        "Una notificación formal con un número de código."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la función del sistema SIPAP?",
+      "options": [
+        "Gestionar el presentismo diario en las comisarías.",
+        "Realizar el seguimiento de inscripciones e instancias del proceso de ascenso.",
+        "Cargar las actas de choque de los móviles policiales."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Sobre el sistema SIRHU, ¿qué afirmación es correcta?",
+      "options": [
+        "Es el sistema donde se genera el legajo electrónico del personal.",
+        "Es un sistema aislado que no tiene relación con el SIFOR o el SILOL.",
+        "La carga exclusiva por cada oficial desde su domicilio de licencias."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Para qué se utiliza el sistema SIFOR?",
+      "options": [
+        "Para solicitar el armamento reglamentario a la armería central.",
+        "Para la actualización de datos personales y declaraciones juradas patrimoniales.",
+        "Para realizar el seguimiento satelital de los patrulleros."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué función cumple el Sistema de Gestión de Novedades, además del control de presentismo?",
+      "options": [
+        "Realizar pericias balísticas digitales.",
+        "Registrar diariamente todas las novedades en relación al personal agrupado por dependencias.",
+        "Gestionar las compras de insumos de oficina."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué función cumple el Sistema de Gestión de Trámites (SIGET)?",
+      "options": [
+        "Solo contiene información sobre sanciones y medidas disciplinarias.",
+        "Se encuentra diseñado para solicitar la baja voluntaria.",
+        "Gestionar el presentismo diario en las comisarías."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la función del Sistema Medicina Laboral Auditoria Médica (SMLAM)?",
+      "options": [
+        "La carga exclusiva por cada oficial desde su domicilio de licencias.",
+        "Solo contiene información sobre sanciones y medidas disciplinarias.",
+        "Ninguna de las opciones es correcta."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Para qué se utiliza el sistema SILCAPER?",
+      "options": [
+        "Para solicitar el armamento reglamentario a la armería central.",
+        "Para evaluar el desempeño anual del personal.",
+        "Para realizar el seguimiento satelital de los patrulleros."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Para qué se utiliza el sistema SIRMA?",
+      "options": [
+        "Para el registro de novedades de la flota automotor de la correspondiente dependencia.",
+        "Publicar las órdenes del día diarias.",
+        "Para realizar el seguimiento satelital de los patrulleros."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es la duración de la licencia con goce de haberes por hijo/a con discapacidad o enfermedades crónicas invalidantes según el artículo 176?",
+      "options": [
+        "90 días corridos o discontinuos.",
+        "60 días hábiles.",
+        "30 días corridos."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "De acuerdo al artículo 177, ¿cuántos días le corresponden al personal con discapacidad para la realización de tratamientos o controles médicos específicos?",
+      "options": [
+        "5 días hábiles.",
+        "10 días corridos o discontinuos por año.",
+        "1 día por mes de servicio."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Para gestionar la emisión o renovación del Certificado Único de Discapacidad (CUD), ¿qué plazo de licencia se otorga según el artículo 178?",
+      "options": [
+        "5 días corridos o discontinuos.",
+        "2 días por trámite.",
+        "10 días corridos."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es la extensión de la licencia por acogimiento familiar transitorio (Art. 173)?",
+      "options": [
+        "30 días corridos.",
+        "Hasta 60 días sin goce de haberes.",
+        "90 días."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué requisito de edad deben cumplir los varones para usufructuar la licencia por control del Antígeno Prostático Específico (PSA)?",
+      "options": [
+        "Ser mayor de 45 años.",
+        "Ser mayor de 50 años.",
+        "Ser mayor de 40 años."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "En caso de usufructuar la licencia por violencia de género (Art. 189), ¿qué plazo tiene el personal para presentar la denuncia judicial?",
+      "options": [
+        "5 días hábiles.",
+        "48 horas.",
+        "72 horas."
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En el procedimiento ante un accidente de trabajo (ART), ¿qué debe hacer la dependencia inmediatamente después de efectuada la denuncia?",
+      "options": [
+        "Cargar la licencia en el SMLAM y generar un expediente.",
+        "Remitir el arma del involucrado a la DAAI.",
+        "Esperar 48 horas para ver la evolución del lesionado."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Al solicitar una baja voluntaria o renuncia, ¿a través de qué plataforma informática debe iniciar el trámite el interesado exclusivamente?",
+      "options": [
+        "Comunicación Oficial (COO.).",
+        "SIGET (Sistema de Gestión de Trámites).",
+        "Correo electrónico institucional de la Jefatura."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el plazo máximo que tiene el personal que solicita la baja para reintegrar los elementos provistos (armamento, uniforme, credencial)?",
+      "options": [
+        "Al momento de recibir el último haber.",
+        "30 días posteriores a la solicitud.",
+        "72 horas hábiles."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Ante el conocimiento de que un efectivo es presunto victimario en un hecho de violencia familiar, ¿cuál es la medida inmediata respecto a su armamento provisto?",
+      "options": [
+        "No se toma medida hasta que la justicia lo ordene.",
+        "Desarme obligatorio, provisorio y parcial durante horas francas.",
+        "Cambio de destino del armamento a la sala de armas central."
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Al redactar la Comunicación Oficial (COO.) por un hecho de violencia familiar donde hay un efectivo implicado, ¿qué información NO debe incluirse?",
+      "options": [
+        "Relato pormenorizado de hechos y detalles sensibles.",
+        "La autoridad judicial interviniente.",
+        "La carátula y el número de causa si la hubiere."
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué requisito es indispensable para la validación y justificación de una licencia médica, de acuerdo a la normativa de presentación de certificados?",
+      "options": [
+        "Poseer diagnóstico médico o código CIE y firma/sello legible del profesional.",
+        "Tener la firma del Jefe de Dependencia en el certificado.",
+        "Adjuntar una foto de la medicación recetada."
+      ],
+      "correct": 0
+    }
+  ]
+}

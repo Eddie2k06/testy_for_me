@@ -1,0 +1,456 @@
+{
+  "materia_id": "m5",
+  "materia_name": "Régimen Disciplinario",
+  "questions": [
+    {
+      "text": "¿A quién se aplica el régimen disciplinario, además del personal en actividad?",
+      "options": [
+        "Solo al personal con estado policial en actividad",
+        "También al personal en retiro, cuando deba responder por hechos cometidos en actividad o sea convocado a prestar servicios",
+        "Únicamente al personal sin estado policial"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué órgano investiga las faltas leves y moderadas?",
+      "options": [
+        "El Órgano Disciplinario Interno",
+        "La OTCE (Transparencia y Control Externo)",
+        "La Comisión de Calificación"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué órgano investiga las faltas graves?",
+      "options": [
+        "El Órgano Disciplinario Interno",
+        "La OTCE (Transparencia y Control Externo)",
+        "El Jefe de Policía directamente"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Bajo qué artículo se regulan las Faltas Leves?",
+      "options": [
+        "Art. 7",
+        "Art. 9",
+        "Art. 11"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Bajo qué artículo se regulan las Faltas Graves?",
+      "options": [
+        "Art. 7",
+        "Art. 9",
+        "Art. 11"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un ejemplo de falta moderada (Art. 9)?",
+      "options": [
+        "Descuidos en el uniforme o equipo",
+        "Uso indebido de credenciales",
+        "Pérdida del armamento"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué ocurre si una persona comete más de una falta moderada?",
+      "options": [
+        "No tiene ninguna consecuencia adicional",
+        "Se acumulan siempre como faltas leves",
+        "También constituye falta grave"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el primer escalón de la escala de sanciones?",
+      "options": [
+        "Llamado de atención",
+        "Apercibimiento",
+        "Suspensión de Empleo"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué implica el Apercibimiento como sanción?",
+      "options": [
+        "La separación de la fuerza",
+        "Retención proporcional del sueldo y retiro temporal del arma y uniforme",
+        "La prohibición total y permanente de tareas policiales"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el rango de días que puede abarcar la Suspensión de Empleo?",
+      "options": [
+        "De 1 a 15 días",
+        "De 1 a 30 días",
+        "De 1 a 90 días"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sanción implica la \"separación con deshonra\" de la fuerza?",
+      "options": [
+        "Cesantía",
+        "Exoneración",
+        "Suspensión de Empleo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la facultad máxima de suspensión que tiene el Jefe de Policía?",
+      "options": [
+        "Hasta 30 días",
+        "Hasta 45 días",
+        "Todas, incluida la Exoneración"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién tiene la facultad de aplicar todas las sanciones, incluida la Exoneración?",
+      "options": [
+        "El Subjefe de Policía",
+        "El Comisario General",
+        "El Secretario de Seguridad"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la facultad máxima de suspensión de un Inspector?",
+      "options": [
+        "3 días",
+        "6 días",
+        "10 días"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es la regla fundamental de la delegación del poder disciplinario?",
+      "options": [
+        "Se ejerce solo sobre subalternos; si la gravedad supera la facultad del superior, este debe elevar el caso",
+        "Cualquier superior puede sancionar a cualquier subalterno, sin importar la jerarquía de este último",
+        "Solo el Jefe de Policía puede aplicar sanciones, sin excepción"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál de los siguientes es un atenuante que disminuye la pena?",
+      "options": [
+        "Reincidencia en menos de 1 año",
+        "Actuar en grupo de 3 o más personas",
+        "Excelente concepto previo"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un agravante que aumenta la pena?",
+      "options": [
+        "Inexperiencia (menos de 1 año de servicio)",
+        "Mayor jerarquía del infractor",
+        "Exceso de celo en beneficio del servicio"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Para qué tipo de faltas aplica la \"vía rápida\" de sanciones directas?",
+      "options": [
+        "Faltas graves, con exoneración inmediata",
+        "Faltas leves, con apercibimiento o hasta 15 días de suspensión",
+        "Únicamente faltas moderadas"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el plazo para sancionar faltas leves y moderadas?",
+      "options": [
+        "1 año",
+        "2 años",
+        "6 meses"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es el plazo para sancionar faltas graves?",
+      "options": [
+        "6 meses",
+        "1 año",
+        "2 años"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el plazo máximo para concluir todo sumario administrativo desde su inicio?",
+      "options": [
+        "1 año",
+        "2 años",
+        "6 meses"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué efecto tienen las causas penales sobre los plazos de prescripción disciplinaria?",
+      "options": [
+        "Ninguno, los plazos disciplinarios corren igual",
+        "Los pausan automáticamente",
+        "Los reducen a la mitad"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Hasta cuándo rige el principio de secreto en las averiguaciones previas y el inicio del sumario?",
+      "options": [
+        "Hasta la sentencia definitiva",
+        "Nunca se levanta",
+        "Hasta que se cita a declarar al sumariado"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Al concluir una averiguación previa, ¿cuál de las siguientes es una de las tres definiciones posibles?",
+      "options": [
+        "Siempre pasa a sumario completo",
+        "Sanción directa para faltas leves (vía rápida)",
+        "Siempre se archiva, sin excepción"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién dirige la recolección de pruebas y toma las declaraciones en el sumario, guiado por la \"sana crítica\"?",
+      "options": [
+        "El fiscalizador",
+        "El Jefe de Policía",
+        "El instructor sumarial"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué medida preventiva implica retirar el armamento reglamentario y reasignar al oficial a tareas no operativas?",
+      "options": [
+        "Cambio de destino",
+        "Desarme",
+        "Cambio de revista"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué garantía le permite al sumariado negarse a declarar sin que ello implique presunción de culpabilidad?",
+      "options": [
+        "Vista de actuaciones",
+        "Aporte de pruebas",
+        "Derecho al silencio"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Es obligatoria la comparecencia a las testimoniales dentro del sumario?",
+      "options": [
+        "No, son siempre optativas",
+        "Sí; su ausencia injustificada es falta disciplinaria (excepto familiares directos)",
+        "Solo si el sumariado lo solicita expresamente"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Al clausurar el sumario, ¿cuáles son las tres vías que puede recomendar el instructor?",
+      "options": [
+        "Sanción, Apelación o Archivo definitivo",
+        "Eximición, Sanción o Clausura sin responsables",
+        "Absolución, Suspensión o Reconsideración"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Puede reabrirse una \"Clausura sin responsables\"?",
+      "options": [
+        "No, es definitiva e irreversible",
+        "Sí, si surgen nuevos datos antes de que opere la prescripción",
+        "Solo por orden judicial expresa"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuántos días consecutivos de ausencia sin aviso son necesarios para generar la intimación por posible Abandono de servicio?",
+      "options": [
+        "3 días",
+        "5 días",
+        "10 días"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Si tras la intimación por Abandono de servicio no hay justificación ni reintegro en 48 horas, ¿qué corresponde?",
+      "options": [
+        "Solo un llamado de atención",
+        "Suspensión de 90 días",
+        "Cesantía, retención total de haberes y devolución de arma y uniforme"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según la escala de inasistencias alternadas en 365 días, ¿qué consecuencia corresponde a 10 faltas?",
+      "options": [
+        "Apercibimiento",
+        "10 días de suspensión",
+        "Cesantía inmediata"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿A partir de cuántas faltas alternadas en 365 días corresponde la Cesantía inmediata?",
+      "options": [
+        "10",
+        "15",
+        "20 o más"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Las sanciones administrativas dependen de que exista una condena penal firme por el mismo hecho?",
+      "options": [
+        "Sí, solo pueden aplicarse después de la condena penal",
+        "No, se aplican independientemente y son de carácter provisional",
+        "No, y no pueden modificarse aunque haya condena posterior"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Si una falta destruye propiedad policial (por ejemplo, un patrullero), ¿qué exige además el Decreto?",
+      "options": [
+        "Solo aplicar la cesantía inmediata",
+        "Calcular el valor de reposición y retener del salario del responsable",
+        "No exige nada adicional a la sanción disciplinaria"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 203 de la Ley 5.688, la violación a los deberes hace pasible al personal de sanciones, sin perjuicio de:",
+      "options": [
+        "La pérdida automática del estado policial",
+        "La responsabilidad civil, penal o administrativo patrimonial que corresponda",
+        "La exoneración automática, en todos los casos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 204 de la Ley 5.688, ¿según qué criterio se clasifican las faltas?",
+      "options": [
+        "Según la antigüedad del infractor",
+        "Según el rango del infractor, únicamente",
+        "Según afecten la disciplina, operatividad, liderazgo, imagen pública, ética o principios básicos de actuación"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Al asumir el rango de Inspector, ¿por qué se expande la responsabilidad del supervisor?",
+      "options": [
+        "Porque responde únicamente por sus propias acciones operativas",
+        "Porque debe responder también por mantener la disciplina, el prestigio y la legalidad del personal a cargo",
+        "Porque pasa a administrar los recursos económicos de la dependencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué implica la \"responsabilidad por omisión\" del supervisor?",
+      "options": [
+        "No tiene obligación alguna si no presenció la falta",
+        "Tolerar una indisciplina es cometer una falta propia; debe sancionar o informar según sus facultades",
+        "Solo debe informar, nunca puede sancionar directamente"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En la \"Regla de las Dos Llaves\", ¿qué ocurre con el acto de determinación de una sanción?",
+      "options": [
+        "Es válido y ejecutable de inmediato",
+        "Solo requiere la notificación al sancionado",
+        "No surte efectos jurídicos hasta no ser fiscalizado"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En el procedimiento directo para faltas leves, ¿cuál es el primer paso del flujo de trabajo?",
+      "options": [
+        "Fiscalización",
+        "Detección",
+        "Registro y notificación"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En ese mismo procedimiento, ¿dónde se registra e inscribe la sanción una vez notificada?",
+      "options": [
+        "En el Boletín Oficial",
+        "En un registro judicial",
+        "En el legajo digital (SIRHU/SISOL)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Respecto del recurso de Reconsideración, ¿cuál es su plazo y quién lo resuelve?",
+      "options": [
+        "15 días hábiles, ante el Jefe de la Policía",
+        "10 días hábiles, ante el mismo fiscalizador que dictó el acto",
+        "5 días hábiles, ante el Secretario de Seguridad"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué efecto tiene el recurso Jerárquico sobre la vía administrativa?",
+      "options": [
+        "Suspende automáticamente la sanción",
+        "Reabre la etapa de averiguación previa",
+        "Agota la vía administrativa"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿La interposición de recursos administrativos suspende los efectos de la sanción?",
+      "options": [
+        "Sí, siempre suspende la sanción",
+        "No, no suspende los efectos ni el cumplimiento del acto sancionatorio",
+        "Solo la suspende si se trata de una falta grave"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En la comparativa Averiguación Previa vs. Sumario Administrativo, ¿cuál requiere obligatoriamente una Resolución de inicio?",
+      "options": [
+        "La Averiguación Previa",
+        "El Sumario Administrativo",
+        "Ninguno de los dos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el propósito central de la Averiguación Previa?",
+      "options": [
+        "Esclarecer la verdad material y determinar autoría",
+        "Dictar la sanción definitiva",
+        "Diagnosticar la verosimilitud del hecho"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En la calificación de accidentes/enfermedades profesionales, ¿qué categoría corresponde a un accidente en un vehículo policial acudiendo a una emergencia?",
+      "options": [
+        "En servicio",
+        "Desvinculado del servicio",
+        "En y por acto de servicio"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Dentro de qué plazo debe completarse el Formulario de Denuncia al Autoseguro del GCABA tras conocer un siniestro?",
+      "options": [
+        "24 horas",
+        "48 horas",
+        "60 días corridos"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "materia_id": "m6",
+  "materia_name": "Oficina de Administración",
+  "questions": [
+    {
+      "text": "¿Cuántas instancias anuales componen el Plan Anual de Entrenamiento (PAE)?",
+      "options": [
+        "Una",
+        "Dos",
+        "Cuatro"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el primer paso del proceso de inscripción al PAE?",
+      "options": [
+        "La inscripción por parte de la Oficina Administrativa",
+        "La preinscripción personal del efectivo a través del sistema CAE",
+        "Una evaluación médica previa obligatoria"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Una vez que el efectivo se preinscribe al PAE, ¿quién realiza la inscripción en el sistema CAE?",
+      "options": [
+        "El propio efectivo, en un segundo paso",
+        "Los responsables administrativos de la dependencia",
+        "El Jefe de Policía"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de las siguientes es un impedimento para inscribirse al PAE?",
+      "options": [
+        "Estar en disponibilidad",
+        "Estar bajo licencia médica o ART",
+        "Estar incurso en el Art. 229 de la Ley 5688"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Puede participar del PAE el personal en disponibilidad, pasiva, o bajo sumario disciplinario por falta grave?",
+      "options": [
+        "No, están impedidos en todos los casos",
+        "Sí, si cumplen las condiciones establecidas",
+        "Solo el personal en actividad plena puede participar"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Dentro de qué plazo debe presentarse la documentación respaldatoria de una ausencia justificada al PAE?",
+      "options": [
+        "24 horas",
+        "72 horas posteriores a la ausencia",
+        "15 días"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Se admite la licencia anual ordinaria como justificación de ausencia al PAE?",
+      "options": [
+        "Sí, siempre se admite",
+        "No, no se admiten justificaciones ni reasignaciones por licencia anual ordinaria",
+        "Solo si se avisa con 48 horas de anticipación"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué requisito clínico exige la inscripción al Plan de Evaluación Personal (PEP)?",
+      "options": [
+        "Certificado de antecedentes penales",
+        "Certificado de aptitud clínica para actividad deportiva no competitiva, visado por la dependencia",
+        "Autorización expresa del Ministerio de Seguridad"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿En cuánto tiempo se informa por el sistema SIPAP el resultado del PEP tras rendirlo?",
+      "options": [
+        "De forma inmediata",
+        "A los 30 días",
+        "Pasadas las 48 horas de rendir"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En el sistema CAE, el usuario \"Individual\" que realiza su propia preinscripción, ¿puede anularla?",
+      "options": [
+        "Sí, en cualquier momento",
+        "No, no se puede anular",
+        "Solo dentro de las primeras 24 horas"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuántos días hábiles de licencia anual ordinaria corresponden al personal con hasta 5 años de antigüedad?",
+      "options": [
+        "15 días",
+        "21 días",
+        "30 días"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es el fraccionamiento máximo de la licencia anual ordinaria para el personal con más de 10 años de antigüedad?",
+      "options": [
+        "2 veces",
+        "3 veces",
+        "4 veces"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Con cuánta anticipación mínima debe avisarse una licencia médica antes del servicio?",
+      "options": [
+        "2 horas, vía telefónica y mail institucional",
+        "24 horas",
+        "1 semana"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "En la licencia por \"Deambula\", ¿cuándo debe presentarse la constancia médica?",
+      "options": [
+        "Dentro de los 10 días siguientes",
+        "El día de inicio o el día hábil siguiente",
+        "Al finalizar la licencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En la licencia por \"Familiar a cargo\", ¿cuál es el máximo de días con goce de haberes?",
+      "options": [
+        "10 días (prorrogable a 60 sin goce)",
+        "30 días",
+        "90 días"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Para la licencia por \"Salud mental\", ¿dentro de qué plazo debe concurrirse al Servicio de Medicina Laboral y Auditoría Médica?",
+      "options": [
+        "24 horas",
+        "48 horas hábiles",
+        "5 días hábiles"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la duración de la licencia por hijo/a con discapacidad o enfermedad crónica (Art. 176)?",
+      "options": [
+        "30 días corridos",
+        "60 días corridos",
+        "90 días corridos o discontinuos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la duración de la licencia por acogimiento familiar transitorio (Art. 173)?",
+      "options": [
+        "15 días corridos",
+        "30 días corridos desde el inicio efectivo",
+        "90 días corridos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Ante un accidente o enfermedad laboral, ¿cuál es el primer paso del procedimiento ante la ART?",
+      "options": [
+        "Solicitar licencia médica directamente en SILOL",
+        "Denuncia telefónica inmediata ante la ART e informe a la dependencia",
+        "Notificar únicamente al Jefe de Policía"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Si la ART rechaza la cobertura y el personal no se reintegra, ¿qué configura la inasistencia injustificada por 3 días?",
+      "options": [
+        "Una falta leve automática",
+        "Abandono del servicio",
+        "Ninguna consecuencia disciplinaria"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué otorga, de manera indefectible, el fin de una licencia por ART?",
+      "options": [
+        "El transcurso de 6 meses",
+        "La decisión del Jefe de Dependencia",
+        "El alta otorgada por la ART"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es la antigüedad mínima requerida para el Retiro Voluntario con Licencia Extraordinaria por Antigüedad en el caso de un Oficial?",
+      "options": [
+        "24 años y 1 día",
+        "29 años y 1 día",
+        "20 años"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la antigüedad mínima requerida para ese mismo retiro en el caso de un Suboficial?",
+      "options": [
+        "29 años y 1 día",
+        "24 años y 1 día",
+        "15 años"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Tras un retiro voluntario, ¿en qué plazo debe entregarse la indumentaria, el armamento y demás elementos?",
+      "options": [
+        "Dentro de 2 días hábiles",
+        "Dentro de 10 días hábiles",
+        "Dentro de 30 días corridos"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿A través de qué sistema se inicia el trámite de baja voluntaria?",
+      "options": [
+        "SILOL",
+        "SIRHU",
+        "SIGET"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es el plazo para reintegrar los elementos tras una baja voluntaria?",
+      "options": [
+        "2 días hábiles",
+        "30 días",
+        "10 días hábiles"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Ante casos de violencia familiar y/o de género, ¿qué debe realizar el Jefe de Dependencia al tomar conocimiento?",
+      "options": [
+        "Iniciar directamente un sumario disciplinario",
+        "El desarme obligatorio, provisorio y parcial del personal involucrado",
+        "Notificar únicamente a la prensa institucional"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Dónde deben constar los detalles sensibles y confidenciales de un caso de violencia familiar o de género?",
+      "options": [
+        "En la Comunicación Oficial (CC.OO.), sin restricciones",
+        "En el legajo público del personal",
+        "Únicamente en el Informe Gráfico (IF) reservado"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cómo se percibe el Suplemento por servicio en la vía pública?",
+      "options": [
+        "De forma fija mensual, sin importar el tiempo prestado",
+        "Proporcionalmente al tiempo efectivamente prestado",
+        "Solo si se solicita expresamente al finalizar el año"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿A partir de cuántas horas diarias corresponde el Recargo de servicio, por servicios extraordinarios?",
+      "options": [
+        "30 minutos",
+        "1 hora",
+        "3 horas"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el plazo de tramitación de viáticos cuando la comisión implica gastos?",
+      "options": [
+        "15 días hábiles",
+        "5 días hábiles",
+        "48 horas"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Cuál es el plazo de tramitación de viáticos para comisiones transitorias (mandatos judiciales, custodia, colaboración)?",
+      "options": [
+        "15 días hábiles",
+        "5 días hábiles",
+        "48 horas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Dentro de qué plazo debe rendirse un viático una vez finalizado el viaje (fuera de mandatos judiciales/custodia)?",
+      "options": [
+        "Dentro de las 48 horas",
+        "Dentro de los 10 días hábiles",
+        "Dentro de los 30 días corridos"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Ante un siniestro vial con civiles lesionados, ¿cuál es el plazo prioritario de elevación?",
+      "options": [
+        "24 horas hábiles",
+        "48 horas hábiles",
+        "72 horas hábiles"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Ante un siniestro vial sin civiles lesionados, ¿cuál es el plazo de elevación?",
+      "options": [
+        "24 horas hábiles",
+        "48 horas hábiles",
+        "5 días hábiles"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Al producirse el cambio de titular de una dependencia, ¿qué acta se labra en primer lugar?",
+      "options": [
+        "El Acta Definitiva",
+        "El Acta Provisoria",
+        "El Acta de Secuestro"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es el plazo para labrar el Acta Definitiva de entrega y recepción de una dependencia?",
+      "options": [
+        "Dentro de los 10 días hábiles",
+        "Dentro de las 72 horas",
+        "Dentro de los 30 días corridos"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En cuántos ejemplares se labra el Acta Definitiva de entrega y recepción de una dependencia?",
+      "options": [
+        "Un único ejemplar",
+        "Por duplicado",
+        "Por triplicado (Original, Duplicado y Triplicado)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema administra las licencias laborales conforme a la Ley 5688?",
+      "options": [
+        "SISOL",
+        "SILOL",
+        "SMLAM"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema se utiliza para la carga de sanciones disciplinarias (Decreto 53/17)?",
+      "options": [
+        "SILOL",
+        "SISOL",
+        "SIGENO"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema constituye el legajo electrónico del personal?",
+      "options": [
+        "SIFOR",
+        "SICALPER",
+        "SIRHU"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema se utiliza para actualizar datos personales y Declaraciones Juradas Patrimoniales?",
+      "options": [
+        "SIRHU",
+        "SIFOR",
+        "SIGET"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema controla el registro diario de novedades y el presentismo del personal?",
+      "options": [
+        "SIRMA",
+        "SISEP",
+        "SIGENO"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema se utiliza para solicitar la baja voluntaria?",
+      "options": [
+        "SIRHU",
+        "SIPAP",
+        "SIGET"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema realiza el seguimiento de las inscripciones e instancias del proceso de ascenso?",
+      "options": [
+        "SICALPER",
+        "SIPAP",
+        "CAE"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema evalúa el desempeño anual del personal?",
+      "options": [
+        "SIPAP",
+        "SIGENO",
+        "SICALPER"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema controla el alta, baja y transferencia de Bienes Muebles e Inmuebles?",
+      "options": [
+        "SIRMA",
+        "SIGAF",
+        "SADE"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema registra las novedades de la flota automotor de la dependencia?",
+      "options": [
+        "SIGAF",
+        "SIRMA",
+        "SISEP"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema asegura la inmutabilidad y el valor jurídico probatorio de los trámites de gobierno?",
+      "options": [
+        "GAP WEB",
+        "SIGENO",
+        "SADE"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué sistema es el repositorio unificado de datos de actuaciones policiales, fundamental para el Mapa del Delito?",
+      "options": [
+        "SISEP",
+        "GAP WEB / 2.0",
+        "SIGENO"
+      ],
+      "correct": 1
+    }
+  ]
+}

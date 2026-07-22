@@ -1,0 +1,456 @@
+{
+  "materia_id": "m1",
+  "materia_name": "Jefe de Servicios",
+  "questions": [
+    {
+      "text": "Según la estructura funcional de una Comisaría, ¿qué grado ocupa el Segundo Jefe?",
+      "options": [
+        "Comisario",
+        "Subcomisario",
+        "Principal"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál de los siguientes es uno de los servicios que integra la estructura de una Comisaría?",
+      "options": [
+        "Oficina de Guardia",
+        "Oficina de Logística Central",
+        "Departamento de Prensa"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "¿Quién nombra al Jefe de Servicio, según el Art. 118°?",
+      "options": [
+        "El Jefe de la Dependencia",
+        "El Ministerio de Seguridad",
+        "El Jefe de la División"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 119° inc. l), en ausencia de sus superiores, el Jefe de Servicio:",
+      "options": [
+        "Solo puede reemplazar al 2do Jefe",
+        "Los reemplaza en todo asunto que demande inmediata resolución",
+        "No puede reemplazar a ningún superior"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 119° inc. n), ¿qué debe confeccionar el Jefe de Servicio con la debida antelación?",
+      "options": [
+        "El Plan de Licencias Anuales",
+        "El listado de retiros voluntarios",
+        "El escalafón general de la dependencia"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Según el Art. 119° inc. p), ¿qué rol cumple el Jefe de Servicio en la sustanciación de sumarios de su turno?",
+      "options": [
+        "Delega siempre esa función en el Oficial de Guardia",
+        "Actúa como Secretario",
+        "No tiene ninguna función en los sumarios"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué deben hacer el Jefe de Servicio y sus pilares funcionales antes de tomar el servicio?",
+      "options": [
+        "Delegar el relevo en el Oficial de Guardia",
+        "Tomar el servicio sin relevo, salvo pedido expreso",
+        "Presentarse con debida antelación para efectuar un relevo minucioso"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según los Arts. 114/115, el 2do Jefe:",
+      "options": [
+        "Es responsable exclusivamente de la labor judicial",
+        "Es el responsable administrativo, fiscaliza al Jefe de Servicio y reemplaza al Jefe de Dependencia en su ausencia",
+        "No tiene facultades de reemplazo del Jefe de Dependencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según los Arts. 116/117, el 3er y 4to Jefe:",
+      "options": [
+        "Son responsables exclusivos de la administración de personal",
+        "Reemplazan siempre al 2do Jefe en toda circunstancia",
+        "Colaboran principalmente en la labor judicial y administrativa, actuando como secretario en actuaciones preliminares"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según este material, ¿cuál es una función específica de la Oficina de Judiciales?",
+      "options": [
+        "Gestionar exclusivamente las licencias del personal",
+        "Encargarse de la flota automotor de la dependencia",
+        "Proseguir las prevenciones sumariales iniciadas por los Jefes de Servicios, actuando de contralor previo a su elevación a la judicatura"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál es una función de la Oficina de Administración según este material?",
+      "options": [
+        "Instruir sumarios contravencionales",
+        "El gerenciamiento administrativo del personal (licencias, sumarios administrativos, retiros voluntarios, etc.)",
+        "Fiscalizar el despliegue territorial de los móviles"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es una facultad del Oficial de Guardia?",
+      "options": [
+        "Es el responsable exclusivo del Plan de Licencias Anuales",
+        "Instruir sumarios contravencionales de todo carácter y expedientes de exposiciones",
+        "Reemplaza al Jefe de Dependencia en su ausencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿De qué se encarga la Oficina de Logística?",
+      "options": [
+        "De gerenciar el personal y sus licencias",
+        "De la flota automotor y los medios de comunicación del servicio externo",
+        "De instruir sumarios judiciales"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Cuál es la función del Operador de Sistema SOFLEX?",
+      "options": [
+        "Fiscalizar el aseo y el uniforme del personal",
+        "Dirigir la Oficina de Judiciales",
+        "La confección del servicio de despliegue y asignación de paradas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En cuántos tercios se divide la Guardia a cargo del Jefe de Servicios?",
+      "options": [
+        "Tres",
+        "Dos",
+        "Cuatro"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "De los cuatro tercios de guardia, ¿cuál tiene horario fijo?",
+      "options": [
+        "El Tercio I",
+        "El Tercio IV",
+        "Todos tienen horario rotativo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿En qué libro debe consignarse el movimiento ocurrido durante el relevo de guardia?",
+      "options": [
+        "En el libro de efectos de detenidos",
+        "En la carta de novedades del D.E.P.",
+        "En el Libro de entrega de guardia de Jefes de Servicios"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cómo se denomina también al Jefe de Servicio Externo (JSE)?",
+      "options": [
+        "\"Jefe de Guardia\"",
+        "\"Jefe de Calle\" o \"1521\"",
+        "\"Encargado de Turno\""
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué móvil está a cargo de un efectivo con grado mínimo de Oficial Primero, secundado por un chofer?",
+      "options": [
+        "El móvil 1015 (ex 300)",
+        "Los Móviles Sectores",
+        "El móvil 915 (ex 200)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según la nota de actualización del material, ¿qué reemplaza hoy al \"parte de móvil\" para registrar novedades?",
+      "options": [
+        "El libro de efectos de detenidos",
+        "El Acta de Constatación de Faltas",
+        "La carta de novedades que labra el Departamento de Emergencias Policiales (D.E.P.)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué tipo de expediente se origina a partir de un acta circunstanciada?",
+      "options": [
+        "Un expediente de Exposiciones",
+        "Un Sumario Judicial",
+        "Un expediente CONSTANCIA"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el caso resuelto de un choque entre dos vehículos sin lesionados y sin voluntad de denuncia, ¿qué corresponde labrar?",
+      "options": [
+        "Un acta contravencional",
+        "Un acta de detención",
+        "Un acta circunstanciada"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué herramienta digital, disponible en el teléfono reglamentario (POC), permite labrar infracciones de tránsito?",
+      "options": [
+        "El sistema GAP Web",
+        "Una aplicación específica de infracciones de tránsito de la CABA",
+        "El sistema SADE"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 11 del Código Contravencional, ¿son punibles los menores de 18 años en contravenciones de tránsito?",
+      "options": [
+        "No, son inimputables en todos los casos",
+        "Sí, con las mismas sanciones que un mayor",
+        "Sí, rige la edad requerida para obtener licencia de conducir, sin sanción de arresto"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el Art. 20 del Código Contravencional, ¿qué corresponde hacer con un presunto contraventor ebrio o intoxicado?",
+      "options": [
+        "Demorarlo en la dependencia hasta que recupere la sobriedad",
+        "Conducirlo directa e inmediatamente a un establecimiento asistencial",
+        "Liberarlo de inmediato sin ninguna diligencia"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según el Art. 22 del Código Contravencional, ¿puede permanecer incomunicado el aprehendido?",
+      "options": [
+        "Sí, hasta la consulta con el Fiscal",
+        "Sí, por un máximo de 10 horas",
+        "No, en ningún caso; deben facilitarse comunicaciones telefónicas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Cuál de los siguientes es un ejemplo de delito NO transferido a la Justicia de la CABA?",
+      "options": [
+        "Amenazas simples, daños y usurpación",
+        "Tenencia y portación ilegal de armas",
+        "Robo, homicidio, abuso sexual y hurto"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En actos definitivos e irreproducibles (secuestro, inspección ocular, requisa), ¿de dónde no pueden provenir los testigos de actuación?",
+      "options": [
+        "De la vía pública",
+        "Del mismo organismo del funcionario actuante",
+        "Del domicilio del imputado"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué técnica de salvado corresponde a una palabra escrita por error, que no corresponde, y se tacha?",
+      "options": [
+        "\"Sobrescrito\"",
+        "\"Errose\"",
+        "\"Lo testado\""
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué técnica de salvado corresponde cuando se reemplaza una palabra por la que efectivamente corresponde?",
+      "options": [
+        "\"Entrelíneas\"",
+        "\"Errose\"",
+        "\"Sobrescrito\""
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué técnica de salvado corresponde a un error de trazo en una letra o número remarcado durante la escritura?",
+      "options": [
+        "\"Lo testado\"",
+        "\"Entrelíneas\"",
+        "\"Sobrescrito\""
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Dónde deben salvarse las enmiendas, interlineados o sobrerraspados de un acta?",
+      "options": [
+        "Al margen de cada página",
+        "No requieren salvado si son menores",
+        "Al final del acta, antes de las firmas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según la lectura de derechos y garantías, ¿qué derecho tiene el detenido respecto de guardar silencio?",
+      "options": [
+        "La obligación de responder únicamente si el fiscal lo autoriza",
+        "El derecho a guardar silencio, sin que ello implique presunción en su contra",
+        "Ningún derecho; debe responder a toda pregunta policial"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Según esa misma lectura de derechos, ¿dentro de qué plazo tiene derecho el detenido a presentarse ante el fiscal o juez para ser escuchado?",
+      "options": [
+        "Dentro de los 5 días hábiles",
+        "Dentro de las 48 horas",
+        "Inmediatamente, o dentro de las 24 horas si estuviera detenido"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué O.D.I. regula la guía de actuación de \"Aprehensión, custodia y egreso de detenidos\" según este material?",
+      "options": [
+        "La O.D.I. N.° 93/17",
+        "La O.D.I. N.° 129/19",
+        "La Resolución 2.208/2008"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "En la requisa personal, ¿quién debe practicarla por razones de respeto al pudor de la persona?",
+      "options": [
+        "Cualquier autoridad disponible en el lugar",
+        "Autoridades del mismo sexo que la persona requisada",
+        "Únicamente personal femenino, sin excepción"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Al practicarse un secuestro en el marco de las facultades de prevención (Art. 92, Ley 5688), ¿a quién debe darse inmediata noticia?",
+      "options": [
+        "Al Juez de Menores",
+        "A la OTCE",
+        "Al Fiscal"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué características debe garantizar la cadena de custodia respecto de los elementos de prueba?",
+      "options": [
+        "Únicamente su valor económico",
+        "Integridad, continuidad, autenticidad, identidad y registro",
+        "Solamente la autenticidad del objeto"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿A qué O.D.I. hace referencia este material respecto de la cadena de custodia?",
+      "options": [
+        "O.D.I. N.° 129/19",
+        "O.D.I. N.° 349/18",
+        "O.D.I. N.° 93/17"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Según el \"principio de intercambio\" de Locard (1920), ¿qué establece?",
+      "options": [
+        "Que toda prueba debe ser necesariamente pericial",
+        "Que todo contacto deja rastro",
+        "Que el testigo siempre debe pertenecer a otro organismo"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Quién es responsable de la protección inicial de la escena del crimen?",
+      "options": [
+        "Únicamente el instructor sumarial designado",
+        "El médico legista",
+        "El funcionario que primero arriba al lugar"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Como coordinador del lugar del hecho, ¿qué debe hacer respecto de las personas ajenas a la inspección?",
+      "options": [
+        "Permitir su ingreso si se identifican",
+        "Mantenerlas alejadas, inclusive a otro personal policial o de fuerzas de seguridad",
+        "Restringir el acceso solo a civiles, no a personal policial"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué sistema reemplaza actualmente a la consulta I.D.G.E.?",
+      "options": [
+        "El SIRHU",
+        "El GAP Web",
+        "El SIFCOP (Sistema Federal de Comunicaciones Policiales)"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Para qué sirve el Cuadernillo de los Arts. 26 y 41 del C.P.N.?",
+      "options": [
+        "Únicamente para informar el resultado del examen médico legal",
+        "Para reunir elementos que permitan al tribunal evaluar dejar en suspenso el cumplimiento de la pena",
+        "Para informar la situación patrimonial del imputado"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué diferencia al Informe del Registro Nacional de Reincidencia de la Planilla Prontuarial?",
+      "options": [
+        "Son exactamente el mismo documento",
+        "El Informe de Reincidencia detalla la situación procesal en toda la República; la Planilla Prontuarial refiere solo a entradas a dependencias de la P.F.A.",
+        "La Planilla Prontuarial tiene alcance nacional y el Informe de Reincidencia solo local"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué es la Oficina Central de Identificación (O.C.I.)?",
+      "options": [
+        "Una división de la Policía de la Ciudad para antecedentes penales",
+        "Un juzgado de faltas",
+        "Una dependencia del Ministerio Público Fiscal para el procedimiento identificatorio de contraventores"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿En qué casos corresponde labrar un Expediente de Exposiciones – Hallazgo?",
+      "options": [
+        "Siempre que se secuestre cualquier tipo de objeto",
+        "Únicamente cuando el objeto es de gran valor",
+        "Cuando el objeto hallado no es peligroso ni ilícito"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Ante el hallazgo de un objeto que resulta ser un arma de fuego, ¿qué corresponde hacer?",
+      "options": [
+        "Labrar igualmente el Expediente de Exposiciones – Hallazgo",
+        "Entregarlo sin más trámite a su propietario",
+        "Labrar directamente el Sumario Judicial correspondiente"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "En procedimientos con menores aprehendidos por delitos de competencia de la CABA, ¿qué acta corresponde labrar?",
+      "options": [
+        "El Acta de Detención estándar para mayores",
+        "Ninguna acta especial; se usa el formulario común",
+        "El Acta de Detención y Notificación de Derechos Imputado Menor"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué establece la modalidad de superioridad por antigüedad, a igual grado?",
+      "options": [
+        "Se determina exclusivamente por la edad biológica del personal",
+        "Se determina por la antigüedad en el grado y el orden de prelación de la Junta de Calificaciones al ascender",
+        "No existe esa modalidad de superioridad"
+      ],
+      "correct": 1
+    }
+  ]
+}
